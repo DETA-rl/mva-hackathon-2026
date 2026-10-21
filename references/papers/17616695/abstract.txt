@@ -1,0 +1,31 @@
+1. Cancer Res. 2007 Jul 1;67(13):6360-7. doi: 10.1158/0008-5472.CAN-06-3012.
+
+Histone deacetylase inhibitors induce premature sister chromatid separation and 
+override the mitotic spindle assembly checkpoint.
+
+Magnaghi-Jaulin L(1), Eot-Houllier G, Fulcrand G, Jaulin C.
+
+Author information:
+(1)INSERM EMI 229, CRLC Val d'Aurelle-Paul Lamarque, and Université 
+MONTPELLIER1, Montpellier, France.
+
+Histone deacetylase inhibitors (HDACI) are powerful antiproliferative drugs, and 
+are currently undergoing clinical trials as antitumor agents. It would be 
+valuable for both cancer therapy and our knowledge of basic cellular processes 
+to understand the mechanisms by which HDACIs block cell proliferation. Most 
+current models postulate that HDACIs allow the reexpression of tumor suppressor 
+genes silenced in cancer cells. However, other mechanisms, distinct from 
+transcription regulation, may participate in HDACI antiproliferative properties. 
+We report that HDACI treatment induces premature sister chromatid separation in 
+cells in which the mitotic spindle assembly checkpoint (SAC) has already been 
+activated. This effect was transcription-independent. In addition, HDACI-treated 
+mitotic cells displayed SAC inactivation characteristics, including 
+anaphase-promoting complex/cyclosome target degradation, cyclin-dependent kinase 
+1 inactivation, histone H3 dephosphorylation, and loss of the SAC component MAD2 
+from the kinetochore. Thus, HDAC inhibition renders the SAC ineffective. Our 
+findings help elucidate the molecular mechanisms of proliferative cell death 
+induced by HDACI treatment and may allow new HDACI-based preclinical and 
+clinical trial protocols to be redesigned so as to target mitosis.
+
+DOI: 10.1158/0008-5472.CAN-06-3012
+PMID: 17616695 [Indexed for MEDLINE]

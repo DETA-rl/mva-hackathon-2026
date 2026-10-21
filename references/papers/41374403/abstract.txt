@@ -1,0 +1,47 @@
+1. Diagnostics (Basel). 2025 Nov 27;15(23):3022. doi:
+10.3390/diagnostics15233022.
+
+Recessive SMC5 Variants in a Family with Near-Tetraploidy/Mosaic Variegated 
+Aneuploidy.
+
+Yang Y(1), Li N(1), Liu C(2), Li S(3), Tu M(1), Zhao L(1), Shen F(1), Zheng 
+Y(1), Wang H(1), Zhao S(3).
+
+Author information:
+(1)Department of Medical Genetics, Hunan Children's Hospital, The Affiliated 
+Children's Hospital of Xiangya School of Medicine, Central South University, 
+Changsha 410007, China.
+(2)Department of Medical Genetics, Hunan Children's Hospital, School of 
+Pediatrics, University of South China, Changsha 410007, China.
+(3)Department of Pediatric Healthcare, Hunan Children's Hospital, The Affiliated 
+Children's Hospital of Xiangya School of Medicine, Central South University, 
+Changsha 410007, China.
+
+Background/Objectives: Mosaic variegated aneuploidy (MVA) is a rare chromosomal 
+instability disorder. Biallelic variants in SMC5, a core component of the DNA 
+repair machinery, cause Atelis Syndrome, characterized by severe growth failure 
+and multi-system abnormalities. This study aimed to identify the genetic cause 
+in a patient with MVA and a distinct, milder phenotype. Methods: We conducted 
+comprehensive clinical and cytogenetic assessments, chromosomal karyotyping, and 
+trio-based exome sequencing on a proband with hypospadias and chromosomal 
+instability. Identified variants were validated by Sanger sequencing and 
+assessed for pathogenicity using ACMG/AMP guidelines. Results: Cytogenetic 
+analysis revealed near-tetraploidy (9.7%) and MVA (46.9%). Exome sequencing 
+identified novel compound heterozygous SMC5 variants, a nonsense c.2221G>T 
+(p.Glu741Ter) and a missense c.3065A>G (p.Asn1022Ser), both predicted to disrupt 
+SMC5/6 complex function. The proband presented with hypospadias and mild 
+developmental delay but lacked the severe neurological, cardiac, or 
+hematological manifestations typical of Atelis Syndrome. Karyotype analysis 
+showed a distinct pattern of chromosomal abnormalities, including a high 
+frequency of marker chromosomes. Conclusions: This report expands the genotypic 
+and phenotypic spectrum of SMC5-related disorders, confirming its association 
+with MVA/near-tetraploidy and describing a novel attenuated clinical 
+presentation. The findings highlight distinct cytogenetic patterns potentially 
+differentiating DNA repair-defective MVA from other subtypes.
+
+DOI: 10.3390/diagnostics15233022
+PMCID: PMC12691382
+PMID: 41374403
+
+Conflict of interest statement: The authors declare that they have no competing 
+interests.

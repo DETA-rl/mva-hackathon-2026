@@ -1,0 +1,22 @@
+1. Nat Genet. 2011 Jun;43(6):527-9. doi: 10.1038/ng.822. Epub 2011 May 8.
+
+Mutations in CEP57 cause mosaic variegated aneuploidy syndrome.
+
+Snape K(1), Hanks S, Ruark E, Barros-Núñez P, Elliott A, Murray A, Lane AH, 
+Shannon N, Callier P, Chitayat D, Clayton-Smith J, Fitzpatrick DR, Gisselsson D, 
+Jacquemont S, Asakura-Hay K, Micale MA, Tolmie J, Turnpenny PD, Wright M, 
+Douglas J, Rahman N.
+
+Author information:
+(1)Section of Cancer Genetics, Institute of Cancer Research, Sutton, UK.
+
+Using exome sequencing and a variant prioritization strategy that focuses on 
+loss-of-function variants, we identified biallelic, loss-of-function CEP57 
+mutations as a cause of constitutional mosaic aneuploidies. CEP57 is a 
+centrosomal protein and is involved in nucleating and stabilizing microtubules. 
+Our findings indicate that these and/or additional functions of CEP57 are 
+crucial for maintaining correct chromosomal number during cell division.
+
+DOI: 10.1038/ng.822
+PMCID: PMC3508359
+PMID: 21552266 [Indexed for MEDLINE]

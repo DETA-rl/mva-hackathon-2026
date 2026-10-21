@@ -1,0 +1,61 @@
+MVA Hackathon 2026 analysis code (SageBio MVA Hackathon 2026 entry)
+Copyright 2026 Team DETA
+
+Everything in this repository is licensed under the Creative Commons Attribution 4.0 International licence
+(CC BY 4.0, see LICENSE): the code, the documentation, the figures, the frozen rule texts in rules/ and the
+Markdown sources of both reports. That is the licence the release terms place on participant submissions.
+
+Third-party material keeps its own licence, which the grant above does not change. The retrieved publication
+records under references/papers/ carry their publishers' copyright; the licence of each work is recorded in its
+meta.json.
+
+Third-party material included in this repository:
+
+- replicate/analysis/models/evo2/configs/evo2-7b-1m.yml (as-run copy: as_run/models/evo2/configs/evo2-7b-1m.yml)
+  is a modified copy of a configuration file shipped with the evo2 Python package (Arc Institute), licensed
+  under the Apache License, Version 2.0 per the package metadata. Modification: use_fp8_input_projections set
+  to False (the RTX 3090 has no FP8 support).
+- intermediates/evo2_rule_controls_out.tsv holds Evo 2 7B scores computed by the authors for public ClinVar
+  variants (NCBI ClinVar, release 2026-10-11).
+- intermediates/borzoi_control_scores.tsv holds, for 120 GTEx v8 Whole Blood eQTL variants on chromosome 15, the
+  gene, position, alleles, normalised effect size and p-value as returned by the GTEx Portal API v2 on 2026-10-19
+  (open-access GTEx summary data; the Genotype-Tissue Expression (GTEx) Project was supported by the Common Fund of
+  the Office of the Director of the National Institutes of Health, and by NCI, NHGRI, NHLBI, NIDA, NIMH and NINDS),
+  together with 120 random chromosome-15 positions and the Borzoi scores computed by the authors for all 240.
+- references/ClinGen_gene_curation_list_GRCh38.tsv is an unmodified copy of the ClinGen gene curation list, GRCh38,
+  release of 16 Oct 2026, downloaded on 2026-10-17 from https://ftp.clinicalgenome.org/ClinGen_gene_curation_list_GRCh38.tsv.
+  ClinGen curated content is available free of restriction under the CC0 1.0 Universal dedication
+  (https://clinicalgenome.org/docs/terms-of-use/). As ClinGen requests: Clinical Genome Resource (ClinGen),
+  https://clinicalgenome.org, accessed 2026-10-17; Rehm HL et al., "ClinGen, the Clinical Genome Resource",
+  N Engl J Med 372:2235-2242 (2015).
+
+Third-party data used as a method and not redistributed:
+
+- AlphaMissense pathogenicity predictions (hg38) are Copyright 2023 DeepMind Technologies Limited, obtained from
+  Zenodo record 10.5281/zenodo.10813168 and used under the Creative Commons Attribution 4.0 International License
+  (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/); see Cheng et al., "Accurate proteome-wide missense
+  variant effect prediction with AlphaMissense", Science 381, eadg7492 (2023), doi:10.1126/science.adg7492. We
+  quote a small number of score values (rounded to three decimals, otherwise unmodified) as regression test
+  fixtures and report statistics derived from the table; the underlying data were not modified. AlphaMissense
+  has not been validated for, and is not approved for, any clinical use.
+  What this repository contains: replicate/expected.yaml quotes three AlphaMissense scores (BUB1B I909T, BUB1B
+  L1012P and the candidate missense) and the AUC, confidence interval and percentiles we derived from the table.
+  No AlphaMissense table or file is included.
+  Licence header: the prediction tables still begin with the header line "# Licensed under CC BY-NC-SA 4.0
+  license". That line is stale: the predictions were re-licensed from CC BY-NC-SA 4.0 to CC BY 4.0 on 2024-03-13
+  (upstream commit fe2dc845), and the Zenodo metadata and description of record 10813168, the README.pdf
+  distributed with the tables (storage.googleapis.com/dm_alphamissense) and the upstream README all say
+  CC BY 4.0. The file header was not regenerated. Earlier Zenodo versions (8208688, 8360242) were CC BY-NC-SA 4.0.
+  The AlphaMissense code is Apache-2.0, and DeepMind did not release the trained model weights (upstream README);
+  we used neither, only the published predictions, so no AlphaMissense code or weight licence applies here.
+- Borzoi model weights: Hugging Face repository johahi/borzoi-replicate-0, revision
+  521db103372769581b8d1d616e6a3b496da490c5, licensed under the Creative Commons Attribution 4.0 International
+  License (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/) per the repository, used through the
+  borzoi-pytorch package (Apache-2.0). Borzoi is described in Linder J, Srivastava D, Yuan H, et al., "Predicting
+  RNA-seq coverage from DNA sequence as a unifying model of gene regulation", Nature Genetics 57(4):949-961 (2025),
+  doi:10.1038/s41588-024-02053-6. The weights were not modified and are not included; the scores in
+  intermediates/borzoi_control_scores.tsv were computed with them.
+- The organisers' dataset (Hugging Face SageBio/mva-hackathon-2026-data), GENCODE, ClinVar, HPO, DepMap 24Q4,
+  gnomAD, UCSC hg38 chromosome 15, the ESM-1v, ESM-2 and Evo 2 model weights, and
+  the Parabricks and Manta containers are not redistributed; README.md lists the versions used and where to get
+  them under their own terms.

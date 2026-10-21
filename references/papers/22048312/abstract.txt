@@ -1,0 +1,45 @@
+1. Nature. 2011 Nov 2;479(7372):232-6. doi: 10.1038/nature10600.
+
+Clearance of p16Ink4a-positive senescent cells delays ageing-associated 
+disorders.
+
+Baker DJ(1), Wijshake T, Tchkonia T, LeBrasseur NK, Childs BG, van de Sluis B, 
+Kirkland JL, van Deursen JM.
+
+Author information:
+(1)Department of Pediatric and Adolescent Medicine, Mayo Clinic College of 
+Medicine, Rochester, Minnesota 55905, USA.
+
+Comment in
+    Nature. 2011 Nov 09;479(7372):186-7. doi: 10.1038/479186a.
+    Nat Rev Mol Cell Biol. 2019 Jul;20(7):388. doi: 10.1038/s41580-019-0128-0.
+
+Advanced age is the main risk factor for most chronic diseases and functional 
+deficits in humans, but the fundamental mechanisms that drive ageing remain 
+largely unknown, impeding the development of interventions that might delay or 
+prevent age-related disorders and maximize healthy lifespan. Cellular 
+senescence, which halts the proliferation of damaged or dysfunctional cells, is 
+an important mechanism to constrain the malignant progression of tumour cells. 
+Senescent cells accumulate in various tissues and organs with ageing and have 
+been hypothesized to disrupt tissue structure and function because of the 
+components they secrete. However, whether senescent cells are causally 
+implicated in age-related dysfunction and whether their removal is beneficial 
+has remained unknown. To address these fundamental questions, we made use of a 
+biomarker for senescence, p16(Ink4a), to design a novel transgene, INK-ATTAC, 
+for inducible elimination of p16(Ink4a)-positive senescent cells upon 
+administration of a drug. Here we show that in the BubR1 progeroid mouse 
+background, INK-ATTAC removes p16(Ink4a)-positive senescent cells upon drug 
+treatment. In tissues--such as adipose tissue, skeletal muscle and eye--in which 
+p16(Ink4a) contributes to the acquisition of age-related pathologies, life-long 
+removal of p16(Ink4a)-expressing cells delayed onset of these phenotypes. 
+Furthermore, late-life clearance attenuated progression of already established 
+age-related disorders. These data indicate that cellular senescence is causally 
+implicated in generating age-related phenotypes and that removal of senescent 
+cells can prevent or delay tissue dysfunction and extend healthspan.
+
+DOI: 10.1038/nature10600
+PMCID: PMC3468323
+PMID: 22048312 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing financial 
+interests.

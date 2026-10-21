@@ -1,0 +1,46 @@
+1. Nephrol Dial Transplant. 2011 Jan;26(1):276-82. doi: 10.1093/ndt/gfq344. Epub 
+2010 Jun 17.
+
+Pharmacokinetics and dose recommendations of Niaspan® in chronic kidney disease 
+and dialysis patients.
+
+Reiche I(1), Westphal S, Martens-Lobenhoffer J, Tröger U, Luley C, Bode-Böger 
+SM.
+
+Author information:
+(1)Institute of Clinical Pharmacology, Otto-von-Guericke-University Magdeburg, 
+Leipziger Str. 44, Magdeburg, Germany.
+
+BACKGROUND: Niaspan® is an extended-release formulation of nicotinic acid with 
+improved tolerability compared with the immediate-release and sustained-release 
+formulations. It is used to treat hypertriglyceridaemia with low high-density 
+lipoprotein levels. This type of dyslipidaemia frequently appears in patients 
+with chronic kidney disease (CKD). Dose recommendations for these patients are 
+not available because pharmacokinetic data are missing. The present study was 
+performed to analyse the pharmacokinetics of prolonged-release nicotinic acid in 
+CKD and in dialysis patients to derive dose recommendations.
+METHODS: Ten dialysis patients and eight patients with CKD were enrolled in a 
+prospective, three-period, open-label pharmacokinetic study. They received in 
+the first week 500 mg Niaspan® per day, in the second week 1000 mg/day and in 
+the third week 1500 mg/day. On the fourth day of every treatment unit, 11 plasma 
+samples were collected for 24 h post-dose and analysed for nicotinic acid (NA) 
+and its metabolites nicotinamide and nicotinuric acid (NUA).
+RESULTS: Median plasma NA concentrations in subjects with CKD were obviously 
+higher than in dialysis patients, but not higher than reported in patients 
+without renal impairment. t(max) of NA were on average 0.75 h in dialysis 
+patients and 3.0 h in CKD patients and, therefore, especially for dialysis 
+patients, clearly shorter than expected for extended-release formulations. It is 
+particularly noticeable that the AUC, C(max) and t(1/2) of the metabolite NUA 
+are significantly higher in dialysis patients in comparison to CKD patients. 
+This may indicate that the dialysis was not effective in removing this 
+metabolite. However, there was no correlation between the incidence of flush and 
+the concentration of NUA. Another possibility could be a drug-drug interaction 
+with omeprazole via CYP450 enzymes.
+CONCLUSIONS: These data suggest that no dose adjustment of Niaspan® is necessary 
+in patients with renal impairment. Despite an extended-release formulation of 
+NA, we could not detect a delay in t(max) especially in dialysis patients. We 
+found no correlation between the incidence of flush and the NUA concentration. 
+Furthermore, there were hints of an interaction with omeprazole.
+
+DOI: 10.1093/ndt/gfq344
+PMID: 20562093 [Indexed for MEDLINE]

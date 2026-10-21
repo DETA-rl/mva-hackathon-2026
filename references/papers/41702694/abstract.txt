@@ -1,0 +1,50 @@
+1. J Med Genet. 2026 Apr 20;63(5):308-311. doi: 10.1136/jmg-2025-111325.
+
+Mosaic variegated aneuploidy as a novel feature in patients with Mulibrey nanism 
+and TRIM37 variants.
+
+Hakonen AH(1), Karlberg S(2)(3), Kiiski K(4), Lipsanen-Nyman M(2), Saloranta 
+C(5), Pekkinen M(2)(3), Laakso S(2)(3), Lehtonen J(6)(7), Saarela J(6)(8), 
+Anttonen AK(5)(4), Jakkula E(5), Aittomäki K(5), Mäkitie O(2)(3).
+
+Author information:
+(1)Department of Clinical Genetics, HUSLAB, HUS Diagnostic Center, University of 
+Helsinki and Helsinki University Hospital, Helsinki, Finland 
+[e-mail removed].
+(2)Children's Hospital, Pediatric Research Center, University of Helsinki and 
+Helsinki University Hospital, Helsinki, Finland.
+(3)Folkhälsan Research Center, Helsinki, Finland.
+(4)Laboratory of Genetics, HUS Diagnostic Centre, Helsinki University Hospital 
+and University of Helsinki, Helsinki, Finland.
+(5)Department of Clinical Genetics, HUSLAB, HUS Diagnostic Center, University of 
+Helsinki and Helsinki University Hospital, Helsinki, Finland.
+(6)Institute for Molecular Medicine Finland (FIMM), HiLIFE, University of 
+Helsinki, Helsinki, Finland.
+(7)Oslo University Hospital Department of Medical Genetics, Oslo, Oslo, Norway.
+(8)Norwegian Centre for Molecular Biosciences and Medicine, University of Oslo, 
+Oslo, Norway.
+
+Mulibrey nanism is a rare disorder caused by biallelic tripartite motif 
+containing protein 37 (TRIM37) variants and characterised by prenatal onset 
+growth failure, dysmorphic features, restrictive heart disease and 
+predisposition to tumours. TRIM37 has been linked to regulation of centrosome 
+functions. In chromosomal analysis of two siblings with Mulibrey nanism, we 
+observed mosaic variegated aneuploidies. This prompted us to investigate 
+karyotypes of 10 additional patients with Mulibrey, using fibroblast cultures. 
+In the index patients, the prenatal samples and a postnatal skin biopsy showed a 
+heterogeneous mix of aneuploidies in 7-36% of metaphases. Fibroblast karyotypes 
+of the 10 other patients, who were phenotypically comparable to the index 
+patients, showed clinically relevant, low-level abnormalities in one subject. 
+This is the first report on low-level mosaic aneuploidies in Mulibrey amniocytes 
+and neonatal fibroblasts, detectable by conventional karyotyping. The results 
+are in line with previous observations of segregation errors in human cell lines 
+with TRIM37 defects. Further studies are required to elucidate the prevalence 
+and implications of mosaic aneuploidies in Mulibrey nanism.
+
+© Author(s) (or their employer(s)) 2026. No commercial re-use. See rights and 
+permissions. Published by BMJ Group.
+
+DOI: 10.1136/jmg-2025-111325
+PMID: 41702694 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: None declared.

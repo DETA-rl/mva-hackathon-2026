@@ -1,0 +1,49 @@
+1. Biochem Biophys Res Commun. 2014 Oct 24;453(3):588-94. doi: 
+10.1016/j.bbrc.2014.09.128. Epub 2014 Oct 5.
+
+Deacetylation of the mitotic checkpoint protein BubR1 at lysine 250 by SIRT2 and 
+subsequent effects on BubR1 degradation during the prometaphase/anaphase 
+transition.
+
+Suematsu T(1), Li Y(1), Kojima H(2), Nakajima K(2), Oshimura M(3), Inoue T(4).
+
+Author information:
+(1)Division of Human Genome Science, Department of Molecular and Cellular 
+Biology, School of Life Sciences, Faculty of Medicine, Tottori University, 86 
+Nishi-cho, Yonago, Tottori 683-8503, Japan.
+(2)Department of Immunology, Osaka City University Graduate School of Medicine, 
+Asahi-machi 1-4-3, Abeno-ku, Osaka 545-8585, Japan.
+(3)Chromosome Engineering Research Center, Tottori University, 86 Nishi-cho, 
+Yonago, Tottori 683-8503, Japan.
+(4)Division of Human Genome Science, Department of Molecular and Cellular 
+Biology, School of Life Sciences, Faculty of Medicine, Tottori University, 86 
+Nishi-cho, Yonago, Tottori 683-8503, Japan; Chromosome Engineering Research 
+Center, Tottori University, 86 Nishi-cho, Yonago, Tottori 683-8503, Japan. 
+Electronic address: [e-mail removed].
+
+Mitotic catastrophe, a form of cell death that occurs during mitosis and after 
+mitotic slippage to a tetraploid state, plays an important role in the efficacy 
+of cancer cell killing by microtubule inhibitors. Prolonged mitotic arrest at 
+the spindle assembly checkpoint (SAC) is a well-known requirement for mitotic 
+catastrophe and, thus, for conferring sensitivity to microtubule inhibitors. We 
+previously reported that downregulation of SIRT2, a member of the sirtuin family 
+of NAD+-dependent deacetylases, confers resistance to microtubule inhibitors by 
+abnormally prolonging mitotic arrest and thus compromising the cell death 
+pathway after mitotic slippage. Thus, turning off SAC activation after a defined 
+period is an additional requirement for efficient post-slippage death. Here, we 
+investigated whether SIRT2 deacetylates BubR1, which is a core component of the 
+SAC; acetylation of BubR1 at lysine 250 (K250) during prometaphase inhibits its 
+APC/C-dependent proteolysis and thus regulates timing in anaphase entry. We 
+showed that SIRT2 deacetylates BubR1 K250 both in vitro and in vivo. We also 
+found that SIRT2 knockdown leads to increased levels of BubR1 acetylation at 
+prometaphase; however, this increase is not substantial to elevate the levels of 
+total BubR1 or delay the transition from prometaphase to anaphase. The present 
+study shows that SIRT2 is a deacetylase for BubR1 K250, although the abnormally 
+prolonged SAC activation observed in SIRT2 knockdown cells is not accompanied by 
+a change in BubR1 levels or by delayed progression from prometaphase to 
+anaphase.
+
+Copyright © 2014 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.bbrc.2014.09.128
+PMID: 25285631 [Indexed for MEDLINE]

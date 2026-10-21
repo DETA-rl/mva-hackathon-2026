@@ -1,0 +1,18 @@
+--- blind_gnomad/consequence_fixed.py
++++ consequence_param.py
+@@ -86,13 +86,13 @@
+     if diff % 3 != 0: return "frameshift"
+     return "inframe_indel"
+ rows = []
+-for fn in sorted(__import__("glob").glob(HERE + "child_exonic_gnomad_exomes.part*.tsv")):
++for fn in sorted(__import__("glob").glob(__import__("sys").argv[1])):
+     for i, line in enumerate(open(fn)):
+         if i == 0: continue
+         f = line.rstrip("\n").split("\t")
+         rows.append(f)
+ print("calls:", len(rows), flush=True)
+-out = open(HERE + "child_exonic_consequence_fixed.tsv", "w")
++out = open(__import__("sys").argv[2], "w")
+ out.write("chrom\tpos\tref\talt\tgt\tfilter\tgene_listed\tgnomad_status\tgnomad_af\tclass\ttranscript\tgene\tconsequence\n")
+ for f in rows:
+     c, p, r, a, gt = f[0], int(f[1]), f[2], f[3], f[4]

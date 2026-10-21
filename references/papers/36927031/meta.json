@@ -1,0 +1,43 @@
+{
+ "pmid": "36927031",
+ "cited_in": [
+  "Track 1",
+  "Track 2"
+ ],
+ "title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
+ "authors": [
+  "Lin Z",
+  "Akin H",
+  "Rao R",
+  "Hie B",
+  "Zhu Z",
+  "Lu W",
+  "Smetanin N",
+  "Verkuil R",
+  "Kabeli O",
+  "Shmueli Y",
+  "Dos Santos Costa A",
+  "Fazel-Zarandi M",
+  "Sercu T",
+  "Candido S",
+  "Rives A"
+ ],
+ "first_author": "Lin Z",
+ "journal": "Science (New York, N.Y.)",
+ "pubdate": "2023 Mar 17",
+ "doi": "10.1126/science.ade2574",
+ "pmcid": "",
+ "language": [
+  "eng"
+ ],
+ "license": "",
+ "license_url": "",
+ "open_access": false,
+ "pubtype": [
+  "Journal Article"
+ ],
+ "flags": [],
+ "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36927031/",
+ "doi_url": "https://doi.org/10.1126/science.ade2574",
+ "fulltext_included": false
+}

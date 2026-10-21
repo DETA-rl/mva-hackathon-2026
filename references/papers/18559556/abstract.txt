@@ -1,0 +1,38 @@
+1. Cancer Epidemiol Biomarkers Prev. 2008 Jun;17(6):1411-7. doi: 
+10.1158/1055-9965.EPI-07-2693.
+
+Pharmacokinetics of curcumin conjugate metabolites in healthy human subjects.
+
+Vareed SK(1), Kakarala M, Ruffin MT, Crowell JA, Normolle DP, Djuric Z, Brenner 
+DE.
+
+Author information:
+(1)Department of Internal Medicine, University of Michigan Medical School and 
+Veterans Affairs Medical Center, Ann Arbor, Michigan, USA.
+
+BACKGROUND: Curcumin is a polyphenol, found in the spice turmeric, that has 
+promising anticancer properties, but previous studies suggest that absorption of 
+curcumin may be limited.
+METHODS: This study examined the pharmacokinetics of a curcumin preparation in 
+healthy human volunteers 0.25 to 72 h after a single oral dose. Curcumin was 
+administered at doses of 10 g (n = 6) and 12 g (n = 6). Subjects were randomly 
+allocated to dose level for a total of six subjects at each dose level. Serum 
+samples were assayed for free curcumin, for its glucuronide, and for its sulfate 
+conjugate. The data were fit to a one-compartment absorption and elimination 
+model.
+RESULTS: Using a high-performance liquid chromatography assay with a limit of 
+detection of 50 ng/mL, only one subject had detectable free curcumin at any of 
+the 14 time points assayed, but curcumin glucuronides and sulfates were detected 
+in all subjects. Based on the pharmacokinetic model, the area under the curve 
+for the 10 and 12 g doses was estimated (mean +/- SE) to be 35.33 +/- 3.78 and 
+26.57 +/- 2.97 mug/mL x h, respectively, whereas C(max) was 2.30 +/- 0.26 and 
+1.73 +/- 0.19 mug/mL. The T(max) and t(1/2) were estimated to be 3.29 +/- 0.43 
+and 6.77 +/- 0.83 h. The ratio of glucuronide to sulfate was 1.92:1. The 
+curcumin conjugates were present as either glucuronide or sulfate, not mixed 
+conjugates.
+CONCLUSION: Curcumin is absorbed after oral dosing in humans and can be detected 
+as glucuronide and sulfate conjugates in plasma.
+
+DOI: 10.1158/1055-9965.EPI-07-2693
+PMCID: PMC4138955
+PMID: 18559556 [Indexed for MEDLINE]

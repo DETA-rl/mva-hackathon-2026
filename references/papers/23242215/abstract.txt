@@ -1,0 +1,37 @@
+1. Nat Cell Biol. 2013 Jan;15(1):96-102. doi: 10.1038/ncb2643. Epub 2012 Dec 16.
+
+Increased expression of BubR1 protects against aneuploidy and cancer and extends 
+healthy lifespan.
+
+Baker DJ(1), Dawlaty MM, Wijshake T, Jeganathan KB, Malureanu L, van Ree JH, 
+Crespo-Diaz R, Reyes S, Seaburg L, Shapiro V, Behfar A, Terzic A, van de Sluis 
+B, van Deursen JM.
+
+Author information:
+(1)Department of Pediatric and Adolescent Medicine, Mayo Clinic, 200 First 
+Street Southwest, Rochester, Minnesota 55905, USA.
+
+Comment in
+    Nat Rev Mol Cell Biol. 2013 Oct;14(10):611. doi: 10.1038/nrm3666.
+
+The BubR1 gene encodes for a mitotic regulator that ensures accurate segregation 
+of chromosomes through its role in the mitotic checkpoint and the establishment 
+of proper microtubule-kinetochore attachments. Germline mutations that reduce 
+BubR1 abundance cause aneuploidy, shorten lifespan and induce premature ageing 
+phenotypes and cancer in both humans and mice. A reduced BubR1 expression level 
+is also a feature of chronological ageing, but whether this age-related decline 
+has biological consequences is unknown. Using a transgenic approach in mice, we 
+show that sustained high-level expression of BubR1 preserves genomic integrity 
+and reduces tumorigenesis, even in the presence of genetic alterations that 
+strongly promote aneuplodization and cancer, such as oncogenic Ras. We find that 
+BubR1 overabundance exerts its protective effect by correcting mitotic 
+checkpoint impairment and microtubule-kinetochore attachment defects. 
+Furthermore, sustained high-level expression of BubR1 extends lifespan and 
+delays age-related deterioration and aneuploidy in several tissues. 
+Collectively, these data uncover a generalized function for BubR1 in 
+counteracting defects that cause whole-chromosome instability and suggest that 
+modulating BubR1 provides a unique opportunity to extend healthy lifespan.
+
+DOI: 10.1038/ncb2643
+PMCID: PMC3707109
+PMID: 23242215 [Indexed for MEDLINE]

@@ -1,0 +1,34 @@
+1. Basic Clin Pharmacol Toxicol. 2007 Dec;101(6):427-33. doi: 
+10.1111/j.1742-7843.2007.00142.x. Epub 2007 Oct 9.
+
+Curcumin, both histone deacetylase and p300/CBP-specific inhibitor, represses 
+the activity of nuclear factor kappa B and Notch 1 in Raji cells.
+
+Chen Y(1), Shu W, Chen W, Wu Q, Liu H, Cui G.
+
+Author information:
+(1)Department of Haematology Union Hospital, Tongji Medical College, Huazhong 
+University of Science and Technology, Wuhan, China. [e-mail removed]
+
+Curcumin, the active chemical of the Asian spice turmeric, exhibits anticancer 
+activity in several human cancer cell lines. We previously have proved that 
+curcumin was a new member of the histone deacetylases (HDAC) inhibitors, while 
+constitutive nuclear factor kappa B (NF-kappaB) is believed to be a crucial 
+event for enhanced proliferation and survival of malignant cells. Here, we 
+investigate the effect of curcumin on the activation of NF-kappaB signal 
+molecule in Raji cells to explore its relationship with HDACs or p300/CREB 
+binding protein (CBP). Curcumin presented striking proliferation inhibition 
+potency on Raji cells in vitro, with the IC(50) value for 24 hr being 25 
+micromol/l. Significant decreases in the amounts of p300, HDAC1 and HDAC3 were 
+detected after treatment with curcumin. These suppressing effects were more 
+pronounced when the administered dose increased. The protection degradation of 
+HDAC1 and p300 by MG-132 could be partially reversed by curcumin. Furthermore, 
+curcumin could also prevent degradation of I kappaB alpha and inhibit nuclear 
+translocation of the NF-kappaB/p65 subunit, as well as expression of Notch 1, 
+induced by tumour necrosis factor-alpha. The results suggest that the depressive 
+effect of curcumin on NF-kappaB signal transduction pathway may be mediated via 
+the various components of the HDACs and p300/Notch 1 signal molecules, and may 
+represent a new remedy for acute leukaemia.
+
+DOI: 10.1111/j.1742-7843.2007.00142.x
+PMID: 17927689 [Indexed for MEDLINE]

@@ -1,0 +1,48 @@
+1. EMBO J. 2021 Jul 15;40(14):e106536. doi: 10.15252/embj.2020106536. Epub 2021
+May  19.
+
+Chromosomal instability by mutations in the novel minor spliceosome component 
+CENATAC.
+
+de Wolf B(1), Oghabian A(2), Akinyi MV(2), Hanks S(3), Tromer EC(1)(4), van 
+Hooff JJE(1)(4), van Voorthuijsen L(5), van Rooijen LE(4), Verbeeren J(2), 
+Uijttewaal ECH(1), Baltissen MPA(5), Yost S(3), Piloquet P(6), Vermeulen M(5), 
+Snel B(4), Isidor B(6), Rahman N(3), Frilander MJ(2), Kops GJPL(1).
+
+Author information:
+(1)Oncode Institute, Hubrecht Institute - Royal Academy of Arts and Sciences and 
+University Medical Centre Utrecht, Utrecht, The Netherlands.
+(2)Institute of Biotechnology, Helsinki Institute of Life Science, University of 
+Helsinki, Helsinki, Finland.
+(3)Division of Genetics and Epidemiology, Institute of Cancer Research, London, 
+UK.
+(4)Theoretical Biology and Bioinformatics, Biology, Science Faculty, Utrecht 
+University, Utrecht, The Netherlands.
+(5)Oncode Institute, Department of Molecular Biology, Faculty of Science, 
+Radboud Institute for Molecular Life Science, Radboud University Nijmegen, 
+Nijmegen, The Netherlands.
+(6)Service de Génétique Médicale, Unité de génétique Clinique, CHU Hotel Dieu, 
+Nantes Cedex, France.
+
+Aneuploidy is the leading cause of miscarriage and congenital birth defects, and 
+a hallmark of cancer. Despite this strong association with human disease, the 
+genetic causes of aneuploidy remain largely unknown. Through exome sequencing of 
+patients with constitutional mosaic aneuploidy, we identified biallelic 
+truncating mutations in CENATAC (CCDC84). We show that CENATAC is a novel 
+component of the minor (U12-dependent) spliceosome that promotes splicing of a 
+specific, rare minor intron subtype. This subtype is characterized by AT-AN 
+splice sites and relatively high basal levels of intron retention. CENATAC 
+depletion or expression of disease mutants resulted in excessive retention of 
+AT-AN minor introns in ˜ 100 genes enriched for nucleocytoplasmic transport and 
+cell cycle regulators, and caused chromosome segregation errors. Our findings 
+reveal selectivity in minor intron splicing and suggest a link between minor 
+spliceosome defects and constitutional aneuploidy in humans.
+
+© 2021 The Authors. Published under the terms of the CC BY 4.0 license.
+
+DOI: 10.15252/embj.2020106536
+PMCID: PMC8280824
+PMID: 34009673 [Indexed for MEDLINE]
+
+Conflict of interest statement: Nazneen Rahman is a non‐executive director of 
+AstraZeneca. The other authors declare no competing interests.

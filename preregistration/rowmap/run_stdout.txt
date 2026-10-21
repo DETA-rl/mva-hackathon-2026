@@ -1,0 +1,14 @@
+2026-10-20T11:36:22Z start; pre-reg sha256 9f7a440ddbb427783a525e976f898b602cd95471654e9f681ded8ee50d1a0a45
+2026-10-20T11:36:22Z child VCF sha256 before bec64c68d3ad10d05b8071d07cdf87d217013d66d3ba02e24b505035c9d42175
+2026-10-20T11:36:23Z S-R4 hashes True blob 2aed492247fc98be1b775e646f9b75aadec9e999 AM sha256 0516cfd71c0767ac8f9c469252d429000e94e02c008b6e3a46d4b4646fcd3475
+2026-10-20T11:36:23Z base trials {'A': 300, 'A-BUB': 100, 'E': 300}
+2026-10-20T11:36:23Z S-R1 {'A': True, 'A-BUB': True, 'E': True}
+2026-10-20T11:36:40Z decoy-eligible ClinVar records in base-trial genes: 172057
+2026-10-20T11:36:47Z decoy pools (SET18): {'RNU4ATAC': 0, 'RNU6ATAC': 0, 'ZRSR2': 0, 'SNRNP48': 0, 'ESCO2': 196, 'PCNT': 1819, 'CENPF': 598, 'BUB1B': 1501, 'TRIP13': 82, 'CEP57': 620, 'SMC5': 124, 'MAD1L1': 128, 'CEP192': 0, 'TRIM37': 196, 'CDC20': 58, 'MAD2L1BP': 0, 'CENATAC': 73, 'SLF2': 160}
+2026-10-20T11:37:14Z AlphaMissense: missense keys 89230 with a value 86484 BUB1B residues 1488
+2026-10-20T11:37:14Z S-R3 True True [100.0, 1.0]
+2026-10-20T11:37:14Z FIRST TRIAL RANKING (d0 controls) starts now
+2026-10-20T11:37:17Z S-R2 True 0 S-R5 True 0
+2026-10-20T11:37:17Z decoy strata start
+2026-10-20T11:37:28Z trials done: {'A-CH-dec': 384, 'A-hid-dec': 558, 'A-HOM-dec': 174, 'E-CH-dec': 395, 'E-HOM-dec': 200, 'A-BUB-dec': 200}
+2026-10-20T11:37:28Z child VCF sha256 after bec64c68d3ad10d05b8071d07cdf87d217013d66d3ba02e24b505035c9d42175 unchanged: True

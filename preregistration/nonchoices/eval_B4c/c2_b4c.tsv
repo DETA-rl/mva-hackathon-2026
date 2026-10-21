@@ -1,0 +1,8 @@
+lines: 1178
+gene	n_with_value	fraction_lt_-0.5	blood_median	flag
+MTOR	1178	0.986	-1.130	FLAG
+AURKB	1178	1.000	-2.420	FLAG
+PLK4	1178	0.982	-1.281	FLAG
+FBXW7	1178	0.041	-0.039	-
+SIRT1	1178	0.004	0.089	-
+HSP90AA1	1178	0.052	-0.275	-

@@ -1,0 +1,37 @@
+1. Proc Natl Acad Sci U S A. 2008 Sep 2;105(35):12903-8. doi: 
+10.1073/pnas.0803001105. Epub 2008 Aug 22.
+
+RPA phosphorylation facilitates mitotic exit in response to mitotic DNA damage.
+
+Anantha RW(1), Sokolova E, Borowiec JA.
+
+Author information:
+(1)Department of Biochemistry and New York University Cancer Institute, New York 
+University School of Medicine, New York, NY 10016, USA.
+
+Human replication protein A (RPA) becomes phosphorylated on the RPA2 subunit by 
+cyclin B-Cdc2 during mitosis, although the functional role of this modification 
+is unclear. We find that this modification stimulates RPA2 to become 
+hyperphosphorylated in response to mitotic DNA damage caused by bleomycin 
+treatment. Cells in which endogenous RPA2 was replaced by a mutant subunit 
+lacking both Cdc2 sites had a significant defect in mitotic release into a 2N 
+G(1) phase after exposure to bleomycin. An increased percentage of these mutant 
+cells also was positive initially for cyclin B expression and BubR1 chromatin 
+staining, indicative of an extended spindle assembly checkpoint. The mutant 
+cells that experienced mitotic DNA damage also underwent apoptosis at higher 
+levels than cells expressing the WT subunit. Even so, we did not find the 
+mutation had any dramatic effects on the level of DNA repair in mitosis. Cells 
+lacking ATM (a checkpoint factor and RPA2 kinase) also were severely defective 
+in mitotic exit and were unable to support RPA hyperphosphorylation after 
+mitotic DNA damage. Although checkpoint 1 effector kinase (Chk1) had a more 
+complex role, inhibition of Chk1 activity with UCN-01 also reduced mitotic exit. 
+Chk1 activation and mitotic RPA hyperphosphorylation were found to be 
+independent events. Our results demonstrate that mitotic RPA 
+hyperphosphorylation facilitates release of cells from a damaged mitosis into a 
+2N G(1) phase, thereby increasing cell viability.
+
+DOI: 10.1073/pnas.0803001105
+PMCID: PMC2529075
+PMID: 18723675 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.

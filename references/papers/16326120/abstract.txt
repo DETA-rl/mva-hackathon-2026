@@ -1,0 +1,36 @@
+1. Blood Cells Mol Dis. 2006 Jan-Feb;36(1):46-52. doi:
+10.1016/j.bcmd.2005.10.002.  Epub 2005 Dec 2.
+
+Analysis of nonsense-mediated mRNA decay in mutant alleles identified in Spanish 
+Gaucher disease patients.
+
+Montfort M(1), Chabás A, Vilageliu L, Grinberg D.
+
+Author information:
+(1)Departament de Genètica, Facultat de Biologia, Universitat de Barcelona, Av. 
+Diagonal 645, E-08028 Barcelona, Spain.
+
+Most of the mutations described in the GBA gene as responsible for Gaucher 
+disease are missense mutations. Nevertheless, other alterations, including 
+nonsense and frameshift mutations, have been reported. These mutations generate 
+premature termination codons (PTC) that could trigger the degradation of mRNA 
+through a mechanism known as nonsense-mediated decay (NMD). It has been 
+established that NMD requires the presence of at least one intron downstream of 
+the PTC, and that this PTC should be at least 50-55 nucleotides upstream of the 
+3'-most exon-exon junction. In this study, we analyse four GBA truncating 
+mutations - c.108G > A (W(-4)X; HGVS recommended nomenclature: p.W36X), c.886C > 
+T (R257X; HGVS: p.R296X), c.1098_1099insA and c.1451_1452delAC - found in 
+Spanish Gaucher disease patients in order to determine whether they undergo mRNA 
+decay and, if so, whether this occurs via the NMD pathway. RT-PCR showed a clear 
+reduction of RNA for three of the alleles: W(-4)X, R257X and c.1098_1099insA. 
+After treatment with cycloheximide (CHX), a known inhibitor of both protein 
+synthesis and NMD, two of the mutant alleles, R257X and c.1098_1099insA, showed 
+a partial recovery of the amount of mRNA. The third mutation, W(-4)X, did not 
+show any significant CHX-induced recovery, while allele c.1451_1452delAC did not 
+show mRNA decay at all. Real-time PCR confirmed these results and allowed the 
+decay and recovery to be quantified. Finally, the protein truncation test was 
+performed to detect the corresponding proteins. Expected products for alleles 
+R257X, c.1451_1452delAC and c.1098_1099insA, but not for W(-4)X, were observed.
+
+DOI: 10.1016/j.bcmd.2005.10.002
+PMID: 16326120 [Indexed for MEDLINE]

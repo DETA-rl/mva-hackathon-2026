@@ -1,0 +1,76 @@
+1. Diabetes. 2015 Apr;64(4):1193-201. doi: 10.2337/db14-0667. Epub 2014 Oct 28.
+
+Evidence for a direct effect of the NAD+ precursor acipimox on muscle 
+mitochondrial function in humans.
+
+van de Weijer T(1), Phielix E(2), Bilet L(1), Williams EG(3), Ropelle ER(3), 
+Bierwagen A(4), Livingstone R(4), Nowotny P(4), Sparks LM(1), Paglialunga S(1), 
+Szendroedi J(5), Havekes B(6), Moullan N(3), Pirinen E(7), Hwang JH(4), 
+Schrauwen-Hinderling VB(8), Hesselink MK(9), Auwerx J(3), Roden M(10), Schrauwen 
+P(11).
+
+Author information:
+(1)Department of Human Biology, Maastricht University Medical Center, 
+Maastricht, the Netherlands School for Nutrition, Toxicology and Metabolism, 
+Maastricht University Medical Center, Maastricht, the Netherlands.
+(2)Department of Human Biology, Maastricht University Medical Center, 
+Maastricht, the Netherlands Institute for Clinical Diabetology, German Diabetes 
+Center, Düsseldorf, Germany.
+(3)Laboratory of Integrative and Systems Physiology, École Polytechnique 
+Fédérale de Lausanne, Lausanne, Switzerland.
+(4)Institute for Clinical Diabetology, German Diabetes Center, Düsseldorf, 
+Germany.
+(5)Institute for Clinical Diabetology, German Diabetes Center, Düsseldorf, 
+Germany Department of Endocrinology and Diabetology, Medical Faculty, Heinrich 
+Heine University, University Hospital Düsseldorf, Düsseldorf, Germany.
+(6)School for Nutrition, Toxicology and Metabolism, Maastricht University 
+Medical Center, Maastricht, the Netherlands Department of Internal Medicine, 
+Maastricht University Medical Center, Maastricht, the Netherlands.
+(7)Laboratory of Integrative and Systems Physiology, École Polytechnique 
+Fédérale de Lausanne, Lausanne, Switzerland Biotechnology and Molecular 
+Medicine, A. I. Virtanen Institute for Molecular Sciences, Biocenter Kuopio, 
+University of Eastern Finland, Kuopio, Finland.
+(8)School for Nutrition, Toxicology and Metabolism, Maastricht University 
+Medical Center, Maastricht, the Netherlands Department of Radiology, Maastricht 
+University Medical Center, Maastricht, the Netherlands.
+(9)School for Nutrition, Toxicology and Metabolism, Maastricht University 
+Medical Center, Maastricht, the Netherlands Department of Human Movement 
+Sciences, Maastricht University Medical Center, Maastricht, the Netherlands.
+(10)Institute for Clinical Diabetology, German Diabetes Center, Düsseldorf, 
+Germany Department of Endocrinology and Diabetology, Medical Faculty, Heinrich 
+Heine University, University Hospital Düsseldorf, Düsseldorf, Germany German 
+Center for Diabetes Research, Partner Düsseldorf, Düsseldorf, Germany 
+[e-mail removed].
+(11)Department of Human Biology, Maastricht University Medical Center, 
+Maastricht, the Netherlands School for Nutrition, Toxicology and Metabolism, 
+Maastricht University Medical Center, Maastricht, the Netherlands 
+[e-mail removed].
+
+Recent preclinical studies showed the potential of nicotinamide adenine 
+dinucleotide (NAD(+)) precursors to increase oxidative phosphorylation and 
+improve metabolic health, but human data are lacking. We hypothesize that the 
+nicotinic acid derivative acipimox, an NAD(+) precursor, would directly affect 
+mitochondrial function independent of reductions in nonesterified fatty acid 
+(NEFA) concentrations. In a multicenter randomized crossover trial, 21 patients 
+with type 2 diabetes (age 57.7 ± 1.1 years, BMI 33.4 ± 0.8 kg/m(2)) received 
+either placebo or acipimox 250 mg three times daily dosage for 2 weeks. Acipimox 
+treatment increased plasma NEFA levels (759 ± 44 vs. 1,135 ± 97 μmol/L for 
+placebo vs. acipimox, P < 0.01) owing to a previously described rebound effect. 
+As a result, skeletal muscle lipid content increased and insulin sensitivity 
+decreased. Despite the elevated plasma NEFA levels, ex vivo mitochondrial 
+respiration in skeletal muscle increased. Subsequently, we showed that acipimox 
+treatment resulted in a robust elevation in expression of nuclear-encoded 
+mitochondrial gene sets and a mitonuclear protein imbalance, which may indicate 
+activation of the mitochondrial unfolded protein response. Further studies in 
+C2C12 myotubes confirmed a direct effect of acipimox on NAD(+) levels, 
+mitonuclear protein imbalance, and mitochondrial oxidative capacity. To the best 
+of our knowledge, this study is the first to demonstrate that NAD(+) boosters 
+can also directly affect skeletal muscle mitochondrial function in humans.
+
+© 2015 by the American Diabetes Association. Readers may use this article as 
+long as the work is properly cited, the use is educational and not for profit, 
+and the work is not altered.
+
+DOI: 10.2337/db14-0667
+PMCID: PMC4375076
+PMID: 25352640 [Indexed for MEDLINE]

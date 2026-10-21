@@ -1,0 +1,30 @@
+1. Toxicol Lett. 2019 Jan;300:118. doi: 10.1016/j.toxlet.2018.08.021. Epub 2018
+Sep  10.
+
+Corrigendum to "Maduramicin-activated protein phosphatase 2A results in 
+extracellular signal-regulated kinase 1/2 inhibition, leading to cytotoxicity in 
+myocardial H9c2 cells" [Toxicol. Lett. 284 (2018) 96-102].
+
+Chen X(1), Jiang S(2), Huang S(3).
+
+Author information:
+(1)Postdoctoral Mobile Station of Biology, College of Life Sciences, Nanjing 
+Normal University, Nanjing, Jiangsu Province, 210023, PR China; Laboratory of 
+Veterinary Pharmacology and Toxicology, College of Veterinary Medicine, Nanjing 
+Agricultural University, Nanjing, Jiangsu Province, 210095, PR China; Department 
+of Biochemistry and Molecular Biology, Louisiana State University Health 
+Sciences Center, Shreveport, LA 71130-3932, USA. Electronic address: 
+[e-mail removed].
+(2)Laboratory of Veterinary Pharmacology and Toxicology, College of Veterinary 
+Medicine, Nanjing Agricultural University, Nanjing, Jiangsu Province, 210095, PR 
+China. Electronic address: [e-mail removed].
+(3)Department of Biochemistry and Molecular Biology, Louisiana State University 
+Health Sciences Center, Shreveport, LA 71130-3932, USA; Feist-Weiller Cancer 
+Center, Louisiana State University Health Sciences Center, Shreveport, LA 
+71130-3932, USA. Electronic address: [e-mail removed].
+
+Erratum for
+    Toxicol Lett. 2018 Mar 1;284:96-102. doi: 10.1016/j.toxlet.2017.12.003.
+
+DOI: 10.1016/j.toxlet.2018.08.021
+PMID: 30213496

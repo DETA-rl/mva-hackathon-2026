@@ -1,0 +1,37 @@
+1. Cell Prolif. 2009 Jun;42(3):404-11. doi: 10.1111/j.1365-2184.2009.00606.x.
+Epub  2009 Apr 24.
+
+Arsenic trioxide suppresses paclitaxel-induced mitotic arrest.
+
+Duan Q(1), Komissarova E, Dai W.
+
+Author information:
+(1)Institute of Health Sciences, Shanghai Institutes for Biological Sciences, 
+Chinese Academy of Sciences, Shanghai, China.
+
+OBJECTIVES: To understand if there exists a functional interaction between 
+arsenic trioxide and paclitaxel in vitro.
+MATERIALS AND METHODS: HeLa and HCT116 (rho53(+/+) and rho53(-/-)) cells were 
+treated with As2O3 and/or paclitaxel for various times. Treated cells were 
+collected for analyses using a combination of flow cytometry, fluorescence 
+microscopy and Western blotting.
+RESULTS: Because As(2)O(3) is capable of inhibiting tubulin polymerization and 
+inducing mitotic arrest, we examined whether there existed any functional 
+interaction between As(2)O(3) and paclitaxel, a well-known microtubule poison. 
+Flow cytometry and fluorescence microscopy revealed that although As(2)O(3) 
+alone caused a moderate level of mitotic arrest, it greatly attenuated 
+paclitaxel-induced mitotic arrest in cells with p53 deficiency. Western blot 
+analysis showed that As(2)O(3) significantly blocked phosphorylation of BubR1, 
+Cdc20, and Cdc27 in cells treated with paclitaxel, suggesting that arsenic 
+compromised the activation of the spindle checkpoint. Our further studies 
+revealed that the attenuation of paclitaxel-induced mitotic arrest by As(2)O(3) 
+resulted primarily from sluggish cell cycle progression at S phase but not 
+enhanced mitotic exit.
+CONCLUSION: The observations that As(2)O(3) has a negative impact on the cell 
+cycle checkpoint activation by taxol should have significant clinical 
+implications because the efficacy of taxol in the clinics is associated with its 
+ability to induce mitotic arrest and subsequent mitotic catastrophe.
+
+DOI: 10.1111/j.1365-2184.2009.00606.x
+PMCID: PMC4034259
+PMID: 19397590 [Indexed for MEDLINE]

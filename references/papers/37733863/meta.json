@@ -1,0 +1,43 @@
+{
+ "pmid": "37733863",
+ "cited_in": [
+  "Track 1"
+ ],
+ "title": "Accurate proteome-wide missense variant effect prediction with AlphaMissense",
+ "authors": [
+  "Cheng J",
+  "Novati G",
+  "Pan J",
+  "Bycroft C",
+  "Žemgulytė A",
+  "Applebaum T",
+  "Pritzel A",
+  "Wong LH",
+  "Zielinski M",
+  "Sargeant T",
+  "Schneider RG",
+  "Senior AW",
+  "Jumper J",
+  "Hassabis D",
+  "Kohli P",
+  "Avsec Ž"
+ ],
+ "first_author": "Cheng J",
+ "journal": "Science (New York, N.Y.)",
+ "pubdate": "2023 Sep 22",
+ "doi": "10.1126/science.adg7492",
+ "pmcid": "",
+ "language": [
+  "eng"
+ ],
+ "license": "",
+ "license_url": "",
+ "open_access": false,
+ "pubtype": [
+  "Journal Article"
+ ],
+ "flags": [],
+ "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37733863/",
+ "doi_url": "https://doi.org/10.1126/science.adg7492",
+ "fulltext_included": false
+}

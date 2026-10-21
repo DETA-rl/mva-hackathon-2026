@@ -1,0 +1,40 @@
+1. Mol Cancer Ther. 2006 Jan;5(1):29-38. doi: 10.1158/1535-7163.MCT-05-0126.
+
+Inhibition of TRIP1/S8/hSug1, a component of the human 19S proteasome, enhances 
+mitotic apoptosis induced by spindle poisons.
+
+Yamada HY(1), Gorbsky GJ.
+
+Author information:
+(1)Molecular, Cell, and Developmental Biology Research Program, Oklahoma Medical 
+Research Foundation, 825 Northeast 13th Street, MS48, Oklahoma City, 73104-5097, 
+USA. [e-mail removed]
+
+Mitotic spindle poisons (e.g., Taxol and vinblastine), used as chemotherapy 
+drugs, inhibit mitotic spindle function, activate the mitotic spindle 
+checkpoint, arrest cells in mitosis, and then cause cell death by mechanisms 
+that are poorly understood. By expression cloning, we identified a truncated 
+version of human TRIP1 (also known as S8, hSug1), an AAA (ATPases associated 
+with diverse cellular activities) family ATPase subunit of the 19S proteasome 
+regulatory complex, as an enhancer of spindle poison-mediated apoptosis. Stable 
+expression of the truncated TRIP1/S8/hSug1 in HeLa cells [OP-TRIP1(88-406)] 
+resulted in a decrease of measurable cellular proteasome activity, indicating 
+that OP-TRIP1(88-406) had a dominant-negative effect on proteasome function. 
+OP-TRIP1(88-406) revealed an increased apoptotic response after treatment with 
+spindle poisons or with proteasome inhibitors. The increased apoptosis coincided 
+with a significant decrease in expression of BubR1, a kinase required for 
+activation and maintenance of the mitotic spindle checkpoint in response to 
+treatment with spindle poisons. Small interfering RNA (siRNA)-mediated knockdown 
+of TRIP1/S8/hSug1 resulted in a reduction of general proteasome activity and an 
+increase in mitotic index. The siRNA treatment also caused increased cell death 
+after spindle poison treatment. These results indicate that inhibition of 
+TRIP1/S8/hSug1 function by expression of a truncated version of the protein or 
+by siRNA-mediated suppression enhances cell death in response to spindle poison 
+treatment. Current proteasome inhibitor drugs in trial as anticancer agents 
+target elements of the 20S catalytic subcomplex. Our results suggest that 
+targeting the ATPase subunits in 19S regulatory complex in the proteasome may 
+enhance the antitumor effects of spindle poisons.
+
+DOI: 10.1158/1535-7163.MCT-05-0126
+PMCID: PMC1630635
+PMID: 16432160 [Indexed for MEDLINE]

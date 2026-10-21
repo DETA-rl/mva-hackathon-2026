@@ -1,0 +1,55 @@
+1. Front Oncol. 2020 Aug 7;10:1274. doi: 10.3389/fonc.2020.01274. eCollection
+2020.
+
+Phosphodiesterase Type 5 Inhibitors Synergize Vincristine in Killing 
+Castration-Resistant Prostate Cancer Through Amplifying Mitotic Arrest 
+Signaling.
+
+Hsu JL(1)(2), Leu WJ(1), Hsu LC(1), Ho CH(3)(4), Liu SP(5), Guh JH(1).
+
+Author information:
+(1)School of Pharmacy, College of Medicine, National Taiwan University, Taipei, 
+Taiwan.
+(2)Department of Pharmacy, New Taipei Municipal TuCheng Hospital, Chang Gung 
+Memorial Hospital, New Taipei city, Taiwan.
+(3)Department of Urology, Shuang Ho Hospital, Taipei Medical University, Taipei, 
+Taiwan.
+(4)Department of Urology, School of Medicine, College of Medicine, Taipei 
+Medical University, Taipei, Taiwan.
+(5)Department of Urology, National Taiwan University Hospital College of 
+Medicine, Taipei, Taiwan.
+
+Combination therapies that display cancer-killing activities through either 
+coexistent targeting of several cellular factors or more efficient suppression 
+of a specific pathway are generally used in cancer treatment. Sildenafil, a 
+specific phosphodiesterase type 5 (PDE5) inhibitor, has been suggested to 
+display both cardioprotective and neuroprotective activities that provide a 
+rationale for the combination with vincristine on the treatment against 
+castration-resistant prostate cancer (CRPC). In the present work, vincristine 
+arrested cells in the metaphase stage of mitosis. Vincristine-induced mitotic 
+arrest was identified by Cdk1 activation (i.e., increased Cdk1Thr161 
+phosphorylation and decreased Cdk1Tyr15 phosphorylation), cyclin B1 
+upregulation, and increased phosphorylation of multiple mitotic proteins and 
+stathmin. Sildenafil synergistically potentiated vincristine-induced mitotic 
+arrest and a dramatic increase of mitotic index. Furthermore, sildenafil 
+potentiated vincristine-induced mitochondrial damage, including Mcl-1 
+downregulation, Bcl-2 phosphorylation and downregulation, Bak upregulation and 
+loss of mitochondrial membrane potential, and sensitized caspase-dependent 
+apoptotic cell death. Sildenafil-mediated synergistic effects were mimicked by 
+other PDE5 inhibitors including vardenafil and tadalafil, and also by PDE5A 
+knockdown in cells, suggesting PDE5-involved mechanism. Notably, sildenafil 
+amplified vincristine-induced phosphorylation and cleavage of BUBR1, a protein 
+kinase in spindle assembly checkpoint (SAC) function and chromosome segregation. 
+Sildenafil also significantly decreased kinetochore tension during SAC 
+activation. Moreover, sildenafil synergized with vincristine on suppressing 
+tumor growth in an in vivo model. In conclusion, the data suggest that 
+sildenafil, in a PDE5-dependent manner, potentiates vincristine-induced mitotic 
+arrest signaling, and sensitizes mitochondria damage-involved apoptosis in CRPC. 
+Both in vitro and in vivo data suggest the combination potential of PDE5 
+inhibitors and vincristine on CRPC treatment.
+
+Copyright © 2020 Hsu, Leu, Hsu, Ho, Liu and Guh.
+
+DOI: 10.3389/fonc.2020.01274
+PMCID: PMC7427565
+PMID: 32850387

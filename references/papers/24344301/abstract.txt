@@ -1,0 +1,42 @@
+1. Proc Natl Acad Sci U S A. 2014 Jan 28;111(4):1461-6. doi: 
+10.1073/pnas.1317008111. Epub 2013 Dec 16.
+
+TALEN-mediated single-base-pair editing identification of an intergenic mutation 
+upstream of BUB1B as causative of PCS (MVA) syndrome.
+
+Ochiai H(1), Miyamoto T, Kanai A, Hosoba K, Sakuma T, Kudo Y, Asami K, Ogawa A, 
+Watanabe A, Kajii T, Yamamoto T, Matsuura S.
+
+Author information:
+(1)Department of Genetics and Cell Biology, Research Institute for Radiation 
+Biology and Medicine, Hiroshima University, Hiroshima 734-8553, Japan.
+
+Comment in
+    Proc Natl Acad Sci U S A. 2014 Jan 28;111(4):1233-4. doi: 
+10.1073/pnas.1322645111.
+
+Cancer-prone syndrome of premature chromatid separation with mosaic variegated 
+aneuploidy [PCS (MVA) syndrome] is a rare autosomal recessive disorder 
+characterized by constitutional aneuploidy and a high risk of childhood cancer. 
+We previously reported monoallelic mutations in the BUB1B gene (encoding BUBR1) 
+in seven Japanese families with the syndrome. No second mutation was found in 
+the opposite allele of any of the families studied, although a conserved BUB1B 
+haplotype and a decreased transcript were identified. To clarify the molecular 
+pathology of the second allele, we extended our mutational search to a candidate 
+region surrounding BUB1B. A unique single nucleotide substitution, G > A at 
+ss802470619, was identified in an intergenic region 44 kb upstream of a BUB1B 
+transcription start site, which cosegregated with the disorder. To examine 
+whether this is the causal mutation, we designed a transcription activator-like 
+effector nuclease-mediated two-step single-base pair editing strategy and 
+biallelically introduced this substitution into cultured human cells. The cell 
+clones showed reduced BUB1B transcripts, increased PCS frequency, and MVA, which 
+are the hallmarks of the syndrome. We also encountered a case of a Japanese 
+infant with PCS (MVA) syndrome carrying a homozygous single nucleotide 
+substitution at ss802470619. These results suggested that the nucleotide 
+substitution identified was the causal mutation of PCS (MVA) syndrome.
+
+DOI: 10.1073/pnas.1317008111
+PMCID: PMC3910577
+PMID: 24344301 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.

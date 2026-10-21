@@ -1,0 +1,37 @@
+1. J Med Chem. 2016 Feb 25;59(4):1599-612. doi: 10.1021/acs.jmedchem.5b01517.
+Epub  2016 Jan 7.
+
+Aminothiazoles as Potent and Selective Sirt2 Inhibitors: A Structure-Activity 
+Relationship Study.
+
+Schiedel M(1), Rumpf T(1), Karaman B(2), Lehotzky A(3), Oláh J(3), Gerhardt 
+S(4), Ovádi J(3), Sippl W(2), Einsle O(4), Jung M(1).
+
+Author information:
+(1)Institute of Pharmaceutical Sciences, Albert-Ludwigs-University Freiburg , 
+Albertstraße 25, 79104 Freiburg im Breisgau, Germany.
+(2)Institute of Pharmacy, Martin-Luther-University Halle-Wittenberg , 
+Wolfgang-Langenbeck-Straße 4, 06120 Halle (Saale), Germany.
+(3)Institute of Enzymology, Research Centre for Natural Sciences, Hungarian 
+Academy of Sciences , Magyar Tudósok körútja 2, H 1117 Budapest, Hungary.
+(4)Institute of Biochemistry and BIOSS Centre for Biological Signalling Studies, 
+Albert-Ludwigs-University Freiburg , Albertstraße 21, 79104 Freiburg im 
+Breisgau, Germany.
+
+Sirtuins are NAD(+)-dependent protein deacylases that cleave off acetyl but also 
+other acyl groups from the ε-amino group of lysines in histones and other 
+substrate proteins. Dysregulation of human Sirt2 (hSirt2) activity has been 
+associated with the pathogenesis of cancer, inflammation, and neurodegeneration, 
+which makes the modulation of hSirt2 activity a promising strategy for 
+pharmaceutical intervention. The sirtuin rearranging ligands (SirReals) have 
+recently been discovered by us as highly potent and isotype-selective hSirt2 
+inhibitors. Here, we present a well-defined structure-activity relationship 
+study, which rationalizes the unique features of the SirReals and probes the 
+limits of modifications on this scaffold regarding inhibitor potency. Moreover, 
+we present a crystal structure of hSirt2 in complex with an optimized SirReal 
+derivative that exhibits an improved in vitro activity. Lastly, we show cellular 
+hyperacetylation of the hSirt2 targeted tubulin caused by our improved lead 
+structure.
+
+DOI: 10.1021/acs.jmedchem.5b01517
+PMID: 26696402 [Indexed for MEDLINE]

@@ -1,0 +1,5 @@
+# Test-only dependency (not needed to run the analyses). Install with:
+#   python -m pip install -r env/requirements-test.txt
+# or, to leave the analysis environment untouched: python -m pip install --target <dir> -r env/requirements-test.txt
+#   and run with PYTHONPATH=<dir> python -m pytest tests
+pytest==8.3.5

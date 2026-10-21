@@ -1,0 +1,853 @@
+# Expected values for every replication step, copied from the authors' record of truth.
+#
+# source "register: <entry>"  = HYPOTHESIS_REGISTER.md, the append-only register kept during the analysis
+#                               (entry headings quoted; the register itself is not shipped because it holds
+#                               read-level values and the full working record rather than only the submitted
+#                               content).
+# source "harness: ..."       = recorded by this harness from the authors' stored output of the original run
+#                               (2026-10-20), for values the register does not state (mostly file hashes).
+#
+# Tolerances: exact | set (same members, any order) | subset (expected members all present) |
+#   {round: k} (observed rounded to k decimals equals expected) | {sigfig: k} | {abs: x} | {rel: x} | {lt: x}
+# exact_if: the listed inputs/artifacts must have the expected sha256 for `tol` to apply. If one differs
+#   (for example a BAM from a fresh alignment), `tol_alt` applies when given; otherwise the metric is reported
+#   as NOT COMPARABLE instead of PASS or FAIL.
+# No genomic coordinate, sample identifier or protein change of the child appears in this file. The candidate's
+# protein changes are compared through their sha256 (T1-CANDIDATE) and reported under the generic name
+# 'candidate_missense' (PRE-REG-D).
+
+version: 1
+
+inputs:
+  vcf: {sha256: bec64c68d3ad10d05b8071d07cdf87d217013d66d3ba02e24b505035c9d42175, source: "register: Input checksums (2026-10-19); equals the Hugging Face LFS sha256 at commit 59e322d", what: "organiser variant calls (Hugging Face SageBio/mva-hackathon-2026-data, commit 59e322d27f399006b398d366d33e703e48a29914)", companions: [".tbi"]}
+  vcf_tbi: {sha256: 6f8fed62f11c475fc63a8e2b50925ffc7be33b6930225e821cb977951761a2e0, source: "register: Input checksums (2026-10-19)", what: "tabix index of the organiser VCF (same dataset commit)"}
+  bam: {sha256: 9b92f9db6aebf383ce76063884d5e5ab4d3a0e8354847bf5e189d12217adc85b, source: "register: Input checksums (2026-10-19)", what: "our GRCh38 alignment of the organiser FASTQs (Parabricks 4.7.1 fq2bam); a fresh alignment will not be byte-identical", companions: [".bai"]}
+  fasta: {sha256: 592502666381c995059a6b4a5dda11e6b1f6b8efeea04e7dacfffe1e0d2f0d25, source: "harness: sha256 of the FASTA used (two identical copies on the analysis machine)", what: "GRCh38 GCA_000001405.15_GRCh38_no_alt_plus_hs38d1_analysis_set.fna (the NCBI .fna.gz, decompressed; index with samtools faidx)", url: "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/seqs_for_alignment_pipelines.ucsc_ids/GCA_000001405.15_GRCh38_no_alt_plus_hs38d1_analysis_set.fna.gz", companions: [".fai"]}
+  gtf: {sha256: 3e52f82c63f8fd860bf632ccde10441c05751f4c342ad08c0a98e9e2700171a5, size: 29570410, source: "authors' replication manifest (2026-10-19)", what: "GENCODE v44 basic annotation GTF (gencode.v44.basic.annotation.gtf.gz)", url: "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_44/gencode.v44.basic.annotation.gtf.gz"}
+  exon_bed: {sha256: ebf3cbfc14232f34e79940a7eb5f019e4f56c54d899b44229e748398dc1e0415, source: "harness: sha256 of the file used; rebuilt byte for byte by tools/build_exon_bed.py from the GENCODE v44 GTF (2026-10-20)", what: "protein-coding exon BED (chrom without 'chr', start-1, end, gene_name; 710,377 rows, GTF order, duplicates kept): every exon line of gencode.v44.basic.annotation.gtf.gz whose attributes contain gene_type \"protein_coding\". Public-derived. The original command was not recorded; tools/build_exon_bed.py reproduces the file used (same sha256), and the file's timestamp equals the GTF download (2026-10-17)"}
+  clinvar_vcf: {sha256: 05d9481dd7217cc4df15803362d4a4c9eae5875b27b1750867d6bfd2643b3d10, size: 200437060, source: "harness: sha256 of the file used; size from register: External-service record (2026-10-19); release date from the file's own header (##fileDate=2026-10-11), download date 2026-10-17 from the register", what: "ClinVar GRCh38 VCF, release 2026-10-11 (header fileDate), downloaded 2026-10-17 as clinvar.vcf.gz; NCBI archives the same release as clinvar_20261011.vcf.gz (same size, 200,437,060 bytes, checked 2026-10-20). Save it as clinvar.vcf.gz", url: "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/archive_2.0/2026/clinvar_20261011.vcf.gz"}
+  hpo_obo: {sha256: 93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22, source: "harness: sha256 of the file used", what: "HPO hp.obo, release v2026-09-01 (header data-version hp/releases/2026-09-01), downloaded 2026-10-18", url: "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/hp.obo"}
+  hpo_genes_to_phenotype: {sha256: 507a17bff9c49e6329fbd88b1f91734fa7e9fdea5c06304044c0892eb6ab248c, source: "harness: sha256 of the file used", what: "HPO genes_to_phenotype.txt, release v2026-09-01 (same release as hp.obo)", url: "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/genes_to_phenotype.txt"}
+  depmap_gene_effect: {sha256: 3d8f3ec6dbf2db7ff834b79b508622ec0b226f3518003fe96ecf5a4fcf167e3b, size: 428678699, source: "harness: sha256; size from register: T2-DEPMAP-01", what: "DepMap 24Q4 CRISPRGeneEffect.csv (Figshare 27993248)", url: "https://doi.org/10.25452/figshare.plus.27993248"}
+  clingen_gene_curation: {sha256: 18af35bf83fee59c86f02a2ab49089f36718ddb7abae5bf80acb2f4785ec98c1, size: 249270, source: "harness: sha256 of the copy used (downloaded 2026-10-17)", what: "ClinGen gene curation list, GRCh38, release 16 Oct 2026 (file header); read by the external step SV-MANTA. The URL serves the current release and no archive was found, so this release cannot be re-fetched from upstream; an unmodified copy is shipped as references/ClinGen_gene_curation_list_GRCh38.tsv", url: "https://ftp.clinicalgenome.org/ClinGen_gene_curation_list_GRCh38.tsv"}
+  depmap_model: {sha256: b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa, source: "harness: sha256 of the file used", what: "DepMap 24Q4 Model.csv (Figshare 27993248)", url: "https://doi.org/10.25452/figshare.plus.27993248"}
+  alphamissense: {sha256: 0516cfd71c0767ac8f9c469252d429000e94e02c008b6e3a46d4b4646fcd3475, size: 642961469, source: "harness: sha256; size from the authors' replication manifest", what: "AlphaMissense_hg38.tsv.gz (public predictions, CC BY 4.0; Zenodo record 10813168)", url: "https://zenodo.org/records/10813168/files/AlphaMissense_hg38.tsv.gz"}
+  esm1v_dir: {files: {pytorch_model.bin: b0c673e144ee21c82ae32485ee5010cac2b82acf1db269a7811aa48162eae0c9, config.json: 6c4b576e2e73ad85fc51a4fa75d4e350532b773e04551307a74643c3fc3c5d59, vocab.txt: 0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03}, source: "harness: sha256 of the files used", what: "facebook/esm1v_t33_650M_UR90S_1 (Hugging Face snapshot folder)"}
+  esm2_dir: {files: {model.safetensors: a08adabb949fa67ad3c14b509d04fd60368b35007b0095e3358f81200c4f4db0, config.json: 539095c22efc52a09d6147074ba4ca119f76a890df5901213b2b55f7d2f96b2b, vocab.txt: 0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03}, source: "harness: sha256 of the files used", what: "facebook/esm2_t33_650M_UR50D (Hugging Face snapshot folder)"}
+  evo2_weights: {sha256: c66645929dc1b9c631f5be656da8726f38946315dc9167000a615dd626fcecf4, source: "register: M-EVO2-CAL-01 (equals the arcinstitute/evo2_7b LFS object id)", what: "arcinstitute/evo2_7b evo2_7b.pt"}
+  fastq_l1_r1: {sha256: 5ec244c0648552f2b23ae5b1a0b1350e8e464eb5cccd40178a109c44c174939f, source: "Hugging Face cache metadata (LFS sha256, commit 59e322d); not recomputed locally", what: "organiser FASTQ, lane 1 read 1"}
+  fastq_l1_r2: {sha256: b80f2cc9f29c229a2bfe557988a4b93c74494fc0d9108b3752bc04cf57239cab, source: "Hugging Face cache metadata (LFS sha256)", what: "organiser FASTQ, lane 1 read 2"}
+  fastq_l2_r1: {sha256: 0f60e090d9873a18a6914d374fa070a20502aa546d05b51ec520bd9e06ae7e71, source: "Hugging Face cache metadata (LFS sha256)", what: "organiser FASTQ, lane 2 read 1"}
+  fastq_l2_r2: {sha256: 992ee50db8a89709b7adb327daabcacbf58261503f8c439bb18a3c682e43cd91, source: "Hugging Face cache metadata (LFS sha256)", what: "organiser FASTQ, lane 2 read 2"}
+  fastq_l3_r1: {sha256: bbeb51349d4411a661c5922e44650b357d968551ef85735ebb39e6c6071e5d46, source: "Hugging Face cache metadata (LFS sha256)", what: "organiser FASTQ, lane 3 read 1"}
+  fastq_l3_r2: {sha256: f3f08f04cd17b089ceb8a8598634f3eb28bc299dc1c00cbfa8e24ba2adb9017b, source: "Hugging Face cache metadata (LFS sha256)", what: "organiser FASTQ, lane 3 read 2"}
+  fastq_l4_r1: {sha256: ebc3a6853b9afb5b839ba1e4ff7966eb4f716fba5fee5a39c526d1468079f438, source: "Hugging Face cache metadata (LFS sha256)", what: "organiser FASTQ, lane 4 read 1"}
+  fastq_l4_r2: {sha256: b16eeae1f84c57fdb889349c25d625eb96a9cb265059004081630131e1037d8b, source: "Hugging Face cache metadata (LFS sha256)", what: "organiser FASTQ, lane 4 read 2"}
+
+# Stored outputs of the original run. Used (a) to check a step's own output byte for byte and (b) to identify
+# an intermediate supplied in place of a full-tier step (config `intermediates`).
+artifacts:
+  child_exonic_calls: {sha256: fb6c459836b962f74aa1896eeb7124594f8d00d542c4ca7026cc47afc9e928d2, source: "harness: stored output of child_exonic_calls.py"}
+  gnomad_part0: {sha256: 9089795834a86450f89f795b776302d78108b24be83be05674becfec66d40b46, source: "harness: stored output of gnomad_match.py worker 0"}
+  gnomad_part1: {sha256: 2b547723489dd1a71f7147040fc28576e2bed6fc7fec52afb03fadf2fe118e67, source: "harness: stored output of gnomad_match.py worker 1"}
+  gnomad_part2: {sha256: ef59ab4588ecc0a53c252ebf53de42a0e99fa8abc134bfec3634b20eec401cc5, source: "harness: stored output of gnomad_match.py worker 2"}
+  gnomad_part3: {sha256: 8ac870cb6cf7623ca40c3caf15c3c2a0cbaa66387846c2301ab7b3dc7689b3ea, source: "harness: stored output of gnomad_match.py worker 3"}
+  consequence_orig: {sha256: fccdcc93816ed4242ff8734af458fc19fd11eefdb13551c3c669d12435041b94, source: "harness: stored child_exonic_consequence.tsv"}
+  consequence_fixed: {sha256: fc733935f8462fbbd6c09fd3c6c626560eb2fbe83248331edc76ee96734a1dc7, source: "harness: stored child_exonic_consequence_fixed.tsv"}
+  ranking_v1: {sha256: 1cf73b50bf0ae725408f30f5a0aece3dfc30fe0db5c4667675a95b4354e6d6ce, source: "harness: stored ranking_v1_summary.tsv"}
+  ranking_v2: {sha256: 66a09492314e090c39b3cee654b2478ddb8de95c8aa153fc0bea3c70194639d5, source: "harness: stored ranking_v2_summary.tsv"}
+  ranking_v3: {sha256: ffc0d95040dede7b2dd6ea04ab4b00fc11519839914b26ddee7dfa47609eb16d, source: "harness: stored ranking_v3_summary.tsv"}
+  ranking_v4: {sha256: 7b3cbdb95cddc60b6d2b7f6630a2f74ff5400b7c3167e654ef773b9787522a41, source: "harness: stored ranking_v4_summary.tsv"}
+  ranking_v4b: {sha256: 8b533d6ccfd900cdd211e26926221059864f1c03f62bea7e380fc26763b3cc6d, source: "harness: stored ranking_v4b_summary.tsv"}
+  ranking_v1_fixed: {sha256: af1a26e86286c6c32a5e7cbc421fd96b413d979156458250f5c12e5f7379815a, source: "harness: stored ranking_v1_summary_fixed.tsv"}
+  ranking_v2_fixed: {sha256: 58f21acb5d76a74e19fcf4c96ba89adb471900a8f7b8019a22cbc063c4e4182d, source: "harness: stored ranking_v2_summary_fixed.tsv"}
+  ranking_v3_fixed: {sha256: 6ba3adc3a362c2b6d057353a2a385b47033105acd4e6a2a9e5d654c6d33e2b6d, source: "harness: stored ranking_v3_summary_fixed.tsv"}
+  ranking_v4_fixed: {sha256: ce5e1924d4c8c77d074ff7dc4f6029bf0d251f6b9b8fcee8d9d15d9b32b316d1, source: "harness: stored ranking_v4_summary_fixed.tsv"}
+  readcheck_json: {sha256: 36a5d2022ca49f266f5d2ab32af57e4c97a8762b2b1e59067047932729352a17, source: "harness: stored bub1b_readcheck.json"}
+  controls_rule: {sha256: e26a8abb38f7be31e0773511191f65d557295c6188fc5569cfe10b0f22f913b2, source: "register: M-EVO2-CAL-01"}
+  evo2_control_scores: {sha256: 2a1b2a093301e3ff32068ef73a60376928a7b724ff5b761cd1811f2cd4c0e410, source: "harness: stored evo2_rule_controls_out.tsv (also recorded by the script-recovery agent)"}
+  protein_controls: {sha256: f22d45f929209b117b3958c0304f0b31d62ed3f02ed3b684ae5c348b348c37a9, source: "harness: stored protein_rule/controls/controls.tsv"}
+  protein_scores: {sha256: 581a5b8bd9a7b8538444ae5bc4c05cf4ec3f277c15f5099447815d0d316d6994, source: "harness: stored protein_rule/scores.tsv"}
+  spikein_trials_tsv: {sha256: 9b669a729f70fbea300d09be3f627461d6da57da2153b0caf86714fe39c65b33, source: "harness: stored spike-in trials.tsv (1,611 trials x 2 rule versions)"}
+  spikein_alleles_tsv: {sha256: 607575a272a43d7a99bb3b33a956dfb43403d42ea03c283abb4bd4a7536b7d4b, source: "harness: stored spike-in alleles.tsv (per-allele diagnostics of every spiked allele)"}
+
+steps:
+
+  S0.1:
+    decision_rule: "Stage 0 fact (not a hypothesis): sex declared by the user (male); read-level check from BAI mapped counts."
+    exact_if: [input:bam]
+    metrics:
+      - {name: chrY_ratio_to_autosome, expected: 0.17, tol: {round: 2}, source: "register: S0.1 ('chrY/autosome 0.17')"}
+      - {name: chrX_ratio_to_autosome, expected: 0.61, tol: {round: 2}, source: "register: S0.1 ('chrX/autosome 0.61')"}
+    info_note: "*_ratio_to_autosome is the script's raw number: BAI mapped-read count of the chromosome divided by the mean count of the 22 autosomes. It is NOT length-normalised, so a short autosome reads well below 1 (chr19 is about 0.45 of the mean autosome in length); these values are not copy-number estimates. *_per_mb_ratio_to_autosome (added by the harness) divides each count by the chromosome's ungapped GRCh38 length first: autosomes then read near 1 and the single chrX near 0.5. chrY and chrM are not interpretable either way (chrY: repeats shared with chrX and the autosomes draw reads; chrM: many copies per cell). Copy number is tested by H08, DETECT-LIMIT and CNV-V1, not by this step."
+
+  H01:
+    decision_rule: "H01 predicts excess reads with the 11-bp tandem duplication at the CEP57 exons; falsified by no junction-spanning reads above background (9 to 13 bp insertions or soft-clips per 1000 reads, CEP57 exons versus a same-size chr11 background window)."
+    exact_if: [input:bam]
+    metrics:
+      - {name: CEP57_reads, expected: 12657, tol: exact, source: "register: H01"}
+      - {name: CEP57_ins9_13, expected: 0, tol: exact, source: "register: H01"}
+      - {name: CEP57_softclip9_13, expected: 52, tol: exact, source: "register: H01"}
+      - {name: CEP57_per1000, expected: 4.1, tol: {round: 1}, source: "register: H01 ('4.1 per 1000')"}
+      - {name: background_reads, expected: 12496, tol: exact, source: "register: H01"}
+      - {name: background_ins9_13, expected: 0, tol: exact, source: "register: H01"}
+      - {name: background_softclip9_13, expected: 55, tol: exact, source: "register: H01"}
+      - {name: background_per1000, expected: 4.4, tol: {round: 1}, source: "register: H01 ('4.4 per 1000')"}
+      - {name: decision, expected: RULED OUT, tol: exact, tol_alt: exact, source: "register: H01 ('RULED OUT at alignment level'); harness reading: CEP57 rate not above background"}
+
+  H-BATCH:
+    decision_rule: "H02 falsified by reference-homozygous with adequate depth at the upstream site; H03 by no discordant or split read cluster; H05 by no consistent low-VAF cluster above the null; H06 by no autozygous segment outside heterochromatin; H12 by no hemizygous LoF call and normal depth."
+    exact_if: [input:bam, input:vcf]
+    metrics:
+      - {name: h02_reads_G, expected: 45, tol: exact, source: "register: H02 ('45 reads, all G (reference)')"}
+      - {name: h02_reads_A, expected: 0, tol: exact, source: "register: H02 ('No A')"}
+      - {name: decision_h02, expected: RULED OUT, tol: exact, tol_alt: exact, source: "register: H02; harness reading: no alt read at depth >= 20"}
+      - {name: h03_bub1b_split_per1k, expected: 1.11, tol: {round: 2}, source: "register: H03 ('split 1.11 vs 0.92 per 1k reads')"}
+      - {name: h03_background_split_per1k, expected: 0.92, tol: {round: 2}, source: "register: H03"}
+      - {name: h03_bub1b_clip_per1k, expected: 46.2, tol: {round: 1}, source: "register: H03 ('soft-clip>=20 46.2 vs 43.2')"}
+      - {name: h03_background_clip_per1k, expected: 43.2, tol: {round: 1}, source: "register: H03"}
+      - {name: h03_bub1b_disc_per1k, expected: 14.8, tol: {round: 1}, source: "register: H03 ('discordant 14.8 vs 13.5')"}
+      - {name: h03_background_disc_per1k, expected: 13.5, tol: {round: 1}, source: "register: H03"}
+      - {name: h05_lowvaf_pct_chr20, expected: 1.37, tol: {round: 2}, source: "register: H05"}
+      - {name: h05_lowvaf_pct_chr21, expected: 1.30, tol: {round: 2}, source: "register: H05"}
+      - {name: h05_lowvaf_pct_chr22, expected: 1.77, tol: {round: 2}, source: "register: H05"}
+      - {name: h05_lowvaf_pct_chr18, expected: 0.17, tol: {round: 2}, source: "register: H05"}
+      - {name: h05_lowvaf_pct_chr19, expected: 0.30, tol: {round: 2}, source: "register: H05"}
+      - {name: h05_lowvaf_pct_chr1, expected: 0.19, tol: {round: 2}, source: "register: H05"}
+      - {name: h06_gap1_chrom, expected: "1", tol: exact, source: "register: H06 (longest het-free gaps chr1, chr9, chr16, then chr19)"}
+      - {name: h06_gap1_mb, expected: 18.0, tol: {abs: 0.1}, source: "register: H06 ('chr1 125.2-143.2 Mb')"}
+      - {name: h06_gap2_chrom, expected: "9", tol: exact, source: "register: H06"}
+      - {name: h06_gap2_mb, expected: 15.0, tol: {abs: 0.1}, source: "register: H06 ('chr9 45.5-60.5 Mb')"}
+      - {name: h06_gap3_chrom, expected: "16", tol: exact, source: "register: H06"}
+      - {name: h06_gap3_mb, expected: 8.1, tol: {abs: 0.1}, source: "register: H06 ('chr16 38.3-46.4 Mb')"}
+      - {name: h06_gap4_chrom, expected: "19", tol: exact, source: "register: H06 ('Next longest is 2.3 Mb (chr19)')"}
+      - {name: h06_gap4_mb, expected: 2.3, tol: {abs: 0.1}, source: "register: H06"}
+      - {name: h12_naa10_reads_per_kb, expected: 170, tol: exact, source: "register: H12 ('NAA10 170 reads/kb')"}
+      - {name: h12_chrX_bg_reads_per_kb, expected: 147, tol: exact, source: "register: H12 ('chrX background 147 reads/kb')"}
+      - {name: h12_chr1_bg_reads_per_kb, expected: 300, tol: exact, source: "register: H12 ('chr1 background 300 reads/kb')"}
+      - {name: h12_naa10_to_autosome, expected: 0.57, tol: {round: 2}, source: "register: H12 ('ratio to autosome 0.57')"}
+
+  H08:
+    decision_rule: "H08 predicts an arm-level depth shift in chr18 or chr19; falsified by flat depth (12 sampled 1 Mb bins per chromosome, normalised to the autosome median)."
+    exact_if: [input:bam]
+    metrics:
+      - {name: ratio_chr18, expected: 0.99, tol: {round: 2}, source: "register: Step 2 (H08)"}
+      - {name: ratio_chr19, expected: 1.06, tol: {round: 2}, source: "register: Step 2 (H08)"}
+      - {name: ratio_chr20, expected: 1.00, tol: {round: 2}, source: "register: Step 2 (H08)"}
+      - {name: ratio_chr21, expected: 1.00, tol: {round: 2}, source: "register: Step 2 (H08)"}
+      - {name: ratio_chr22, expected: 1.03, tol: {round: 2}, source: "register: Step 2 (H08)"}
+      - {name: ratio_chrX, expected: 0.48, tol: {round: 2}, source: "register: Step 2 (H08)"}
+      - {name: sha256_json, expected: 069a60a4d7c9bf3d3921a7580daaf6628dc4fc3969aabfa42262a7329fd0bdfb, tol: exact, source: "harness: stored h08_depth_sampled.json"}
+
+  DETECT-LIMIT:
+    decision_rule: "Descriptive: median coefficient of variation of 1 Mb bin depth (40 random bins per autosome) and the smallest whole-chromosome mean-depth shift detectable with 40 bins under a 3-SD rule."
+    exact_if: [input:bam]
+    metrics:
+      - {name: median_cv_1mb, expected: 0.147, tol: {round: 3}, source: "register: Readout detection limit ('median coefficient of variation per 1 Mb bin 0.147')"}
+      - {name: min_detectable_shift, expected: 0.07, tol: {round: 2}, source: "register: Readout detection limit ('about 7%')"}
+      - {name: sha256_json, expected: f13679b915844945ea30eddc857446d6933e582c465d4a5233e67f22d1920b71, tol: exact, source: "harness: stored detection_limit.json"}
+
+  CNV-V1:
+    rule_file: CNV_RULE_v1.md
+    decision_rule: "CNV_RULE_v1.md (amended before the run): 1 Mb bins, GC-binned correction, median ratio per chromosome excluding the first and last 5 Mb, clonal-fraction estimate; call only if |f| >= 0.14 and |r - expected| > 3 SE. Falsifier: no whole-chromosome event above the noise floor."
+    exact_if: [input:bam, input:fasta]
+    metrics:
+      - {name: calls, expected: [], tol: exact, source: "register: Copy-number mosaicism rule v1 ('no chromosome called')"}
+      - {name: chrX_ratio, expected: 0.4995, tol: {round: 4}, source: "register: Copy-number mosaicism rule v1 ('chrX ratio 0.4995')"}
+      - {name: chr19_ratio, expected: 1.026, tol: {round: 3}, source: "register: Copy-number mosaicism rule v1 ('chr19 ... ratio 1.026')"}
+      - {name: chr19_f, expected: 0.051, tol: {round: 3}, source: "register: Copy-number mosaicism rule v1 ('f = +0.051')"}
+      - {name: sha256_json, expected: 9d354fa876ce6e91e6d96406a5b7bf3fca01a855b532de1b3f1d6c9dce9189d2, tol: exact, source: "harness: stored cnv_calls_v1.json"}
+
+  SV-MANTA:
+    decision_rule: "SV_RULE_v1.md: PASS; PR+SR alt >= 4; DEL/DUP/INS >= 50 bp or BND; dosage gene (ClinGen HI3 or TS3). Not automated in this harness yet."
+    metrics: []
+
+  H13-SMN:
+    decision_rule: "H13: homozygous SMN1 loss ruled out if SMN1-specific bases are present in the reads; copy number 1 versus 2 not resolved. Not automated in this harness yet."
+    metrics: []
+
+  M-REG-BORZOI:
+    decision_rule: "Regulatory model calibration on 120 GTEx whole-blood eQTL SNVs versus 120 random substitutions within 100 kb of the same genes' TSS (not matched); the ClinVar controls and bootstrap interval of CALIBRATION_RULE.md were not used for this step. Not automated in this harness yet."
+    metrics: []
+
+  BLIND-01A:
+    decision_rule: "Scope step, no decision rule: every non-reference call of the organiser VCF inside a protein-coding exon (+/-3 bp) of the exon BED is kept. No gene prior selects calls."
+    exact_if: [input:vcf, input:exon_bed]
+    metrics:
+      - {name: n_calls, expected: 87198, tol: exact, source: "register: Genome-wide blind exonic pass ('all 87,198 non-reference calls')"}
+      - {name: sha256_child_exonic_calls, expected: fb6c459836b962f74aa1896eeb7124594f8d00d542c4ca7026cc47afc9e928d2, tol: exact, source: "harness: stored output"}
+
+  BLIND-01B:
+    decision_rule: "Scope step, no decision rule: gnomAD v4.1 exome frequency for every exonic call, by regional indexed reads of the public sites files (only regions around the calls are read; no call is sent as a query)."
+    exact_if: [artifact:child_exonic_calls]
+    metrics:
+      - {name: rows_total, expected: 87198, tol: exact, source: "register: Genome-wide blind exonic pass ('no duplicates counted: 87,198 rows')"}
+      - {name: sha256_part0, expected: 9089795834a86450f89f795b776302d78108b24be83be05674becfec66d40b46, tol: exact, source: "harness: stored output"}
+      - {name: sha256_part1, expected: 2b547723489dd1a71f7147040fc28576e2bed6fc7fec52afb03fadf2fe118e67, tol: exact, source: "harness: stored output"}
+      - {name: sha256_part2, expected: ef59ab4588ecc0a53c252ebf53de42a0e99fa8abc134bfec3634b20eec401cc5, tol: exact, source: "harness: stored output"}
+      - {name: sha256_part3, expected: 8ac870cb6cf7623ca40c3caf15c3c2a0cbaa66387846c2301ab7b3dc7689b3ea, tol: exact, source: "harness: stored output"}
+
+  BLIND-01C:
+    decision_rule: "Classes: common or low-frequency (AF >= 0.001), rare (0 < AF < 0.001), unobserved in gnomAD exomes (absent site, alt absent, AC0 after QC, or not in the exome release). Outcome recorded as 'NOT RANKED YET' (no consequence annotation at this stage)."
+    exact_if: [artifact:gnomad_parts]
+    metrics:
+      - {name: rows, expected: 87198, tol: exact, source: "register: Genome-wide blind exonic pass"}
+      - {name: class_common_or_low, expected: 71416, tol: exact, source: "register: Genome-wide blind exonic pass"}
+      - {name: class_rare, expected: 839, tol: exact, source: "register: Genome-wide blind exonic pass"}
+      - {name: class_unobserved, expected: 14943, tol: exact, source: "register: Genome-wide blind exonic pass ('Unobserved in gnomAD exomes ... 14,943'; the 5 chrM calls are inside this count, since 71,416 + 839 + 14,943 = 87,198)"}
+      - {name: status_not_in_exome_release, expected: 5, tol: exact, source: "register: Genome-wide blind exonic pass ('Not in exome release (chrM): 5')"}
+      - {name: genes_with_2plus_rare_or_unobserved, expected: 2800, tol: exact, source: "register: Genome-wide blind exonic pass ('Genes with at least two rare or unobserved calls: 2,800')"}
+
+  CONSEQ-V1:
+    decision_rule: "Consequence of each exonic call on GENCODE v44 canonical protein-coding transcripts, classified from the reference FASTA (synonymous, missense, nonsense, stop_lost, frameshift, in-frame indel, splice_region intronic +/-2, UTR/non-CDS exon). Original script; its minus-strand CDS assembly was later found wrong (C-FIX-01)."
+    exact_if: [input:fasta, input:gtf, artifact:gnomad_parts]
+    metrics:
+      - {name: canonical_transcripts, expected: 19690, tol: exact, source: "register: Consequence step (2026-10-17)"}
+      - {name: calls_read, expected: 87198, tol: exact, source: "register: Genome-wide blind exonic pass"}
+      - {name: table_rows, expected: 74741, tol: exact, source: "register: C-FIX-01 ('5,101 of 74,741 rows change consequence class')"}
+      - {name: protein_altering_rare_first_tx, expected: 487, tol: exact, source: "register: Consequence step ('Protein-altering and rare or unobserved, first canonical transcript per call: 487'). COUNT-487 later withdrew 487 as not reproducible; summarize_consequence.py, the script that printed it, counts the first canonical transcript per call and does reproduce it"}
+      - {name: stop_lost_rows, expected: 221, tol: exact, source: "register: LIMIT-STOPLOST ('The original table's 221 stop_lost rows all came from the minus-strand bug')"}
+      - {name: by_consequence, expected: {missense: 383, splice_region: 48, frameshift: 25, nonsense: 12, inframe_indel: 14, stop_lost: 5}, tol: exact, source: "register: Consequence step"}
+      - {name: homozygous, expected: 64, tol: exact, source: "register: Consequence step ('Homozygous: 64')"}
+      - {name: protein_altering_rare_distinct_any_tx, expected: 490, tol: exact, source: "register: WORDING-2026-10-20 ('490/494 on the original'); harness count: distinct calls with at least one protein-altering transcript row"}
+      - {name: protein_altering_rare_rows_any_tx, expected: 494, tol: exact, source: "register: WORDING-2026-10-20 ('490/494 on the original'); harness count of (call, transcript) rows"}
+      - {name: sha256_table, expected: fccdcc93816ed4242ff8734af458fc19fd11eefdb13551c3c669d12435041b94, tol: exact, source: "harness: stored output"}
+
+  C-FIX-01:
+    decision_rule: "Bug: CDS segments of minus-strand transcripts were reversed before the whole-string reverse complement. Fixed copy (no reversal) re-run on the same calls; original table kept. Effect reported as the count of rows whose consequence class changes."
+    exact_if: [input:fasta, input:gtf, artifact:gnomad_parts]
+    metrics:
+      - {name: canonical_transcripts, expected: 19690, tol: exact, source: "register: Consequence step"}
+      - {name: table_rows, expected: 74741, tol: exact, source: "register: C-FIX-01"}
+      - {name: rows_changed, expected: 5101, tol: exact, source: "register: C-FIX-01"}
+      - {name: "change missense->synonymous", expected: 3213, tol: exact, source: "register: C-FIX-01"}
+      - {name: "change synonymous->missense", expected: 1398, tol: exact, source: "register: C-FIX-01"}
+      - {name: "change nonsense->synonymous", expected: 165, tol: exact, source: "register: C-FIX-01"}
+      - {name: "change stop_lost->synonymous", expected: 131, tol: exact, source: "register: C-FIX-01"}
+      - {name: "change stop_lost->missense", expected: 89, tol: exact, source: "register: C-FIX-01"}
+      - {name: "change nonsense->missense", expected: 83, tol: exact, source: "register: C-FIX-01"}
+      - {name: "change missense->nonsense", expected: 14, tol: exact, source: "register: C-FIX-01"}
+      - {name: "change synonymous->nonsense", expected: 7, tol: exact, source: "register: C-FIX-01 (the eight listed transitions sum to 5,100, one less than 5,101)"}
+      - {name: "change stop_lost->nonsense", expected: 1, tol: exact, source: "register: LIMIT-STOPLOST ('131 synonymous, 89 missense, 1 nonsense'; the C-FIX-01 entry omits the 1)"}
+      - {name: stop_lost_rows, expected: 0, tol: exact, source: "register: LIMIT-STOPLOST ('corrected table 0 stop_lost rows')"}
+      - {name: protein_altering_rare_distinct_any_tx, expected: 481, tol: exact, source: "register: WORDING-2026-10-20 ('481 distinct, 485 rows'); harness count: distinct calls with at least one protein-altering transcript row"}
+      - {name: protein_altering_rare_rows_any_tx, expected: 485, tol: exact, source: "register: WORDING-2026-10-20 ('481 distinct, 485 rows'); harness count of (call, transcript) rows"}
+      - {name: sha256_table, expected: fc733935f8462fbbd6c09fd3c6c626560eb2fbe83248331edc76ee96734a1dc7, tol: exact, source: "harness: stored output"}
+
+  C-FIX-01-FU:
+    decision_rule: "compound_check on both tables: genes with a rare/unobserved LoF-type het and a missense het (at least 2 het calls), phase unknown. Claim checked: the genome-wide version of this check does not single out BUB1B."
+    exact_if: [artifact:consequence_orig, artifact:consequence_fixed]
+    metrics:
+      - {name: compound_genes_original, expected: 7, tol: exact, source: "register: C-FIX-01 follow-up ('has 7 genes in both')"}
+      - {name: compound_genes_corrected, expected: 7, tol: exact, source: "register: C-FIX-01 follow-up"}
+      - {name: hom_rows_original, expected: 64, tol: exact, source: "register: C-FIX-01 follow-up ('60 vs 64 homozygous-style rows')"}
+      - {name: hom_rows_corrected, expected: 60, tol: exact, source: "register: C-FIX-01 follow-up"}
+      - {name: bub1b_consequences_original, expected: [missense, nonsense], tol: set, source: "register: C-FIX-01 follow-up ('BUB1B keeps both calls ... under both tables')"}
+      - {name: bub1b_consequences_corrected, expected: [missense, nonsense], tol: set, source: "register: C-FIX-01 follow-up"}
+      - {name: compound_gene_list_corrected, expected: [BUB1B, PRDM9, HLA-DRB1, EIF4EBP1, POU6F2, HRNR], tol: subset, source: "register: C-FIX-01 follow-up ('PRDM9, HLA-DRB1, EIF4EBP1, POU6F2 and HRNR show the same pattern genome-wide')"}
+
+  RANK-V1:
+    rule_file: RANKING_RULE_v1.md
+    decision_rule: "RANKING_RULE_v1.md: candidate = protein-altering and rare/unobserved; weights nonsense 3, frameshift 3, stop_lost 2, splice_region 2, inframe 2, missense 1, homozygous x1.5; rank genes with score >= 3 or one homozygous candidate; paralog families excluded; ablation A unweighted; ablation B shuffled labels (seed 1). BUB1B rank reported, not a success criterion."
+    exact_if: [artifact:consequence_orig]
+    metrics:
+      - {name: candidate_calls, expected: 487, tol: exact, source: "register: Ranking v1 ('Run: 487 candidate calls')"}
+      - {name: paralog_calls_excluded, expected: 189, tol: exact, source: "register: Ranking v1"}
+      - {name: paralog_genes, expected: 39, tol: exact, source: "register: Ranking v1"}
+      - {name: ranked_genes, expected: 56, tol: exact, source: "register: Ranking v1"}
+      - {name: bub1b_rank, expected: 8, tol: exact, source: "register: Ranking v1 ('BUB1B (rank 8, score 4.0 ...)')"}
+      - {name: bub1b_score, expected: 4.0, tol: exact, source: "register: Ranking v1"}
+      - {name: bub1b_rank_ablation_a, expected: "not ranked", tol: exact, source: "register: Ranking v1 ('Ablation A ... BUB1B not ranked')"}
+      - {name: bub1b_rank_shuffled, expected: 7, tol: exact, source: "register: Ranking v1 ('Shuffled-label baseline (seed 1): BUB1B rank 7')"}
+      - {name: top7, expected: [ENSG00000289281, SLC25A5, POU6F2, ADAMTS1, EIF4EBP1, AGAP3, FOXO6], tol: exact, source: "register: Ranking v1 ('Top under v1: ...')"}
+      - {name: shuffled_top10, expected: [ENSG00000289281, SLC25A5, PRSS1], tol: subset, source: "register: Ranking v1 ('top list dominated by ENSG00000289281, SLC25A5, PRSS1')"}
+      - {name: sha256_summary, expected: 1cf73b50bf0ae725408f30f5a0aece3dfc30fe0db5c4667675a95b4354e6d6ce, tol: exact, source: "harness: stored output"}
+
+  RANK-V2:
+    rule_file: RANKING_RULE_v2.md
+    decision_rule: "RANKING_RULE_v2.md: v1 plus (A) male chrX: heterozygous non-PAR chrX calls excluded; (B) cluster artifact: >= 5 candidate calls in a 1 kb window, all homozygous, gene excluded."
+    exact_if: [artifact:consequence_orig]
+    metrics:
+      - {name: x_het_excluded, expected: 11, tol: exact, source: "register: Ranking v2 ('11 heterozygous non-PAR calls excluded')"}
+      - {name: x_het_genes, expected: [SLC25A5, TMEM185A], tol: set, source: "register: Ranking v2"}
+      - {name: cluster_genes, expected: [ENSG00000289281, ZNF418], tol: set, source: "register: Ranking v2"}
+      - {name: candidate_calls_after_ab, expected: 461, tol: exact, source: "register: Ranking v2"}
+      - {name: ranked_genes, expected: 54, tol: exact, source: "register: Ranking v2"}
+      - {name: bub1b_rank, expected: 6, tol: exact, source: "register: Ranking v2"}
+      - {name: bub1b_rank_ablation_a, expected: "not ranked", tol: exact, source: "register: Ranking v2"}
+      - {name: bub1b_rank_shuffled, expected: 4, tol: exact, source: "register: Ranking v2"}
+      - {name: top9, expected: [POU6F2, ADAMTS1, EIF4EBP1, AGAP3, FOXO6, BUB1B, HRNR, ARL9, ATP1B2], tol: exact, source: "register: Ranking v2 ('Top under v2: ...')"}
+      - {name: sha256_summary, expected: 66a09492314e090c39b3cee654b2478ddb8de95c8aa153fc0bea3c70194639d5, tol: exact, source: "harness: stored output"}
+
+  RANK-V3:
+    rule_file: RANKING_RULE_v3.md
+    decision_rule: "RANKING_RULE_v3.md: tier A = a candidate call matching a ClinVar Pathogenic/Likely_pathogenic record; tier B = LoF-type plus missense, >= 2 calls; tier C = other v2-passing genes; within tier by v2 score. Ablation A0 (v2 only) and shuffled-ClinVar baseline (seed 1)."
+    exact_if: [artifact:consequence_orig, input:clinvar_vcf]
+    metrics:
+      - {name: candidate_calls, expected: 277, tol: exact, source: "register: Ranking v3"}
+      - {name: plp_calls, expected: 3, tol: exact, source: "register: Ranking v3"}
+      - {name: tier_a, expected: [BUB1B, LZTR1, GNRHR], tol: set, source: "register: Ranking v3"}
+      - {name: top3, expected: [BUB1B, LZTR1, GNRHR], tol: exact, source: "register: Ranking v3 ('v3 rank: BUB1B 1; LZTR1 2; GNRHR 3')"}
+      - {name: tier_b, expected: [POU6F2, EIF4EBP1, HRNR], tol: set, source: "register: Ranking v3 ('then tier B (POU6F2, EIF4EBP1, HRNR)')"}
+      - {name: bub1b_rank, expected: 1, tol: exact, source: "register: Ranking v3"}
+      - {name: bub1b_rank_a0, expected: 6, tol: exact, source: "register: Ranking v3 ('Ablation A0 (v2 only): BUB1B rank 6')"}
+      - {name: shuffled_tier_a, expected: [CGAS, RAB3GAP2, SYNE2], tol: set, source: "register: Ranking v3"}
+      - {name: bub1b_rank_shuffled, expected: "not ranked", tol: exact, source: "register: Ranking v3"}
+      - {name: sha256_summary, expected: ffc0d95040dede7b2dd6ea04ab4b00fc11519839914b26ddee7dfa47609eb16d, tol: exact, source: "harness: stored output"}
+
+  RANK-V4:
+    rule_file: RANKING_RULE_v4.md
+    decision_rule: "RANKING_RULE_v4.md (run 1, before Amendment 1): v3 tiers; within tier by phenotype score (child's 8 HPO terms matched through is_a ancestry), then v2 score. Ablations P0, P-only, shuffled (seed 1)."
+    exact_if: [artifact:ranking_v3, input:hpo_obo, input:hpo_genes_to_phenotype]
+    metrics:
+      - {name: mt_genes, expected: [MT-ATP6, MT-CYB, MT-ND2], tol: subset, source: "register: Ranking v4 ('Run 1 (includes chrM calls): mitochondrial genes MT-ATP6, MT-CYB, MT-ND2 entered tier C')"}
+      - {name: summary_lines_incl_header, expected: 56, tol: exact, source: "register: C-FIX-01 ('v4 53 vs 56 rows'; the register counts the header line)"}
+      - {name: bub1b_rank, expected: 1, tol: exact, source: "register: C-FIX-01 ('BUB1B remains v3 rank 1 (tier A) and v4 rank 1')"}
+      - {name: sha256_summary, expected: 7b3cbdb95cddc60b6d2b7f6630a2f74ff5400b7c3167e654ef773b9787522a41, tol: exact, source: "harness: stored output"}
+
+  RANK-V4B:
+    rule_file: RANKING_RULE_v4.md
+    decision_rule: "RANKING_RULE_v4.md with Amendment 1 (chrM / MT-* genes excluded)."
+    exact_if: [artifact:ranking_v3, input:hpo_obo, input:hpo_genes_to_phenotype]
+    metrics:
+      - {name: candidate_genes, expected: 52, tol: exact, source: "register: Ranking v4 ('Run 2, corrected ...: 52 candidate genes')"}
+      - {name: genes_with_phenotype_match, expected: 3, tol: exact, source: "register: Ranking v4"}
+      - {name: phenotype_scores, expected: {BUB1B: 3, LZTR1: 1, IGBP1: 1}, tol: exact, source: "register: Ranking v4 ('BUB1B 3 terms ...; LZTR1 1; IGBP1 1')"}
+      - {name: bub1b_terms, expected: [HP:0001518, HP:0002859, HP:0004322], tol: set, source: "register: Ranking v4"}
+      - {name: bub1b_ranks_v4_p0_ponly_shuffled, expected: [1, 1, 1, 1], tol: exact, source: "register: Ranking v4 ('BUB1B 1 under v4, P0 (no phenotype), P-only, and shuffled')"}
+      - {name: sha256_summary, expected: 8b533d6ccfd900cdd211e26926221059864f1c03f62bea7e380fc26763b3cc6d, tol: exact, source: "harness: stored output"}
+
+  RANK-V1F:
+    rule_file: RANKING_RULE_v1.md
+    decision_rule: "Ranking v1 re-run on the corrected consequence table (C-FIX-01)."
+    exact_if: [artifact:consequence_fixed]
+    metrics:
+      - {name: bub1b_rank, expected: 8, tol: exact, source: "register: C-FIX-01 ('v1 rank 8')"}
+      - {name: top7, expected: [ENSG00000289281, SLC25A5, POU6F2, ADAMTS1, EIF4EBP1, AGAP3, FOXO6], tol: exact, source: "register: C-FIX-01 ('Top ranks unchanged in v1, v2, v3, v4')"}
+      - {name: sha256_summary, expected: af1a26e86286c6c32a5e7cbc421fd96b413d979156458250f5c12e5f7379815a, tol: exact, source: "harness: stored output"}
+
+  RANK-V2F:
+    rule_file: RANKING_RULE_v2.md
+    decision_rule: "Ranking v2 re-run on the corrected consequence table (C-FIX-01)."
+    exact_if: [artifact:consequence_fixed]
+    metrics:
+      - {name: bub1b_rank, expected: 6, tol: exact, source: "register: C-FIX-01 ('v2 rank 6')"}
+      - {name: top9, expected: [POU6F2, ADAMTS1, EIF4EBP1, AGAP3, FOXO6, BUB1B, HRNR, ARL9, ATP1B2], tol: exact, source: "register: C-FIX-01 ('Top ranks unchanged')"}
+      - {name: sha256_summary, expected: 58f21acb5d76a74e19fcf4c96ba89adb471900a8f7b8019a22cbc063c4e4182d, tol: exact, source: "harness: stored output"}
+
+  RANK-V3F:
+    rule_file: RANKING_RULE_v3.md
+    decision_rule: "Ranking v3 re-run on the corrected consequence table (C-FIX-01)."
+    exact_if: [artifact:consequence_fixed, input:clinvar_vcf]
+    metrics:
+      - {name: bub1b_rank, expected: 1, tol: exact, source: "register: C-FIX-01 ('BUB1B remains v3 rank 1 (tier A)')"}
+      - {name: bub1b_tier, expected: A, tol: exact, source: "register: C-FIX-01"}
+      - {name: top3, expected: [BUB1B, LZTR1, GNRHR], tol: exact, source: "register: C-FIX-01 ('Top ranks unchanged')"}
+      - {name: sha256_summary, expected: 6ba3adc3a362c2b6d057353a2a385b47033105acd4e6a2a9e5d654c6d33e2b6d, tol: exact, source: "harness: stored output"}
+
+  RANK-V4F:
+    rule_file: RANKING_RULE_v4.md
+    decision_rule: "Ranking v4 re-run on the corrected v3 summary (C-FIX-01). Note: ranking_v4_fixed.py was derived from ranking_v4.py, not from ranking_v4b.py, so it does not apply Amendment 1 (chrM)."
+    exact_if: [artifact:ranking_v3_fixed, input:hpo_obo, input:hpo_genes_to_phenotype]
+    metrics:
+      - {name: bub1b_rank, expected: 1, tol: exact, source: "register: C-FIX-01 ('v4 rank 1')"}
+      - {name: summary_lines_incl_header, expected: 53, tol: exact, source: "register: C-FIX-01 ('v4 53 vs 56 rows'; the register counts the header line)"}
+      - {name: mt_ranks, expected: {MT-ATP6: 7, MT-CYB: 9, MT-ND2: 10}, tol: exact, source: "register: BUG-V4-CHRM ('Its output ranks MT-ATP6 7, MT-CYB 9, MT-ND2 10')"}
+      - {name: sha256_summary, expected: ce5e1924d4c8c77d074ff7dc4f6029bf0d251f6b9b8fcee8d9d15d9b32b316d1, tol: exact, source: "harness: stored output"}
+
+  RANK-V4BF:
+    rule_file: RANKING_RULE_v4.md
+    decision_rule: "RANKING_RULE_v4.md including Amendment 1 (chrM / MT-* genes excluded), applied to the corrected v3 summary. Implemented by running ranking_v4b.py (the as-run code of the amended rule; Amendment 1 is its line 48) unchanged on the corrected input. This is the v4 step the candidate is taken from."
+    exact_if: [artifact:ranking_v3_fixed, input:hpo_obo, input:hpo_genes_to_phenotype]
+    metrics:
+      - {name: mt_genes, expected: [], tol: exact, source: "RANKING_RULE_v4.md Amendment 1 (no MT- gene may be ranked)"}
+      - {name: top10, expected: [BUB1B, LZTR1, GNRHR, POU6F2, EIF4EBP1, HRNR, IGBP1, ADAMTS1, AGAP3, FOXO6], tol: exact, source: "register: BUG-V4-CHRM ('With Amendment 1 the v4 top 10 is ...')"}
+      - {name: bub1b_rank, expected: 1, tol: exact, source: "register: BUG-V4-CHRM (top 10 starts with BUB1B)"}
+
+  C-FIX-02:
+    decision_rule: "Validation of the consequence fix on public data only: 6,000 ClinVar SNVs on canonical transcripts compared with ClinVar's own MC term, split by strand. Gene-level diff of the original and corrected ranking summaries v1 to v4."
+    exact_if: [input:clinvar_vcf, input:gtf, input:fasta]
+    metrics:
+      - {name: clinvar_snvs_checked, expected: 6000, tol: exact, source: "register: C-FIX-02"}
+      - {name: minus_original, expected: "1039/1764", tol: exact, source: "register: C-FIX-02 ('original 1,039/1,764 = 0.589')"}
+      - {name: minus_fixed, expected: "1754/1764", tol: exact, source: "register: C-FIX-02 ('fixed 1,754/1,764 = 0.994')"}
+      - {name: plus_original, expected: "4227/4236", tol: exact, source: "register: C-FIX-02"}
+      - {name: plus_fixed, expected: "4227/4236", tol: exact, source: "register: C-FIX-02"}
+      - {name: v1_only_original, expected: [ARHGEF9, CDK11A, CDK11B, PRODH, TUBGCP5], tol: set, source: "register: C-FIX-02 ('only in original: ARHGEF9, CDK11A, CDK11B, PRODH, TUBGCP5'; 'v1-v4 identical')"}
+      - {name: v1_only_corrected, expected: [ADPRHL1, ANKRD36C], tol: set, source: "register: C-FIX-02"}
+      - {name: v2_only_original, expected: [ARHGEF9, CDK11A, CDK11B, PRODH, TUBGCP5], tol: set, source: "register: C-FIX-02"}
+      - {name: v2_only_corrected, expected: [ADPRHL1, ANKRD36C], tol: set, source: "register: C-FIX-02"}
+      - {name: v3_only_original, expected: [ARHGEF9, CDK11A, CDK11B, PRODH, TUBGCP5], tol: set, source: "register: C-FIX-02"}
+      - {name: v3_only_corrected, expected: [ADPRHL1, ANKRD36C], tol: set, source: "register: C-FIX-02"}
+      - {name: v4_only_original, expected: [ARHGEF9, CDK11A, CDK11B, PRODH, TUBGCP5], tol: set, source: "register: C-FIX-02"}
+      - {name: v4_only_corrected, expected: [ADPRHL1, ANKRD36C], tol: set, source: "register: C-FIX-02"}
+
+  T1-CANDIDATE:
+    decision_rule: "Harness step (not a register test): the candidate gene is rank 1 of ranking v4 with Amendment 1 on the corrected table (RANK-V4BF); its calls are the gene's rare/unobserved protein-altering calls (first canonical transcript per call). Downstream read-level, phasing and model steps take the candidate from here, so no coordinate is written in code. Protein notation is computed with the corrected consequence code."
+    exact_if: [artifact:ranking_v4b_fixed, artifact:consequence_fixed]
+    metrics:
+      - {name: gene, expected: BUB1B, tol: exact, source: "register: Ranking v4 / C-FIX-01 (BUB1B rank 1)"}
+      - {name: n_calls, expected: 2, tol: exact, source: "register: Consequence step ('BUB1B: nonsense ... and missense ...')"}
+      - {name: consequences, expected: [missense, nonsense], tol: set, source: "register: Consequence step"}
+      - {name: protein_changes_sha256, expected: cabc02ce4457dc5e8723c6101fa1d68180878bf3d13bad43841cea76bf94c166, tol: exact, source: "register: Read-level check (the two protein changes named there); stored as the sha256 of the sorted, comma-joined protein changes so that the child's alleles are not written in this file"}
+      - {name: all_heterozygous, expected: true, tol: exact, source: "register: Frequency step ('Both het in the child')"}
+
+  READCHECK:
+    decision_rule: "Read-level check of the two candidate calls in our alignment (base quality >= 20, duplicates and secondary alignments excluded): depth, alt reads, alt fraction, alt mapping quality, alt strand. Interpretation recorded: consistent with heterozygous; does not establish phase or pathogenicity."
+    exact_if: [input:bam]
+    metrics:
+      - {name: nonsense_depth, expected: 47, tol: exact, source: "register: Read-level check of the two BUB1B calls"}
+      - {name: nonsense_alt_reads, expected: 26, tol: exact, source: "register: Read-level check"}
+      - {name: nonsense_alt_fraction, expected: 0.55, tol: {round: 2}, source: "register: Read-level check ('26 (55%)')"}
+      - {name: nonsense_alt_mapq_median, expected: 60, tol: exact, source: "register: Read-level check"}
+      - {name: nonsense_alt_fwd, expected: 14, tol: exact, source: "register: Read-level check"}
+      - {name: nonsense_alt_rev, expected: 12, tol: exact, source: "register: Read-level check"}
+      - {name: missense_depth, expected: 27, tol: exact, source: "register: Read-level check"}
+      - {name: missense_alt_reads, expected: 12, tol: exact, source: "register: Read-level check"}
+      - {name: missense_alt_fraction, expected: 0.44, tol: {round: 2}, source: "register: Read-level check ('12 (44%)')"}
+      - {name: missense_alt_mapq_median, expected: 60, tol: exact, source: "register: Read-level check"}
+      - {name: missense_alt_fwd, expected: 4, tol: exact, source: "register: Read-level check"}
+      - {name: missense_alt_rev, expected: 8, tol: exact, source: "register: Read-level check"}
+      - {name: nonsense_consistent_with_het, expected: true, tol: exact, tol_alt: exact, source: "register: Read-level check ('Consistent with heterozygous'); harness reading: alt fraction 0.25 to 0.75 and alt reads on both strands"}
+      - {name: missense_consistent_with_het, expected: true, tol: exact, tol_alt: exact, source: "register: Read-level check; same harness reading"}
+      - {name: sha256_readcheck_json, expected: 36a5d2022ca49f266f5d2ab32af57e4c97a8762b2b1e59067047932729352a17, tol: exact, source: "harness: stored output"}
+
+  P1:
+    decision_rule: "PRE-REG-2026-10-20 P1 [coordinates removed]: list heterozygous SNVs between the two candidate sites from the organiser VCF; for each adjacent het pair count read pairs (insert <= 800 bp, MAPQ >= 30, base quality >= 20) carrying both alleles; connected if a chain of het pairs each with >= 5 informative bridging read pairs links the two sites, else UNRESOLVED; if connected, trans/cis at >= 90% concordance, else UNRESOLVED. As run: a fragment-span (|TLEN|) survey, which already shows that no template can bridge the gaps."
+    exact_if: [input:bam, input:vcf]
+    metrics:
+      - {name: het_snvs_in_interval, expected: 3, tol: exact, source: "register: P1 RESULT"}
+      - {name: read1_templates, expected: 2029, tol: exact, source: "register: P1 RESULT ('2,029 read-1 templates')"}
+      - {name: max_abs_tlen, expected: 1590, tol: exact, source: "register: P1 RESULT ('largest insert 1,590 bp')"}
+      - {name: gap1_bp, expected: 6769, tol: exact, source: "register: P1 RESULT ('Spanning ... needs >= 6,769 bp')"}
+      - {name: gap2_bp, expected: 4441, tol: exact, source: "register: P1 RESULT ('spanning ... needs >= 4,441 bp'; repeated in P1-CODE-DEVIATION)"}
+      - {name: templates_spanning_gap1, expected: 0, tol: exact, source: "register: P1 RESULT ('Zero templates bridge either gap')"}
+      - {name: templates_spanning_gap2_upper_bound, expected: 0, tol: exact, tol_alt: exact, source: "register: P1 RESULT; harness: 0 whenever the largest |TLEN| is below the gap"}
+      - {name: decision, expected: UNRESOLVED, tol: exact, tol_alt: exact, source: "register: P1 RESULT ('UNRESOLVED (by the pre-registered method's limits)')"}
+
+  P2:
+    decision_rule: "PRE-REG-2026-10-20 P2: every non-reference call in 18 pre-set genes (RNU4ATAC, RNU6ATAC, ZRSR2, SNRNP48, ESCO2, PCNT, CENPF, BUB1B, TRIP13, CEP57, SMC5, MAD1L1, CEP192, TRIM37, CDC20, MAD2L1BP, CENATAC, SLF2). A gene is flagged if it carries (a) a homozygous rare call, or (b) two rare heterozygous protein-altering or splice calls. Descriptive only. Harness reading of the flag rule on the corrected consequence table: rare = rare or unobserved; (a) is applied to protein-altering calls, as in the register result."
+    exact_if: [input:vcf, artifact:gnomad_parts, artifact:consequence_fixed]
+    metrics:
+      - {name: genes_reported, expected: 18, tol: exact, source: "register: P2 RESULT ('Scope: 18 genes')"}
+      - {name: RNU4ATAC_nonref_calls, expected: 0, tol: exact, source: "register: P2 RESULT ('RNU4ATAC and RNU6ATAC: zero calls')"}
+      - {name: RNU6ATAC_nonref_calls, expected: 0, tol: exact, source: "register: P2 RESULT"}
+      - {name: genes_with_rare_protein_altering_calls, expected: [BUB1B], tol: set, source: "register: P2 RESULT ('only BUB1B ... No other gene in the set has a rare protein-altering exonic call')"}
+      - {name: bub1b_rare_protein_altering, expected: [missense, nonsense], tol: set, source: "register: P2 RESULT"}
+      - {name: flagged_genes, expected: [BUB1B], tol: set, source: "register: P2 RESULT ('BUB1B flagged (the known pair). No other gene flagged.')"}
+
+  P3:
+    decision_rule: "PRE-REG-2026-10-20-C: c.803A>T POSITIVE if >= 3 alt reads (MAPQ >= 30) at the mapped position; c.805+2_805+19del18 POSITIVE if >= 3 junction-spanning split reads (MAPQ >= 30); NEGATIVE if zero; otherwise INDETERMINATE. Disclosed deviation: the deletion cutoff in the script is 15 bp (looser than 18 bp)."
+    exact_if: [input:bam, input:vcf, input:gtf, input:fasta]
+    metrics:
+      - {name: transcript, expected: ENST00000334418.6, tol: exact, source: "register: PRE-REG-C RESULT"}
+      - {name: strand, expected: "+", tol: exact, source: "register: PRE-REG-C RESULT"}
+      - {name: c803_reference_base, expected: A, tol: exact, tol_alt: exact, source: "register: PRE-REG-C RESULT ('reference A, matching the expected A')"}
+      - {name: vcf_records_at_c803, expected: 0, tol: exact, source: "register: PRE-REG-C RESULT ('VCF has no record at this position')"}
+      - {name: bam_reads_c803, expected: 51, tol: exact, source: "register: PRE-REG-C RESULT ('51 BAM reads with MAPQ >= 30 and BQ >= 20, all A')"}
+      - {name: bam_alt_reads_c803, expected: 0, tol: exact, source: "register: PRE-REG-C RESULT"}
+      - {name: split_reads_15bp, expected: 0, tol: exact, source: "register: PRE-REG-C RESULT"}
+      - {name: decision_c803AT, expected: NEGATIVE, tol: exact, tol_alt: exact, source: "register: PRE-REG-C RESULT"}
+      - {name: decision_del18, expected: NEGATIVE, tol: exact, tol_alt: exact, source: "register: PRE-REG-C RESULT"}
+
+  T2-DEPMAP-01:
+    decision_rule: "Pre-stated: if SIRT2 acts through BUBR1 stability, SIRT2 knockout fitness correlates positively with BUB1B knockout fitness across cell lines; falsified if rho is about 0 (no numeric threshold was stated). Spearman over lines with all 7 genes."
+    exact_if: [input:depmap_gene_effect]
+    metrics:
+      - {name: n_lines, expected: 1178, tol: exact, source: "register: T2-DEPMAP-01"}
+      - {name: rho_SIRT2, expected: 0.043, tol: {round: 3}, source: "register: T2-DEPMAP-01"}
+      - {name: p_SIRT2, expected: 0.14, tol: {sigfig: 2}, source: "register: T2-DEPMAP-01"}
+      - {name: rho_NAMPT, expected: -0.059, tol: {round: 3}, source: "register: T2-DEPMAP-01"}
+      - {name: rho_NMNAT1, expected: -0.074, tol: {round: 3}, source: "register: T2-DEPMAP-01"}
+      - {name: rho_CEP57, expected: -0.071, tol: {round: 3}, source: "register: T2-DEPMAP-01"}
+      - {name: p_NAMPT, expected: 0.05, tol: {lt: 0.05}, source: "register: T2-DEPMAP-01 ('weak negative, p < 0.05')"}
+      - {name: p_NMNAT1, expected: 0.05, tol: {lt: 0.05}, source: "register: T2-DEPMAP-01"}
+      - {name: p_CEP57, expected: 0.05, tol: {lt: 0.05}, source: "register: T2-DEPMAP-01"}
+      - {name: rho_BUB1, expected: 0.192, tol: {round: 3}, source: "register: T2-DEPMAP-01"}
+      - {name: p_BUB1, expected: 3.0e-11, tol: {sigfig: 1}, source: "register: T2-DEPMAP-01"}
+      - {name: rho_TRIP13, expected: 0.098, tol: {round: 3}, source: "register: T2-DEPMAP-01"}
+      - {name: p_TRIP13, expected: 8.0e-4, tol: {sigfig: 1}, source: "register: T2-DEPMAP-01"}
+      - {name: median_BUB1B, expected: -1.03, tol: {round: 2}, source: "register: T2-DEPMAP-01"}
+      - {name: median_SIRT2, expected: -0.06, tol: {round: 2}, source: "register: T2-DEPMAP-01"}
+      - {name: median_NAMPT, expected: -0.29, tol: {round: 2}, source: "register: T2-DEPMAP-01"}
+      - {name: median_NMNAT1, expected: -0.15, tol: {round: 2}, source: "register: T2-DEPMAP-01"}
+
+  T2-P4:
+    decision_rule: "PRE-REG-2026-10-20 T2-P4: per target, fraction of cell lines with Chronos gene effect < -0.5 and the median in blood-lineage lines; 'high on-target dependency' flag if the fraction >= 0.25. Descriptive; cancer lines only."
+    exact_if: [input:depmap_gene_effect, input:depmap_model]
+    metrics:
+      - {name: n_lines, expected: 1178, tol: exact, source: "register: T2-P4 RESULT"}
+      - {name: blood_lines_in_model, expected: 348, tol: exact, source: "register: T2-P4 RESULT"}
+      - {name: blood_lines_with_effects, expected: 135, tol: exact, source: "register: T2-P4 RESULT ('135 with gene effects for these targets')"}
+      - {name: frac_MTOR, expected: 0.986, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: frac_CDC20, expected: 1.000, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: frac_PLK4, expected: 0.982, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: frac_ANAPC4, expected: 0.994, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: frac_UBE2C, expected: 0.767, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: frac_KIF18A, expected: 0.885, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: frac_NAMPT, expected: 0.296, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: frac_NMNAT1, expected: 0.188, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: frac_SIRT2, expected: 0.006, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: frac_ABL1, expected: 0.011, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: frac_SRC, expected: 0.041, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: flagged_targets, expected: [MTOR, CDC20, PLK4, ANAPC4, UBE2C, KIF18A, NAMPT], tol: set, source: "register: T2-P4 RESULT (flag column)"}
+      - {name: blood_median_MTOR, expected: -1.130, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: blood_median_CDC20, expected: -1.894, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: blood_median_PLK4, expected: -1.281, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: blood_median_ANAPC4, expected: -1.132, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: blood_median_UBE2C, expected: -0.572, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: blood_median_KIF18A, expected: -0.839, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: blood_median_NAMPT, expected: -0.936, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: blood_median_NMNAT1, expected: -0.911, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: blood_median_SIRT2, expected: -0.036, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: blood_median_ABL1, expected: -0.041, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+      - {name: blood_median_SRC, expected: -0.129, tol: {round: 3}, source: "register: T2-P4 RESULT"}
+
+  PRE-REG-B:
+    decision_rule: "PRE-REG-2026-10-20-B: Spearman rho of each candidate lever gene's gene-effect vector against BUB1B's; empirical null = rho of every gene in the genome against BUB1B. 'Co-dependent' if rho >= 0.20 AND genome percentile >= 95; 'not co-dependent' if rho < 0.10 or percentile < 50; otherwise 'indeterminate'. Falsifier: no candidate reaches 'co-dependent'."
+    exact_if: [input:depmap_gene_effect]
+    metrics:
+      - {name: genes_tested, expected: 17916, tol: exact, source: "register: PRE-REG-B RESULT ('17,916 genes')"}
+      - {name: lines_with_bub1b, expected: 1178, tol: exact, source: "register: PRE-REG-B RESULT"}
+      - {name: genome_p95_rho, expected: 0.089, tol: {round: 3}, source: "register: PRE-REG-B RESULT"}
+      - {name: genome_median_rho, expected: 0.003, tol: {round: 3}, source: "register: PRE-REG-B RESULT"}
+      - {name: n_co_dependent, expected: 0, tol: exact, source: "register: PRE-REG-B RESULT ('No candidate is co-dependent')"}
+      - {name: label_PPP2R5B, expected: "not co-dependent", tol: exact, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_PPP2R5B, expected: 0.098, tol: {round: 3}, source: "register: PRE-REG-B RESULT"}
+      - {name: pct_PPP2R5B, expected: 96.5, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_PPP2R5A, expected: 0.067, tol: {round: 3}, source: "register: PRE-REG-B RESULT"}
+      - {name: pct_PPP2R5A, expected: 89.8, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_PPP2R5E, expected: 0.062, tol: {round: 3}, source: "register: PRE-REG-B RESULT"}
+      - {name: pct_PPP2R5E, expected: 87.4, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_ANAPC4, expected: 0.060, tol: {round: 3}, source: "register: PRE-REG-B RESULT"}
+      - {name: pct_ANAPC4, expected: 86.7, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_ANAPC15, expected: -0.147, tol: {round: 3}, source: "register: PRE-REG-B RESULT"}
+      - {name: pct_ANAPC15, expected: 0.6, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_ANAPC13, expected: -0.129, tol: {round: 3}, source: "register: PRE-REG-B RESULT"}
+      - {name: pct_ANAPC13, expected: 1.4, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_UBE2C, expected: -0.079, tol: {round: 3}, source: "register: PRE-REG-B RESULT"}
+      - {name: pct_UBE2C, expected: 7.6, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_SIRT2, expected: 0.043, tol: {round: 3}, source: "register: PRE-REG-B RESULT (control)"}
+      - {name: pct_SIRT2, expected: 78.0, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_NAMPT, expected: -0.059, tol: {round: 3}, source: "register: PRE-REG-B RESULT (control)"}
+      - {name: pct_NAMPT, expected: 13.4, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_NMNAT1, expected: -0.074, tol: {round: 3}, source: "register: PRE-REG-B RESULT (control)"}
+      - {name: pct_NMNAT1, expected: 9.0, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_ABL1, expected: 0.049, tol: {round: 3}, source: "register: PRE-REG-B RESULT (control)"}
+      - {name: pct_ABL1, expected: 81.4, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+      - {name: rho_SRC, expected: 0.012, tol: {round: 3}, source: "register: PRE-REG-B RESULT (control)"}
+      - {name: pct_SRC, expected: 56.6, tol: {round: 1}, source: "register: PRE-REG-B RESULT"}
+
+  T2-POWER-01:
+    decision_rule: "Illustrative power guide only (no pre-registered decision): two-arm parallel design, two-sided t-test, alpha 0.05, standardized effect d; power by n per arm and n per arm for 80% power. Not an estimate of the true effect."
+    exact_if: []
+    metrics:
+      - {name: "power n=5", expected: [7.0, 10.8, 20.1], tol: exact, source: "register: T2-POWER-01 (d = 0.3, 0.5, 0.8; percent, 1 decimal)"}
+      - {name: "power n=10", expected: [9.7, 18.5, 39.5], tol: exact, source: "register: T2-POWER-01"}
+      - {name: "power n=20", expected: [15.2, 33.8, 69.3], tol: exact, source: "register: T2-POWER-01"}
+      - {name: "power n=40", expected: [26.3, 59.8, 94.2], tol: exact, source: "register: T2-POWER-01"}
+      - {name: "power n=80", expected: [47.1, 88.2, 99.9], tol: exact, source: "register: T2-POWER-01"}
+      - {name: n_per_arm_80pct, expected: {"0.3": 176, "0.5": 64, "0.8": 26}, tol: exact, source: "register: T2-POWER-01"}
+
+  T2-TRIAL-01:
+    decision_rule: "Registry feasibility query (ClinicalTrials.gov API v2): nicotinamide mononucleotide OR NMN OR nicotinamide riboside; statuses recruiting, active, completed, not yet recruiting. Descriptive. The registry is live, so counts can drift after 2026-10-20."
+    exact_if: []
+    metrics:
+      - {name: total_studies, expected: 148, tol: exact, source: "register: T2-TRIAL-01 ('Result: 148 studies')"}
+      - {name: nct_status, expected: {NCT04691986: ACTIVE_NOT_RECRUITING, NCT03579693: COMPLETED, NCT06208527: RECRUITING, NCT07144527: RECRUITING, NCT07693543: NOT_YET_RECRUITING, NCT05759468: RECRUITING, NCT04342975: COMPLETED, NCT03176628: COMPLETED}, tol: exact, source: "register: T2-TRIAL-01 (NCT IDs and statuses as registered)"}
+
+  M-EVO2-CAL-01-CONTROLS:
+    rule_file: CALIBRATION_RULE.md
+    decision_rule: "CALIBRATION_RULE.md section 1: SNV; CLNREVSTAT in four allowed values; CLNSIG P (Pathogenic, Likely_pathogenic) or B (Benign, Likely_benign); MC missense or nonsense/stop_gained; BUB1B excluded; per cell the 5 genes with most eligible records (ties alphabetical); per gene the 10 records with the lowest SHA-256 of VariationID. Public data only."
+    exact_if: [input:clinvar_vcf]
+    metrics:
+      - {name: controls, expected: 198, tol: exact, source: "register: M-EVO2-CAL-01 ('198 controls (100 P, 98 B)')"}
+      - {name: controls_P, expected: 100, tol: exact, source: "register: M-EVO2-CAL-01"}
+      - {name: controls_B, expected: 98, tol: exact, source: "register: M-EVO2-CAL-01"}
+      - {name: eligible_P_missense, expected: 48847, tol: exact, source: "register: M-EVO2-CAL-01 ('P missense 48,847 vs 48,651' in the rule text)"}
+      - {name: eligible_B_nonsense, expected: 833, tol: exact, source: "register: M-EVO2-CAL-01 ('B nonsense 833 vs 858')"}
+      - {name: eligible_P_nonsense, expected: 61304, tol: exact, source: "harness: stored selection_summary.tsv (the rule text says 61,500; the register does not list this difference)"}
+      - {name: eligible_B_missense, expected: 130311, tol: exact, source: "harness: stored selection_summary.tsv (the rule text says 130,286; the register does not list this difference)"}
+      - {name: sha256_controls_rule, expected: e26a8abb38f7be31e0773511191f65d557295c6188fc5569cfe10b0f22f913b2, tol: exact, source: "register: M-EVO2-CAL-01"}
+      - {name: sha256_script, expected: 98df6946060e4f36e93920af9b0dea987ed319be1c0e0713c0ebe190e82d8f11, tol: exact, source: "register: M-EVO2-CAL-01 (build_rule_controls.py sha256)"}
+
+  M-EVO2-CAL-01-SCORE:
+    rule_file: CALIBRATION_RULE.md
+    decision_rule: "Evo 2 7B log-likelihood delta (alt - ref) over a 2,049 bp window for each control. Disclosed deviations: use_fp8_input_projections False (RTX 3090 has no FP8), NVTE_ALLOW_UNSAFE_PICKLE_EXTRA_STATE=1 for this process only and only after the weights' sha256 matches, one GPU."
+    exact_if: [input:evo2_weights, artifact:controls_rule, input:fasta]
+    metrics:
+      - {name: rows, expected: 198, tol: exact, source: "register: M-EVO2-CAL-01"}
+      - {name: scoring_errors, expected: 0, tol: exact, source: "register: M-EVO2-CAL-01 ('the identical run later scored all variants without error')"}
+      - {name: sha256_scores, expected: 2a1b2a093301e3ff32068ef73a60376928a7b724ff5b761cd1811f2cd4c0e410, tol: exact, source: "harness: stored output; GPU numerics may differ between runs, so a mismatch here is reported, not hidden"}
+
+  M-EVO2-CAL-01:
+    rule_file: CALIBRATION_RULE.md
+    decision_rule: "CALIBRATION_RULE.md section 2: AUC of P vs B with score = -delta; 95% CI from 2,000 stratified percentile bootstrap resamples (seed 1). Informative only if the CI lower bound is above 0.7; 0.6 to 0.7 exploratory; below 0.6 not used. Missense and nonsense subsets are post hoc and exploratory."
+    exact_if: [artifact:evo2_control_scores, artifact:controls_rule]
+    metrics:
+      - {name: all_nP_nB, expected: [100, 98], tol: exact, source: "register: M-EVO2-CAL-01"}
+      - {name: all_auc, expected: 0.677, tol: exact, tol_alt: {abs: 0.02}, source: "register: M-EVO2-CAL-01"}
+      - {name: all_ci, expected: [0.602, 0.748], tol: exact, tol_alt: {abs: 0.03}, source: "register: M-EVO2-CAL-01"}
+      - {name: missense_auc, expected: 0.797, tol: exact, tol_alt: {abs: 0.02}, source: "register: M-EVO2-CAL-01 (post hoc)"}
+      - {name: missense_ci, expected: [0.698, 0.875], tol: exact, tol_alt: {abs: 0.03}, source: "register: M-EVO2-CAL-01 (post hoc)"}
+      - {name: nonsense_auc, expected: 0.638, tol: exact, tol_alt: {abs: 0.02}, source: "register: M-EVO2-CAL-01 (post hoc)"}
+      - {name: nonsense_ci, expected: [0.522, 0.747], tol: exact, tol_alt: {abs: 0.03}, source: "register: M-EVO2-CAL-01 (post hoc)"}
+      - {name: verdict, expected: EXPLORATORY, tol: exact, tol_alt: exact, source: "register: M-EVO2-CAL-01 ('lower bound 0.602 is between 0.6 and 0.7 -> EXPLORATORY, not informative')"}
+
+  M-EVO2-CHILD-01:
+    rule_file: CALIBRATION_RULE.md
+    decision_rule: "Evo 2 deltas for the candidate's two calls, same settings as M-EVO2-CAL-01. Reported as uninterpreted model output only: Evo 2 did not pass calibration, so no percentile is reported (rule section 3)."
+    exact_if: [input:evo2_weights, input:fasta, artifact:candidate]
+    metrics:
+      - {name: nonsense_delta, expected: -46.78, tol: {round: 2}, tol_alt: {abs: 0.5}, source: "register: M-EVO2-CHILD-01"}
+      - {name: missense_delta, expected: -11.68, tol: {round: 2}, tol_alt: {abs: 0.5}, source: "register: M-EVO2-CHILD-01"}
+      - {name: ref_checks_ok, expected: 2, tol: exact, tol_alt: exact, source: "register: M-EVO2-CHILD-01 ('ref_check ok')"}
+
+  M-PROT-CAL-02-BUILD:
+    rule_file: CALIBRATION_RULE.md
+    decision_rule: "Protein inputs for the rule-compliant pool: missense controls only; canonical GENCODE v44 CDS from the reference FASTA; a row is kept only if the genomic ref base and the translated residue match. Deviation disclosed in the register: nonsense controls cannot be scored by masked-marginal LLR."
+    exact_if: [artifact:controls_rule, input:gtf, input:fasta]
+    metrics:
+      - {name: kept, expected: 98, tol: exact, source: "register: M-PROT-CAL-02 ('98 of 100 missense controls kept (2 outside CDS)')"}
+      - {name: kept_P, expected: 49, tol: exact, source: "register: M-PROT-CAL-02 ('missense only: 49 P, 49 B')"}
+      - {name: kept_B, expected: 49, tol: exact, source: "register: M-PROT-CAL-02"}
+      - {name: dropped, expected: {outside_cds: 2}, tol: exact, source: "register: M-PROT-CAL-02"}
+      - {name: FBN1_length, expected: 2871, tol: exact, source: "register: M-PROT-CAL-02 ('FBN1 now 2,871 aa, starts M')"}
+      - {name: FBN1_first_residue, expected: M, tol: exact, source: "register: M-PROT-CAL-02"}
+      - {name: sha256_controls_tsv, expected: f22d45f929209b117b3958c0304f0b31d62ed3f02ed3b684ae5c348b348c37a9, tol: exact, source: "harness: stored output"}
+
+  M-PROT-CAL-02-SCORE:
+    rule_file: CALIBRATION_RULE.md
+    decision_rule: "Masked-marginal LLR (ESM-1v, ESM-2) and AlphaMissense lookup for the controls and the candidate missense call."
+    exact_if: [artifact:protein_controls, input:esm1v_dir, input:esm2_dir, input:alphamissense, artifact:candidate]
+    metrics:
+      - {name: am_matched, expected: "97 of 99", tol: exact, source: "harness: stored score_rule.log"}
+      - {name: auc_esm1v, expected: 0.964, tol: exact, tol_alt: {abs: 0.01}, source: "register: M-PROT-CAL-02"}
+      - {name: auc_esm2, expected: 0.875, tol: exact, tol_alt: {abs: 0.01}, source: "register: M-PROT-CAL-02"}
+      - {name: auc_am, expected: 0.921, tol: exact, tol_alt: exact, source: "register: M-PROT-CAL-02"}
+      - {name: sha256_scores, expected: 581a5b8bd9a7b8538444ae5bc4c05cf4ec3f277c15f5099447815d0d316d6994, tol: exact, source: "harness: stored output; GPU numerics may differ between runs"}
+
+  M-PROT-CAL-02:
+    rule_file: CALIBRATION_RULE.md
+    decision_rule: "CALIBRATION_RULE.md section 2 (AUC, 2,000 stratified bootstrap, seed 1; informative if CI lower bound > 0.7) and section 3 (the candidate's percentile among controls, only for models that pass)."
+    exact_if: [artifact:protein_scores]
+    metrics:
+      - {name: esm1v_nP_nB, expected: [49, 49], tol: exact, source: "register: M-PROT-CAL-02"}
+      - {name: esm1v_auc, expected: 0.964, tol: exact, tol_alt: {abs: 0.01}, source: "register: M-PROT-CAL-02"}
+      - {name: esm1v_ci, expected: [0.916, 0.998], tol: exact, tol_alt: {abs: 0.02}, source: "register: M-PROT-CAL-02"}
+      - {name: esm1v_verdict, expected: INFORMATIVE, tol: exact, tol_alt: exact, source: "register: M-PROT-CAL-02"}
+      - {name: esm2_nP_nB, expected: [49, 49], tol: exact, source: "register: M-PROT-CAL-02"}
+      - {name: esm2_auc, expected: 0.875, tol: exact, tol_alt: {abs: 0.01}, source: "register: M-PROT-CAL-02"}
+      - {name: esm2_ci, expected: [0.805, 0.935], tol: exact, tol_alt: {abs: 0.02}, source: "register: M-PROT-CAL-02"}
+      - {name: esm2_verdict, expected: INFORMATIVE, tol: exact, tol_alt: exact, source: "register: M-PROT-CAL-02"}
+      - {name: am_nP_nB, expected: [47, 49], tol: exact, source: "register: M-PROT-CAL-02 ('47 P, 49 B matched; 2 unmatched')"}
+      - {name: am_auc, expected: 0.921, tol: exact, tol_alt: exact, source: "register: M-PROT-CAL-02"}
+      - {name: am_ci, expected: [0.861, 0.969], tol: exact, tol_alt: exact, source: "register: M-PROT-CAL-02"}
+      - {name: am_verdict, expected: INFORMATIVE, tol: exact, tol_alt: exact, source: "register: M-PROT-CAL-02"}
+      - {name: esm1v_child_damage, expected: -0.586, tol: {round: 3}, tol_alt: {abs: 0.01}, source: "register: M-PROT-CAL-02"}
+      - {name: esm1v_child_percentile, expected: 0.082, tol: exact, tol_alt: {abs: 0.011}, source: "register: M-PROT-CAL-02"}
+      - {name: esm2_child_damage, expected: 5.810, tol: {round: 3}, tol_alt: {abs: 0.01}, source: "register: M-PROT-CAL-02"}
+      - {name: esm2_child_percentile, expected: 0.612, tol: exact, tol_alt: {abs: 0.011}, source: "register: M-PROT-CAL-02"}
+      - {name: am_child_score, expected: 0.923, tol: {round: 3}, tol_alt: {round: 3}, source: "register: M-PROT-CAL-02"}
+      - {name: am_child_percentile, expected: 0.760, tol: exact, tol_alt: exact, source: "register: M-PROT-CAL-02"}
+
+  PRE-REG-D:
+    rule_file: CALIBRATION_RULE.md
+    decision_rule: "PRE-REG-2026-10-20-D: place the candidate's missense allele among BUB1B p.I909T and p.L1012P (literature alleles) by ESM-1v and ESM-2 damage (-LLR) and AlphaMissense, each as a percentile among the calibration controls. No class call. Falsifier of 'the candidate missense sits with I909T and L1012P': a model that places it outside the range spanned by the two. The candidate missense is taken from T1-CANDIDATE and reported as candidate_missense."
+    exact_if: [artifact:protein_scores, input:esm1v_dir, input:esm2_dir, input:alphamissense, artifact:candidate]
+    metrics:
+      - {name: I909T_esm1v, expected: [5.408, 60.2], tol: exact, tol_alt: {abs: 0.05}, source: "register: PRE-REG-D RESULT (damage, percentile)"}
+      - {name: I909T_esm2, expected: [5.711, 60.2], tol: exact, tol_alt: {abs: 0.05}, source: "register: PRE-REG-D RESULT"}
+      - {name: I909T_am, expected: [0.451, 54.2], tol: exact, tol_alt: exact, source: "register: PRE-REG-D RESULT"}
+      - {name: L1012P_esm1v, expected: [1.137, 39.8], tol: exact, tol_alt: {abs: 0.05}, source: "register: PRE-REG-D RESULT"}
+      - {name: L1012P_esm2, expected: [6.937, 66.3], tol: exact, tol_alt: {abs: 0.05}, source: "register: PRE-REG-D RESULT"}
+      - {name: L1012P_am, expected: [0.872, 72.9], tol: exact, tol_alt: exact, source: "register: PRE-REG-D RESULT"}
+      - {name: candidate_missense_esm1v, expected: [-0.586, 8.2], tol: exact, tol_alt: {abs: 0.05}, source: "register: PRE-REG-D RESULT"}
+      - {name: candidate_missense_esm2, expected: [5.810, 61.2], tol: exact, tol_alt: {abs: 0.05}, source: "register: PRE-REG-D RESULT"}
+      - {name: candidate_missense_am, expected: [0.923, 76.0], tol: exact, tol_alt: exact, source: "register: PRE-REG-D RESULT"}
+      - {name: falsifier_esm1v, expected: triggered, tol: exact, tol_alt: exact, source: "register: PRE-REG-D RESULT"}
+      - {name: falsifier_esm2, expected: not triggered, tol: exact, tol_alt: exact, source: "register: PRE-REG-D RESULT"}
+      - {name: falsifier_am, expected: triggered, tol: exact, tol_alt: exact, source: "register: PRE-REG-D RESULT"}
+      - {name: result, expected: NOT PLACED, tol: exact, tol_alt: exact, source: "register: PRE-REG-D RESULT ('two of three models contradict the placement')"}
+
+  T2-P5:
+    decision_rule: "PRE-REG-T2-P5: same method as T2-P4 for the candidate targets not covered there; per gene the fraction of cell lines with Chronos < -0.5 and the blood-lineage median; flag if the fraction >= 0.25; genes with no column are 'not measured', never 0. Per-candidate count of flagged targets over its pre-set target list. Descriptive; cancer lines only."
+    exact_if: [input:depmap_gene_effect, input:depmap_model]
+    metrics:
+      - {name: n_lines, expected: 1178, tol: exact, source: "register: T2-P5 RESULT"}
+      - {name: blood_lines_in_model, expected: 348, tol: exact, source: "register: T2-P5 RESULT"}
+      - {name: blood_lines_with_effects, expected: 135, tol: exact, source: "register: T2-P5 RESULT"}
+      - {name: genes_measured, expected: 24, tol: exact, source: "register: T2-P5 RESULT ('Genes requested 26; with a DepMap column 24')"}
+      - {name: not_measured, expected: [HSPA1A, HSPA1B], tol: set, source: "register: T2-P5 RESULT"}
+      - {name: flagged_targets, expected: [NAMPT, PPP2CA, PPP2R1A, HDAC3], tol: set, source: "register: T2-P5 RESULT (flag column)"}
+      - {name: candidate_flag_counts, expected: {niacin: 0, nicotinamide: 1, NMN: 0, NR: 0, fingolimod: 2, arimoclomol: 0, 4-PBA: 1}, tol: exact, source: "register: T2-P5 RESULT (per-candidate table)"}
+      - {name: frac_NAPRT, expected: 0.012, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_NAPRT, expected: -0.139, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_HCAR2, expected: 0.000, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_HCAR2, expected: 0.179, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_NAMPT, expected: 0.296, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_NAMPT, expected: -0.936, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_NMNAT1, expected: 0.188, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_NMNAT1, expected: -0.911, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_NMNAT2, expected: 0.000, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_NMNAT2, expected: 0.050, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_NMNAT3, expected: 0.000, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_NMNAT3, expected: -0.027, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_NMRK1, expected: 0.000, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_NMRK1, expected: 0.060, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_NMRK2, expected: 0.000, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_NMRK2, expected: -0.026, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_SLC12A8, expected: 0.002, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_SLC12A8, expected: 0.035, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_SIRT1, expected: 0.004, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_SIRT1, expected: 0.089, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_SIRT2, expected: 0.006, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_SIRT2, expected: -0.036, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_SPHK2, expected: 0.001, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_SPHK2, expected: -0.169, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_S1PR1, expected: 0.002, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_S1PR1, expected: 0.007, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_S1PR3, expected: 0.003, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_S1PR3, expected: -0.009, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_S1PR4, expected: 0.002, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_S1PR4, expected: -0.048, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_S1PR5, expected: 0.000, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_S1PR5, expected: -0.030, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_SET, expected: 0.009, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_SET, expected: -0.149, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_PPP2CA, expected: 0.826, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_PPP2CA, expected: -1.166, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_PPP2R1A, expected: 0.779, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_PPP2R1A, expected: -0.510, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_HSF1, expected: 0.168, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_HSF1, expected: -0.164, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_HDAC1, expected: 0.040, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_HDAC1, expected: -0.196, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_HDAC2, expected: 0.028, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_HDAC2, expected: -0.030, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_HDAC3, expected: 0.874, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_HDAC3, expected: -1.057, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: frac_HDAC8, expected: 0.025, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: blood_median_HDAC8, expected: -0.118, tol: {round: 3}, source: "register: T2-P5 RESULT"}
+      - {name: sha256_depmap_tsv, expected: d091a3ae5dc816524ea95a52d88222b5274e6c54481ed84ca48f0eb5c6589af6, tol: exact, source: "harness: stored t2_p5_depmap.tsv"}
+      - {name: sha256_candidate_counts_tsv, expected: ec2ae968a53a386d4098b89489e0db6c184ac9b39d37fc807283d64e78c46ffb, tol: exact, source: "harness: stored t2_p5_candidate_counts.tsv"}
+
+  T2-CLASS-01:
+    decision_rule: "PRE-REG-T2-CLASS-01: criteria C1 (regulatory class, openFDA), C2, C3 (T2-P5 safety placement) and C4 (direction at reached human exposure). Register result: SEPARATE, then DROP nicotinamide. Not scripted as one step (network queries by drug name plus criteria applied to sources)."
+    metrics: []
+
+  PRE-REG-SPIKEIN-EPCR-CHECK:
+    decision_rule: "Section 8 of PRE_REG_SPIKEIN_EPCR.md re-applied to the published rank counts: smooth each rank's share as (k_r + 0.5)/(N + 1), enforce monotonic non-increase by isotonic regression, then subtract 1e-5 per rank and round, widening the decimals until every value is in (0, 1] and the vector is strictly decreasing. The result must equal the epcr column of the submitted CSV."
+    metrics:
+      - {name: epcr_vector, expected: [0.533223, 0.413611, 0.001641, 0.001631, 0.001621, 0.001611, 0.001601, 0.001591, 0.001581, 0.001571], tol: exact, source: "spike-in RESULT section 4, and the epcr column of preregistration/rowmap/TRACK1_SUBMISSION_ROWMAP_PROPOSED.csv, the CSV we submitted"}
+      - {name: matches_submitted_vector, expected: true, tol: exact, source: "the rule applied to the published counts must give the submitted vector; that is what this step exists to check"}
+      - {name: epcr_decimals, expected: 6, tol: exact, source: "spike-in RESULT section 4 ('strictly decreasing at 6 decimals')"}
+      - {name: strictly_decreasing, expected: true, tol: exact, source: "spike-in RESULT section 4 ('All values in (0, 1], strictly decreasing at 6 decimals. VERIFIED')"}
+      - {name: all_in_unit_interval, expected: true, tol: exact, source: "spike-in RESULT section 4"}
+      - {name: primary_N, expected: 300, tol: exact, source: "spike-in RESULT section 2, stratum A"}
+      - {name: rank1_recall_from_counts, expected: 0.533, tol: {round: 3}, source: "spike-in RESULT section 2; 160 of 300"}
+      - {name: top10_rate_from_counts, expected: 0.947, tol: {round: 3}, source: "spike-in RESULT section 4; 284 of 300"}
+
+  PRE-REG-ROWMAP-CHECK:
+    decision_rule: "Decision D-RM-1 of PRE_REG_ROWMAP.md re-applied to the published per-combination points distributions: the winner is the combination with the highest total rank points over the primary strata, ties broken by the simpler construction then the simpler rule; adopt it over the draft R0 x C1 only if (a) the mean gain is at least 2.0 points, (b) the lower end of the Bonferroni-adjusted bootstrap interval over 17 comparisons is above 0, and (c) the gain is non-negative in both primary strata."
+    metrics:
+      - {name: primary_trials, expected: 779, tol: exact, source: "ROW-MAP RESULT section 2 ('PRIM = A-CH-dec + E-CH-dec, N = 779 trials, 201 genes')"}
+      - {name: draft_mean_points, expected: 49.10, tol: {round: 2}, source: "ROW-MAP RESULT section 2, R0 draft under C1"}
+      - {name: winner_mean_points, expected: 80.20, tol: {round: 2}, source: "ROW-MAP RESULT section 2, P5 under C3; the figure the Track 1 report quotes as 80.2"}
+      - {name: winner, expected: P5xC3, tol: exact, source: "ROW-MAP RESULT section 3, decision D-RM-1"}
+      - {name: delta_vs_draft, expected: 31.10, tol: {round: 2}, source: "ROW-MAP RESULT section 3 ('+31.10')"}
+      - {name: condition_a_margin, expected: true, tol: exact, source: "ROW-MAP RESULT section 3 (margin met)"}
+      - {name: condition_b_gate, expected: true, tol: exact, source: "ROW-MAP RESULT section 3, gate interval [24.26, 37.72]; read from the published result, not recomputed (see the step note)"}
+      - {name: condition_c_both_strata, expected: true, tol: exact, source: "ROW-MAP RESULT section 3 ('+30.08 / +32.09')"}
+      - {name: verdict, expected: "adopt P5xC3", tol: exact, source: "ROW-MAP RESULT section 3, decision D-RM-1 ('adopt P5 x C3 (margin, gate and per-stratum condition all met)')"}
+
+  PRE-REG-ROWMAP:
+    decision_rule: "PRE_REG_ROWMAP.md (sha256 9f7a440d...), decision D-RM-1: over the primary strata, adopt the row-building combination with the highest total rank points if (a) its mean gain over the draft rule R0 x C1 is at least 2.0 points, (b) the lower end of a Bonferroni-adjusted bootstrap interval over 17 comparisons is above 0, and (c) the gain is non-negative in both primary strata; otherwise keep R0 x C1. Result: adopt P5 x C3 (+31.10 points, gate interval [24.26, 37.72], +30.08 and +32.09 per stratum). Rows 4 and 5 of the submission changed; row 1 did not. Not run by the harness: see the step note and replicate/EXTERNAL_STEPS.md."
+    metrics: []
+    info_note: "The adopted rule changed no row 1 in any of the 18 combinations tested, so for this child the automated score is unchanged; the decision is about expected scores over the trial population. The near-tie is stated plainly in preregistration/rowmap/RESULT.md section 3: P5 x C3 beats P2 x C3 and P3 x C3 by only +0.13 points, and almost all of the gain comes from replacing R0 rather than from the choice among P2, P3 and P5."
+
+  PRE-REG-SPIKEIN-G1:
+    rule_file: RANKING_RULE_v4.md
+    decision_rule: "Gate G1 of PRE_REG_SPIKEIN_EPCR.md, required before the spike-in was frozen: on the real data with no spike, the parametrised copies of the frozen extraction and consequence scripts and the ranking library used by the spike-in must reproduce the recorded tables and summaries byte for byte. If any part of G1 fails the spike-in may not be used."
+    exact_if: [artifact:consequence_fixed, artifact:child_exonic_calls, artifact:ranking_v3_fixed, artifact:ranking_v4_fixed, input:clinvar_vcf, input:hpo_obo, input:hpo_genes_to_phenotype]
+    metrics:
+      - {name: G1a_consequence_identical, expected: true, tol: exact, source: "spike-in RESULT, gate G1 ('consequence, extraction, v3 and v4 summaries byte-identical'); val_G1.json of the recorded run"}
+      - {name: G1b_calls_roundtrip_identical, expected: true, tol: exact, source: "spike-in RESULT, gate G1; val_G1.json"}
+      - {name: G1c_v3_summary_identical, expected: true, tol: exact, source: "spike-in RESULT, gate G1; val_G1.json"}
+      - {name: G1d_v4_summary_identical, expected: true, tol: exact, source: "spike-in RESULT, gate G1; val_G1.json"}
+      - {name: G1e_amended_top10, expected: [BUB1B, LZTR1, GNRHR, POU6F2, EIF4EBP1, HRNR, IGBP1, ADAMTS1, AGAP3, FOXO6], tol: exact, source: "val_G1.json of the recorded run; the same top 10 as RANK-V4BF"}
+      - {name: G1e_mt_genes_in_unamended_top10, expected: [MT-ATP6, MT-CYB, MT-ND2], tol: set, source: "val_G1.json; the same three genes as register BUG-V4-CHRM, which is why Amendment 1 is applied in every v4 run of the spike-in"}
+      - {name: G1e_rows_equal_draft, expected: true, tol: exact, source: "val_G1.json. NOT an independent check in the harness: the authors' submitted CSV is not shipped, so the rows it is compared against are rebuilt by the analysis library's own ROW-MAP (see the step note)"}
+
+  PRE-REG-SPIKEIN-TRIALS:
+    rule_file: RANKING_RULE_v4.md
+    decision_rule: "Sections 3 to 6 of PRE_REG_SPIKEIN_EPCR.md: mask the two candidate rows out of the child's exonic background, build the eligible spike pool from public ClinVar Pathogenic / Likely pathogenic records, enumerate the eight strata with the pre-registered seeds, then re-run the frozen consequence step and ranking rules v3 and v4 once per trial. Sanity checks S1 to S3 must pass before the trial loop starts."
+    exact_if: [artifact:consequence_fixed, artifact:child_exonic_calls, input:clinvar_vcf, input:hpo_obo, input:hpo_genes_to_phenotype, input:vcf]
+    metrics:
+      - {name: prereg_sha256, expected: 6d40e58fe2d34d92fa9ff42b7171ad5034b45c2409591779c4cc3775650ede69, tol: exact, source: "spike-in RESULT, first line; preregistration/frozen/SHA256SUMS.txt. The step hashes the shipped frozen file, so this also checks that the pre-registration in this repository is the one the run recorded"}
+      - {name: child_vcf_unchanged, expected: true, tol: exact, source: "spike-in RESULT ('Child VCF sha256 before and after ... unchanged. VERIFIED')"}
+      - {name: removed_rows, expected: 2, tol: exact, source: "run.log ('masked rows removed: 2'); the two candidate rows"}
+      - {name: S1_bub_keys_absent, expected: true, tol: exact, source: "spike-in RESULT, check S1"}
+      - {name: S1_no_bub1b_candidate, expected: true, tol: exact, source: "spike-in RESULT, check S1"}
+      - {name: S1_bub1b_not_ranked, expected: true, tol: exact, source: "spike-in RESULT, check S1"}
+      - {name: S2_masked_equals_original_minus_bub1b, expected: true, tol: exact, source: "spike-in RESULT, check S2"}
+      - {name: S3_bub1b_v4_rank, expected: 1, tol: exact, source: "spike-in RESULT, check S3 ('adding the real pair back puts BUB1B at v4 rank 1')"}
+      - {name: S3_bub1b_v3_rank, expected: 1, tol: exact, source: "spike-in RESULT, check S3"}
+      - {name: S3_v4_order_equals_unspiked, expected: true, tol: exact, source: "spike-in RESULT, check S3 ('full v4 and v3 orders equal the unspiked orders')"}
+      - {name: S3_v3_order_equals_unspiked, expected: true, tol: exact, source: "spike-in RESULT, check S3"}
+      - {name: masked_v4_top10, expected: [LZTR1, GNRHR, POU6F2, EIF4EBP1, HRNR, IGBP1, ADAMTS1, AGAP3, FOXO6, ADPRHL1], tol: exact, source: "spike-in RESULT section 1 ('Masked v4 top 10: the competition every spike faces')"}
+      - {name: n_trials, expected: {A: 300, A-BUB: 100, B: 300, C1: 100, C2-HOM: 120, C2-CH: 91, D: 300, E: 300}, tol: exact, source: "spike-in RESULT section 2, N per stratum; DEVIATIONS.md notes C2-CH is the enumerated count, 91"}
+      - {name: trials_total, expected: 1611, tol: exact, source: "run.log ('trials done: 1611')"}
+      - {name: eligible_pool_alleles, expected: 360243, tol: exact, source: "run.log ('eligible pool alleles: 360243')"}
+      - {name: synthetic_stop_loss_alleles, expected: 120, tol: exact, source: "run.log ('synthetic stop-loss alleles: 120')"}
+      - {name: child_bub1b_nonsense_in_pool, expected: false, tol: exact, source: "sanity.json; the child's own candidate allele is excluded from the spike pool by construction"}
+      - {name: pool_size_set18, expected: {RNU4ATAC: 29, RNU6ATAC: 0, ZRSR2: 6, SNRNP48: 0, ESCO2: 156, PCNT: 386, CENPF: 87, BUB1B: 81, TRIP13: 9, CEP57: 20, SMC5: 5, MAD1L1: 8, CEP192: 0, TRIM37: 117, CDC20: 11, MAD2L1BP: 0, CENATAC: 2, SLF2: 8}, tol: exact, source: "sanity.json; RESULT section 2 names the four genes with an empty pool (RNU6ATAC, SNRNP48, CEP192, MAD2L1BP)"}
+      - {name: sha256_trials, expected: 9b669a729f70fbea300d09be3f627461d6da57da2153b0caf86714fe39c65b33, tol: exact, source: "harness: stored output; the sha256 quoted in the spike-in RESULT header"}
+      - {name: sha256_alleles, expected: 607575a272a43d7a99bb3b33a956dfb43403d42ea03c283abb4bd4a7536b7d4b, tol: exact, source: "harness: stored output; the sha256 quoted in the spike-in RESULT header"}
+
+  PRE-REG-SPIKEIN:
+    rule_file: RANKING_RULE_v4.md
+    decision_rule: "Sections 7 to 9 of PRE_REG_SPIKEIN_EPCR.md applied to the trial table: per-stratum rank-1 recall and top-10 rate with Jeffreys 95% intervals, the paired McNemar comparison of v4 against v3, the EPCR vector (add-half smoothing, isotonic regression, then a 1e-5 per-rank tie-break so the vector is strictly decreasing at 6 decimals), and the seven pre-registered decisions D1 to D7. Bars as pre-registered: D1 rank-1 recall 0.80, D2 top-10 0.50, D4 gap 0.20, D5 0.05 with McNemar p < 0.05."
+    exact_if: [artifact:spikein_trials]
+    metrics:
+      - {name: epcr_vector, expected: [0.533223, 0.413611, 0.001641, 0.001631, 0.001621, 0.001611, 0.001601, 0.001591, 0.001581, 0.001571], tol: exact, source: "spike-in RESULT section 4, the EPCR column; this is the epcr column of the submitted CSV and of the Track 1 report's row table"}
+      - {name: epcr_decimals, expected: 6, tol: exact, source: "spike-in RESULT section 4 ('strictly decreasing at 6 decimals')"}
+      - {name: A_v4_N, expected: 300, tol: exact, source: "spike-in RESULT section 2, stratum A"}
+      - {name: A_v4_rank1_recall, expected: 0.533, tol: {round: 3}, source: "spike-in RESULT section 2 and the Track 1 report abstract ('rank-1 recall was 0.533')"}
+      - {name: A_v4_rank1_ci, expected: [0.477, 0.589], tol: {round: 3}, source: "spike-in RESULT section 2, Jeffreys 95% interval [0.477, 0.589]"}
+      - {name: A_v4_top10, expected: 0.947, tol: {round: 3}, source: "spike-in RESULT section 4 ('P(causal in top 10) = 284/300 = 0.947')"}
+      - {name: A_v4_top10_ci, expected: [0.917, 0.968], tol: {round: 3}, source: "spike-in RESULT section 4"}
+      - {name: A_v4_rank_dist_1_10, expected: {'1': 160, '2': 124, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0, '10': 0}, tol: exact, source: "spike-in RESULT section 2, stratum A rank distribution (160, 124, 0, 0, 16 not ranked)"}
+      - {name: A_v4_not_ranked, expected: 16, tol: exact, source: "spike-in RESULT section 4 ('The 16 misses are all RNU4ATAC (non-coding)')"}
+      - {name: A_v3_rank1_recall, expected: 0.840, tol: {round: 3}, source: "spike-in RESULT section 2, stratum A v3 rank-1 recall"}
+      - {name: A_BUB_v4_rank1_recall, expected: 1.0, tol: exact, source: "spike-in RESULT section 2, stratum A-BUB, and the report abstract ('1.000 for other BUB1B pairs')"}
+      - {name: B_v4_rank1_recall, expected: 0.0, tol: exact, source: "spike-in RESULT section 2, stratum B, and the report abstract ('0.000 with ClinVar hidden')"}
+      - {name: B_v4_top10, expected: 0.790, tol: {round: 3}, source: "spike-in RESULT section 2, stratum B top-10 0.790"}
+      - {name: C1_v4_rank1_recall, expected: 0.05, tol: {round: 3}, source: "spike-in RESULT section 2, stratum C1"}
+      - {name: C2_HOM_v4_top10, expected: 0.0, tol: exact, source: "spike-in RESULT section 2, stratum C2-HOM (the stop-loss blind spot)"}
+      - {name: C2_CH_v4_rank1_recall, expected: 0.341, tol: {round: 3}, source: "spike-in RESULT section 2, stratum C2-CH"}
+      - {name: D_v4_rank1_recall, expected: 0.010, tol: {round: 3}, source: "spike-in RESULT section 2, stratum D (control: recessive genes with no phenotype match)"}
+      - {name: D_v3_rank1_recall, expected: 0.760, tol: {round: 3}, source: "spike-in RESULT section 2, stratum D under v3; the specificity the phenotype layer buys"}
+      - {name: E_v4_N, expected: 300, tol: exact, source: "spike-in RESULT section 2, stratum E"}
+      - {name: E_v4_rank1_recall, expected: 0.857, tol: {round: 3}, source: "spike-in RESULT section 2, stratum E (recessive genes WITH a phenotype match, not in the MVA set)"}
+      - {name: D3_stop_alleles, expected: 311, tol: exact, source: "spike-in RESULT section 3, decision D3"}
+      - {name: D3_labelled_stop_lost, expected: 0, tol: exact, source: "spike-in RESULT section 3 ('0/311 stop-loss alleles labelled stop_lost')"}
+      - {name: D3_stop_allele_candidate, expected: 8, tol: exact, source: "spike-in RESULT section 3 ('a ranked candidate in 8/311 = 2.6%')"}
+      - {name: D5_v4_only, expected: 9, tol: exact, source: "spike-in RESULT section 3, decision D5 ('discordant pairs 9 (v4 only) vs 101 (v3 only)')"}
+      - {name: D5_v3_only, expected: 101, tol: exact, source: "spike-in RESULT section 3, decision D5"}
+      - {name: D5_mcnemar_exact_p, expected: 7.8e-21, tol: {sigfig: 2}, source: "spike-in RESULT section 3 ('McNemar exact p = 7.8e-21')"}
+      - {name: mean_rank_points, expected: 73.8, tol: {round: 1}, source: "spike-in RESULT section 4 ('mean rank points 73.8'); the ROW-MAP RESULT cross-checks the same number as A-d0 73.83"}
+      - {name: mean_fmax, expected: 0.843, tol: {round: 3}, source: "spike-in RESULT section 4 ('mean F-max 0.843')"}
+      - {name: ordinal_vector_identical, expected: true, tol: exact, source: "spike-in RESULT section 4 ('Rescoring with the ordinal vector (11 - r)/11 gives identical points and F-max in every trial. VERIFIED')"}
+      - {name: decision_D1, expected: "partly robust", tol: exact, source: "spike-in RESULT section 3, D1"}
+      - {name: decision_D1_falsified, expected: true, tol: exact, source: "spike-in RESULT section 3 ('H-SPK-1 falsified (0.533 < 0.80)') and the report abstract ('the pre-registered bar was not met')"}
+      - {name: decision_D2, expected: "finds without ClinVar", tol: exact, source: "spike-in RESULT section 3, D2"}
+      - {name: decision_D2_falsified, expected: false, tol: exact, source: "spike-in RESULT section 3, D2 (top-10 0.790 against a bar of 0.50)"}
+      - {name: decision_D3_known_limitation_falsified, expected: false, tol: exact, source: "spike-in RESULT section 3, D3 (the stop-loss limitation is confirmed, not falsified)"}
+      - {name: decision_D3_blind_spot, expected: true, tol: exact, source: "spike-in RESULT section 3, D3 ('Blind spot, must be listed in the methods')"}
+      - {name: decision_D4, expected: "separates", tol: exact, source: "spike-in RESULT section 3, D4 (0.533 - 0.010 = 0.523 against a gap bar of 0.20)"}
+      - {name: decision_D5, expected: "harm", tol: exact, source: "spike-in RESULT section 3, D5 ('harm in stratum A: v4 0.533 vs v3 0.840'); H-SPK-5 falsified"}
+      - {name: decision_D6_gate, expected: true, tol: exact, source: "spike-in RESULT section 3, D6 (adoption gate: G1, S1 to S3, N_A = 300)"}
+      - {name: decision_D7, expected: "conservative for BUB1B row", tol: exact, source: "spike-in RESULT section 3, D7 (A-BUB rank-1 recall 1.000 > 0.533)"}
+      - {name: sha256_summary, expected: e7d7b536d0b150c98809faa1aac43d5cf3ab29e432477ba19899dcb164806c63, tol: exact, source: "harness: stored output; the sha256 quoted in the spike-in RESULT header"}
+    info_note: "EPCR is a rank-slot calibration, not a per-gene probability: EPCR_r is the measured probability that a spiked causal lands at rank r in this background, so EPCR_2 describes the slot behind the strongest phenotype-matched tier-A gene rather than the probability that the gene actually at row 2 is causal. Section 5 of the spike-in RESULT states this. Because the organisers' score ignores the magnitudes once the vector is strictly decreasing, the values affect only what the methods text may claim."

@@ -1,0 +1,61 @@
+1. PLoS Biol. 2023 Oct 26;21(10):e3002339. doi: 10.1371/journal.pbio.3002339. 
+eCollection 2023 Oct.
+
+Diverse microtubule-targeted anticancer agents kill cells by inducing chromosome 
+missegregation on multipolar spindles.
+
+Zhou AS(1), Tucker JB(2), Scribano CM(1), Lynch AR(3), Carlsen CL(4), Pop-Vicas 
+ST(5), Pattaswamy SM(5), Burkard ME(6)(7)(8), Weaver BA(5)(7)(8).
+
+Author information:
+(1)Molecular and Cellular Pharmacology Graduate Training Program, University of 
+Wisconsin, Madison, Wisconsin, United States of America.
+(2)Cancer Biology Graduate Training Program, University of Wisconsin, Madison, 
+Wisconsin, United States of America.
+(3)Cellular and Molecular Pathology Graduate Training Program, University of 
+Wisconsin, Madison, Wisconsin, United States of America.
+(4)Cellular and Molecular Biology Graduate Training Program, University of 
+Wisconsin, Madison, Wisconsin, United States of America.
+(5)Department of Cell and Regenerative Biology, University of Wisconsin, 
+Madison, Wisconsin, United States of America.
+(6)Department of Medicine, University of Wisconsin, Madison, Wisconsin, United 
+States of America.
+(7)Department of Oncology/McArdle Laboratory for Cancer Research, University of 
+Wisconsin, Madison, Wisconsin, United States of America.
+(8)Carbone Cancer Center, University of Wisconsin, Madison, Wisconsin, United 
+States of America.
+
+Erratum in
+    PLoS Biol. 2025 Feb 12;23(2):e3003039. doi: 10.1371/journal.pbio.3003039.
+
+Microtubule-targeted agents are commonly used for cancer treatment, though many 
+patients do not benefit. Microtubule-targeted drugs were assumed to elicit 
+anticancer activity via mitotic arrest because they cause cell death following 
+mitotic arrest in cell culture. However, we recently demonstrated that 
+intratumoral paclitaxel concentrations are insufficient to induce mitotic arrest 
+and rather induce chromosomal instability (CIN) via multipolar mitotic spindles. 
+Here, we show in metastatic breast cancer and relevant human cellular models 
+that this mechanism is conserved among clinically useful microtubule poisons. 
+While multipolar divisions typically produce inviable progeny, multipolar 
+spindles can be focused into near-normal bipolar spindles at any stage of 
+mitosis. Using a novel method to quantify the rate of CIN, we demonstrate that 
+cell death positively correlates with net loss of DNA. Spindle focusing 
+decreases CIN and causes resistance to diverse microtubule poisons, which can be 
+counteracted by addition of a drug that increases CIN without affecting spindle 
+polarity. These results demonstrate conserved mechanisms of action and 
+resistance for diverse microtubule-targeted agents. Trial registration: 
+clinicaltrials.gov, NCT03393741.
+
+Copyright: © 2023 Zhou et al. This is an open access article distributed under 
+the terms of the Creative Commons Attribution License, which permits 
+unrestricted use, distribution, and reproduction in any medium, provided the 
+original author and source are credited.
+
+DOI: 10.1371/journal.pbio.3002339
+PMCID: PMC10602348
+PMID: 37883329 [Indexed for MEDLINE]
+
+Conflict of interest statement: M.E.B. declares the following: Medical advisory 
+board of Strata Oncology; Research funding from Abbvie, Arcus, Apollomics, 
+Elevation Oncology, Endeavor, Genetech, Puma, and Loxo Oncology, Seagen. All 
+other authors declare that they have no conflict of interest.

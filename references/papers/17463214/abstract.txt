@@ -1,0 +1,30 @@
+1. J Clin Pharmacol. 2007 Jun;47(6):681-8. doi: 10.1177/0091270007300264. Epub
+2007  Apr 26.
+
+Effect of the rate of niacin administration on the plasma and urine 
+pharmacokinetics of niacin and its metabolites.
+
+Menon RM(1), González MA, Adams MH, Tolbert DS, Leu JH, Cefali EA.
+
+Author information:
+(1)Kos Pharmaceuticals, Inc, 2100 N Commerce Parkway, Weston, FL 33326, USA. 
+[e-mail removed]
+
+The metabolic profile of niacin is influenced by the rate of niacin 
+administration. This study characterizes the effect of administration rate on 
+the pharmacokinetics of niacin and its metabolites. Twelve healthy males were 
+enrolled in an open-label, dose-rate escalation study and received 2000 mg 
+niacin at 3 different dosing rates. Plasma was analyzed for niacin, nicotinuric 
+acid, nicotinamide, and nicotinamide-N-oxide. Urine was analyzed for niacin and 
+the metabolites nicotinuric acid, nicotinamide, nicotinamide-N-oxide, 
+N-methylnicotinamide, and N-methyl-2-pyridone-5-carboxamide. C(max) and AUC(0-t) 
+for niacin and nicotinuric acid increased with an increase in dosing rate. The 
+changes observed in plasma nicotinamide and nicotinamide-N-oxide parameters, 
+however, did not correlate to dosing rate. The total amount of niacin and 
+metabolites excreted in urine was comparable for all 3 treatments. However, with 
+the increase in dosing rate, urine recovery of niacin and nicotinuric acid 
+showed a significant increase, whereas N-methyl-2-pyridone-5-carboxamide and 
+N-methylnicotinamide showed a significant decrease.
+
+DOI: 10.1177/0091270007300264
+PMID: 17463214 [Indexed for MEDLINE]

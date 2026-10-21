@@ -1,0 +1,999 @@
+{
+ "afatinib": {
+  "example_appl": [
+   "210804"
+  ],
+  "forms_single_systemic": [
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "afatinib"
+  ],
+  "n_products": 6,
+  "n_single_systemic": 3,
+  "statuses_any": [
+   "None (Tentative Approval)"
+  ],
+  "statuses_single_systemic": [
+   "None (Tentative Approval)"
+  ]
+ },
+ "alpelisib": {
+  "example_appl": [
+   "212526",
+   "215039",
+   "218466"
+  ],
+  "forms_single_systemic": [
+   "GRANULE;ORAL",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "alpelisib"
+  ],
+  "n_products": 7,
+  "n_single_systemic": 7,
+  "statuses_any": [
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Prescription"
+  ]
+ },
+ "amikacin": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "amikacin"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "amiodarone": {
+  "example_appl": [
+   "018972",
+   "020377",
+   "021594"
+  ],
+  "forms_single_systemic": [
+   "INJECTABLE;INJECTION",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "amiodarone hydrochloride",
+   "amiodarone"
+  ],
+  "n_products": 50,
+  "n_single_systemic": 50,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "amsacrine": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "amsacrine"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "arsenic trioxide": {
+  "example_appl": [
+   "021248",
+   "078729",
+   "206228"
+  ],
+  "forms_single_systemic": [
+   "INJECTABLE; INJECTION",
+   "INJECTABLE;INJECTION"
+  ],
+  "keys_searched": [
+   "arsenic trioxide"
+  ],
+  "n_products": 19,
+  "n_single_systemic": 19,
+  "statuses_any": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Prescription"
+  ]
+ },
+ "ascorbic": {
+  "example_appl": [
+   "209112",
+   "217131",
+   "220172"
+  ],
+  "forms_single_systemic": [
+   "SOLUTION;INTRAVENOUS"
+  ],
+  "keys_searched": [
+   "ascorbic acid",
+   "sodium ascorbate"
+  ],
+  "n_products": 29,
+  "n_single_systemic": 6,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Prescription"
+  ]
+ },
+ "aspirin": {
+  "example_appl": [
+   "016030",
+   "021317",
+   "200671"
+  ],
+  "forms_single_systemic": [
+   "CAPSULE, EXTENDED RELEASE;ORAL",
+   "CAPSULE;ORAL",
+   "TABLET, EXTENDED RELEASE;ORAL",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "aspirin",
+   "acetylsalicylic acid"
+  ],
+  "n_products": 119,
+  "n_single_systemic": 6,
+  "statuses_any": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Over-the-counter",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Over-the-counter"
+  ]
+ },
+ "atorvastatin": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "atorvastatin"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "axitinib": {
+  "example_appl": [
+   "202324",
+   "210234",
+   "211650"
+  ],
+  "forms_single_systemic": [
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "axitinib"
+  ],
+  "n_products": 7,
+  "n_single_systemic": 6,
+  "statuses_any": [
+   "None (Tentative Approval)",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "None (Tentative Approval)",
+   "Prescription"
+  ]
+ },
+ "azathioprine": {
+  "example_appl": [
+   "016324",
+   "074069",
+   "075252"
+  ],
+  "forms_single_systemic": [
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "azathioprine"
+  ],
+  "n_products": 19,
+  "n_single_systemic": 18,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "baricitinib": {
+  "example_appl": [
+   "207924",
+   "217542",
+   "217585"
+  ],
+  "forms_single_systemic": [
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "baricitinib"
+  ],
+  "n_products": 8,
+  "n_single_systemic": 8,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "belumosudil": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "belumosudil"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "bendamustine": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "bendamustine"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "beta-hydroxyisovaleric": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "beta-hydroxy-beta-methylbutyrate",
+   "calcium hmb"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "bleomycin": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "bleomycin"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "cabozantinib": {
+  "example_appl": [
+   "215942",
+   "220258"
+  ],
+  "forms_single_systemic": [
+   "TABLET; ORAL",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "cabozantinib"
+  ],
+  "n_products": 8,
+  "n_single_systemic": 6,
+  "statuses_any": [
+   "None (Tentative Approval)",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Prescription"
+  ]
+ },
+ "calcitriol": {
+  "example_appl": [
+   "018044",
+   "018874",
+   "021068"
+  ],
+  "forms_single_systemic": [
+   "CAPSULE;ORAL",
+   "INJECTABLE;INJECTION",
+   "SOLUTION;ORAL"
+  ],
+  "keys_searched": [
+   "calcitriol"
+  ],
+  "n_products": 37,
+  "n_single_systemic": 36,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "canagliflozin": {
+  "example_appl": [
+   "204042",
+   "210297",
+   "210386"
+  ],
+  "forms_single_systemic": [
+   "TABLET; ORAL",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "canagliflozin"
+  ],
+  "n_products": 27,
+  "n_single_systemic": 11,
+  "statuses_any": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Prescription"
+  ]
+ },
+ "capecitabine": {
+  "example_appl": [
+   "020896",
+   "090943",
+   "091649"
+  ],
+  "forms_single_systemic": [
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "capecitabine"
+  ],
+  "n_products": 30,
+  "n_single_systemic": 30,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "capivasertib": {
+  "example_appl": [
+   "218197"
+  ],
+  "forms_single_systemic": [
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "capivasertib"
+  ],
+  "n_products": 2,
+  "n_single_systemic": 2,
+  "statuses_any": [
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Prescription"
+  ]
+ },
+ "carbon dioxide": {
+  "example_appl": [
+   "205764",
+   "205815",
+   "205846"
+  ],
+  "forms_single_systemic": [
+   "GAS;INHALATION"
+  ],
+  "keys_searched": [
+   "carbon dioxide"
+  ],
+  "n_products": 17,
+  "n_single_systemic": 16,
+  "statuses_any": [
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Prescription"
+  ]
+ },
+ "carboplatin": {
+  "example_appl": [
+   "019880",
+   "020452",
+   "076099"
+  ],
+  "forms_single_systemic": [
+   "INJECTABLE;INJECTION",
+   "INJECTABLE;INTRAVENOUS",
+   "SOLUTION;INTRAVENOUS"
+  ],
+  "keys_searched": [
+   "carboplatin"
+  ],
+  "n_products": 121,
+  "n_single_systemic": 121,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "chloroquine": {
+  "example_appl": [
+   "006002",
+   "040516",
+   "080880"
+  ],
+  "forms_single_systemic": [
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "chloroquine phosphate",
+   "chloroquine"
+  ],
+  "n_products": 16,
+  "n_single_systemic": 15,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "chlorpromazine": {
+  "example_appl": [
+   "009149"
+  ],
+  "forms_single_systemic": [
+   "SUPPOSITORY;RECTAL"
+  ],
+  "keys_searched": [
+   "chlorpromazine"
+  ],
+  "n_products": 2,
+  "n_single_systemic": 2,
+  "statuses_any": [
+   "Discontinued"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued"
+  ]
+ },
+ "cisplatin": {
+  "example_appl": [
+   "018057",
+   "074656",
+   "074713"
+  ],
+  "forms_single_systemic": [
+   "INJECTABLE;INJECTION"
+  ],
+  "keys_searched": [
+   "cisplatin"
+  ],
+  "n_products": 14,
+  "n_single_systemic": 14,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "cladribine": {
+  "example_appl": [
+   "020229",
+   "022561",
+   "075405"
+  ],
+  "forms_single_systemic": [
+   "INJECTABLE;INJECTION",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "cladribine"
+  ],
+  "n_products": 8,
+  "n_single_systemic": 8,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "copanlisib": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "copanlisib"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "cyclosporine": {
+  "example_appl": [
+   "050573",
+   "050574",
+   "050625"
+  ],
+  "forms_single_systemic": [
+   "CAPSULE; ORAL",
+   "CAPSULE;ORAL",
+   "INJECTABLE;INJECTION",
+   "SOLUTION;ORAL"
+  ],
+  "keys_searched": [
+   "cyclosporine",
+   "cyclosporin"
+  ],
+  "n_products": 61,
+  "n_single_systemic": 47,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "cytarabine": {
+  "example_appl": [
+   "016793",
+   "021041",
+   "071248"
+  ],
+  "forms_single_systemic": [
+   "INJECTABLE, LIPOSOMAL;INJECTION",
+   "INJECTABLE;INJECTION",
+   "Injectable; Injection"
+  ],
+  "keys_searched": [
+   "cytarabine"
+  ],
+  "n_products": 31,
+  "n_single_systemic": 30,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "dapagliflozin": {
+  "example_appl": [
+   "202293",
+   "211156",
+   "211312"
+  ],
+  "forms_single_systemic": [
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "dapagliflozin"
+  ],
+  "n_products": 92,
+  "n_single_systemic": 40,
+  "statuses_any": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "None (Tentative Approval)",
+   "Prescription"
+  ]
+ },
+ "dasatinib": {
+  "example_appl": [
+   "021986",
+   "022072",
+   "202103"
+  ],
+  "forms_single_systemic": [
+   "TABLET; ORAL",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "dasatinib"
+  ],
+  "n_products": 67,
+  "n_single_systemic": 67,
+  "statuses_any": [
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Prescription"
+  ]
+ },
+ "decitabine": {
+  "example_appl": [
+   "021790",
+   "202969",
+   "203131"
+  ],
+  "forms_single_systemic": [
+   "INJECTABLE;INTRAVENOUS",
+   "POWDER;INTRAVENOUS"
+  ],
+  "keys_searched": [
+   "decitabine"
+  ],
+  "n_products": 23,
+  "n_single_systemic": 22,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "dequalinium": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "dequalinium"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "dexamethasone": {
+  "example_appl": [
+   "011664",
+   "012376",
+   "012674"
+  ],
+  "forms_single_systemic": [
+   "CONCENTRATE;ORAL",
+   "ELIXIR;ORAL",
+   "SOLUTION;ORAL",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "dexamethasone"
+  ],
+  "n_products": 130,
+  "n_single_systemic": 97,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "dexrazoxane": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "dexrazoxane"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "digoxin": {
+  "example_appl": [
+   "009330",
+   "018118",
+   "020405"
+  ],
+  "forms_single_systemic": [
+   "CAPSULE;ORAL",
+   "ELIXIR;ORAL",
+   "INJECTABLE;INJECTION",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "digoxin"
+  ],
+  "n_products": 38,
+  "n_single_systemic": 38,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "donepezil": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "donepezil"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "doxazosin": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "doxazosin"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "doxycycline": {
+  "example_appl": [
+   "050006",
+   "050641",
+   "050805"
+  ],
+  "forms_single_systemic": [
+   "CAPSULE; ORAL",
+   "CAPSULE;ORAL",
+   "FOR SUSPENSION;ORAL",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "doxycycline"
+  ],
+  "n_products": 88,
+  "n_single_systemic": 81,
+  "statuses_any": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Prescription"
+  ]
+ },
+ "ebastine": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "ebastine"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "eltrombopag": {
+  "example_appl": [
+   "219121"
+  ],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "eltrombopag"
+  ],
+  "n_products": 1,
+  "n_single_systemic": 0,
+  "statuses_any": [
+   "None (Tentative Approval)"
+  ],
+  "statuses_single_systemic": []
+ },
+ "entrectinib": {
+  "example_appl": [
+   "212725",
+   "212726",
+   "218550"
+  ],
+  "forms_single_systemic": [
+   "CAPSULE;ORAL",
+   "PELLETS;ORAL"
+  ],
+  "keys_searched": [
+   "entrectinib"
+  ],
+  "n_products": 5,
+  "n_single_systemic": 5,
+  "statuses_any": [
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Prescription"
+  ]
+ },
+ "enzalutamide": {
+  "example_appl": [
+   "203415",
+   "209614",
+   "209645"
+  ],
+  "forms_single_systemic": [
+   "CAPSULE;ORAL",
+   "TABLET;ORAL"
+  ],
+  "keys_searched": [
+   "enzalutamide"
+  ],
+  "n_products": 13,
+  "n_single_systemic": 10,
+  "statuses_any": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Prescription"
+  ]
+ },
+ "epinephrine": {
+  "example_appl": [
+   "007942",
+   "010374",
+   "016126"
+  ],
+  "forms_single_systemic": [
+   "AEROSOL, METERED;INHALATION",
+   "INJECTABLE;INJECTION",
+   "INJECTABLE;INTRAMUSCULAR",
+   "INJECTABLE;INTRAMUSCULAR, SUBCUTANEOUS",
+   "INJECTION;SOLUTION,CONCENTRATE",
+   "SOLUTION;INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS"
+  ],
+  "keys_searched": [
+   "epinephrine",
+   "epinephrine bitartrate"
+  ],
+  "n_products": 147,
+  "n_single_systemic": 59,
+  "statuses_any": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Over-the-counter",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Over-the-counter",
+   "Prescription"
+  ]
+ },
+ "erlotinib": {
+  "example_appl": [],
+  "forms_single_systemic": [],
+  "keys_searched": [
+   "erlotinib"
+  ],
+  "n_products": 0,
+  "n_single_systemic": 0,
+  "statuses_any": [],
+  "statuses_single_systemic": []
+ },
+ "estradiol": {
+  "example_appl": [
+   "019081",
+   "020167",
+   "020323"
+  ],
+  "forms_single_systemic": [
+   "FILM, EXTENDED RELEASE; TRANSDERMAL",
+   "FILM, EXTENDED RELEASE;TRANSDERMAL",
+   "Film, Extended Release; Transdermal",
+   "GEL, METERED;TRANSDERMAL",
+   "GEL;TRANSDERMAL",
+   "SPRAY;TRANSDERMAL"
+  ],
+  "keys_searched": [
+   "estradiol"
+  ],
+  "n_products": 211,
+  "n_single_systemic": 163,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "estradiol and progesterone": {
+  "example_appl": [
+   "009238",
+   "017362",
+   "019081"
+  ],
+  "forms_single_systemic": [
+   "CAPSULE; ORAL",
+   "CAPSULE;ORAL",
+   "FILM, EXTENDED RELEASE; TRANSDERMAL",
+   "FILM, EXTENDED RELEASE;TRANSDERMAL",
+   "Film, Extended Release; Transdermal",
+   "GEL, METERED;TRANSDERMAL"
+  ],
+  "keys_searched": [
+   "estradiol",
+   "progesterone"
+  ],
+  "n_products": 248,
+  "n_single_systemic": 192,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ },
+ "etomidate": {
+  "example_appl": [
+   "018227",
+   "074593",
+   "078289"
+  ],
+  "forms_single_systemic": [
+   "INJECTABLE;INJECTION"
+  ],
+  "keys_searched": [
+   "etomidate"
+  ],
+  "n_products": 12,
+  "n_single_systemic": 12,
+  "statuses_any": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "statuses_single_systemic": [
+   "Discontinued",
+   "Prescription"
+  ]
+ }
+}

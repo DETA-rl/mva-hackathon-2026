@@ -1,0 +1,1593 @@
+{
+ "about": "Line edits that turn the as-run analysis scripts into the ported copies under replicate/analysis/. Only path constants, hard-coded candidate coordinates and the candidate's protein-change labels are replaced; three comment-only edits label public coordinates as public annotation. Each edit replaces exactly one line, so the ported file has the same number of lines as the original and every other line is byte-identical. The original text of an edited line is NOT stored here (some contain the organiser sample ID or candidate coordinates); its keyed hash (HMAC-SHA256; the authors keep the key with the originals) is stored in replicate/analysis/PORTING.json instead, because a plain sha256 of a short line can be reversed by trying candidates. Origins: 'candidates:' = copy of the as-run script kept privately by the authors (the repo as-run copy is named in repo_copy when it exists); 'recovered:' = script recovered from the session transcript that ran it. The as-run copies in this repository are under as_run/; where one of them named a local user name, disk identifier or session folder, that token is replaced by '[redacted]' in the public copy (column 'repo_copy_redactions' in PORTING.json); the audit then compares every other line.",
+ "files": [
+  {
+   "ported": "replicate/analysis/track1/blind_exonic/child_exonic_calls.py",
+   "origin": "candidates:track1/blind_exonic/child_exonic_calls_scratchcopy.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "Genome-wide blind exonic pass",
+   "mode": "lines",
+   "hmac_before": "224bcc88220f7bd62c7ef6fe73d351c9d91a59fa43b211b8488e5f70a832919f",
+   "sha256_after": "723ed7c65bdffe3fedc9f14535dbcb7ed3016194acf78221c9a639885342510e",
+   "lines_before": 40,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "586738ba56ee6c64d9df337fd4254315bf910a8508f013ba1642fa3fe509354f",
+     "new": "VCF = __import__(\"os\").environ[\"REPL_VCF\"]",
+     "reason": "organiser VCF path constant -> config input"
+    },
+    {
+     "line": 4,
+     "old_hmac": "fffd605d1654845cf0e5617e79be7299c264f37f3f68f212b13b6b11cb846fb1",
+     "new": "D = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": "The copy in the project folder cannot be the one that ran: its line 29 is a SyntaxError on Python 3.12 and 3.13, and its header says \"gene\" while the stored table says \"genes\". The analysis_scripts copy (the origin above; same bytes as the scratchpad copy) writes the stored header; the harness reproduces the stored table byte for byte with it (BLIND-01A)."
+  },
+  {
+   "ported": "replicate/analysis/track1/blind_exonic/gnomad_match.py",
+   "origin": "candidates:track1/blind_exonic/gnomad_match.py",
+   "repo_copy": "as_run/track1/blind_exonic/gnomad_match.py",
+   "repo_copy_sha256": "5f335aad16c526e9d65c4c91e7ad56ffc244ae790d93a5443714e2fe12516836",
+   "repo_copy_redactions": [
+    {
+     "line": 3,
+     "redacted_text": "D = \"/home/[redacted]/Documents/HACKATON/_private/blind_gnomad/\"",
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ],
+   "register": "Genome-wide blind exonic pass",
+   "mode": "lines",
+   "hmac_before": "0a8a7a04a42fece1db7e2018ad0b5721b00b30507a00057cc3cf18b6a35e1d21",
+   "sha256_after": "c8e5677c068c61f7fa9112689b87389ba6ce5c8af576595921c6ec16fe5c85d9",
+   "lines_before": 90,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "fffd605d1654845cf0e5617e79be7299c264f37f3f68f212b13b6b11cb846fb1",
+     "new": "D = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/blind_exonic/blind_rare_exonic.py",
+   "origin": "candidates:track1/blind_exonic/blind_rare_exonic.py",
+   "repo_copy": "as_run/track1/blind_exonic/blind_rare_exonic.py",
+   "repo_copy_sha256": "ba5730c5159736f667adb35b9b43af480d2a3c1ae308b7c8d470a667b84c965a",
+   "repo_copy_redactions": [
+    {
+     "line": 3,
+     "redacted_text": "D = \"/home/[redacted]/Documents/HACKATON/_private/blind_gnomad/\"",
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ],
+   "register": "Genome-wide blind exonic pass",
+   "mode": "lines",
+   "hmac_before": "e4359c6a9300bc5009e29db4a7e888eb6371c5542bc374f760e82456e6048797",
+   "sha256_after": "0780af44fd3faff5ffdba27ff90618eff4c0614e3b9d1306773f500a9a396444",
+   "lines_before": 50,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "fffd605d1654845cf0e5617e79be7299c264f37f3f68f212b13b6b11cb846fb1",
+     "new": "D = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/blind_exonic/consequence.py",
+   "origin": "candidates:track1/blind_exonic/consequence.py",
+   "repo_copy": "as_run/track1/blind_exonic/consequence.py",
+   "repo_copy_sha256": "c910fccce3426054aa0b13df59a0ba31ccd4b84299085cd2055bea6168490c7a",
+   "repo_copy_redactions": [
+    {
+     "line": 4,
+     "redacted_text": "FA = \"/media/[redacted]/[redacted]/hackaton_offload/full_wgs/ref/GCA_000001405.15_GRCh38_no_alt_plus_hs38d1_analysis_set.fna\"",
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ],
+   "register": "Consequence step (2026-10-17)",
+   "mode": "lines",
+   "hmac_before": "7e73566c9b8cf8b18eed620a590a01efa7be940fbae08104347fd0b119bc0a31",
+   "sha256_after": "3218501830c95184158d06fccde42062c6c11499091390bb44a6a8a48b77aaee",
+   "lines_before": 120,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "3c109b5adb6a8b36f985793e7500a4e2d5228a205349198c3887dfe730b71cf2",
+     "new": "HERE = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "old_hmac": "263c6e9ac75b6fc687c16841a293cd920a4dcc459afeaad285fe6d57159aac9d",
+     "new": "FA = os.environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant -> config input"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/blind_exonic/consequence_fixed.py",
+   "origin": "candidates:track1/blind_exonic/consequence_fixed.py",
+   "repo_copy": "as_run/track1/blind_exonic/consequence_fixed.py",
+   "repo_copy_sha256": "825bae736bf82ac269ba262cd3bd25607add7a75e45cbc363180a27ca12554f7",
+   "repo_copy_redactions": [
+    {
+     "line": 4,
+     "redacted_text": "FA = \"/media/[redacted]/[redacted]/hackaton_offload/full_wgs/ref/GCA_000001405.15_GRCh38_no_alt_plus_hs38d1_analysis_set.fna\"",
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ],
+   "register": "C-FIX-01",
+   "mode": "lines",
+   "hmac_before": "f11d58ead7ad21bb39ab84bb696598f04db03f4dab5bfa7a29f565586a67e3af",
+   "sha256_after": "81f3721c1788c3e6afc3533858ae4746eaaf082df6ae3d933cb3c9b5aff6966a",
+   "lines_before": 119,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "3c109b5adb6a8b36f985793e7500a4e2d5228a205349198c3887dfe730b71cf2",
+     "new": "HERE = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "old_hmac": "263c6e9ac75b6fc687c16841a293cd920a4dcc459afeaad285fe6d57159aac9d",
+     "new": "FA = os.environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant -> config input"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/blind_exonic/summarize_consequence.py",
+   "origin": "candidates:track1/blind_exonic/summarize_consequence.py",
+   "repo_copy": "as_run/track1/blind_exonic/summarize_consequence.py",
+   "repo_copy_sha256": "184b50f58dec601bfae83c6201d3ccc79437415c931898a214102b4e46818d6b",
+   "repo_copy_redactions": [],
+   "register": "Consequence step (2026-10-17)",
+   "mode": "lines",
+   "hmac_before": "7d244f02ab3837fdbb70f677dc68dcabf7afab76690c3acb53ed7fede698b0d8",
+   "sha256_after": "26a7a7d533517dd1521f89b88260261d5b185db90ab7d365a0e79601302e149d",
+   "lines_before": 32,
+   "changes": [
+    {
+     "line": 2,
+     "old_hmac": "2106a379cbf68e060b8b84a979deca079ec94ce057242bcd7621d9ab1e7ead94",
+     "new": "F = os.environ[\"REPL_CONSEQUENCE_TSV\"]",
+     "reason": "input table path constant -> set by the harness (original or corrected table)"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/blind_exonic/compound_check.py",
+   "origin": "candidates:track1/blind_exonic/compound_check.py",
+   "repo_copy": "as_run/track1/blind_exonic/compound_check.py",
+   "repo_copy_sha256": "403204c812befce08105b1a3eebd6cb1ddfa21ae476d7930b15e6c694ad9f101",
+   "repo_copy_redactions": [],
+   "register": "C-FIX-01 follow-up",
+   "mode": "lines",
+   "hmac_before": "071265ec19afc225bf3e1bca886378bbbbef6ce0e7d8c1eb7ee10b6614329aa0",
+   "sha256_after": "e0bcbb151434d3f20fa5f60a043034b6bfd3756ec72fe3d2b1374551ffefc284",
+   "lines_before": 16,
+   "changes": [
+    {
+     "line": 2,
+     "old_hmac": "2106a379cbf68e060b8b84a979deca079ec94ce057242bcd7621d9ab1e7ead94",
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/blind_exonic/compound_check_fixed.py",
+   "origin": "candidates:track1/blind_exonic/compound_check_fixed.py",
+   "repo_copy": "as_run/track1/blind_exonic/compound_check_fixed.py",
+   "repo_copy_sha256": "e3cf6371469d30c496d694ca4b67453204cb7b5e43967ed63005f40ceece79b6",
+   "repo_copy_redactions": [],
+   "register": "C-FIX-01 follow-up",
+   "mode": "lines",
+   "hmac_before": "42b98a25fbd9d745d029d64a6f2e2d41670c818359b2f2694a18de386f06bcb7",
+   "sha256_after": "4fc9b0de5bcd9c2c4c3cdd94b4b9b464aaeb60ebd5908d9431dc47835d2cf4ce",
+   "lines_before": 16,
+   "changes": [
+    {
+     "line": 2,
+     "old_hmac": "0a0cdb5f988ea137b601761c85ae22a669f7228111f12c325e1f35ad5883dcd2",
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence_fixed.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/blind_exonic/validate_consequence.py",
+   "origin": "candidates:track1/blind_exonic/validate_consequence.py",
+   "repo_copy": "as_run/track1/blind_exonic/validate_consequence.py",
+   "repo_copy_sha256": "c00829d1cd438be8bb2386b25e07659b2842a64acd6d5d894423dfb5908089e2",
+   "repo_copy_redactions": [],
+   "register": "C-FIX-02",
+   "mode": "lines",
+   "hmac_before": "5f15b689220b23364206d44fdd91a57eb497e64552128c6dde14d121c8b0298a",
+   "sha256_after": "c00829d1cd438be8bb2386b25e07659b2842a64acd6d5d894423dfb5908089e2",
+   "lines_before": 61,
+   "changes": [],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/ranking/ranking_v1.py",
+   "origin": "candidates:track1/ranking/ranking_v1.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v1.py",
+   "repo_copy_sha256": "52b771ab1eb7c55fa838ad8c7b9229818a7652259e89e452cf0b4ac7da9b12da",
+   "repo_copy_redactions": [],
+   "register": "Ranking v1",
+   "mode": "lines",
+   "hmac_before": "707d5e84359734a1e440458a65e336fc4b0198af360f1a2cefb2e9fe696759ac",
+   "sha256_after": "1eaa642c6a3957951bd3b7d7fa9eb59aba6a14b7b6e46a7cd2446290a58938e1",
+   "lines_before": 48,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "2106a379cbf68e060b8b84a979deca079ec94ce057242bcd7621d9ab1e7ead94",
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "old_hmac": "4c85b0892e3e052c6ec4794c6bc3c0b2c451233cf013001ed9f6370784fe5d06",
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/ranking_v1_summary.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/ranking/ranking_v1_fixed.py",
+   "origin": "candidates:track1/ranking/ranking_v1_fixed.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v1_fixed.py",
+   "repo_copy_sha256": "e94055bc2f80b6b21473a619cd60c1b17b291665c916f0e55e350b8e55d3e10f",
+   "repo_copy_redactions": [],
+   "register": "C-FIX-01",
+   "mode": "lines",
+   "hmac_before": "931c84c22fb38d34b613aaed35ae975333ba34d8aa1b0be43da5df58b4908d20",
+   "sha256_after": "601ea247e618d7c401f923e7a231a31f8ca159e68bfc30fceebac66e1d942e93",
+   "lines_before": 48,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "0a0cdb5f988ea137b601761c85ae22a669f7228111f12c325e1f35ad5883dcd2",
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence_fixed.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "old_hmac": "1863f67f5bdf2b8d6e9f8cd0b17674db96cc887b7a6f60f5fe17a4ca2786e04e",
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/ranking_v1_summary_fixed.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/ranking/ranking_v2.py",
+   "origin": "candidates:track1/ranking/ranking_v2.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v2.py",
+   "repo_copy_sha256": "5730749960912c02d4d23b9612f3737b17ebf9a092b942cfae63386c6473f559",
+   "repo_copy_redactions": [],
+   "register": "Ranking v2",
+   "mode": "lines",
+   "hmac_before": "aced360fd358df04d81a05687c7419c4e340bfad45f793cce229acfe5359177f",
+   "sha256_after": "c4df1a514d7c24b7806059369556c9e47b65981a27572c85aee557bdcb67579b",
+   "lines_before": 62,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "2106a379cbf68e060b8b84a979deca079ec94ce057242bcd7621d9ab1e7ead94",
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "old_hmac": "7a5c4574a1ae3946da48fbacac098565d5045fa419c0b3d1cc414a45afa7c534",
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/ranking_v2_summary.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/ranking/ranking_v2_fixed.py",
+   "origin": "candidates:track1/ranking/ranking_v2_fixed.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v2_fixed.py",
+   "repo_copy_sha256": "c7ee88fe2b9d6b99de7b428328e2a15c7aff34c07bd3d9671c4ffc3cc8eae06c",
+   "repo_copy_redactions": [],
+   "register": "C-FIX-01",
+   "mode": "lines",
+   "hmac_before": "e30ef5cd47710ce4fa94edbf90118b354fb4721c85ae56fa4eccbad7376256e4",
+   "sha256_after": "3c7c138bf49409adc37370129dfddf4accb97fa2f01afce33c74d1970ad0f7f9",
+   "lines_before": 62,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "0a0cdb5f988ea137b601761c85ae22a669f7228111f12c325e1f35ad5883dcd2",
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence_fixed.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "old_hmac": "a8718c4790fba499579ccdcc96518b577989c5ccfc3f91b8d6f88bb8f594d1fc",
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/ranking_v2_summary_fixed.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/ranking/ranking_v3.py",
+   "origin": "candidates:track1/ranking/ranking_v3.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v3.py",
+   "repo_copy_sha256": "54a36069e2a17a42c5bd9f9cc3931ce7494f6ec5ab910adc32d4bea4ac164114",
+   "repo_copy_redactions": [],
+   "register": "Ranking v3",
+   "mode": "lines",
+   "hmac_before": "f08f531a0dc34044e967187bf179679cf3c512dc3d0559b7115c16bbd8590ede",
+   "sha256_after": "0804c56997c5bc09aa8c9bace8774e29bdb53b932af06f1fbaf2f2e2b1972e33",
+   "lines_before": 77,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "52330fe83ecc52f7ff8b6b080d5366bb4f25e471067fd78370c524a0743570d8",
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/ranking/ranking_v3_fixed.py",
+   "origin": "candidates:track1/ranking/ranking_v3_fixed.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v3_fixed.py",
+   "repo_copy_sha256": "e32e2ec1be28f2ce393b080238753b39f271b3bf72c159eda68209760245c242",
+   "repo_copy_redactions": [],
+   "register": "C-FIX-01",
+   "mode": "lines",
+   "hmac_before": "8e0da3b94a0ff400db2f4b56f1e339dd4bb8d74ca89dcb903604187be4c46bfd",
+   "sha256_after": "26f758f426c73e726f9adda5922cb4c689a94d69a15ae03f37503e3e9c0a1f44",
+   "lines_before": 77,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "52330fe83ecc52f7ff8b6b080d5366bb4f25e471067fd78370c524a0743570d8",
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/ranking/ranking_v4.py",
+   "origin": "candidates:track1/ranking/ranking_v4.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v4.py",
+   "repo_copy_sha256": "4fe6bca16088123af8676884b4a8ce164201c3ac587fdda0a5ddae7b3e520348",
+   "repo_copy_redactions": [],
+   "register": "Ranking v4 (run 1)",
+   "mode": "lines",
+   "hmac_before": "43a50b7f7b2977b0b806e098f98539d0314dc2089faf46daa25a664c7a5760e0",
+   "sha256_after": "e382075f8837a8208f1b84504a6ccd3e70a943f8bc17c3df7ce31e44edcff961",
+   "lines_before": 73,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "52330fe83ecc52f7ff8b6b080d5366bb4f25e471067fd78370c524a0743570d8",
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/ranking/ranking_v4b.py",
+   "origin": "candidates:track1/ranking/ranking_v4b.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v4b.py",
+   "repo_copy_sha256": "28fb677b2cdb35c6bec41d0259ca526c55dd35b758a8d8c88f2f2041ab307333",
+   "repo_copy_redactions": [],
+   "register": "Ranking v4 (run 2, Amendment 1)",
+   "mode": "lines",
+   "hmac_before": "3768288ce69413f9a5909d04d10f1a034cd346c6d31153a00138d3ea960dab01",
+   "sha256_after": "f9cfa16356ea16bf75f4b577e106739f9dbf6e37fbee1f2cefed857551b52869",
+   "lines_before": 74,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "52330fe83ecc52f7ff8b6b080d5366bb4f25e471067fd78370c524a0743570d8",
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/ranking/ranking_v4_fixed.py",
+   "origin": "candidates:track1/ranking/ranking_v4_fixed.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v4_fixed.py",
+   "repo_copy_sha256": "f906b4d305c088bba459f4bab02fa50b98e6a3f5e58ab537ca5b9cf4a5d3b708",
+   "repo_copy_redactions": [],
+   "register": "C-FIX-01",
+   "mode": "lines",
+   "hmac_before": "ad5c96718dc857b1634b3b90d5242aea33e5f93377845f35c6b42a5b186dab32",
+   "sha256_after": "c2b91aab6dcd11510a250414fe5a1d879ad318de5eb456866cf2804e2b5652fb",
+   "lines_before": 73,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "52330fe83ecc52f7ff8b6b080d5366bb4f25e471067fd78370c524a0743570d8",
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/readlevel/bub1b_readcheck.py",
+   "origin": "candidates:track1/readlevel/bub1b_readcheck.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "Read-level check of the two BUB1B calls",
+   "mode": "lines",
+   "hmac_before": "a80547b0b6fff4514de9243eb08084b374c2696f492bc518db5d76c474960714",
+   "sha256_after": "899bf7a648d187159695351c93cdab720b393c9333a666908895847adec776ca",
+   "lines_before": 27,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "ca9c6069525b79f276a785c577b511c4a42b7c28ee2f8c640a8c22daedc4b947",
+     "new": "BAM = os.environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 4,
+     "old_hmac": "97856212740cffbd418ffd9def495ee150fbd7fe32ea74135bea7543cfdac8ef",
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/bub1b_readcheck.json\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 5,
+     "old_hmac": "591b54476a573304d78f402be4b7a5eb056060434a393634540543bde3875936",
+     "new": "sites = [tuple(s) for s in json.loads(os.environ[\"REPL_CANDIDATE_SITES\"])]",
+     "reason": "hard-coded candidate coordinates -> taken at run time from the upstream ranking output (T1-CANDIDATE)"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/readlevel/cenatac_check.py",
+   "origin": "candidates:track1/readlevel/cenatac_check.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "PRE-REG-C / P3",
+   "mode": "lines",
+   "hmac_before": "7005d4a885966a258dd5b616cecd3f75c97beb807e6b7bd7df2a600bbd85d83f",
+   "sha256_after": "b32c52b2abf6892e2a96d6abbf053f24036c597f5a70a480c52bfdd5732d7152",
+   "lines_before": 103,
+   "changes": [
+    {
+     "line": 7,
+     "old_hmac": "1b8d01f43998068ea6524310fe82af21e939c02a5860b0c914fd195f10d39aaf",
+     "new": "GTF = __import__(\"os\").environ[\"REPL_GTF\"]",
+     "reason": "GENCODE path constant -> config input"
+    },
+    {
+     "line": 8,
+     "old_hmac": "c1f384cbc7fa0187945fb2c0ea4d7c5c963d643a2e7829fcf984217f86f13c2a",
+     "new": "FA = __import__(\"os\").environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant -> config input"
+    },
+    {
+     "line": 9,
+     "old_hmac": "586738ba56ee6c64d9df337fd4254315bf910a8508f013ba1642fa3fe509354f",
+     "new": "VCF = __import__(\"os\").environ[\"REPL_VCF\"]",
+     "reason": "organiser VCF path constant -> config input"
+    },
+    {
+     "line": 10,
+     "old_hmac": "ca9c6069525b79f276a785c577b511c4a42b7c28ee2f8c640a8c22daedc4b947",
+     "new": "BAM = __import__(\"os\").environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/readlevel/p2_annot.py",
+   "origin": "candidates:track1/readlevel/p2_annot.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "P2",
+   "mode": "lines",
+   "hmac_before": "8944947b74dd4a33d1313d95a642018be2dbf0621b470d4f6fd934e808aa6770",
+   "sha256_after": "0777d634720e68179222718b7f897f5b80d0cff2f155da2ed392aa83175b5f83",
+   "lines_before": 32,
+   "changes": [
+    {
+     "line": 19,
+     "old_hmac": "68fd9f39463fa6689039c2d36797b7db58f43a0985193bb3e960696fde27da52",
+     "new": "    out = subprocess.run([\"tabix\", __import__(\"os\").environ[\"REPL_VCF\"], f\"{ch}:{s}-{e}\"], capture_output=True, text=True).stdout",
+     "reason": "organiser VCF path constant -> config input"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/readlevel/p1_tlen_bridging.py",
+   "origin": "recovered:P1-phasing/p1_step4_tlen_bridging.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "P1",
+   "mode": "lines",
+   "hmac_before": "15203dcf2c14f93d58937f49a681f7799c65aa5dded15070b5067dab8c169d49",
+   "sha256_after": "1d25afb62a82d48e43bde067cb6989aeb0e92e400b94f94b8ccfe3026cf08224",
+   "lines_before": 15,
+   "changes": [
+    {
+     "line": 2,
+     "old_hmac": "2fefcb6a7ed7fa122ea11f4a87a13554da4ee3326460625e4346d05c467599c7",
+     "new": "bam = pysam.AlignmentFile(__import__(\"os\").environ[\"REPL_BAM\"], \"rb\")",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 6,
+     "old_hmac": "d92e0ce9aa3e6c8f01d38b2b55027b0a1f1eab2611923742895f02e982fe8d6c",
+     "new": "for r in bam.fetch(contig, int(__import__(\"os\").environ[\"REPL_P1_WINDOW_START\"]), int(__import__(\"os\").environ[\"REPL_P1_WINDOW_END\"])):",
+     "reason": "hard-coded window around the candidate pair -> computed at run time from T1-CANDIDATE"
+    },
+    {
+     "line": 15,
+     "old_hmac": "72559dd7156b7365ea810244703355927fe817243a5f08cca0f36eadebf62983",
+     "new": "print(\"templates with |TLEN| >= 4000 (span from the first candidate site to the next het site needs >= \" + __import__(\"os\").environ[\"REPL_P1_GAP1\"] + \"):\", sum(1 for t in tl if t >= int(__import__(\"os\").environ[\"REPL_P1_GAP1\"])))",
+     "reason": "hard-coded coordinates in the label and the gap threshold (a coordinate difference) -> computed at run time; the label keeps the original '>= 4000' wording"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/readlevel/p1_het_list_vcf.sh",
+   "origin": "recovered:P1-phasing/p1_step2_het_list_vcf.sh",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "P1",
+   "mode": "extract",
+   "hmac_before": "be37c4de9a9d3a96f497502bfab84af1d4bc6639e6db99464d845d909aa51e60",
+   "sha256_after": "42607f490eab00c3c89d4b004bc2ba56fcaaf104ca0e0423a2ebb80dcb0b17c5",
+   "lines_before": 1,
+   "changes": [],
+   "extract_note": "The recovered file is one ssh command. The ported file keeps only the listing pipeline inside it (zcat | awk contig filter | awk interval filter | head -40), byte-for-byte except: the VCF path, the contig name and the two interval ends become environment variables. Dropped: the 'ls' of the data folder and the 'grep -m3 ##contig' header probe, which only printed diagnostics.",
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track2/depmap/dep_corr.py",
+   "origin": "candidates:track2/depmap/dep_corr.py",
+   "repo_copy": "as_run/track2/depmap/dep_corr.py",
+   "repo_copy_sha256": "db7d00f7cd2cd2a0365b3c5865c28b28a7de78c44f45757030b66b52a05840e5",
+   "repo_copy_redactions": [],
+   "register": "T2-DEPMAP-01",
+   "mode": "lines",
+   "hmac_before": "4243726fee06c197579889ab8bd0a4a7049ecba48a9ef0bd5683b7e8344c9ad0",
+   "sha256_after": "db7d00f7cd2cd2a0365b3c5865c28b28a7de78c44f45757030b66b52a05840e5",
+   "lines_before": 15,
+   "changes": [],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track2/depmap/lever_screen.py",
+   "origin": "candidates:track2/depmap/lever_screen.py",
+   "repo_copy": "as_run/track2/depmap/lever_screen.py",
+   "repo_copy_sha256": "d1f12a5eb013365a8414f534db5896863b4cfcda78b27f7cfa42dd9a802fc792",
+   "repo_copy_redactions": [
+    {
+     "line": 9,
+     "redacted_text": "DIR = \"/home/[redacted]/Documents/HACKATON/_private/public_data/depmap_24Q4/\"",
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ],
+   "register": "PRE-REG-B",
+   "mode": "lines",
+   "hmac_before": "45aab213500fd3bfa63bf08add7cc317059fe794b7df2ba1288fb1a31de0ed97",
+   "sha256_after": "353150d69640f1ffb27a42b313858350b961283fcbb6521966bac5b1724af264",
+   "lines_before": 65,
+   "changes": [
+    {
+     "line": 9,
+     "old_hmac": "f9b380410a4205e9c9086a3ba2af16a84b5b63335169ac4a1827200a4b82b0f5",
+     "new": "DIR = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "DepMap folder constant -> step folder in the workdir (DepMap files linked in by name)"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track2/depmap/p4_depmap_safety.py",
+   "origin": "candidates:track2/depmap/p4_depmap_safety.py",
+   "repo_copy": "as_run/track2/depmap/p4_depmap_safety.py",
+   "repo_copy_sha256": "9b01b1053502c2ae7416bfe2dddf2f3db4230f6fc4f2dadf2b5d47038e56aaeb",
+   "repo_copy_redactions": [
+    {
+     "line": 8,
+     "redacted_text": "DIR = \"/home/[redacted]/Documents/HACKATON/_private/public_data/depmap_24Q4/\"",
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ],
+   "register": "T2-P4",
+   "mode": "lines",
+   "hmac_before": "374f1b19f73e1c987c19d0ec62185972b8d073abd111486d0de17c33cea9f73b",
+   "sha256_after": "b0be9c8e0ba9491558a208c4370955badeaf638f32d2536e09c5bb78707f6307",
+   "lines_before": 46,
+   "changes": [
+    {
+     "line": 8,
+     "old_hmac": "f9b380410a4205e9c9086a3ba2af16a84b5b63335169ac4a1827200a4b82b0f5",
+     "new": "DIR = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "DepMap folder constant -> step folder in the workdir (DepMap files linked in by name)"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track2/power/power_guide.py",
+   "origin": "recovered:T2-POWER-01/power_guide.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "T2-POWER-01",
+   "mode": "lines",
+   "hmac_before": "89699b775566447d21a8c208781d9493dcac5eb0661e0110a9e656b66f880a57",
+   "sha256_after": "eada0c4710d1928372566648a51f5dda1c0a023dc545a6e770755fc1e7414a69",
+   "lines_before": 16,
+   "changes": [],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track2/trials/ctgov_nmn_nr_query.sh",
+   "origin": "recovered:T2-TRIAL-01/ctgov_nmn_nr_query.sh",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "T2-TRIAL-01",
+   "mode": "lines",
+   "hmac_before": "d7a440e78b5b6bb5139e887808fa90fe9660486ee7c9417adf1ebf0ce674fbd3",
+   "sha256_after": "f18998bcab6049ea51497500efd8bfca63f81970336e392045a609d68541c4e1",
+   "lines_before": 11,
+   "changes": [],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/models/protein_rule/build_rule_controls.py",
+   "origin": "candidates:models/protein_rule/build_rule_controls.py",
+   "repo_copy": "as_run/models/protein_rule/build_rule_controls.py",
+   "repo_copy_sha256": "98df6946060e4f36e93920af9b0dea987ed319be1c0e0713c0ebe190e82d8f11",
+   "repo_copy_redactions": [],
+   "register": "M-EVO2-CAL-01 (controls)",
+   "mode": "lines",
+   "hmac_before": "d2cdeba90c63f97ea77f0eb443bc67f1749240ccde5fd22ac9dee7eb005b9cc9",
+   "sha256_after": "98df6946060e4f36e93920af9b0dea987ed319be1c0e0713c0ebe190e82d8f11",
+   "lines_before": 87,
+   "changes": [],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/models/protein_rule/build_protein_rule.py",
+   "origin": "candidates:models/protein_rule/build_protein_rule.py",
+   "repo_copy": "as_run/models/protein_rule/build_protein_rule.py",
+   "repo_copy_sha256": "750333261fd89a2fae2dbc3c488e8b376188420547ce56c3168162e2af49e62a",
+   "repo_copy_redactions": [],
+   "register": "M-PROT-CAL-02",
+   "mode": "lines",
+   "hmac_before": "0e21288887e636705eec547f46efc2b8d65bf47df022212ab1b1c2d08caac2a8",
+   "sha256_after": "7814204b45fab33e4e381b3c546100df09329521f6b25289d79611afeb872301",
+   "lines_before": 156,
+   "changes": [
+    {
+     "line": 17,
+     "old_hmac": "37cb3de31e9966adff85388b55ba859f0d733b98d50cac5eaa98c14c1c7f0a8b",
+     "new": "GTF = os.environ[\"REPL_GTF\"]",
+     "reason": "GENCODE path constant -> config input"
+    },
+    {
+     "line": 18,
+     "old_hmac": "131e6120e04c2b31e5d75ae92d2d542ebbc003d21bc4592107de2bb46eb11e6c",
+     "new": "FA = os.environ[",
+     "reason": "reference FASTA path constant (two lines) -> config input"
+    },
+    {
+     "line": 19,
+     "old_hmac": "32920451263f9b003ef24bff00b5f7298877f6b76c20bfdc7484a0084e88ec58",
+     "new": "    \"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant (two lines) -> config input"
+    },
+    {
+     "line": 153,
+     "old_hmac": "4d090a5e49f9fd1fb1f7cc0cfb71609e1be0763eaca86c1447c1bb19be1dc3a1",
+     "new": "_cand = __import__(\"json\").loads(__import__(\"os\").environ.get(\"REPL_CANDIDATE_RESIDUE\", \"null\")); child_ok = (proteins.get(_cand[0], \"\")[_cand[1] - 1:_cand[1]] == _cand[2]) if _cand else None",
+     "reason": "privacy: hard-coded residue number and amino acid of the candidate missense -> taken at run time from T1-CANDIDATE (same check; not run when no candidate is available)"
+    },
+    {
+     "line": 156,
+     "old_hmac": "e2dabe003e6f7843f41dfbdd3b2b3588519ae81b07bb0f175c76fda9d3ca8fad",
+     "new": "print(f\"{_cand[0]} residue {_cand[1]} is {_cand[2]} (child check):\" if _cand else \"candidate residue not checked (no candidate in this run) (child check):\", child_ok)",
+     "reason": "privacy: same residue as line 153 in the printed label"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/models/protein_rule/score.py",
+   "origin": "candidates:models/protein_rule/score.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "M-PROT-CAL-02",
+   "mode": "lines",
+   "hmac_before": "f62b32ed68d6d958e0588dd36fb6573ff37637cfe5d5c95f134723e90214161f",
+   "sha256_after": "9efef0416e4933c5b3aeb07103228e46671db42ab5a75f06a4369346b3db1268",
+   "lines_before": 149,
+   "changes": [
+    {
+     "line": 1,
+     "old_hmac": "5b5e9bbd7d52d597e55a212b8c68003506c9973b8941c237e56df1dbe8087bf2",
+     "new": "\"\"\"Score ClinVar controls + the candidate missense (from T1-CANDIDATE) with local protein LMs and AlphaMissense lookup.",
+     "reason": "privacy: the docstring named the candidate's protein change (comment-only)"
+    },
+    {
+     "line": 36,
+     "old_hmac": "0ef3e49a40711ce4471dfd52b5fdf093748060f64e6b963fbd2fffd28f545c9f",
+     "new": "CHILD = dict(__import__(\"json\").loads(__import__(\"os\").environ[\"REPL_CHILD_PROTEIN_VARIANT\"]),",
+     "reason": "hard-coded candidate missense (genomic coordinate) -> taken at run time from T1-CANDIDATE"
+    },
+    {
+     "line": 37,
+     "old_hmac": "b520b81294431b3b5db5e33aeec92618ffd530756dc5ba86adaa5192c35b9b24",
+     "new": "             review=\"child\")",
+     "reason": "continuation of the line above"
+    },
+    {
+     "line": 144,
+     "old_hmac": "503ff3de94931c5665337dc187523c9ca85273040b44c5b480148f5e1250a219",
+     "new": "        print(f\"candidate_missense {name}: not in table\")",
+     "reason": "privacy: the printed label named the candidate's protein change; generic label"
+    },
+    {
+     "line": 149,
+     "old_hmac": "85cdcd366fd2e6377de53c12b083ab1dbdab113c032dd63cb9e1aa135235bb36",
+     "new": "    print(f\"candidate_missense {name}: damage={cv:.4f} percentile_among_controls={pct:.3f} n_controls={len(allv)}\")",
+     "reason": "privacy: the printed label named the candidate's protein change; generic label, same numbers"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/models/protein_rule/protein_calibration.py",
+   "origin": "candidates:models/protein_rule/protein_calibration.py",
+   "repo_copy": "as_run/models/protein_rule/protein_calibration.py",
+   "repo_copy_sha256": "bdc0a74fa76ab5fcd5aa4760ab6adae48baa1e29ce6741fdce2b6433dabe4a11",
+   "repo_copy_redactions": [],
+   "register": "M-PROT-CAL-02",
+   "mode": "lines",
+   "hmac_before": "c764b1cb8f2808ecaefea5d3c6d52badaf0e44543464127b94ab35353d63e423",
+   "sha256_after": "39fe2ac366d31ac25fcc5c930b2e7a065d27fd3a9c4417674b5496d177904477",
+   "lines_before": 45,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "1addb54f2b998893a7fcd1b5d133744cdf84e028b98df05812321c0d9bb0d1e8",
+     "new": "Also reports the child's candidate missense damage and its percentile among controls (only if the model passes).",
+     "reason": "privacy: the docstring named the candidate's protein change (comment-only)"
+    },
+    {
+     "line": 43,
+     "old_hmac": "8dbe9e6788bd27ef36cd558fa70ab3572d40a3a31d38cc0a07bbc83e2a9eacd3",
+     "new": "            print(f\"   child candidate_missense damage={cv:.4f} percentile among {len(allv)} controls={pct:.3f}\")",
+     "reason": "privacy: the printed label named the candidate's protein change; generic label, same numbers"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/models/protein_rule/placement.py",
+   "origin": "candidates:models/protein_rule/placement.py",
+   "repo_copy": "as_run/models/protein_rule/placement.py",
+   "repo_copy_sha256": "a0d21dabdb964855f2e18e2ada1b5b61941e0510457a501dd25dcc32b0b9533a",
+   "repo_copy_redactions": [
+    {
+     "line": 11,
+     "redacted_text": "BASE = \"/home/[redacted]/Documents/HACKATON/_private/models/protein_rule/\"",
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ],
+   "register": "PRE-REG-D",
+   "mode": "lines",
+   "hmac_before": "10b4ceea17c1135477ab36d50ec4ef5f430f09f05d7179f106e6a512027b1af1",
+   "sha256_after": "929baf48c145b6a10172bbb1bc60ede9571ebe1c05ef25ad789f39b1d23d51ab",
+   "lines_before": 81,
+   "changes": [
+    {
+     "line": 1,
+     "old_hmac": "8c529d2032f24d7a1387026e6725c6eddc44a46f33f28e531371fd60ec21ad98",
+     "new": "\"\"\"PRE-REG-D: place BUB1B I909T, L1012P and the candidate missense (from T1-CANDIDATE) among the calibration controls (ESM-1v, ESM-2, AlphaMissense).",
+     "reason": "privacy: the docstring named the candidate's protein change (comment-only)"
+    },
+    {
+     "line": 11,
+     "old_hmac": "1484be2f396e35de1c2dba9303e3c8688d805900792e86ecd0f0edc4a58baad5",
+     "new": "BASE = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 17,
+     "old_hmac": "30c1f575c52d3621a2698a22103326fd86015824894e97be60a5d41d44f5b8c3",
+     "new": "ALLELES = [(\"I909T\", 909, \"I\", \"T\"), (\"L1012P\", 1012, \"L\", \"P\")] + [tuple(a) for a in __import__(\"json\").loads(__import__(\"os\").environ[\"REPL_CANDIDATE_ALLELES\"])]",
+     "reason": "the child's allele is taken at run time from T1-CANDIDATE; the two literature alleles stay as written"
+    },
+    {
+     "line": 56,
+     "old_hmac": "c453a32627f26d9e51c1dd8b83e147228e2f93a486981d517db053b2a67f9094",
+     "new": "        if p[7] in tuple(a[0] for a in ALLELES):",
+     "reason": "same allele names as line 17, no longer hard-coded"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/models/evo2/evo2_score_safe.py",
+   "origin": "candidates:models/evo2/evo2_score_safe.py",
+   "repo_copy": "as_run/models/evo2/evo2_score_safe.py",
+   "repo_copy_sha256": "0e9e5df4552b3613086df538021a5e7e1b589d7d3cfc706d2f0eb88f3d99196d",
+   "repo_copy_redactions": [],
+   "register": "M-EVO2-CAL-01",
+   "mode": "lines",
+   "hmac_before": "fc5e718da524414f1ba7127432cc2d8a9092bff8c96a5ea71384a874376ef6e7",
+   "sha256_after": "0e9e5df4552b3613086df538021a5e7e1b589d7d3cfc706d2f0eb88f3d99196d",
+   "lines_before": 131,
+   "changes": [],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/models/evo2/configs/evo2-7b-1m.yml",
+   "origin": "candidates:models/evo2/configs/evo2-7b-1m.yml",
+   "repo_copy": "as_run/models/evo2/configs/evo2-7b-1m.yml",
+   "repo_copy_sha256": "1e06f12d29443814189d713813023b88ae61c0cbd09a61473f4cbbbe8ad2ba11",
+   "repo_copy_redactions": [],
+   "register": "M-EVO2-CAL-01 (disclosed deviation: use_fp8_input_projections False)",
+   "mode": "lines",
+   "hmac_before": "f61198c2cfba69bc3a9f934eedf17cc3965f1cfd1771c1068f2ff6e702c45e11",
+   "sha256_after": "1e06f12d29443814189d713813023b88ae61c0cbd09a61473f4cbbbe8ad2ba11",
+   "lines_before": 65,
+   "changes": [],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/models/evo2/evo2_auc_bootstrap.py",
+   "origin": "recovered:M-EVO2-CAL-01/evo2_auc_bootstrap.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "M-EVO2-CAL-01",
+   "mode": "lines",
+   "hmac_before": "e36872c91faad23b2929be632094717c326d12bf6639f7002858bb50282fb911",
+   "sha256_after": "486617a8b7e6ff5357af90d86c79b993b47431b5c18e822903a63942c061cf3f",
+   "lines_before": 23,
+   "changes": [],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/stage1_targeted/s01_sex_from_bai.py",
+   "origin": "candidates:track1/stage1_targeted/s01_sex_from_bai.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "S0.1",
+   "mode": "lines",
+   "hmac_before": "50b7ecc831352362e9f47f505b38defa842fdb76aabf34eb5102afc48ee3a984",
+   "sha256_after": "b5ef379fb4cfd308fb6d0e35ff00349e2b67cbb3f8fb44c9cc0a45009bbfaec3",
+   "lines_before": 39,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "b126f389a521498e83e6f7efd9ab991d6f2fa97ee6021a84fa265059999b3f71",
+     "new": "bam = __import__(\"os\").environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/stage1_targeted/h01_cep57_dup11.py",
+   "origin": "candidates:track1/stage1_targeted/h01_cep57_dup11.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "H01",
+   "mode": "lines",
+   "hmac_before": "27d9880d6fe7ab2a1bfe461f532aa8adba3270e16ac591dc120eec4ad0fdb7a4",
+   "sha256_after": "ef1d5c270e998d794cfd43b01b499c46b695c51ea927443792cc8340246f7208",
+   "lines_before": 19,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "b126f389a521498e83e6f7efd9ab991d6f2fa97ee6021a84fa265059999b3f71",
+     "new": "bam = __import__(\"os\").environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/stage1_targeted/h_batch.py",
+   "origin": "candidates:track1/stage1_targeted/h_batch.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "H02, H03, H05, H06, H12",
+   "mode": "lines",
+   "hmac_before": "babfb74d0d7ebafd0371418d569942727b3eaf2d601ffc3acc4b413b21d6ee4a",
+   "sha256_after": "0d80656f414dae757bd5629a3ee4759b8bc94f712f20ee54dd0dd5bf385512c1",
+   "lines_before": 64,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "ca9c6069525b79f276a785c577b511c4a42b7c28ee2f8c640a8c22daedc4b947",
+     "new": "BAM = __import__(\"os\").environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 4,
+     "old_hmac": "586738ba56ee6c64d9df337fd4254315bf910a8508f013ba1642fa3fe509354f",
+     "new": "VCF = __import__(\"os\").environ[\"REPL_VCF\"]",
+     "reason": "organiser VCF path constant -> config input"
+    },
+    {
+     "line": 7,
+     "old_hmac": "c42a21e6b5c19572e59007c55845b14f67737c985076059d938e0208ce102b40",
+     "new": "    # H02: bases at chr15:40117088 (1-based); public annotation: dbSNP rs576524605, the upstream allele reported by Ochiai 2014; not a variant of the child",
+     "reason": "label only (comment): the coordinate is public annotation, not child data"
+    },
+    {
+     "line": 21,
+     "old_hmac": "9967f4865fffcdc08510997c832cfdecc68f81a8a0f1aaff46ab058ab9f805d3",
+     "new": "    out[\"H03_BUB1B_intron_region\"] = rates(\"chr15\", 40160984, 40221137)  # public gene annotation: the BUB1B gene span (GENCODE v44) with a few bp of flank; not a variant position",
+     "reason": "label only (trailing comment): the coordinates are public gene annotation, not child data"
+    },
+    {
+     "line": 26,
+     "old_hmac": "fad41ecbe31823e9aeb0c936d652fddfda9df6e4bf6366a0b668ab2697aeee48",
+     "new": "    d_naa = depth(\"chrX\", 153928799, 153935083)  # public gene annotation: the NAA10 gene span (GRCh38) with flank; not a variant position",
+     "reason": "label only (trailing comment): the coordinates are public gene annotation, not child data"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/sv_cnv/h08_depth.py",
+   "origin": "candidates:track1/sv_cnv/h08_depth.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "H08",
+   "mode": "lines",
+   "hmac_before": "3f162aabf7050b84eea1087f408e62e6a6446f1095df5d7d88a2f07fa3d18e51",
+   "sha256_after": "3dd19f0fcbad08640caf0f4c3b52d14698712877d6d542a746fd3e82575cef2f",
+   "lines_before": 22,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "ca9c6069525b79f276a785c577b511c4a42b7c28ee2f8c640a8c22daedc4b947",
+     "new": "BAM = os.environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 4,
+     "old_hmac": "2aac9f5632fc37b6d8d2e755aa2cefede706df65ed5a12e7a401ed4a27d134a5",
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/h08_depth_sampled.json\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/sv_cnv/detection_limit.py",
+   "origin": "candidates:track1/sv_cnv/detection_limit.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "Readout detection limit",
+   "mode": "lines",
+   "hmac_before": "77f69bea3b7b2ba2076dfd2cb44196a92ef1510b3189a945355f91364d6a38a0",
+   "sha256_after": "a3d0c9f20e7b1215ae3367377e34ab908a67b9a0e8d3fe81ddfffefa117d7abe",
+   "lines_before": 28,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "ca9c6069525b79f276a785c577b511c4a42b7c28ee2f8c640a8c22daedc4b947",
+     "new": "BAM = os.environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 4,
+     "old_hmac": "a00e2f82e530ff7644fd33e44fff9387a91c595321c0d9c2602f4818dc171236",
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/detection_limit.json\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/sv_cnv/cnv_bins.py",
+   "origin": "candidates:track1/sv_cnv/cnv_bins.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "Copy-number mosaicism rule v1",
+   "mode": "lines",
+   "hmac_before": "099cfdad602ddd9b6e81088fc7395553011603d9c95cf6c8f3dfc1dd3b48eaa1",
+   "sha256_after": "eee521bad2d064559b923fcbfdb2cf56c33d25ec719cffdec7d1a2f17eb872c3",
+   "lines_before": 22,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "ca9c6069525b79f276a785c577b511c4a42b7c28ee2f8c640a8c22daedc4b947",
+     "new": "BAM = os.environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 4,
+     "old_hmac": "263c6e9ac75b6fc687c16841a293cd920a4dcc459afeaad285fe6d57159aac9d",
+     "new": "FA = os.environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant -> config input"
+    },
+    {
+     "line": 5,
+     "old_hmac": "f8360d0d1f02e239c6b180821b78cfc07b0fe665bfa9628cbf9015b554cad726",
+     "new": "OUTD = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/sv_cnv/cnv_call.py",
+   "origin": "candidates:track1/sv_cnv/cnv_call.py",
+   "repo_copy": "as_run/track1/sv_cnv/cnv_call.py",
+   "repo_copy_sha256": "77062901fd6f2c4970d8bb4c8eb271243f8e01df363febd23590f5412e3500be",
+   "repo_copy_redactions": [],
+   "register": "Copy-number mosaicism rule v1",
+   "mode": "lines",
+   "hmac_before": "c13c5563c242a6a31c4e8807c52fb59a75bd983bc1d6f345a8d35f720b9ed4a3",
+   "sha256_after": "95d8bcfd934af38425f45a60b74eb9a41334cc9161675acc310d1735ed65c215",
+   "lines_before": 40,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "5c8687b3ea3966d48c36aec8de958badcde2af1dd93c7dec6f7cecdb008db833",
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 39,
+     "old_hmac": "98d177a8f0fe064eea7065d90d6c1b827b23d42d97f3b9e938ab184bc911989c",
+     "new": "json.dump(out, open(os.environ[\"REPL_OUT\"] + \"/cnv_calls_v1.json\", \"w\"), indent=1)",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track2/depmap/p5_depmap_safety.py",
+   "origin": "t2tests:p5_depmap_safety.py",
+   "repo_copy": null,
+   "repo_copy_sha256": null,
+   "repo_copy_redactions": [],
+   "register": "T2-P5",
+   "mode": "lines",
+   "hmac_before": "d36559c6cbe8025d047662f2e5dc528fbada8b04ced3d62ac3845390ca87b5ac",
+   "sha256_after": "ebd738bb641d3ad0948a85fbf08a0761974f727b03519d40f09978ebc87769f2",
+   "lines_before": 93,
+   "changes": [
+    {
+     "line": 14,
+     "old_hmac": "f9b380410a4205e9c9086a3ba2af16a84b5b63335169ac4a1827200a4b82b0f5",
+     "new": "DIR = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "DepMap folder constant -> step folder in the workdir (DepMap files linked in by name)"
+    },
+    {
+     "line": 15,
+     "old_hmac": "5bee7a588d315eb44ea52c8ceb70c256b3738e08d34d05e87b809bba84358ef8",
+     "new": "OUT = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "output folder constant -> step folder in the workdir"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": "Run by the t2-tests agent on 2026-10-20 (its output folder on the analysis machine); not staged in the repo before this port."
+  },
+  {
+   "ported": "replicate/analysis/track1/spikein/spikelib.py",
+   "origin": "asrun:as_run/track1/spikein/spikelib.py",
+   "repo_copy": "as_run/track1/spikein/spikelib.py",
+   "repo_copy_sha256": "c64c87cf5512abf38320b8a2dd6216726b81c5597cc61d4e6ed6dad7eca28f57",
+   "repo_copy_redactions": [],
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "mode": "lines",
+   "hmac_before": "452e419d12324337b26203128eea12763518f9d227279b6892be21b6cf7dd716",
+   "sha256_after": "aaa8b1dfc36770b0d0037f3bf1263a83902054afbf89b04338e6364acc37c1f1",
+   "lines_before": 171,
+   "changes": [
+    {
+     "line": 5,
+     "old_hmac": "52330fe83ecc52f7ff8b6b080d5366bb4f25e471067fd78370c524a0743570d8",
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    },
+    {
+     "line": 6,
+     "old_hmac": "b0beb7bb1d65d4a59d072b02414200b1e81944e047fc2c8825bea5e4d6ccef86",
+     "new": "W = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/spikein/calls_param.py",
+   "origin": "asrun:as_run/track1/spikein/calls_param.py",
+   "repo_copy": "as_run/track1/spikein/calls_param.py",
+   "repo_copy_sha256": "596f5eb4c25025ce1538915a4994a3dd41d235ca135ffd6e74e83bf76fed4463",
+   "repo_copy_redactions": [
+    {
+     "line": 4,
+     "redacted_text": "D = \"/home/[redacted]/Documents/HACKATON/_private/blind_gnomad/\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ],
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "mode": "lines",
+   "hmac_before": "43593801fccccee33ef025430d9d0b7da6bc9dbc5de34c4b2c0399e362ceeb79",
+   "sha256_after": "404cf0c3e044d6cdbef1d8e33ef2cde393ce25de242c6c984923564d96f026ad",
+   "lines_before": 40,
+   "changes": [
+    {
+     "line": 4,
+     "old_hmac": "fffd605d1654845cf0e5617e79be7299c264f37f3f68f212b13b6b11cb846fb1",
+     "new": "D = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": "machine-generated by make_params.py from the frozen child_exonic_calls.py by two exact text replacements (input and output path only); the unified diff is as_run/track1/spikein/calls_param.py.diff. The frozen original's own ported copy is replicate/analysis/track1/blind_exonic/child_exonic_calls.py."
+  },
+  {
+   "ported": "replicate/analysis/track1/spikein/consequence_param.py",
+   "origin": "asrun:as_run/track1/spikein/consequence_param.py",
+   "repo_copy": "as_run/track1/spikein/consequence_param.py",
+   "repo_copy_sha256": "146911cbcaa5a9e9bf938458fa15e06cfbb763a824dbb0124d94ed2799c58ea4",
+   "repo_copy_redactions": [
+    {
+     "line": 4,
+     "redacted_text": "FA = \"/media/[redacted]/[redacted]/hackaton_offload/full_wgs/ref/GCA_000001405.15_GRCh38_no_alt_plus_hs38d1_analysis_set.fna\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ],
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "mode": "lines",
+   "hmac_before": "b5706278c379ff5ceee629b7fd55e65a82c3658185e8ba67f34731a9fe9f9ff1",
+   "sha256_after": "a382aa6fa277bfc5f84051dcbd705d3d3a78b6dd23efe918f160e61905859372",
+   "lines_before": 119,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "3c109b5adb6a8b36f985793e7500a4e2d5228a205349198c3887dfe730b71cf2",
+     "new": "HERE = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    },
+    {
+     "line": 4,
+     "old_hmac": "263c6e9ac75b6fc687c16841a293cd920a4dcc459afeaad285fe6d57159aac9d",
+     "new": "FA = os.environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant (on a removable disk) -> config input"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": "machine-generated by make_params.py from the frozen consequence_fixed.py by two exact text replacements (input glob and output path only); the unified diff is as_run/track1/spikein/consequence_param.py.diff. The frozen original's own ported copy is replicate/analysis/track1/blind_exonic/consequence_fixed.py."
+  },
+  {
+   "ported": "replicate/analysis/track1/spikein/run_spikein.py",
+   "origin": "asrun:as_run/track1/spikein/run_spikein.py",
+   "repo_copy": "as_run/track1/spikein/run_spikein.py",
+   "repo_copy_sha256": "e7b51cc243671dd1cbb7c8f02f511a4dc676fc1851d9f40a3e98e4dd88897951",
+   "repo_copy_redactions": [
+    {
+     "line": 9,
+     "redacted_text": "FA = \"/media/[redacted]/[redacted]/hackaton_offload/full_wgs/ref/GCA_000001405.15_GRCh38_no_alt_plus_hs38d1_analysis_set.fna\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ],
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "mode": "lines",
+   "hmac_before": "a769fb3fe4c8f9dd628f7fb1693563c4a6bf1a7a29c763d8cf33eee5b2abfecf",
+   "sha256_after": "8847de6e05e6e275b3ee80c97390d5390dc1efc991b71f829b2ca6080c231104",
+   "lines_before": 267,
+   "changes": [
+    {
+     "line": 7,
+     "old_hmac": "f63c5d63ad8d3fe23cc26a0e37c3033c3b91f670e9b4480db73ead6a36b88c42",
+     "new": "PY = sys.executable",
+     "reason": "the authors' virtual-environment interpreter -> the interpreter running this step. The two helper scripts this driver launches as subprocesses therefore run outside the audit guard that covers the driver itself; each writes only to the output path the driver passes."
+    },
+    {
+     "line": 8,
+     "old_hmac": "9a3b48580cd0f28f275cbd824ab2e6ab43c466f6d8adba6526d491b2a0491f6f",
+     "new": "VCF = os.environ[\"REPL_VCF\"]",
+     "reason": "organiser VCF path constant -> config input"
+    },
+    {
+     "line": 9,
+     "old_hmac": "263c6e9ac75b6fc687c16841a293cd920a4dcc459afeaad285fe6d57159aac9d",
+     "new": "FA = os.environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant (on a removable disk) -> config input"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/spikein/validate.py",
+   "origin": "asrun:as_run/track1/spikein/validate.py",
+   "repo_copy": "as_run/track1/spikein/validate.py",
+   "repo_copy_sha256": "7661dde323078baeeb84b26120b33eadaf2ded10f1e2f74208ee5b1073bcec0c",
+   "repo_copy_redactions": [],
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "mode": "lines",
+   "hmac_before": "7999b35968cd008eb0eb82564c6c576d9240748fdfcab4d73e043cc10c294f52",
+   "sha256_after": "27dae2ea37a321dfa86fe87a63fec3c82a0f07b58a20ad534d353818962453a5",
+   "lines_before": 46,
+   "changes": [
+    {
+     "line": 7,
+     "old_hmac": "f63c5d63ad8d3fe23cc26a0e37c3033c3b91f670e9b4480db73ead6a36b88c42",
+     "new": "PY = sys.executable",
+     "reason": "the authors' virtual-environment interpreter -> the interpreter running this step (same subprocess note as run_spikein.py line 7)"
+    },
+    {
+     "line": 36,
+     "old_hmac": "14f0cc8e2708c6388a4075dac4fe3d08aa5f339b0306a474ed17c3c254d0df34",
+     "new": "draft = list(csv.DictReader(open(os.environ[\"REPL_DRAFT_CSV\"])))",
+     "reason": "path constant of the authors' 10-row draft submission CSV -> config input. The CSV is child-derived and is not in this repository; the harness supplies the rows it needs from the upstream ranking artifacts (replicate/helpers/draft_rows_csv.py), which makes gate G1e a self-consistency check rather than the independent comparison it was in the original run"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/spikein/analyze.py",
+   "origin": "asrun:as_run/track1/spikein/analyze.py",
+   "repo_copy": "as_run/track1/spikein/analyze.py",
+   "repo_copy_sha256": "dfd4bddf9a2ad7e4dbeb8f77a73b7bf478d4c5f5de36e5c4b5a121f3762a4a52",
+   "repo_copy_redactions": [],
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "mode": "lines",
+   "hmac_before": "6a7e1883ced957a921b4ab95564bb5045585156f1d1a62f5e901dd3d5345f12e",
+   "sha256_after": "816168c6314368ee7e091ee14fb0dc30c83c831a56b6e93707be7a824848ecf5",
+   "lines_before": 131,
+   "changes": [
+    {
+     "line": 123,
+     "old_hmac": "b4580caacadc30ce04370e949b51665cf011157e8e0abd7852befc5586b89b1a",
+     "new": "src = os.environ[\"REPL_DRAFT_CSV\"]",
+     "reason": "path constant of the authors' 10-row draft submission CSV -> config input; it is read only to attach the EPCR column to its rows, and no metric of this step depends on it"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  },
+  {
+   "ported": "replicate/analysis/track1/spikein/feasibility.py",
+   "origin": "asrun:as_run/track1/spikein/feasibility.py",
+   "repo_copy": "as_run/track1/spikein/feasibility.py",
+   "repo_copy_sha256": "a1b504c1de3c11c102264834c26373e354f4e969f5b5a3b95844ac2170ce425a",
+   "repo_copy_redactions": [],
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "mode": "lines",
+   "hmac_before": "2551fa547b7d8a0e955a9c3b80163d867459f620b475c6f11d1758997da203ef",
+   "sha256_after": "cb423712613213e072ad7673f79f414a19090cd40959be07384c16d3b5545764",
+   "lines_before": 69,
+   "changes": [
+    {
+     "line": 3,
+     "old_hmac": "52330fe83ecc52f7ff8b6b080d5366bb4f25e471067fd78370c524a0743570d8",
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    },
+    {
+     "line": 4,
+     "old_hmac": "b0beb7bb1d65d4a59d072b02414200b1e81944e047fc2c8825bea5e4d6ccef86",
+     "new": "W = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    }
+   ],
+   "extract_note": null,
+   "origin_note": null
+  }
+ ],
+ "public_copy_redactions": [
+  {
+   "file": "as_run/track1/alignment/dl.py",
+   "sha256": "f28e88e604e52db7203c7548bb2525ddafd0b17981853ac2b676654bb7e847d2",
+   "hmac_original": "b5c1b37b89858ed20b9772b130c0a8b58dab107b5243ee2bfdd940f76206c689",
+   "redactions": [
+    {
+     "line": 3,
+     "redacted_text": "                      local_dir=\"/home/[redacted]/Documents/HACKATON/data\", max_workers=16)",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track1/alignment/dv_run.sh",
+   "sha256": "2aee8686de76729d02b6119b83bcb177942c842c8c7cc995ae0f6a2cff3fafd0",
+   "hmac_original": "5a0c971f2cfb689e42e6f30c8d83de143f6112dbfede3ee99ce03f3fedf0a780",
+   "redactions": [
+    {
+     "line": 5,
+     "redacted_text": "B=/media/[redacted]/[redacted]/hackaton_offload",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track1/alignment/dv_run_split.sh",
+   "sha256": "dce63db496d079f33f0b12a47aa0094d3f785678dfeb337b2054366281f5ff17",
+   "hmac_original": "f169d04c21cc96e652b6a4f9984e5ec53df099606258a7590aec5796ae525641",
+   "redactions": [
+    {
+     "line": 6,
+     "redacted_text": "B=/media/[redacted]/[redacted]/hackaton_offload",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track1/alignment/split_fallback.sh",
+   "sha256": "dce63db496d079f33f0b12a47aa0094d3f785678dfeb337b2054366281f5ff17",
+   "hmac_original": "f169d04c21cc96e652b6a4f9984e5ec53df099606258a7590aec5796ae525641",
+   "redactions": [
+    {
+     "line": 6,
+     "redacted_text": "B=/media/[redacted]/[redacted]/hackaton_offload",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track1/blind_exonic/find_pending.py",
+   "sha256": "9aea2f357d7cb266359d886094312639a8efc21bece0a0ce503a62c31f3beed3",
+   "hmac_original": "de55091d2bcde345adeff5d058147d0b2711cd1ab1fc14bf1345863996989edf",
+   "redactions": [
+    {
+     "line": 2,
+     "redacted_text": "D=\"/home/[redacted]/Documents/HACKATON/_private/blind_gnomad/\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track2/evidence_checks/checkA_build.py",
+   "sha256": "1bddb2adcee99f4b577cc094f39af17daa5adc6f4801bdea6a744c1cbd725abc",
+   "hmac_original": "156b92ea4066db50f59ee8866864463f132b7c089f88fad9f34be122739a3232",
+   "redactions": [
+    {
+     "line": 2,
+     "redacted_text": "T=\"/private/tmp/[redacted]/scratchpad/t2/evidence/checkA_txt/\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    },
+    {
+     "line": 151,
+     "redacted_text": "out=\"/private/tmp/[redacted]/scratchpad/t2/evidence/checkA.tsv\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track2/evidence_checks/checkA_extract.py",
+   "sha256": "c8782b0cb9e277b08bc45ae6839eb050dc604bdbf401a3e6e90455e46e8f5af4",
+   "hmac_original": "bbb35b2f8934b4c63689f691d52f208f18d06510b59424217ea18867f4683611",
+   "redactions": [
+    {
+     "line": 4,
+     "redacted_text": "RAW = \"/private/tmp/[redacted]/scratchpad/t2/evidence/checkA_raw/\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    },
+    {
+     "line": 5,
+     "redacted_text": "OUT = \"/private/tmp/[redacted]/scratchpad/t2/evidence/checkA_txt/\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track2/evidence_checks/checkA_verbatim.py",
+   "sha256": "37c330a441d7fc8cd96971ee34122d6b3af81cd53a6a25bb66c569c40b8fb949",
+   "hmac_original": "d2d02c251af0a78e075a5e5b8ac9c9f2a0f11320da89b64438ca524dc37fb14d",
+   "redactions": [
+    {
+     "line": 2,
+     "redacted_text": "T = \"/private/tmp/[redacted]/scratchpad/t2/evidence/checkA_txt/\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track2/evidence_checks/checkB_build.py",
+   "sha256": "bdd9170061ae5c3a7f01b3d35cbcc5ae0ab5c7d73f761da4110d2a7f48f45842",
+   "hmac_original": "837e0f1c18bbca81ed6cae511dd2ac8d794133dd1ae9eae450e4d17c745a19c3",
+   "redactions": [
+    {
+     "line": 2,
+     "redacted_text": "BASE = \"/private/tmp/[redacted]/scratchpad/t2/evidence\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track2/evidence_checks/checkC_verify.py",
+   "sha256": "50844bbedccf09b4db702ed5f622ed34eab146113ca0fb27f6446dba4bf4858f",
+   "hmac_original": "40610b4f6797a7ede8432096b75167a8a936fb34d1e75848e8f4ebb1f2661f27",
+   "redactions": [
+    {
+     "line": 2,
+     "redacted_text": "D = '/private/tmp/[redacted]/scratchpad/t2/evidence/checkC_src/'",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    },
+    {
+     "line": 3,
+     "redacted_text": "OUT = '/private/tmp/[redacted]/scratchpad/t2/evidence/checkC.tsv'",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "citations/t1_rows.py",
+   "sha256": "59c06c7ce06ef465ad8784007c7d09215111abe06559f04b2693ea2ebc9d52f7",
+   "hmac_original": "4c3a0da5b5e624ce730f9517ac229ae066a19854f1d3c2e4d5c36dbbac9eae26",
+   "redactions": [
+    {
+     "line": 3,
+     "redacted_text": "BASE = \"/private/tmp/[redacted]/scratchpad/t1/citations/\"",
+     "reason": "a session folder in a path (line 3); lines that cite the authors' internal research notes (lines 58 and 59)"
+    },
+    {
+     "line": 58,
+     "redacted_text": " # [redacted]: lines that cite the authors' internal research notes are not reproduced",
+     "reason": "a session folder in a path (line 3); lines that cite the authors' internal research notes (lines 58 and 59)"
+    },
+    {
+     "line": 59,
+     "redacted_text": " # [redacted]",
+     "reason": "a session folder in a path (line 3); lines that cite the authors' internal research notes (lines 58 and 59)"
+    }
+   ]
+  },
+  {
+   "file": "citations/t1cite_cite.py",
+   "sha256": "f7980c39471480820ae5e170c203dc29280dd3512efcb867effd80a7bbdc30f9",
+   "hmac_original": "29b842c5f64bf243b4a779c2cef0b491e453746e7c8e078414827c1baf349a4d",
+   "redactions": [
+    {
+     "line": 2,
+     "redacted_text": "base = \"/private/tmp/[redacted]/scratchpad/hackaton_private/NLP/research/\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track2/hdac_screen/r2c_depmap_hdac.py",
+   "sha256": "fdcbbdedfcbaa3f6452399dc35a7749429cccbc253a661da475db44f3717c93b",
+   "hmac_original": "c4cac2ab3549e5b9fe0d2597e24ea8bfcdcb7228c6128c35c809f7450971ee58",
+   "redactions": [
+    {
+     "line": 11,
+     "redacted_text": "DIR = \"/home/[redacted]/Documents/HACKATON/_private/public_data/depmap_24Q4/\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    },
+    {
+     "line": 12,
+     "redacted_text": "OUT = \"/home/[redacted]/Documents/HACKATON/_private/agent_out/r2_hdac/\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track1/spikein/make_params.py",
+   "sha256": "1a1155329b4cdd5ea6e1bc301467af35804102c7da2d1c023869fbf1d7369353",
+   "hmac_original": "65186fbc3fb659556482c12af1f8fd788246c41d3e718d89aaa3fe45dfb15a98",
+   "redactions": [
+    {
+     "line": 16,
+     "redacted_text": "        ('VCF = \"/home/[redacted]/Documents/HACKATON/data/WGS_EX2312012_HGWCNDSX7.vcf.gz\"',",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  },
+  {
+   "file": "as_run/track1/spikein/calls_param.py.diff",
+   "sha256": "738a26ce4ea647bb6a7443d2beccc509a37ce2b225a7bb9a3923de674230ff21",
+   "hmac_original": "1677c3069f17dc531a0259054a297ec524405dd862095ba454d1cd2b1536427f",
+   "redactions": [
+    {
+     "line": 6,
+     "redacted_text": "-VCF = \"/home/[redacted]/Documents/HACKATON/data/WGS_EX2312012_HGWCNDSX7.vcf.gz\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    },
+    {
+     "line": 8,
+     "redacted_text": " D = \"/home/[redacted]/Documents/HACKATON/_private/blind_gnomad/\"",
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ]
+  }
+ ]
+}

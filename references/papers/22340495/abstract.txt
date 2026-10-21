@@ -1,0 +1,32 @@
+1. Dev Cell. 2012 Feb 14;22(2):295-308. doi: 10.1016/j.devcel.2012.01.009.
+
+BRCA2 fine-tunes the spindle assembly checkpoint through reinforcement of BubR1 
+acetylation.
+
+Choi E(1), Park PG, Lee HO, Lee YK, Kang GH, Lee JW, Han W, Lee HC, Noh DY, 
+Lekomtsev S, Lee H.
+
+Author information:
+(1)Department of Biological Sciences and Institute of Molecular Biology and 
+Genetics, Seoul National University, 599 Gwanak-Ro, Gwanak-ku, Seoul 151-742, 
+Korea.
+
+Germline mutations that inactivate BRCA2 promote early-onset cancer with 
+chromosome instability. Here, we report that BRCA2 regulates the spindle 
+assembly checkpoint (SAC). Previously, we reported that BubR1 acetylation is 
+essential for SAC activity. In this study we show that BRCA2 recruits the PCAF 
+acetyltransferase and aids in BubR1 acetylation during mitosis. In the absence 
+of BRCA2, BubR1 acetylation is abolished, and the level of BubR1 decreases 
+during mitosis. Similarly, Brca2-deficient mouse embryonic fibroblasts exhibited 
+weak SAC activity. Transgenic mice that were engineered to have interruptions in 
+the BRCA2-BubR1 association exhibited marked decrease of BubR1 acetylation, 
+weakened SAC activity, and aneuploidy. These transgenic mice developed 
+spontaneous tumors at 40% penetrance. Moreover, immunohistochemical analyses of 
+human breast cancer specimens suggested that BRCA2 mutation and BubR1 status is 
+closely linked. Our results provide an explanation for how mutation of BRCA2 can 
+lead to chromosome instability without apparent mutations in SAC components.
+
+Copyright © 2012 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.devcel.2012.01.009
+PMID: 22340495 [Indexed for MEDLINE]

@@ -1,0 +1,56 @@
+1. Clin Nutr. 2017 Aug;36(4):1136-1142. doi: 10.1016/j.clnu.2016.07.016. Epub
+2016  Aug 10.
+
+Comparison of the effects of nicotinic acid and nicotinamide degradation on 
+plasma betaine and choline levels.
+
+Sun WP(1), Zhai MZ(2), Li D(3), Zhou Y(4), Chen NN(5), Guo M(6), Zhou SS(7).
+
+Author information:
+(1)Institute of Basic Medical Sciences, Medical College, Dalian University, 
+Dalian 116622, China; Okazaki Institute for Integrative Bioscience, National 
+Institutes of Natural Sciences, Okazaki 444-8787, Japan.
+(2)Institute of Science and Technology Austria, Am Campus 1, Klosterneuburg 
+3400, Austria.
+(3)Institute of Basic Medical Sciences, Medical College, Dalian University, 
+Dalian 116622, China; Department of Obstetrics and Gynecology, Shengjing 
+Hospital of China Medical University, Shenyang 110004, China.
+(4)Okazaki Institute for Integrative Bioscience, National Institutes of Natural 
+Sciences, Okazaki 444-8787, Japan.
+(5)Institute of Basic Medical Sciences, Medical College, Dalian University, 
+Dalian 116622, China.
+(6)College of Environmental and Chemical Engineering, Dalian University, Dalian 
+116622, China.
+(7)Institute of Basic Medical Sciences, Medical College, Dalian University, 
+Dalian 116622, China. Electronic address: [e-mail removed].
+
+AIM: The present study was to compare the effects of nicotinic acid and 
+nicotinamide on the plasma methyl donors, choline and betaine.
+METHODS: Thirty adult subjects were randomly divided into three groups of equal 
+size, and orally received purified water (C group), nicotinic acid (300 mg, NA 
+group) or nicotinamide (300 mg, NM group). Plasma nicotinamide, 
+N1-methylnicotinamide, homocysteine, betaine and choline levels before and 1.5-h 
+and 3-h post-dosing, plasma normetanephrine and metanephrine concentrations at 
+3-h post-dosing, and the urinary excretion of N1-methyl-2-pyridone-5-carboxamide 
+during the test period were examined.
+RESULTS: The level of 3-h plasma nicotinamide, N1-methylnicotinamide, 
+homocysteine, the urinary excretion of N1-methyl-2-pyridone-5-carboxamide and 
+pulse pressure (PP) in the NM group was 221%, 3972%, 61%, 1728% and 21.2% higher 
+than that of the control group (P < 0.01, except homocysteine and PP P < 0.05), 
+while the 3-h plasma betaine, normetanephrine and metanephrine level in the NM 
+group was 24.4%, 9.4% and 11.7% lower (P < 0.05, except betaine P < 0.01), 
+without significant difference in choline levels. Similar but less pronounced 
+changes were observed in the NA group, with a lower level of 3-h plasma 
+N1-methylnicotinamide (1.90 ± 0.20 μmol/l vs. 3.62 ± 0.27 μmol/l, P < 0.01) and 
+homocysteine (12.85 ± 1.39 μmol/l vs. 18.08 ± 1.02 μmol/l, P < 0.05) but a 
+higher level of betaine (27.44 ± 0.71 μmol/l vs. 23.52 ± 0.61 μmol/l, P < 0.05) 
+than that of the NM group.
+CONCLUSION: The degradation of nicotinamide consumes more betaine than that of 
+nicotinic acid at identical doses. This difference should be taken into 
+consideration in niacin fortification.
+
+Copyright © 2016 Elsevier Ltd and European Society for Clinical Nutrition and 
+Metabolism. All rights reserved.
+
+DOI: 10.1016/j.clnu.2016.07.016
+PMID: 27567458 [Indexed for MEDLINE]

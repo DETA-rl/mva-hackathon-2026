@@ -1,0 +1,22 @@
+1. PLoS Biol. 2025 Feb 12;23(2):e3003039. doi: 10.1371/journal.pbio.3003039. 
+eCollection 2025 Feb.
+
+Correction: Diverse microtubule-targeted anticancer agents kill cells by 
+inducing chromosome missegregation on multipolar spindles.
+
+Zhou AS, Tucker JB, Scribano CM, Lynch AR, Carlsen CL, Pop-Vicas ST, Pattaswamy 
+SM, Burkard ME, Weaver BA.
+
+Erratum for
+    PLoS Biol. 2023 Oct 26;21(10):e3002339. doi: 10.1371/journal.pbio.3002339.
+
+[This corrects the article DOI: 10.1371/journal.pbio.3002339.].
+
+Copyright: © 2025 Zhou et al. This is an open access article distributed under 
+the terms of the Creative Commons Attribution License, which permits 
+unrestricted use, distribution, and reproduction in any medium, provided the 
+original author and source are credited.
+
+DOI: 10.1371/journal.pbio.3003039
+PMCID: PMC11820943
+PMID: 39938018

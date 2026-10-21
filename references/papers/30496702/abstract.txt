@@ -1,0 +1,36 @@
+1. FASEB J. 2019 Mar;33(3):3936-3953. doi: 10.1096/fj.201801369R. Epub 2018 Nov
+29.
+
+Heat shock-induced mitotic arrest requires heat shock protein 105 for the 
+activation of spindle assembly checkpoint.
+
+Kakihana A(1), Oto Y(1), Saito Y(1), Nakayama Y(1).
+
+Author information:
+(1)Department of Biochemistry and Molecular Biology, Kyoto Pharmaceutical 
+University, Kyoto, Japan.
+
+Heat shock causes proteotoxic stress that induces various cellular responses, 
+including delayed mitotic progression and the generation of an aberrant number 
+of chromosomes. In this study, heat shock delayed the onset of anaphase by 
+increasing the number of misoriented cells, accompanied by the kinetochore 
+localization of budding uninhibited by benzimidazole-related (BubR)1 in a 
+monopolar spindle (Mps)1-dependent manner. The mitotic delay was canceled by 
+knockdown of mitotic arrest defect (Mad)2. Knockdown of heat shock protein 
+(Hsp)105 partially abrogated the mitotic delay with the loss of the kinetochore 
+localization of BubR1 under heat shock conditions and accelerated mitotic 
+progression under nonstressed conditions. Consistent with this result, Hsp105 
+knockdown increased the number of anaphase cells with lagging chromosomes, 
+through mitotic slippage, and decreased taxol sensitivity more than Mad2 
+knockdown. Hsp105 was coprecipitated with cell division cycle (Cdc)20 in an 
+Mps1-dependent manner; however, its knockdown did not affect coprecipitation of 
+Mad2 and BubR1 with Cdc20. We propose that heat shock delays the onset of 
+anaphase via the activation of the spindle assembly checkpoint (SAC). Hsp105 
+prevents abnormal cell division by contributing to SAC activation under heat 
+shock and nonstressed conditions by interacting with Cdc20 but not affecting 
+formation of the mitotic checkpoint complex.-Kakihana, A., Oto, Y., Saito, Y., 
+Nakayama, Y. Heat shock-induced mitotic arrest requires heat shock protein 105 
+for the activation of spindle assembly checkpoint.
+
+DOI: 10.1096/fj.201801369R
+PMID: 30496702 [Indexed for MEDLINE]

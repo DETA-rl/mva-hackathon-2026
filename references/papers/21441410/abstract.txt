@@ -1,0 +1,39 @@
+1. Mol Cancer Ther. 2011 May;10(5):839-49. doi: 10.1158/1535-7163.MCT-10-0909.
+Epub  2011 Mar 25.
+
+Caspase-3-dependent mitotic checkpoint inactivation by the small-molecule 
+inducers of mitotic slippage SU6656 and geraldol.
+
+Riffell JL(1), Jänicke RU, Roberge M.
+
+Author information:
+(1)Department of Biochemistry and Molecular Biology, University of British 
+Columbia, 2350 Health Sciences Mall, Vancouver, British Columbia, Canada V6T 
+1Z3.
+
+Microtubule-targeting cancer drugs such as paclitaxel block cell-cycle 
+progression at mitosis by prolonged activation of the mitotic checkpoint. Cells 
+can spontaneously escape mitotic arrest and enter interphase without chromosome 
+segregation by a process termed mitotic slippage that involves the degradation 
+of cyclin B1 without mitotic checkpoint inactivation. Inducing mitotic slippage 
+with chemicals causes cells to die after multiple rounds of DNA replication 
+without cell division, which may enhance the antitumor activity of 
+microtubule-targeting drugs. Here, we explore pathways leading to mitotic 
+slippage by using SU6656 and geraldol, two recently identified chemical inducers 
+of mitotic slippage. Mitotic slippage induced by SU6656 or geraldol was blocked 
+by the proteasome inhibitor MG-132 and involved proteasome-dependent degradation 
+of cyclin B1 and the mitotic checkpoint proteins budding uninhibited by 
+benzimidazole related 1 (BubR1) and cell division cycle 20 (Cdc20) in T98G 
+cells. Mitotic slippage and the degradation of BubR1 and Cdc20 were also 
+inhibited by the caspase-3 and -7 inhibitor DEVD-CHO. MCF-7 cells lacking 
+caspase-3 expression could not degrade BubR1 or undergo mitotic slippage in 
+response to SU6656 or geraldol. Introduction of caspase-3 completely restored 
+the ability of MCF-7 cells to degrade BubR1 and undergo mitotic slippage. 
+However, lack of expression of caspase-3 did not affect cell death after 
+exposure to paclitaxel, with or without mitotic slippage induction. The 
+requirement for caspase-3 for chemically induced mitotic slippage reveals a new 
+mechanism for mitotic exit and a link between mitosis and apoptosis that has 
+implications for the outcome of cancer chemotherapy.
+
+DOI: 10.1158/1535-7163.MCT-10-0909
+PMID: 21441410 [Indexed for MEDLINE]

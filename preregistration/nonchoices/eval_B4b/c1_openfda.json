@@ -1,0 +1,870 @@
+[
+ {
+  "name": "etoposide",
+  "drugsfda_total": 7,
+  "apps": [
+   "ANDA074290",
+   "NDA019557",
+   "ANDA074983"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 10
+  },
+  "err": ""
+ },
+ {
+  "name": "fasudil",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {},
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "fenretinide",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {},
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "fentanyl",
+  "drugsfda_total": 8,
+  "apps": [
+   "NDA019101",
+   "NDA019115",
+   "ANDA202097"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "TRANSDERMAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 13
+  },
+  "err": ""
+ },
+ {
+  "name": "ferric",
+  "drugsfda_total": 8,
+  "apps": [
+   "ANDA212572",
+   "NDA212320",
+   "ANDA078215"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "INTRAVENOUS",
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN OTC DRUG": 25,
+   "HUMAN PRESCRIPTION DRUG": 14
+  },
+  "err": ""
+ },
+ {
+  "name": "ferrous",
+  "drugsfda_total": 33,
+  "apps": [
+   "ANDA204847",
+   "ANDA203371",
+   "ANDA202994"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "None (Tentative Approval)",
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 87,
+   "HUMAN OTC DRUG": 16
+  },
+  "err": ""
+ },
+ {
+  "name": "fluvastatin",
+  "drugsfda_total": 5,
+  "apps": [
+   "ANDA090595",
+   "ANDA078407",
+   "ANDA079011"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 11
+  },
+  "err": ""
+ },
+ {
+  "name": "gemcitabine",
+  "drugsfda_total": 13,
+  "apps": [
+   "NDA219683",
+   "ANDA209077",
+   "ANDA204520"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "INTRAVESICAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 18
+  },
+  "err": ""
+ },
+ {
+  "name": "gentamicin",
+  "drugsfda_total": 11,
+  "apps": [
+   "ANDA215237",
+   "ANDA062196",
+   "ANDA062251"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "OPHTHALMIC",
+   "TOPICAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 39
+  },
+  "err": ""
+ },
+ {
+  "name": "glasdegib",
+  "drugsfda_total": 1,
+  "apps": [
+   "NDA210656"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 1
+  },
+  "err": ""
+ },
+ {
+  "name": "glucagon",
+  "drugsfda_total": 7,
+  "apps": [
+   "NDA201849",
+   "NDA210134",
+   "ANDA214457"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "INTRAMUSCULAR, INTRAVENOUS",
+   "INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS",
+   "NASAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 15,
+   "HUMAN OTC DRUG": 3
+  },
+  "err": ""
+ },
+ {
+  "name": "griseofulvin",
+  "drugsfda_total": 9,
+  "apps": [
+   "ANDA065394",
+   "ANDA202805",
+   "ANDA065438"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 13
+  },
+  "err": ""
+ },
+ {
+  "name": "haloperidol",
+  "drugsfda_total": 24,
+  "apps": [
+   "NDA018701",
+   "ANDA211180",
+   "ANDA209101"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 105
+  },
+  "err": ""
+ },
+ {
+  "name": "heather",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {
+   "HUMAN OTC DRUG": 1
+  },
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "trastuzumab",
+  "drugsfda_total": 8,
+  "apps": [
+   "BLA103792",
+   "BLA761073",
+   "BLA761074"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "INTRAVENOUS",
+   "MULTIDOSE",
+   "SINGLE-DOSE",
+   "SINGLE-USE"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 8
+  },
+  "err": ""
+ },
+ {
+  "name": "hesperidin",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 1
+  },
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "hydroxychloroquine",
+  "drugsfda_total": 13,
+  "apps": [
+   "ANDA210543",
+   "ANDA040657",
+   "ANDA213342"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 50
+  },
+  "err": ""
+ },
+ {
+  "name": "idarubicin",
+  "drugsfda_total": 3,
+  "apps": [
+   "ANDA065036",
+   "NDA050734",
+   "ANDA065275"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INTRAVENOUS"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 4
+  },
+  "err": ""
+ },
+ {
+  "name": "ifenprodil",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {},
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "ifosfamide",
+  "drugsfda_total": 2,
+  "apps": [
+   "ANDA076619",
+   "ANDA076078"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 3
+  },
+  "err": ""
+ },
+ {
+  "name": "imatinib",
+  "drugsfda_total": 10,
+  "apps": [
+   "ANDA208429",
+   "ANDA212975",
+   "ANDA204644"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 22
+  },
+  "err": ""
+ },
+ {
+  "name": "infigratinib",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {},
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "irinotecan",
+  "drugsfda_total": 10,
+  "apps": [
+   "ANDA077776",
+   "ANDA203380",
+   "ANDA213278"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 16
+  },
+  "err": ""
+ },
+ {
+  "name": "isoniazid",
+  "drugsfda_total": 7,
+  "apps": [
+   "ANDA040648",
+   "ANDA040090",
+   "ANDA080936"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 23
+  },
+  "err": ""
+ },
+ {
+  "name": "isoproterenol",
+  "drugsfda_total": 10,
+  "apps": [
+   "ANDA212189",
+   "ANDA210845",
+   "ANDA211864"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 14
+  },
+  "err": ""
+ },
+ {
+  "name": "lapatinib",
+  "drugsfda_total": 3,
+  "apps": [
+   "ANDA203007",
+   "ANDA217968",
+   "NDA022059"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 4
+  },
+  "err": ""
+ },
+ {
+  "name": "lenvatinib",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {},
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "letrozole",
+  "drugsfda_total": 7,
+  "apps": [
+   "ANDA090289",
+   "ANDA090934",
+   "ANDA205869"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 24
+  },
+  "err": ""
+ },
+ {
+  "name": "levetiracetam",
+  "drugsfda_total": 60,
+  "apps": [
+   "ANDA209781",
+   "ANDA214815",
+   "ANDA078976"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INTRAVENOUS",
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 163
+  },
+  "err": ""
+ },
+ {
+  "name": "levocetirizine",
+  "drugsfda_total": 17,
+  "apps": [
+   "ANDA091264",
+   "ANDA091263",
+   "NDA209090"
+  ],
+  "marketing_status": [
+   "Over-the-counter",
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 42,
+   "HUMAN OTC DRUG": 31
+  },
+  "err": ""
+ },
+ {
+  "name": "levonorgestrel",
+  "drugsfda_total": 58,
+  "apps": [
+   "ANDA206867",
+   "ANDA206866",
+   "ANDA202635"
+  ],
+  "marketing_status": [
+   "Over-the-counter",
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL",
+   "ORAL-28"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 62,
+   "HUMAN OTC DRUG": 53
+  },
+  "err": ""
+ },
+ {
+  "name": "norepinephrine",
+  "drugsfda_total": 16,
+  "apps": [
+   "ANDA219163",
+   "ANDA214455",
+   "ANDA218758"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 26,
+   "HUMAN OTC DRUG": 18
+  },
+  "err": ""
+ },
+ {
+  "name": "loperamide",
+  "drugsfda_total": 25,
+  "apps": [
+   "ANDA075232",
+   "ANDA077500",
+   "ANDA091292"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "Over-the-counter",
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN OTC DRUG": 182,
+   "HUMAN PRESCRIPTION DRUG": 42
+  },
+  "err": ""
+ },
+ {
+  "name": "lovastatin",
+  "drugsfda_total": 3,
+  "apps": [
+   "ANDA075551",
+   "ANDA075991",
+   "ANDA078296"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 55
+  },
+  "err": ""
+ },
+ {
+  "name": "maprotiline",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {},
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "melphalan",
+  "drugsfda_total": 10,
+  "apps": [
+   "ANDA209826",
+   "ANDA090270",
+   "NDA201848"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "INTRA-ARTERIAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 15
+  },
+  "err": ""
+ },
+ {
+  "name": "mesalamine",
+  "drugsfda_total": 33,
+  "apps": [
+   "ANDA091640",
+   "ANDA208362",
+   "ANDA216941"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL",
+   "RECTAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 62
+  },
+  "err": ""
+ },
+ {
+  "name": "metformin",
+  "drugsfda_total": 70,
+  "apps": [
+   "NDA021842",
+   "NDA203414",
+   "ANDA219151"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 361
+  },
+  "err": ""
+ },
+ {
+  "name": "methotrexate",
+  "drugsfda_total": 26,
+  "apps": [
+   "ANDA210454",
+   "NDA208400",
+   "ANDA040632"
+  ],
+  "marketing_status": [
+   "Discontinued",
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "ORAL",
+   "SUBCUTANEOUS"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 47
+  },
+  "err": ""
+ },
+ {
+  "name": "mifepristone",
+  "drugsfda_total": 4,
+  "apps": [
+   "ANDA216616",
+   "NDA202107",
+   "ANDA091178"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 5
+  },
+  "err": ""
+ },
+ {
+  "name": "minocycline",
+  "drugsfda_total": 18,
+  "apps": [
+   "ANDA063065",
+   "ANDA065062",
+   "ANDA063009"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 73
+  },
+  "err": ""
+ },
+ {
+  "name": "mitomycin",
+  "drugsfda_total": 12,
+  "apps": [
+   "NDA022572",
+   "ANDA215687",
+   "ANDA203386"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "TOPICAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 21
+  },
+  "err": ""
+ },
+ {
+  "name": "mitoxantrone",
+  "drugsfda_total": 3,
+  "apps": [
+   "ANDA077496",
+   "ANDA077356",
+   "ANDA076871"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 3
+  },
+  "err": ""
+ },
+ {
+  "name": "nicardipine",
+  "drugsfda_total": 18,
+  "apps": [
+   "ANDA211121",
+   "ANDA218202",
+   "ANDA074928"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "INJECTION",
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 33
+  },
+  "err": ""
+ },
+ {
+  "name": "niclosamide",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {},
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "nicotine",
+  "drugsfda_total": 48,
+  "apps": [
+   "ANDA213233",
+   "ANDA213266",
+   "ANDA074612"
+  ],
+  "marketing_status": [
+   "Over-the-counter"
+  ],
+  "routes": [
+   "BUCCAL",
+   "ORAL",
+   "TRANSDERMAL"
+  ],
+  "label_product_types": {
+   "HUMAN OTC DRUG": 606,
+   "HUMAN PRESCRIPTION DRUG": 1
+  },
+  "err": ""
+ },
+ {
+  "name": "nikita",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {},
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "olaparib",
+  "drugsfda_total": 1,
+  "apps": [
+   "NDA208558"
+  ],
+  "marketing_status": [
+   "Prescription"
+  ],
+  "routes": [
+   "ORAL"
+  ],
+  "label_product_types": {
+   "HUMAN PRESCRIPTION DRUG": 1
+  },
+  "err": ""
+ },
+ {
+  "name": "osimertinib",
+  "drugsfda_total": "err",
+  "apps": [],
+  "marketing_status": [],
+  "routes": [],
+  "label_product_types": {},
+  "err": "HTTP Error 404: Not Found"
+ }
+]

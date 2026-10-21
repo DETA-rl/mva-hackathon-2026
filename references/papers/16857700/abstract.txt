@@ -1,0 +1,36 @@
+1. Toxicol Sci. 2006 Oct;93(2):341-7. doi: 10.1093/toxsci/kfl068. Epub 2006 Jul
+20.
+
+The histone deacetylase inhibitor trichostatin a has genotoxic effects in human 
+lymphoblasts in vitro.
+
+Olaharski AJ(1), Ji Z, Woo JY, Lim S, Hubbard AE, Zhang L, Smith MT.
+
+Author information:
+(1)Molecular Epidemiology and Toxicology Laboratory, School of Public Health, 
+University of California, Berkeley, California 94720-7360, USA.
+
+Histone deacetylase inhibitors (HDACi) are a class of putative chemotherapeutic 
+agents for which the mechanism of toxicity has not been fully identified. To 
+explore the possibility that HDACi are genotoxic, human TK6 lymphoblastoid cells 
+were exposed to trichostatin A (TSA) and genetic damage was measured. TSA caused 
+a dose-dependent increase of G1-arrested cells at 24 h that correlated with 
+increasing levels of p21 and apoptosis. Significantly elevated frequencies of 
+structural chromosomal aberrations in cells exposed to TSA were observed using 
+both the kinetochore-antibody micronucleus assay and nonbanding metaphase 
+chromosome analysis. Increased tail intensities, indicative of elevated levels 
+of DNA damage, were observed using the alkaline comet assay. Elevated levels of 
+phosphorylated histone gammaH2AX protein were observed as early as 3 h following 
+TSA exposure and peaked at 12 h for 200nM TSA. Significant levels of aneuploidy 
+at the 200nM TSA dose were observed using metaphase analysis, but interestingly, 
+kinetochore-positive micronuclei were not detected at any dose using the 
+kinetochore micronucleus assay, suggesting that TSA induces aneuploidy via a 
+nondisjunction event rather than chromosome lagging. Increases in chromosomal 
+loss and breakage were observed using simultaneous FISH metaphase analysis of 
+chromosomes 5, 7, 8, and 21, consistent with data obtained from the micronucleus 
+and metaphase chromosome analyses. We conclude that TSA is both a clastogen and 
+aneugen in the TK6 cell line and propose that the observed cytostatic and 
+apoptotic properties of TSA may partially be due to this genotoxicity.
+
+DOI: 10.1093/toxsci/kfl068
+PMID: 16857700 [Indexed for MEDLINE]

@@ -1,0 +1,50 @@
+1. Nat Genet. 2024 Sep;56(9):1914-1924. doi: 10.1038/s41588-024-01878-5. Epub
+2024  Aug 22.
+
+Genome-scale quantification and prediction of pathogenic stop codon readthrough 
+by small molecules.
+
+Toledano I(1)(2), Supek F(3)(4)(5), Lehner B(6)(7)(8)(9).
+
+Author information:
+(1)Institute for Research in Biomedicine (IRB Barcelona), The Barcelona 
+Institute of Science and Technology (BIST), Barcelona, Spain.
+(2)Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and 
+Technology (BIST), Barcelona, Spain.
+(3)Institute for Research in Biomedicine (IRB Barcelona), The Barcelona 
+Institute of Science and Technology (BIST), Barcelona, Spain. 
+[e-mail removed].
+(4)Biotech Research and Innovation Centre (BRIC), University of Copenhagen, 
+Copenhagen, Denmark. [e-mail removed].
+(5)Institució Catalana de Recerca i Estudis Avançats (ICREA), Barcelona, Spain. 
+[e-mail removed].
+(6)Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and 
+Technology (BIST), Barcelona, Spain. [e-mail removed].
+(7)Institució Catalana de Recerca i Estudis Avançats (ICREA), Barcelona, Spain. 
+[e-mail removed].
+(8)University Pompeu Fabra (UPF), Barcelona, Spain. [e-mail removed].
+(9)Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, UK. 
+[e-mail removed].
+
+Premature termination codons (PTCs) cause ~10-20% of inherited diseases and are 
+a major mechanism of tumor suppressor gene inactivation in cancer. A general 
+strategy to alleviate the effects of PTCs would be to promote translational 
+readthrough. Nonsense suppression by small molecules has proven effective in 
+diverse disease models, but translation into the clinic is hampered by 
+ineffective readthrough of many PTCs. Here we directly tackle the challenge of 
+defining drug efficacy by quantifying the readthrough of ~5,800 human pathogenic 
+stop codons by eight drugs. We find that different drugs promote the readthrough 
+of complementary subsets of PTCs defined by local sequence context. This allows 
+us to build interpretable models that accurately predict drug-induced 
+readthrough genome-wide, and we validate these models by quantifying endogenous 
+stop codon readthrough. Accurate readthrough quantification and prediction will 
+empower clinical trial design and the development of personalized nonsense 
+suppression therapies.
+
+© 2024. The Author(s).
+
+DOI: 10.1038/s41588-024-01878-5
+PMCID: PMC11387191
+PMID: 39174735 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing interests.

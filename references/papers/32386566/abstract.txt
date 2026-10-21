@@ -1,0 +1,77 @@
+1. Cell Metab. 2020 Jun 2;31(6):1078-1090.e5. doi: 10.1016/j.cmet.2020.04.008.
+Epub  2020 May 7.
+
+Niacin Cures Systemic NAD(+) Deficiency and Improves Muscle Performance in 
+Adult-Onset Mitochondrial Myopathy.
+
+Pirinen E(1), Auranen M(2), Khan NA(3), Brilhante V(3), Urho N(4), Pessia A(5), 
+Hakkarainen A(6), Kuula J(7), Heinonen U(4), Schmidt MS(8), Haimilahti K(9), 
+Piirilä P(10), Lundbom N(7), Taskinen MR(9), Brenner C(8), Velagapudi V(5), 
+Pietiläinen KH(11), Suomalainen A(12).
+
+Author information:
+(1)Research Program for Clinical and Molecular Metabolism, Faculty of Medicine, 
+University of Helsinki, Helsinki 00290, Finland. Electronic address: 
+[e-mail removed].
+(2)Research Program of Stem Cells and Metabolism, Faculty of Medicine, 
+University of Helsinki, Helsinki 00290, Finland; Department of Neurosciences, 
+Helsinki University Hospital, Helsinki, Finland.
+(3)Research Program of Stem Cells and Metabolism, Faculty of Medicine, 
+University of Helsinki, Helsinki 00290, Finland.
+(4)Department of Neurosciences, Helsinki University Hospital, Helsinki, Finland.
+(5)Metabolomics Unit, Institute for Molecular Medicine Finland (FIMM), Helsinki 
+00290, Finland.
+(6)Department of Radiology, Medical Imaging Center, University of Helsinki and 
+Helsinki University Hospital, Helsinki, Finland; Department of Neuroscience and 
+Biomedical Engineering, Aalto University School of Science, Espoo 12200, 
+Finland.
+(7)Department of Radiology, Medical Imaging Center, University of Helsinki and 
+Helsinki University Hospital, Helsinki, Finland.
+(8)Department of Biochemistry, Carver College of Medicine, University of Iowa, 
+Iowa City, IA 52242, USA.
+(9)Research Program for Clinical and Molecular Metabolism, Faculty of Medicine, 
+University of Helsinki, Helsinki 00290, Finland.
+(10)Unit of Clinical Physiology, Helsinki University Hospital and University of 
+Helsinki, Helsinki, Finland.
+(11)Obesity Research Unit, Research Program for Clinical and Molecular 
+Metabolism, Faculty of Medicine, University of Helsinki, Helsinki 00290, 
+Finland; Obesity Centre, Abdominal Centre, Endocrinology, Helsinki University 
+Hospital and University of Helsinki, Helsinki, Finland.
+(12)Research Program of Stem Cells and Metabolism, Faculty of Medicine, 
+University of Helsinki, Helsinki 00290, Finland; HUSlab, Helsinki University 
+Hospital, Helsinki 00290, Finland; Neuroscience Center, HiLife, University of 
+Helsinki, Helsinki 00290, Finland. Electronic address: 
+[e-mail removed].
+
+Erratum in
+    Cell Metab. 2020 Jul 7;32(1):144. doi: 10.1016/j.cmet.2020.05.020.
+
+Comment in
+    Cell Metab. 2020 Jun 2;31(6):1041-1043. doi: 10.1016/j.cmet.2020.05.013.
+
+NAD+ is a redox-active metabolite, the depletion of which has been proposed to 
+promote aging and degenerative diseases in rodents. However, whether NAD+ 
+depletion occurs in patients with degenerative disorders and whether NAD+ 
+repletion improves their symptoms has remained open. Here, we report systemic 
+NAD+ deficiency in adult-onset mitochondrial myopathy patients. We administered 
+an increasing dose of NAD+-booster niacin, a vitamin B3 form (to 
+750-1,000 mg/day; clinicaltrials.govNCT03973203) for patients and their matched 
+controls for 10 or 4 months, respectively. Blood NAD+ increased in all subjects, 
+up to 8-fold, and muscle NAD+ of patients reached the level of their controls. 
+Some patients showed anemia tendency, while muscle strength and mitochondrial 
+biogenesis increased in all subjects. In patients, muscle metabolome shifted 
+toward controls and liver fat decreased even 50%. Our evidence indicates that 
+blood analysis is useful in identifying NAD+ deficiency and points niacin to be 
+an efficient NAD+ booster for treating mitochondrial myopathy.
+
+Copyright © 2020 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.cmet.2020.04.008
+PMID: 32386566 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of Interests A.S. has filed a patent 
+application for a method that allows NAD(+) analysis from the blood and tissue 
+samples. C.B. is the inventor of intellectual property on the nutritional and 
+therapeutic uses of NR. He serves as chief scientific advisor of ChromaDex, 
+which licensed, developed, and commercialized NR technologies and holds stock in 
+ChromaDex. The other authors declare no competing interests.

@@ -1,0 +1,30 @@
+1. Radiother Oncol. 1995 Sep;36(3):225-8. doi: 10.1016/0167-8140(95)01581-z.
+
+Nicotinamide pharmacokinetics in patients.
+
+Dragovic J(1), Kim SH, Brown SL, Kim JH.
+
+Author information:
+(1)Department of Radiation Oncology, Henry Ford Hospital, Detroit, MI 48202, 
+USA.
+
+Pharmacokinetic analyses were performed on blood samples of 12 patients 
+undergoing treatment with nicotinamide, hyperthermia and radiation therapy for a 
+variety of recurrent/metastatic cancers. Escalating oral doses of 3, 4, 5, 6 and 
+10 g of nicotinamide showed a linear relationship between maximum recorded 
+plasma concentrations and the dose in grams (correlation coefficient, r = 0.91). 
+Maximum plasma levels were observed by 30 min in most patients ingesting up to 6 
+g of nicotinamide. In marked contrast, five out of six patients ingesting 10 g 
+of nicotinamide demonstrated increasing plasma levels at least up to 3 h 
+post-ingestion. Doses up to 6 g were well tolerated and resulted in average 
+maximum recorded plasma levels (mean +/- 1 SEM) of 156.4 +/- 33.6 micrograms/ml. 
+Doses of 10 g were generally not well tolerated, but a high plasma level was 
+maintained on average for at least 4 h. Plasma concentrations of the above order 
+have been previously associated with maximal enhancement of radiation damage in 
+mouse tumor models. This suggests that radiosensitization can be expected to 
+occur in human tumors following oral administration of a safe and well tolerated 
+dose of 6 g. However, at higher doses (i.e., 10 g), the pharmacokinetics, and 
+perhaps radiosensitization, may differ markedly.
+
+DOI: 10.1016/0167-8140(95)01581-z
+PMID: 8532910 [Indexed for MEDLINE]

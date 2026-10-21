@@ -1,0 +1,12 @@
+gene	group	n_lines	frac_chronos_lt_-0.5	flag_ge_0.25	blood_median	blood_n
+SIRT1	named	1178	0.004	no	0.089	135
+SIRT2	named	1178	0.006	no	-0.036	135
+CREBBP	named	1178	0.076	no	-0.070	135
+EP300	named	1178	0.284	YES	-0.761	135
+KAT2B	named	1178	0.000	no	-0.042	135
+FDPS	context	1178	0.582	YES	-0.840	135
+EGFR	context	1178	0.190	no	-0.146	135
+TUBB	context	1178	0.964	YES	-1.881	135
+GABRA1	context	1178	0.000	no	0.038	135
+SLC6A3	context	1178	0.001	no	0.031	135
+PDE10A	context	1178	0.001	no	0.026	135

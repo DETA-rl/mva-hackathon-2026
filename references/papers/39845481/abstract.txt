@@ -1,0 +1,45 @@
+1. Reprod Med Biol. 2025 Jan 22;24(1):e12622. doi: 10.1002/rmb2.12622.
+eCollection  2025 Jan-Dec.
+
+Sod1 deficiency in mouse oocytes during in vitro maturation increases chromosome 
+segregation errors with a reduced BUBR1 at kinetochore.
+
+Nago M(1)(2), Yanai M(1), Ishii M(1), Sato Y(1), Odajima K(1), Kimura N(1)(2).
+
+Author information:
+(1)Laboratory of Animal Reproduction, Graduate School of Agricultural Sciences 
+Yamagata University Tsuruoka Japan.
+(2)Laboratory of Animal Reproduction, United Graduate School of Agricultural 
+Sciences Iwate University Tsuruoka Japan.
+
+PURPOSE: This study aimed to investigate the molecular mechanisms associated 
+with chromosome segregation errors caused by intrinsic oxidative stress during 
+in vitro oocyte maturation (IVM) using oocytes from Sod1-deficient (Sod1KO) 
+mice.
+METHODS: Ovulated or in vitro matured cumulus-cells oocyte complexes (COCs) were 
+collected from wild-type (WT) and Sod1KO mice and evaluated chromosome 
+alignment, chromosome segregation, meiotic progression, and BUBR1 and REC8 
+protein expression levels.
+RESULTS: In 21% O2 IVM, the Sod1KO had significantly higher frequencies of 
+chromosome misalignment and segregation errors compared to the WT, and they also 
+reached Germinal Vesicle Break Down (GVBD) and M I stages peak earlier and 
+showed a shorter M I stage residence time compared to the WT. These changes were 
+associated with a decrease in the recruitment of BUBR1 to kinetochores at M I 
+stage, but there were no differences in the expression of REC8 between the two 
+genotypes. Furthermore, the addition of L-ascorbic acid (AsA) or 
+N-acetyl-L-cysteine (NAC) during IVM reduced the frequency of chromosome 
+segregation errors in Sod1KO oocytes.
+CONCLUSIONS: Oxidative stress caused by Sod1 deficiency during IVM impairs the 
+spindle assembly checkpoint function due to a decrease in the recruitment of 
+BUBR1 to M I stage kinetochores, leading to abnormalities in meiotic progression 
+and chromosome segregation.
+
+© 2025 The Author(s). Reproductive Medicine and Biology published by John Wiley 
+& Sons Australia, Ltd on behalf of Japan Society for Reproductive Medicine.
+
+DOI: 10.1002/rmb2.12622
+PMCID: PMC11751902
+PMID: 39845481
+
+Conflict of interest statement: The authors have declared that there are no 
+competing interests.

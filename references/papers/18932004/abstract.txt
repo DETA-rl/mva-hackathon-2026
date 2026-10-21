@@ -1,0 +1,35 @@
+1. Hum Genet. 2008 Dec;124(5):473-8. doi: 10.1007/s00439-008-0572-y. Epub 2008
+Oct  19.
+
+Gradual reduction of BUBR1 protein levels results in premature sister-chromatid 
+separation then in aneuploidy.
+
+Bohers E(1), Sarafan-Vasseur N, Drouet A, Paresy M, Latouche JB, Flaman JM, 
+Sesboüé R, Frebourg T.
+
+Author information:
+(1)Faculty of Medicine, INSERM U614, 22 Boulevard Gambetta, 76183, Rouen, 
+France.
+
+Biallelic and heterozygous mutations of the BUB1B gene have been reported in 
+mosaic variegated aneuploidy (MVA), a rare disorder characterized by 
+constitutional mosaic aneuploidies associated to severe intrauterine growth 
+retardation, microcephaly and, in most cases, to premature chromatid separation 
+(PCS), highlighting the key role of human BUBR1 in chromosome segregation. To 
+study the consequences of gradual reduction of the BUBR1 protein levels, 
+inhibition of BUB1B expression in model cells was induced using short hairpin 
+RNAs (shRNAs). We obtained stable shRNA-transduced HeLa cells displaying a 
+gradient of residual BUBR1 protein (8.5, 10, 14, 58, and 77%), mimicking the 
+situation of patients' cells harboring one or two BUB1B mutations. Induction of 
+PCS was detected in all transduced cells and its level was correlated to the 
+decrease of BUBR1. Aneuploidy was clearly detected in cells with residual BUBR1 
+below 50%. Our data demonstrate that the function of the human BUBR1 protein in 
+the spindle checkpoint is remarkably dosage-dependent and that the biological 
+consequences of BUB1B expression reduction on premature chromatid separation and 
+aneuploidy depend on the residual amount of BUBR1. This provides a biological 
+explanation for the mode of inheritance of PCS, which is dominant, and of MVA, 
+which can be recessive in some families and result from the combination of a 
+null allele associated to a common hypomorphic allele in others.
+
+DOI: 10.1007/s00439-008-0572-y
+PMID: 18932004 [Indexed for MEDLINE]

@@ -1,0 +1,36 @@
+1. Biol Open. 2013 Mar 25;2(5):479-86. doi: 10.1242/bio.20134051. Print 2013 May 
+15.
+
+BUBR1 recruits PP2A via the B56 family of targeting subunits to promote 
+chromosome congression.
+
+Xu P(1), Raetz EA, Kitagawa M, Virshup DM, Lee SH.
+
+Author information:
+(1)Program in Cancer and Stem Cell Biology, Duke-NUS Graduate Medical School, 8 
+College Road , Singapore 169857 , Singapore ; NUS Graduate School for 
+Integrative Sciences and Engineering , 28 Medical Drive Singapore 117456 , 
+Singapore.
+
+BUBR1 is a mitotic phosphoprotein essential for the maintenance of chromosome 
+stability by promoting chromosome congression and proper kinetochore-microtubule 
+(K-fiber) attachment, but the underlying mechanism(s) has remained elusive. Here 
+we identify BUBR1 as a binding partner of the B56 family of Protein Phosphatase 
+2A regulatory subunits. The interaction between BUBR1 and the B56 family is 
+required for chromosome congression, since point mutations in BUBR1 that block 
+B56 binding abolish chromosome congression. The BUBR1:B56-PP2A complex opposes 
+Aurora B kinase activity, since loss of the complex can be reverted by 
+inhibiting Aurora B. Importantly, we show that the failure of BUBR1 to recruit 
+B56-PP2A also contributes to the chromosome congression defects found in cells 
+derived from patients with the Mosaic Variegated Aneuploidy (MVA) syndrome. 
+Together, we propose that B56-PP2A is a key mediator of BUBR1's role in 
+chromosome congression and functions by antagonizing Aurora B activity at the 
+kinetochore for establishing stable kinetochore-microtubule attachment at the 
+metaphase plate.
+
+DOI: 10.1242/bio.20134051
+PMCID: PMC3654266
+PMID: 23789096
+
+Conflict of interest statement: Competing interests: The authors have no 
+competing interests to declare.

@@ -1,0 +1,25 @@
+1. J Med Chem. 2019 Apr 25;62(8):4131-4141. doi: 10.1021/acs.jmedchem.9b00191.
+Epub  2019 Apr 15.
+
+Novel Lysine-Based Thioureas as Mechanism-Based Inhibitors of Sirtuin 2 (SIRT2) 
+with Anticancer Activity in a Colorectal Cancer Murine Model.
+
+Farooqi AS, Hong JY, Cao J, Lu X, Price IR, Zhao Q, Kosciuk T, Yang M, Bai JJ, 
+Lin H.
+
+Sirtuin 2 (SIRT2) is a protein lysine deacylase that has been indicated as a 
+therapeutic target for cancer. To further establish the role of SIRT2 in 
+cancers, it is necessary to develop selective and potent inhibitors. Here, we 
+report the facile synthesis of novel lysine-derived thioureas as mechanism-based 
+SIRT2 inhibitors with anticancer activity. Compounds AF8, AF10, and AF12 
+selectively inhibited SIRT2 with IC50 values of 0.06, 0.15, and 0.08 μM, 
+respectively. Compounds AF8 and AF10 demonstrated broad cytotoxicity amongst 
+cancer cell lines, but minimal toxicity in noncancerous cells. AF8 and AF10 
+inhibited the anchorage-independent growth of human colorectal cancer cell line 
+HCT116 with GI50 values of ∼7 μM. Furthermore, AF8 potently inhibited tumor 
+growth in a HCT116 xenograft murine model, supporting that SIRT2 is a viable 
+therapeutic target for colorectal cancer.
+
+DOI: 10.1021/acs.jmedchem.9b00191
+PMCID: PMC6901289
+PMID: 30986062 [Indexed for MEDLINE]

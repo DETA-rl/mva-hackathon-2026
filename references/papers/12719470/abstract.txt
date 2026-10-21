@@ -1,0 +1,34 @@
+1. J Cell Biol. 2003 Apr 28;161(2):267-80. doi: 10.1083/jcb.200208091.
+
+Aurora B couples chromosome alignment with anaphase by targeting BubR1, Mad2, 
+and Cenp-E to kinetochores.
+
+Ditchfield C(1), Johnson VL, Tighe A, Ellston R, Haworth C, Johnson T, Mortlock 
+A, Keen N, Taylor SS.
+
+Author information:
+(1)School of Biological Sciences, University of Manchester, 2.205 Stopford 
+Building, Oxford Rd., Manchester M13 9PT, UK.
+
+The Aurora/Ipl1 family of protein kinases plays multiple roles in mitosis and 
+cytokinesis. Here, we describe ZM447439, a novel selective Aurora kinase 
+inhibitor. Cells treated with ZM447439 progress through interphase, enter 
+mitosis normally, and assemble bipolar spindles. However, chromosome alignment, 
+segregation, and cytokinesis all fail. Despite the presence of maloriented 
+chromosomes, ZM447439-treated cells exit mitosis with normal kinetics, 
+indicating that the spindle checkpoint is compromised. Indeed, ZM447439 prevents 
+mitotic arrest after exposure to paclitaxel. RNA interference experiments 
+suggest that these phenotypes are due to inhibition of Aurora B, not Aurora A or 
+some other kinase. In the absence of Aurora B function, kinetochore localization 
+of the spindle checkpoint components BubR1, Mad2, and Cenp-E is diminished. 
+Furthermore, inhibition of Aurora B kinase activity prevents the rebinding of 
+BubR1 to metaphase kinetochores after a reduction in centromeric tension. Aurora 
+B kinase activity is also required for phosphorylation of BubR1 on entry into 
+mitosis. Finally, we show that BubR1 is not only required for spindle checkpoint 
+function, but is also required for chromosome alignment. Together, these results 
+suggest that by targeting checkpoint proteins to kinetochores, Aurora B couples 
+chromosome alignment with anaphase onset.
+
+DOI: 10.1083/jcb.200208091
+PMCID: PMC2172902
+PMID: 12719470 [Indexed for MEDLINE]

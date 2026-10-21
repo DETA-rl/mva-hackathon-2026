@@ -1,0 +1,106 @@
+1. Nat Commun. 2022 Nov 4;13(1):6664. doi: 10.1038/s41467-022-34349-8.
+
+Pathogenic variants in SLF2 and SMC5 cause segmented chromosomes and mosaic 
+variegated hyperploidy.
+
+Grange LJ(#)(1), Reynolds JJ(#)(1), Ullah F(#)(2)(3), Isidor B(#)(4), Shearer 
+RF(5), Latypova X(4), Baxley RM(6), Oliver AW(7), Ganesh A(1), Cooke SL(1), 
+Jhujh SS(1), McNee GS(1), Hollingworth R(1), Higgs MR(1), Natsume T(8), Khan 
+T(9), Martos-Moreno GÁ(10), Chupp S(11), Mathew CG(12), Parry D(13), Simpson 
+MA(14), Nahavandi N(15), Yüksel Z(15), Drasdo M(15), Kron A(15), Vogt P(15), 
+Jonasson A(15), Seth SA(16), Gonzaga-Jauregui C(17)(18), Brigatti KW(19), 
+Stegmann APA(20), Kanemaki M(21), Josifova D(22), Uchiyama Y(23)(24), Oh Y(25), 
+Morimoto A(25), Osaka H(25), Ammous Z(11), Argente J(10)(26), Matsumoto N(23), 
+Stumpel CTRM(27), Taylor AMR(1), Jackson AP(13), Bielinsky AK(6), Mailand N(5), 
+Le Caignec C(28), Davis EE(29)(30), Stewart GS(31).
+
+Author information:
+(1)Institute of Cancer and Genomic Sciences, University of Birmingham, 
+Birmingham, UK.
+(2)Advanced Center for Genetic and Translational Medicine (ACT-GeM), Stanley 
+Manne Children's Research Institute, Ann & Robert H Lurie Children's Hospital of 
+Chicago, Chicago, IL, USA.
+(3)National Institute for Biotechnology and Genetic Engineering (NIBGE-C), 
+Faisalabad, Pakistan Institute of Engineering and Applied Sciences (PIEAS), 
+Islamabad, Pakistan.
+(4)Service de Génétique Médicale, CHU Nantes, Nantes Cedex 1, France.
+(5)Novo Nordisk Foundation Center for Protein Research, Faculty of Health and 
+Medical Sciences, University of Copenhagen, Copenhagen, Denmark.
+(6)Department of Biochemistry, Molecular Biology and Biophysics, University of 
+Minnesota, Minneapolis, MN, USA.
+(7)Genome Damage and Stability Centre, Science Park Road, University of Sussex, 
+Falmer, Brighton, UK.
+(8)Department of Chromosome Science, National Institute of Genetics, Research 
+Organization of Information and Systems (ROIS), Mishima, Shizuoka, Japan.
+(9)Center for Human Disease Modeling, Duke University Medical Center, Durham, 
+NC, USA.
+(10)Hospital Infantil Universitario Niño Jesús, CIBER de fisiopatología de la 
+obesidad y nutrición (CIBEROBN), Instituto de Salud Carlos III, Universidad 
+Autónoma de Madrid, Madrid, Spain.
+(11)The Community Health Clinic, Topeka, IN, USA.
+(12)Sydney Brenner Institute for Molecular Bioscience, Faculty of Health 
+Sciences, University of the Witwatersrand, Johannesburg, South Africa.
+(13)MRC Human Genetics Unit, MRC Institute of Genetics and Molecular Medicine, 
+Western General Hospital, The University of Edinburgh, Edinburgh, Scotland.
+(14)Department of Medical and Molecular Genetics, Faculty of Life Science and 
+Medicine, Guy's Hospital, King's College London, London, UK.
+(15)Bioscientia Institute for Medical Diagnostics, Human Genetics, Ingelheim, 
+Germany.
+(16)King Fahad Military Medical Complex, Dhahran, Saudi Arabia.
+(17)Regeneron Genetics Center, Regeneron Pharmaceuticals Inc., Tarrytown, NY, 
+USA.
+(18)International Laboratory for Human Genome Research, Universidad Nacional 
+Autónoma de México, Querétaro, México.
+(19)Clinic for Special Children, Strasburg, PA, USA.
+(20)Department of Clinical Genetics, Maastricht University Medical Center, 
+Maastricht, The Netherlands.
+(21)Department of Genetics, The Graduate University for Advanced Studies 
+(SOKENDAI), Mishima, Shizuoka, Japan.
+(22)Clinical Genetics Department, Guy's Hospital, London, UK.
+(23)Department of Rare Disease Genomics, Yokohama City University Hospital, 
+Yokohama, Japan.
+(24)Department of Human Genetics, Yokohama City University Graduate School of 
+Medicine, Yokohama, Japan.
+(25)Department of Paediatrics, Jichi Medical University School of Medicine, 
+Tochigi, Japan.
+(26)IMDEA Alimentación/IMDEA Food, Madrid, Spain.
+(27)Department of Clinical Genetics and GROW-School for Oncology and 
+Developmental Biology, Maastricht University Medical Center, Maastricht, The 
+Netherlands.
+(28)Centre Hospitalier Universitaire Toulouse, Service de Génétique Médicale and 
+ToNIC, Toulouse NeuroImaging Center, Inserm, UPS, Université de Toulouse, 
+Toulouse, France. [e-mail removed].
+(29)Advanced Center for Genetic and Translational Medicine (ACT-GeM), Stanley 
+Manne Children's Research Institute, Ann & Robert H Lurie Children's Hospital of 
+Chicago, Chicago, IL, USA. [e-mail removed].
+(30)Department of Pediatrics; Department of Cell and Developmental Biology, 
+Feinberg School of Medicine, Northwestern University, Chicago, IL, USA. 
+[e-mail removed].
+(31)Institute of Cancer and Genomic Sciences, University of Birmingham, 
+Birmingham, UK. [e-mail removed].
+(#)Contributed equally
+
+Embryonic development is dictated by tight regulation of DNA replication, cell 
+division and differentiation. Mutations in DNA repair and replication genes 
+disrupt this equilibrium, giving rise to neurodevelopmental disease 
+characterized by microcephaly, short stature and chromosomal breakage. Here, we 
+identify biallelic variants in two components of the RAD18-SLF1/2-SMC5/6 genome 
+stability pathway, SLF2 and SMC5, in 11 patients with microcephaly, short 
+stature, cardiac abnormalities and anemia. Patient-derived cells exhibit a 
+unique chromosomal instability phenotype consisting of segmented and dicentric 
+chromosomes with mosaic variegated hyperploidy. To signify the importance of 
+these segmented chromosomes, we have named this disorder Atelís (meaning - 
+incomplete) Syndrome. Analysis of Atelís Syndrome cells reveals elevated levels 
+of replication stress, partly due to a reduced ability to replicate through 
+G-quadruplex DNA structures, and also loss of sister chromatid cohesion. 
+Together, these data strengthen the functional link between SLF2 and the SMC5/6 
+complex, highlighting a distinct role for this pathway in maintaining genome 
+stability.
+
+© 2022. The Author(s).
+
+DOI: 10.1038/s41467-022-34349-8
+PMCID: PMC9636423
+PMID: 36333305 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing interests.

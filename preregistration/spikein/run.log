@@ -1,0 +1,20 @@
+2026-10-20T09:09:15Z start; pre-reg sha256 6d40e58fe2d34d92fa9ff42b7171ad5034b45c2409591779c4cc3775650ede69
+2026-10-20T09:09:15Z child VCF sha256 before bec64c68d3ad10d05b8071d07cdf87d217013d66d3ba02e24b505035c9d42175
+2026-10-20T09:09:15Z masked rows removed: 2
+canonical protein-coding transcripts: 19690
+calls: 87196
+done
+2026-10-20T09:09:28Z eligible pool alleles: 360243 excluded as child keys: 5
+2026-10-20T09:09:29Z synthetic stop-loss alleles: 120
+2026-10-20T09:09:30Z trials: {'A': 300, 'A-BUB': 100, 'B': 300, 'C1': 100, 'C2-HOM': 120, 'C2-CH': 91, 'D': 300, 'E': 300}
+child exonic non-reference calls: 1486
+canonical protein-coding transcripts: 19690
+calls: 1486
+done
+canonical protein-coding transcripts: 19690
+calls: 1486
+done
+2026-10-20T09:09:39Z sanity gate S1-S3: True
+2026-10-20T09:09:39Z FIRST SPIKED RANKING RUN starts now
+2026-10-20T09:09:43Z trials done: 1611
+2026-10-20T09:09:43Z child VCF sha256 after bec64c68d3ad10d05b8071d07cdf87d217013d66d3ba02e24b505035c9d42175 unchanged: True

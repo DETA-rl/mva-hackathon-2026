@@ -1,0 +1,36 @@
+1. Mol Cell Biochem. 2022 Dec;477(12):2787-2799. doi: 10.1007/s11010-022-04470-9.
+ Epub 2022 May 31.
+
+SIRT1 regulates mitotic catastrophe via autophagy and BubR1 signaling.
+
+Zhao W(#)(1), Wang Q(#)(1), Li L(1), Xie C(1), Wu Y(1), Gautam M(1), Li L(2).
+
+Author information:
+(1)College of Life Sciences, Wuhan University, Wuhan, 430072, China.
+(2)College of Life Sciences, Wuhan University, Wuhan, 430072, China. 
+[e-mail removed].
+(#)Contributed equally
+
+Mitotic catastrophe (MC) is a suppressive mechanism that mediates the 
+elimination of mitosis-deficient cells through apoptosis, necrosis or senescence 
+after M phase block. SIRT1 is involved in the regulation of several cellular 
+processes, including autophagy. However, the relationship between SIRT1 and MC 
+has been largely obscure. Our study highlights that SIRT1 might be involved in 
+the regulation of MC. We have shown that degradation of the SIRT1 protein via 
+proteasome and lysosomal pathway was accompanied by MC induced via BMH-21. 
+Overexpression of SIRT1 alleviated MC by decreasing the proportion of apoptotic 
+and multinuclear cells induced by G2/M block and triggered autophagy whereas 
+knockdown of SIRT1 aggravated MC and repressed autophagy. Furthermore, we found 
+that serum starvation triggered autophagy evidently generated lower MC whereas 
+siRNA of ATG5/7 suppressed autophagy leading to higher MC. ChIP analysis 
+revealed that SIRT1 could bind to the promoter of BubR1, a component of spindle 
+assembly checkpoint (SAC), to upregulate its expression. Overexpression of BubR1 
+decreased MC whereas knockdown of BubR1 increased it. These results reveal that 
+SIRT1 regulates MC through autophagy and BubR1 signaling, and provide evidence 
+for SIRT1, autophagy and BubR1 being the potential cancer therapeutic targets.
+
+© 2022. The Author(s), under exclusive licence to Springer Science+Business 
+Media, LLC, part of Springer Nature.
+
+DOI: 10.1007/s11010-022-04470-9
+PMID: 35639235 [Indexed for MEDLINE]

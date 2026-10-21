@@ -1,0 +1,43 @@
+1. Endocrinol Metab (Seoul). 2014 Dec 29;29(4):561-6. doi: 
+10.3803/EnM.2014.29.4.561.
+
+Partial Hepatectomy in Acetylation-Deficient BubR1 Mice Corroborates that 
+Chromosome Missegregation Initiates Tumorigenesis.
+
+Lee YK(1), Park I(2), Lee H(3).
+
+Author information:
+(1)Department of Biological Sciences and Institute of Molecular Biology and 
+Genetics, Seoul National University, Seoul, Korea.; Department of Obstetrics and 
+Gynecology, Seoul National University College of Medicine, Seoul, Korea.
+(2)Department of Biological Sciences and Institute of Molecular Biology and 
+Genetics, Seoul National University, Seoul, Korea.
+(3)Department of Biological Sciences and Institute of Molecular Biology and 
+Genetics, Seoul National University, Seoul, Korea. [e-mail removed].
+
+BACKGROUND: Aneuploidy has been suggested as one of the major causes of cancer 
+from the time of Boveri. In support of this notion, many studies have shown that 
+cancer cells exhibit aneuploidy. However, there are evidences that do not 
+support the aneuploidy hypothesis. We have previously reported that the spindle 
+assembly checkpoint protein BubR1 is acetylated in mitosis and that the 
+acetylation of BubR1 is crucial for checkpoint maintenance and 
+chromosome-spindle attachment. Mice heterozygous for acetylation-deficient BubR1 
+(K243R/+) spontaneously develop cancer with chromosome instability. As K243R/+ 
+mice develop hepatocellular carcinoma, we set out to test if chromosome 
+mis-segregation was the cause of their liver cancer.
+METHODS: Primary hepatocytes in the regenerating liver after partial hepatectomy 
+(PH) were analyzed and compared for various mitotic parameters.
+RESULTS: Primary hepatocytes isolated from K243R/+ mice after PH displayed a 
+marked increase of chromosome misalignment, accompanied by an increase of 
+micronuclei. In comparison, the number of nuclei per cell and the centrosome 
+numbers were not different between wild-type and K243R/+ mice. Taken together, 
+chromosome mis-segregation provokes tumorigenesis in mouse liver.
+CONCLUSION: Our results corroborate that PH provides a reliable tool for 
+assessing mitotic infidelity and cancer in mice.
+
+DOI: 10.3803/EnM.2014.29.4.561
+PMCID: PMC4285024
+PMID: 25559578
+
+Conflict of interest statement: No potential conflict of interest relevant to 
+this article was reported.

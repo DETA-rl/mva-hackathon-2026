@@ -1,0 +1,168 @@
+{
+ "eligible_plp_records": 320170,
+ "set18": {
+  "RNU4ATAC": {
+   "n": 0,
+   "pheno": 4,
+   "AR": true,
+   "snv": 0,
+   "chrom": []
+  },
+  "RNU6ATAC": {
+   "n": 0,
+   "pheno": 3,
+   "AR": true,
+   "snv": 0,
+   "chrom": []
+  },
+  "ZRSR2": {
+   "n": 6,
+   "pheno": 2,
+   "AR": false,
+   "snv": 3,
+   "chrom": [
+    "X"
+   ]
+  },
+  "SNRNP48": {
+   "n": 0,
+   "pheno": 0,
+   "AR": false,
+   "snv": 0,
+   "chrom": []
+  },
+  "ESCO2": {
+   "n": 156,
+   "pheno": 2,
+   "AR": true,
+   "snv": 57,
+   "chrom": [
+    "8"
+   ]
+  },
+  "PCNT": {
+   "n": 382,
+   "pheno": 1,
+   "AR": true,
+   "snv": 205,
+   "chrom": [
+    "21"
+   ]
+  },
+  "CENPF": {
+   "n": 83,
+   "pheno": 0,
+   "AR": true,
+   "snv": 47,
+   "chrom": [
+    "1"
+   ]
+  },
+  "BUB1B": {
+   "n": 74,
+   "pheno": 3,
+   "AR": true,
+   "snv": 41,
+   "chrom": [
+    "15"
+   ]
+  },
+  "TRIP13": {
+   "n": 9,
+   "pheno": 2,
+   "AR": true,
+   "snv": 7,
+   "chrom": [
+    "5"
+   ]
+  },
+  "CEP57": {
+   "n": 18,
+   "pheno": 3,
+   "AR": true,
+   "snv": 11,
+   "chrom": [
+    "11"
+   ]
+  },
+  "SMC5": {
+   "n": 5,
+   "pheno": 0,
+   "AR": true,
+   "snv": 3,
+   "chrom": [
+    "9"
+   ]
+  },
+  "MAD1L1": {
+   "n": 8,
+   "pheno": 1,
+   "AR": true,
+   "snv": 7,
+   "chrom": [
+    "7"
+   ]
+  },
+  "CEP192": {
+   "n": 0,
+   "pheno": 0,
+   "AR": false,
+   "snv": 0,
+   "chrom": []
+  },
+  "TRIM37": {
+   "n": 114,
+   "pheno": 1,
+   "AR": true,
+   "snv": 63,
+   "chrom": [
+    "17"
+   ]
+  },
+  "CDC20": {
+   "n": 11,
+   "pheno": 0,
+   "AR": true,
+   "snv": 9,
+   "chrom": [
+    "1"
+   ]
+  },
+  "MAD2L1BP": {
+   "n": 0,
+   "pheno": 0,
+   "AR": false,
+   "snv": 0,
+   "chrom": []
+  },
+  "CENATAC": {
+   "n": 2,
+   "pheno": 0,
+   "AR": true,
+   "snv": 1,
+   "chrom": [
+    "11"
+   ]
+  },
+  "SLF2": {
+   "n": 8,
+   "pheno": 0,
+   "AR": true,
+   "snv": 2,
+   "chrom": [
+    "10"
+   ]
+  }
+ },
+ "stop_lost_snv": 194,
+ "stop_lost_genes": 137,
+ "control_genes_ge1": 1390,
+ "control_genes_ge2": 1274,
+ "af_source_counts": {
+  "none": 301974,
+  "exac": 17095,
+  "esp": 748,
+  "tgp": 353
+ },
+ "af_ge_0.001_by_exac_first": 106
+}

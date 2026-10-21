@@ -1,0 +1,38 @@
+1. Biochem Biophys Res Commun. 2014 Aug 8;450(4):1690-5. doi: 
+10.1016/j.bbrc.2014.07.071. Epub 2014 Jul 22.
+
+Overexpression of Mps1 in colon cancer cells attenuates the spindle assembly 
+checkpoint and increases aneuploidy.
+
+Ling Y(1), Zhang X(2), Bai Y(3), Li P(3), Wei C(3), Song T(3), Zheng Z(3), Guan 
+K(3), Zhang Y(3), Zhang B(4), Liu X(5), Ma RZ(2), Cao C(6), Zhong H(7), Xu Q(8).
+
+Author information:
+(1)Department of Life Science, Anhui University, Hefei, China; Beijing Institute 
+of Biotechnology, Beijing, China.
+(2)Center for Developmental Biology, Institute of Genetics and Developmental 
+Biology, Chinese Academy of Sciences, Beijing, China.
+(3)Beijing Institute of Biotechnology, Beijing, China.
+(4)Department of Life Science, Anhui University, Hefei, China.
+(5)University of Colorado at Boulder, Boulder, CO, USA.
+(6)Beijing Institute of Biotechnology, Beijing, China. Electronic address: 
+[e-mail removed].
+(7)Beijing Institute of Biotechnology, Beijing, China. Electronic address: 
+[e-mail removed].
+(8)Beijing Institute of Biotechnology, Beijing, China. Electronic address: 
+[e-mail removed].
+
+The spindle assembly checkpoint kinase Mps1 is highly expressed in several types 
+of cancers, but its cellular involvement in tumorigenesis is less defined. 
+Herein, we confirm that Mps1 is overexpressed in colon cancer tissues. Further, 
+we find that forced expression of Mps1 in the colon cancer cell line SW480 
+enables cells to become resistant to both Mps1 inhibition-induced checkpoint 
+depletion and cell death. Overexpression of Mps1 also increases genome 
+instability in tumor cells owing to a weakened spindle assembly checkpoint. 
+Collectively, our findings suggest that high levels of Mps1 contribute to 
+tumorigenesis by attenuating the spindle assembly checkpoint.
+
+Copyright © 2014 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.bbrc.2014.07.071
+PMID: 25063032 [Indexed for MEDLINE]

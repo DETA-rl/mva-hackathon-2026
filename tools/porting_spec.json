@@ -1,0 +1,1024 @@
+{
+ "about": "Line edits that turn the as-run analysis scripts into the ported copies under replicate/analysis/. Only path constants, hard-coded candidate coordinates and the candidate's protein-change labels are replaced; three comment-only edits label public coordinates as public annotation. Each edit replaces exactly one line, so the ported file has the same number of lines as the original and every other line is byte-identical. The original text of an edited line is NOT stored here (some contain the organiser sample ID or candidate coordinates); its keyed hash (HMAC-SHA256; the authors keep the key with the originals) is stored in replicate/analysis/PORTING.json instead, because a plain sha256 of a short line can be reversed by trying candidates. Origins: 'candidates:' = copy of the as-run script kept privately by the authors (the repo as-run copy is named in repo_copy when it exists); 'recovered:' = script recovered from the session transcript that ran it. The as-run copies in this repository are under as_run/; where one of them named a local user name, disk identifier or session folder, that token is replaced by '[redacted]' in the public copy (column 'repo_copy_redactions' in PORTING.json); the audit then compares every other line.",
+ "scripts": [
+  {
+   "ported": "track1/blind_exonic/child_exonic_calls.py",
+   "origin": "candidates:track1/blind_exonic/child_exonic_calls_scratchcopy.py",
+   "repo_copy": null,
+   "register": "Genome-wide blind exonic pass",
+   "edits": [
+    {
+     "line": 3,
+     "new": "VCF = __import__(\"os\").environ[\"REPL_VCF\"]",
+     "reason": "organiser VCF path constant -> config input"
+    },
+    {
+     "line": 4,
+     "new": "D = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    }
+   ],
+   "origin_note": "The copy in the project folder cannot be the one that ran: its line 29 is a SyntaxError on Python 3.12 and 3.13, and its header says \"gene\" while the stored table says \"genes\". The analysis_scripts copy (the origin above; same bytes as the scratchpad copy) writes the stored header; the harness reproduces the stored table byte for byte with it (BLIND-01A)."
+  },
+  {
+   "ported": "track1/blind_exonic/gnomad_match.py",
+   "origin": "candidates:track1/blind_exonic/gnomad_match.py",
+   "repo_copy": "as_run/track1/blind_exonic/gnomad_match.py",
+   "register": "Genome-wide blind exonic pass",
+   "edits": [
+    {
+     "line": 3,
+     "new": "D = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "repo_copy_redactions": [
+    {
+     "line": 3,
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ]
+  },
+  {
+   "ported": "track1/blind_exonic/blind_rare_exonic.py",
+   "origin": "candidates:track1/blind_exonic/blind_rare_exonic.py",
+   "repo_copy": "as_run/track1/blind_exonic/blind_rare_exonic.py",
+   "register": "Genome-wide blind exonic pass",
+   "edits": [
+    {
+     "line": 3,
+     "new": "D = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ],
+   "repo_copy_redactions": [
+    {
+     "line": 3,
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ]
+  },
+  {
+   "ported": "track1/blind_exonic/consequence.py",
+   "origin": "candidates:track1/blind_exonic/consequence.py",
+   "repo_copy": "as_run/track1/blind_exonic/consequence.py",
+   "register": "Consequence step (2026-10-17)",
+   "edits": [
+    {
+     "line": 3,
+     "new": "HERE = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "new": "FA = os.environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant -> config input"
+    }
+   ],
+   "repo_copy_redactions": [
+    {
+     "line": 4,
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ]
+  },
+  {
+   "ported": "track1/blind_exonic/consequence_fixed.py",
+   "origin": "candidates:track1/blind_exonic/consequence_fixed.py",
+   "repo_copy": "as_run/track1/blind_exonic/consequence_fixed.py",
+   "register": "C-FIX-01",
+   "edits": [
+    {
+     "line": 3,
+     "new": "HERE = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "new": "FA = os.environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant -> config input"
+    }
+   ],
+   "repo_copy_redactions": [
+    {
+     "line": 4,
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ]
+  },
+  {
+   "ported": "track1/blind_exonic/summarize_consequence.py",
+   "origin": "candidates:track1/blind_exonic/summarize_consequence.py",
+   "repo_copy": "as_run/track1/blind_exonic/summarize_consequence.py",
+   "register": "Consequence step (2026-10-17)",
+   "edits": [
+    {
+     "line": 2,
+     "new": "F = os.environ[\"REPL_CONSEQUENCE_TSV\"]",
+     "reason": "input table path constant -> set by the harness (original or corrected table)"
+    }
+   ]
+  },
+  {
+   "ported": "track1/blind_exonic/compound_check.py",
+   "origin": "candidates:track1/blind_exonic/compound_check.py",
+   "repo_copy": "as_run/track1/blind_exonic/compound_check.py",
+   "register": "C-FIX-01 follow-up",
+   "edits": [
+    {
+     "line": 2,
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/blind_exonic/compound_check_fixed.py",
+   "origin": "candidates:track1/blind_exonic/compound_check_fixed.py",
+   "repo_copy": "as_run/track1/blind_exonic/compound_check_fixed.py",
+   "register": "C-FIX-01 follow-up",
+   "edits": [
+    {
+     "line": 2,
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence_fixed.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/blind_exonic/validate_consequence.py",
+   "origin": "candidates:track1/blind_exonic/validate_consequence.py",
+   "repo_copy": "as_run/track1/blind_exonic/validate_consequence.py",
+   "register": "C-FIX-02",
+   "edits": []
+  },
+  {
+   "ported": "track1/ranking/ranking_v1.py",
+   "origin": "candidates:track1/ranking/ranking_v1.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v1.py",
+   "register": "Ranking v1",
+   "edits": [
+    {
+     "line": 3,
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/ranking_v1_summary.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/ranking/ranking_v1_fixed.py",
+   "origin": "candidates:track1/ranking/ranking_v1_fixed.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v1_fixed.py",
+   "register": "C-FIX-01",
+   "edits": [
+    {
+     "line": 3,
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence_fixed.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/ranking_v1_summary_fixed.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/ranking/ranking_v2.py",
+   "origin": "candidates:track1/ranking/ranking_v2.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v2.py",
+   "register": "Ranking v2",
+   "edits": [
+    {
+     "line": 3,
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/ranking_v2_summary.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/ranking/ranking_v2_fixed.py",
+   "origin": "candidates:track1/ranking/ranking_v2_fixed.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v2_fixed.py",
+   "register": "C-FIX-01",
+   "edits": [
+    {
+     "line": 3,
+     "new": "F = os.environ[\"REPL_OUT\"] + \"/child_exonic_consequence_fixed.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 4,
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/ranking_v2_summary_fixed.tsv\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/ranking/ranking_v3.py",
+   "origin": "candidates:track1/ranking/ranking_v3.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v3.py",
+   "register": "Ranking v3",
+   "edits": [
+    {
+     "line": 3,
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/ranking/ranking_v3_fixed.py",
+   "origin": "candidates:track1/ranking/ranking_v3_fixed.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v3_fixed.py",
+   "register": "C-FIX-01",
+   "edits": [
+    {
+     "line": 3,
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/ranking/ranking_v4.py",
+   "origin": "candidates:track1/ranking/ranking_v4.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v4.py",
+   "register": "Ranking v4 (run 1)",
+   "edits": [
+    {
+     "line": 3,
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/ranking/ranking_v4b.py",
+   "origin": "candidates:track1/ranking/ranking_v4b.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v4b.py",
+   "register": "Ranking v4 (run 2, Amendment 1)",
+   "edits": [
+    {
+     "line": 3,
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/ranking/ranking_v4_fixed.py",
+   "origin": "candidates:track1/ranking/ranking_v4_fixed.py",
+   "repo_copy": "as_run/track1/ranking/ranking_v4_fixed.py",
+   "register": "C-FIX-01",
+   "edits": [
+    {
+     "line": 3,
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/readlevel/bub1b_readcheck.py",
+   "origin": "candidates:track1/readlevel/bub1b_readcheck.py",
+   "repo_copy": null,
+   "register": "Read-level check of the two BUB1B calls",
+   "edits": [
+    {
+     "line": 3,
+     "new": "BAM = os.environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 4,
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/bub1b_readcheck.json\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 5,
+     "new": "sites = [tuple(s) for s in json.loads(os.environ[\"REPL_CANDIDATE_SITES\"])]",
+     "reason": "hard-coded candidate coordinates -> taken at run time from the upstream ranking output (T1-CANDIDATE)"
+    }
+   ]
+  },
+  {
+   "ported": "track1/readlevel/cenatac_check.py",
+   "origin": "candidates:track1/readlevel/cenatac_check.py",
+   "repo_copy": null,
+   "register": "PRE-REG-C / P3",
+   "edits": [
+    {
+     "line": 7,
+     "new": "GTF = __import__(\"os\").environ[\"REPL_GTF\"]",
+     "reason": "GENCODE path constant -> config input"
+    },
+    {
+     "line": 8,
+     "new": "FA = __import__(\"os\").environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant -> config input"
+    },
+    {
+     "line": 9,
+     "new": "VCF = __import__(\"os\").environ[\"REPL_VCF\"]",
+     "reason": "organiser VCF path constant -> config input"
+    },
+    {
+     "line": 10,
+     "new": "BAM = __import__(\"os\").environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    }
+   ]
+  },
+  {
+   "ported": "track1/readlevel/p2_annot.py",
+   "origin": "candidates:track1/readlevel/p2_annot.py",
+   "repo_copy": null,
+   "register": "P2",
+   "edits": [
+    {
+     "line": 19,
+     "new": "    out = subprocess.run([\"tabix\", __import__(\"os\").environ[\"REPL_VCF\"], f\"{ch}:{s}-{e}\"], capture_output=True, text=True).stdout",
+     "reason": "organiser VCF path constant -> config input"
+    }
+   ]
+  },
+  {
+   "ported": "track1/readlevel/p1_tlen_bridging.py",
+   "origin": "recovered:P1-phasing/p1_step4_tlen_bridging.py",
+   "repo_copy": null,
+   "register": "P1",
+   "edits": [
+    {
+     "line": 2,
+     "new": "bam = pysam.AlignmentFile(__import__(\"os\").environ[\"REPL_BAM\"], \"rb\")",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 6,
+     "new": "for r in bam.fetch(contig, int(__import__(\"os\").environ[\"REPL_P1_WINDOW_START\"]), int(__import__(\"os\").environ[\"REPL_P1_WINDOW_END\"])):",
+     "reason": "hard-coded window around the candidate pair -> computed at run time from T1-CANDIDATE"
+    },
+    {
+     "line": 15,
+     "new": "print(\"templates with |TLEN| >= 4000 (span from the first candidate site to the next het site needs >= \" + __import__(\"os\").environ[\"REPL_P1_GAP1\"] + \"):\", sum(1 for t in tl if t >= int(__import__(\"os\").environ[\"REPL_P1_GAP1\"])))",
+     "reason": "hard-coded coordinates in the label and the gap threshold (a coordinate difference) -> computed at run time; the label keeps the original '>= 4000' wording"
+    }
+   ]
+  },
+  {
+   "ported": "track1/readlevel/p1_het_list_vcf.sh",
+   "origin": "recovered:P1-phasing/p1_step2_het_list_vcf.sh",
+   "repo_copy": null,
+   "register": "P1",
+   "mode": "extract",
+   "extract_note": "The recovered file is one ssh command. The ported file keeps only the listing pipeline inside it (zcat | awk contig filter | awk interval filter | head -40), byte-for-byte except: the VCF path, the contig name and the two interval ends become environment variables. Dropped: the 'ls' of the data folder and the 'grep -m3 ##contig' header probe, which only printed diagnostics.",
+   "content": "#!/usr/bin/env bash\n# P1 step 2 (ported): list the VCF records between the two candidate sites.\n# Inputs from the harness: REPL_VCF, REPL_P1_CHROM (contig name without chr), REPL_P1_START, REPL_P1_END.\nzcat \"$REPL_VCF\" | awk \"\\$1==\\\"$REPL_P1_CHROM\\\" || \\$1==\\\"chr$REPL_P1_CHROM\\\"\" | awk -F\"\\t\" \"\\$2>=$REPL_P1_START && \\$2<=$REPL_P1_END {print \\$2,\\$4,\\$5,\\$10}\" | head -40\n"
+  },
+  {
+   "ported": "track2/depmap/dep_corr.py",
+   "origin": "candidates:track2/depmap/dep_corr.py",
+   "repo_copy": "as_run/track2/depmap/dep_corr.py",
+   "register": "T2-DEPMAP-01",
+   "edits": []
+  },
+  {
+   "ported": "track2/depmap/lever_screen.py",
+   "origin": "candidates:track2/depmap/lever_screen.py",
+   "repo_copy": "as_run/track2/depmap/lever_screen.py",
+   "register": "PRE-REG-B",
+   "edits": [
+    {
+     "line": 9,
+     "new": "DIR = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "DepMap folder constant -> step folder in the workdir (DepMap files linked in by name)"
+    }
+   ],
+   "repo_copy_redactions": [
+    {
+     "line": 9,
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ]
+  },
+  {
+   "ported": "track2/depmap/p4_depmap_safety.py",
+   "origin": "candidates:track2/depmap/p4_depmap_safety.py",
+   "repo_copy": "as_run/track2/depmap/p4_depmap_safety.py",
+   "register": "T2-P4",
+   "edits": [
+    {
+     "line": 8,
+     "new": "DIR = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "DepMap folder constant -> step folder in the workdir (DepMap files linked in by name)"
+    }
+   ],
+   "repo_copy_redactions": [
+    {
+     "line": 8,
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ]
+  },
+  {
+   "ported": "track2/power/power_guide.py",
+   "origin": "recovered:T2-POWER-01/power_guide.py",
+   "repo_copy": null,
+   "register": "T2-POWER-01",
+   "edits": []
+  },
+  {
+   "ported": "track2/trials/ctgov_nmn_nr_query.sh",
+   "origin": "recovered:T2-TRIAL-01/ctgov_nmn_nr_query.sh",
+   "repo_copy": null,
+   "register": "T2-TRIAL-01",
+   "edits": []
+  },
+  {
+   "ported": "models/protein_rule/build_rule_controls.py",
+   "origin": "candidates:models/protein_rule/build_rule_controls.py",
+   "repo_copy": "as_run/models/protein_rule/build_rule_controls.py",
+   "register": "M-EVO2-CAL-01 (controls)",
+   "edits": []
+  },
+  {
+   "ported": "models/protein_rule/build_protein_rule.py",
+   "origin": "candidates:models/protein_rule/build_protein_rule.py",
+   "repo_copy": "as_run/models/protein_rule/build_protein_rule.py",
+   "register": "M-PROT-CAL-02",
+   "edits": [
+    {
+     "line": 17,
+     "new": "GTF = os.environ[\"REPL_GTF\"]",
+     "reason": "GENCODE path constant -> config input"
+    },
+    {
+     "line": 18,
+     "new": "FA = os.environ[",
+     "reason": "reference FASTA path constant (two lines) -> config input"
+    },
+    {
+     "line": 19,
+     "new": "    \"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant (two lines) -> config input"
+    },
+    {
+     "line": 153,
+     "new": "_cand = __import__(\"json\").loads(__import__(\"os\").environ.get(\"REPL_CANDIDATE_RESIDUE\", \"null\")); child_ok = (proteins.get(_cand[0], \"\")[_cand[1] - 1:_cand[1]] == _cand[2]) if _cand else None",
+     "reason": "privacy: hard-coded residue number and amino acid of the candidate missense -> taken at run time from T1-CANDIDATE (same check; not run when no candidate is available)"
+    },
+    {
+     "line": 156,
+     "new": "print(f\"{_cand[0]} residue {_cand[1]} is {_cand[2]} (child check):\" if _cand else \"candidate residue not checked (no candidate in this run) (child check):\", child_ok)",
+     "reason": "privacy: same residue as line 153 in the printed label"
+    }
+   ]
+  },
+  {
+   "ported": "models/protein_rule/score.py",
+   "origin": "candidates:models/protein_rule/score.py",
+   "repo_copy": null,
+   "register": "M-PROT-CAL-02",
+   "edits": [
+    {
+     "line": 1,
+     "new": "\"\"\"Score ClinVar controls + the candidate missense (from T1-CANDIDATE) with local protein LMs and AlphaMissense lookup.",
+     "reason": "privacy: the docstring named the candidate's protein change (comment-only)"
+    },
+    {
+     "line": 36,
+     "new": "CHILD = dict(__import__(\"json\").loads(__import__(\"os\").environ[\"REPL_CHILD_PROTEIN_VARIANT\"]),",
+     "reason": "hard-coded candidate missense (genomic coordinate) -> taken at run time from T1-CANDIDATE"
+    },
+    {
+     "line": 37,
+     "new": "             review=\"child\")",
+     "reason": "continuation of the line above"
+    },
+    {
+     "line": 144,
+     "new": "        print(f\"candidate_missense {name}: not in table\")",
+     "reason": "privacy: the printed label named the candidate's protein change; generic label"
+    },
+    {
+     "line": 149,
+     "new": "    print(f\"candidate_missense {name}: damage={cv:.4f} percentile_among_controls={pct:.3f} n_controls={len(allv)}\")",
+     "reason": "privacy: the printed label named the candidate's protein change; generic label, same numbers"
+    }
+   ]
+  },
+  {
+   "ported": "models/protein_rule/protein_calibration.py",
+   "origin": "candidates:models/protein_rule/protein_calibration.py",
+   "repo_copy": "as_run/models/protein_rule/protein_calibration.py",
+   "register": "M-PROT-CAL-02",
+   "edits": [
+    {
+     "line": 3,
+     "new": "Also reports the child's candidate missense damage and its percentile among controls (only if the model passes).",
+     "reason": "privacy: the docstring named the candidate's protein change (comment-only)"
+    },
+    {
+     "line": 43,
+     "new": "            print(f\"   child candidate_missense damage={cv:.4f} percentile among {len(allv)} controls={pct:.3f}\")",
+     "reason": "privacy: the printed label named the candidate's protein change; generic label, same numbers"
+    }
+   ]
+  },
+  {
+   "ported": "models/protein_rule/placement.py",
+   "origin": "candidates:models/protein_rule/placement.py",
+   "repo_copy": "as_run/models/protein_rule/placement.py",
+   "register": "PRE-REG-D",
+   "edits": [
+    {
+     "line": 1,
+     "new": "\"\"\"PRE-REG-D: place BUB1B I909T, L1012P and the candidate missense (from T1-CANDIDATE) among the calibration controls (ESM-1v, ESM-2, AlphaMissense).",
+     "reason": "privacy: the docstring named the candidate's protein change (comment-only)"
+    },
+    {
+     "line": 11,
+     "new": "BASE = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 17,
+     "new": "ALLELES = [(\"I909T\", 909, \"I\", \"T\"), (\"L1012P\", 1012, \"L\", \"P\")] + [tuple(a) for a in __import__(\"json\").loads(__import__(\"os\").environ[\"REPL_CANDIDATE_ALLELES\"])]",
+     "reason": "the child's allele is taken at run time from T1-CANDIDATE; the two literature alleles stay as written"
+    },
+    {
+     "line": 56,
+     "new": "        if p[7] in tuple(a[0] for a in ALLELES):",
+     "reason": "same allele names as line 17, no longer hard-coded"
+    }
+   ],
+   "repo_copy_redactions": [
+    {
+     "line": 11,
+     "reason": "the local user name and disk identifier in a path"
+    }
+   ]
+  },
+  {
+   "ported": "models/evo2/evo2_score_safe.py",
+   "origin": "candidates:models/evo2/evo2_score_safe.py",
+   "repo_copy": "as_run/models/evo2/evo2_score_safe.py",
+   "register": "M-EVO2-CAL-01",
+   "edits": []
+  },
+  {
+   "ported": "models/evo2/configs/evo2-7b-1m.yml",
+   "origin": "candidates:models/evo2/configs/evo2-7b-1m.yml",
+   "repo_copy": "as_run/models/evo2/configs/evo2-7b-1m.yml",
+   "register": "M-EVO2-CAL-01 (disclosed deviation: use_fp8_input_projections False)",
+   "edits": []
+  },
+  {
+   "ported": "models/evo2/evo2_auc_bootstrap.py",
+   "origin": "recovered:M-EVO2-CAL-01/evo2_auc_bootstrap.py",
+   "repo_copy": null,
+   "register": "M-EVO2-CAL-01",
+   "edits": []
+  },
+  {
+   "ported": "track1/stage1_targeted/s01_sex_from_bai.py",
+   "origin": "candidates:track1/stage1_targeted/s01_sex_from_bai.py",
+   "repo_copy": null,
+   "register": "S0.1",
+   "edits": [
+    {
+     "line": 3,
+     "new": "bam = __import__(\"os\").environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    }
+   ]
+  },
+  {
+   "ported": "track1/stage1_targeted/h01_cep57_dup11.py",
+   "origin": "candidates:track1/stage1_targeted/h01_cep57_dup11.py",
+   "repo_copy": null,
+   "register": "H01",
+   "edits": [
+    {
+     "line": 3,
+     "new": "bam = __import__(\"os\").environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    }
+   ]
+  },
+  {
+   "ported": "track1/stage1_targeted/h_batch.py",
+   "origin": "candidates:track1/stage1_targeted/h_batch.py",
+   "repo_copy": null,
+   "register": "H02, H03, H05, H06, H12",
+   "edits": [
+    {
+     "line": 3,
+     "new": "BAM = __import__(\"os\").environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 4,
+     "new": "VCF = __import__(\"os\").environ[\"REPL_VCF\"]",
+     "reason": "organiser VCF path constant -> config input"
+    },
+    {
+     "line": 7,
+     "new": "    # H02: bases at chr15:40117088 (1-based); public annotation: dbSNP rs576524605, the upstream allele reported by Ochiai 2014; not a variant of the child",
+     "reason": "label only (comment): the coordinate is public annotation, not child data"
+    },
+    {
+     "line": 21,
+     "new": "    out[\"H03_BUB1B_intron_region\"] = rates(\"chr15\", 40160984, 40221137)  # public gene annotation: the BUB1B gene span (GENCODE v44) with a few bp of flank; not a variant position",
+     "reason": "label only (trailing comment): the coordinates are public gene annotation, not child data"
+    },
+    {
+     "line": 26,
+     "new": "    d_naa = depth(\"chrX\", 153928799, 153935083)  # public gene annotation: the NAA10 gene span (GRCh38) with flank; not a variant position",
+     "reason": "label only (trailing comment): the coordinates are public gene annotation, not child data"
+    }
+   ]
+  },
+  {
+   "ported": "track1/sv_cnv/h08_depth.py",
+   "origin": "candidates:track1/sv_cnv/h08_depth.py",
+   "repo_copy": null,
+   "register": "H08",
+   "edits": [
+    {
+     "line": 3,
+     "new": "BAM = os.environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 4,
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/h08_depth_sampled.json\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/sv_cnv/detection_limit.py",
+   "origin": "candidates:track1/sv_cnv/detection_limit.py",
+   "repo_copy": null,
+   "register": "Readout detection limit",
+   "edits": [
+    {
+     "line": 3,
+     "new": "BAM = os.environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 4,
+     "new": "OUT = os.environ[\"REPL_OUT\"] + \"/detection_limit.json\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/sv_cnv/cnv_bins.py",
+   "origin": "candidates:track1/sv_cnv/cnv_bins.py",
+   "repo_copy": null,
+   "register": "Copy-number mosaicism rule v1",
+   "edits": [
+    {
+     "line": 3,
+     "new": "BAM = os.environ[\"REPL_BAM\"]",
+     "reason": "BAM path constant -> config input"
+    },
+    {
+     "line": 4,
+     "new": "FA = os.environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant -> config input"
+    },
+    {
+     "line": 5,
+     "new": "OUTD = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/sv_cnv/cnv_call.py",
+   "origin": "candidates:track1/sv_cnv/cnv_call.py",
+   "repo_copy": "as_run/track1/sv_cnv/cnv_call.py",
+   "register": "Copy-number mosaicism rule v1",
+   "edits": [
+    {
+     "line": 3,
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir"
+    },
+    {
+     "line": 39,
+     "new": "json.dump(out, open(os.environ[\"REPL_OUT\"] + \"/cnv_calls_v1.json\", \"w\"), indent=1)",
+     "reason": "project folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track2/depmap/p5_depmap_safety.py",
+   "origin": "t2tests:p5_depmap_safety.py",
+   "repo_copy": null,
+   "register": "T2-P5",
+   "origin_note": "Run by the t2-tests agent on 2026-10-20 (its output folder on the analysis machine); not staged in the repo before this port.",
+   "edits": [
+    {
+     "line": 14,
+     "new": "DIR = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "DepMap folder constant -> step folder in the workdir (DepMap files linked in by name)"
+    },
+    {
+     "line": 15,
+     "new": "OUT = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "output folder constant -> step folder in the workdir"
+    }
+   ]
+  },
+  {
+   "ported": "track1/spikein/spikelib.py",
+   "origin": "asrun:as_run/track1/spikein/spikelib.py",
+   "repo_copy": "as_run/track1/spikein/spikelib.py",
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "edits": [
+    {
+     "line": 5,
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    },
+    {
+     "line": 6,
+     "new": "W = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    }
+   ]
+  },
+  {
+   "ported": "track1/spikein/calls_param.py",
+   "origin": "asrun:as_run/track1/spikein/calls_param.py",
+   "repo_copy": "as_run/track1/spikein/calls_param.py",
+   "repo_copy_redactions": [
+    {
+     "line": 4,
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ],
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "origin_note": "machine-generated by make_params.py from the frozen child_exonic_calls.py by two exact text replacements (input and output path only); the unified diff is as_run/track1/spikein/calls_param.py.diff. The frozen original's own ported copy is replicate/analysis/track1/blind_exonic/child_exonic_calls.py.",
+   "edits": [
+    {
+     "line": 4,
+     "new": "D = __import__(\"os\").environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    }
+   ]
+  },
+  {
+   "ported": "track1/spikein/consequence_param.py",
+   "origin": "asrun:as_run/track1/spikein/consequence_param.py",
+   "repo_copy": "as_run/track1/spikein/consequence_param.py",
+   "repo_copy_redactions": [
+    {
+     "line": 4,
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ],
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "origin_note": "machine-generated by make_params.py from the frozen consequence_fixed.py by two exact text replacements (input glob and output path only); the unified diff is as_run/track1/spikein/consequence_param.py.diff. The frozen original's own ported copy is replicate/analysis/track1/blind_exonic/consequence_fixed.py.",
+   "edits": [
+    {
+     "line": 3,
+     "new": "HERE = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    },
+    {
+     "line": 4,
+     "new": "FA = os.environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant (on a removable disk) -> config input"
+    }
+   ]
+  },
+  {
+   "ported": "track1/spikein/run_spikein.py",
+   "origin": "asrun:as_run/track1/spikein/run_spikein.py",
+   "repo_copy": "as_run/track1/spikein/run_spikein.py",
+   "repo_copy_redactions": [
+    {
+     "line": 9,
+     "reason": "the local user name, disk identifier or session folder in a path"
+    }
+   ],
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "edits": [
+    {
+     "line": 7,
+     "new": "PY = sys.executable",
+     "reason": "the authors' virtual-environment interpreter -> the interpreter running this step. The two helper scripts this driver launches as subprocesses therefore run outside the audit guard that covers the driver itself; each writes only to the output path the driver passes."
+    },
+    {
+     "line": 8,
+     "new": "VCF = os.environ[\"REPL_VCF\"]",
+     "reason": "organiser VCF path constant -> config input"
+    },
+    {
+     "line": 9,
+     "new": "FA = os.environ[\"REPL_FASTA\"]",
+     "reason": "reference FASTA path constant (on a removable disk) -> config input"
+    }
+   ]
+  },
+  {
+   "ported": "track1/spikein/validate.py",
+   "origin": "asrun:as_run/track1/spikein/validate.py",
+   "repo_copy": "as_run/track1/spikein/validate.py",
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "edits": [
+    {
+     "line": 7,
+     "new": "PY = sys.executable",
+     "reason": "the authors' virtual-environment interpreter -> the interpreter running this step (same subprocess note as run_spikein.py line 7)"
+    },
+    {
+     "line": 36,
+     "new": "draft = list(csv.DictReader(open(os.environ[\"REPL_DRAFT_CSV\"])))",
+     "reason": "path constant of the authors' 10-row draft submission CSV -> config input. The CSV is child-derived and is not in this repository; the harness supplies the rows it needs from the upstream ranking artifacts (replicate/helpers/draft_rows_csv.py), which makes gate G1e a self-consistency check rather than the independent comparison it was in the original run"
+    }
+   ]
+  },
+  {
+   "ported": "track1/spikein/analyze.py",
+   "origin": "asrun:as_run/track1/spikein/analyze.py",
+   "repo_copy": "as_run/track1/spikein/analyze.py",
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "edits": [
+    {
+     "line": 123,
+     "new": "src = os.environ[\"REPL_DRAFT_CSV\"]",
+     "reason": "path constant of the authors' 10-row draft submission CSV -> config input; it is read only to attach the EPCR column to its rows, and no metric of this step depends on it"
+    }
+   ]
+  },
+  {
+   "ported": "track1/spikein/feasibility.py",
+   "origin": "asrun:as_run/track1/spikein/feasibility.py",
+   "repo_copy": "as_run/track1/spikein/feasibility.py",
+   "register": "PRE-REG-SPIKEIN-EPCR",
+   "edits": [
+    {
+     "line": 3,
+     "new": "D = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    },
+    {
+     "line": 4,
+     "new": "W = os.environ[\"REPL_OUT\"] + \"/\"",
+     "reason": "project folder constant -> step folder in the workdir (inputs are linked in by name)"
+    }
+   ]
+  }
+ ],
+ "reuse": [
+  {
+   "script": "track1/ranking/ranking_v4b.py",
+   "step": "RANK-V4BF",
+   "how": "run unchanged in a step folder where the CORRECTED v3 summary (output of RANK-V3F) is linked under the name ranking_v3_summary.tsv, which is the file name the script reads",
+   "why": "BUG-V4-CHRM: ranking_v4_fixed.py was derived from ranking_v4.py and lacks the Amendment 1 chrM skip (ranking_v4b.py line 48). The frozen rule is RANKING_RULE_v4.md including Amendment 1; ranking_v4b.py is the as-run code of that rule, so the harness applies it to the corrected input instead of editing ranking_v4_fixed.py. RANK-V4F still runs ranking_v4_fixed.py to reproduce what was recorded; the candidate (T1-CANDIDATE) is taken from RANK-V4BF."
+  },
+  {
+   "script": "track1/blind_exonic/summarize_consequence.py",
+   "step": "C-FIX-01",
+   "how": "run unchanged with REPL_CONSEQUENCE_TSV pointing at the corrected table",
+   "why": "the register reports summary counts for both tables; the summary script was written for the original table"
+  },
+  {
+   "script": "track1/blind_exonic/consequence_fixed.py",
+   "step": "T1-CANDIDATE",
+   "how": "its tables and functions are loaded by replicate/helpers/candidate_protein.py (text before the per-call loop, as validate_consequence.py does) to write protein notation for the candidate calls",
+   "why": "no coordinate in code: the candidate's protein changes are computed, not typed"
+  }
+ ],
+ "public_copy_redactions": [
+  {
+   "file": "as_run/track1/alignment/dl.py",
+   "lines": [
+    3
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track1/alignment/dv_run.sh",
+   "lines": [
+    5
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track1/alignment/dv_run_split.sh",
+   "lines": [
+    6
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track1/alignment/split_fallback.sh",
+   "lines": [
+    6
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track1/blind_exonic/find_pending.py",
+   "lines": [
+    2
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track2/evidence_checks/checkA_build.py",
+   "lines": [
+    2,
+    151
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track2/evidence_checks/checkA_extract.py",
+   "lines": [
+    4,
+    5
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track2/evidence_checks/checkA_verbatim.py",
+   "lines": [
+    2
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track2/evidence_checks/checkB_build.py",
+   "lines": [
+    2
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track2/evidence_checks/checkC_verify.py",
+   "lines": [
+    2,
+    3
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "citations/t1_rows.py",
+   "lines": [
+    3,
+    58,
+    59
+   ],
+   "reason": "a session folder in a path (line 3); lines that cite the authors' internal research notes (lines 58 and 59)"
+  },
+  {
+   "file": "citations/t1cite_cite.py",
+   "lines": [
+    2
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track2/hdac_screen/r2c_depmap_hdac.py",
+   "lines": [
+    11,
+    12
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track1/spikein/make_params.py",
+   "lines": [
+    16
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  },
+  {
+   "file": "as_run/track1/spikein/calls_param.py.diff",
+   "lines": [
+    6,
+    8
+   ],
+   "reason": "the local user name, disk identifier or session folder in a path"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+1. Toxicol Lett. 2018 Mar 1;284:96-102. doi: 10.1016/j.toxlet.2017.12.003. Epub 
+2017 Dec 11.
+
+Maduramicin-activated protein phosphatase 2A results in extracellular 
+signal-regulated kinase 1/2 inhibition, leading to cytotoxicity in myocardial 
+H9c2 cells.
+
+Chen X(1), Jiang S(2), Huang S.
+
+Author information:
+(1)Postdoctoral Mobile Station of Biology, College of Life Sciences, Nanjing 
+Normal University, Nanjing, Jiangsu Province, 210023, PR China; Laboratory of 
+Veterinary Pharmacology and Toxicology, College of Veterinary Medicine, Nanjing 
+Agricultural University, Nanjing, Jiangsu Province, 210095, PR China. Electronic 
+address: [e-mail removed].
+(2)Laboratory of Veterinary Pharmacology and Toxicology, College of Veterinary 
+Medicine, Nanjing Agricultural University, Nanjing, Jiangsu Province, 210095, PR 
+China. Electronic address: [e-mail removed].
+
+Erratum in
+    Toxicol Lett. 2019 Jan;300:118. doi: 10.1016/j.toxlet.2018.08.021.. Huang, 
+Shile [added].
+
+Maduramicin, a polyether ionophore antibiotic used as an anticoccidial agent in 
+poultry industry, has been reported to be toxic to animals and humans if 
+improperly used or by accident, resulting in heart failure, skeletal muscle 
+degeneration and even death. However, the molecular mechanism underlying its 
+cardiotoxicity remains elusive. Mitogen activated protein kinases (MAPKs) and 
+protein phosphatases signaling pathways have been documented to be involved in 
+the cell survival regulation. The present study was set to investigate the role 
+of above pathways in maduramicin-induced myocardial cytotoxicity. Here we 
+observed that maduramicin inhibited cell proliferation and reduced cell 
+viability in H9c2 cells. Furthermore, we found that maduramicin suppressed 
+extracellular signal-regulated kinase 1/2 (ERK1/2) phosphorylation in a 
+concentration-dependent manner. Ectopic expression of constitutively active MKK1 
+partially prevented the cytotoxicity of maduramicin. Moreover, we showed that 
+maduramicin concentration-dependently activated protein phosphatase 2A (PP2A) by 
+decreasing its phosphorylation and increasing its methylation. Inhibition of 
+PP2A with okadaic acid attenuated maduramicin's toxicity. Overexpression of 
+dominant negative PP2A partially rescued cells from maduramicin-inhibited ERK1/2 
+contributing to its cytotoxicity. The results indicate that maduramicin 
+activates PP2A and consequently inhibits ERK1/2, leading to cytotoxicity in H9c2 
+cells. Our data suggest that manipulation of PP2A-ERK1/2 pathway may be a 
+potential approach to prevent maduramicin-induced cardiotoxicity.
+
+Copyright © 2017 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.toxlet.2017.12.003
+PMCID: PMC6689384
+PMID: 29241734 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing Interests The authors have declared 
+that no competing interests exist.

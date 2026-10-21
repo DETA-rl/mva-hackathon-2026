@@ -1,0 +1,49 @@
+1. Nat Commun. 2015 Feb 12;6:6263. doi: 10.1038/ncomms7263.
+
+Selective Sirt2 inhibition by ligand-induced rearrangement of the active site.
+
+Rumpf T(1), Schiedel M(1), Karaman B(2), Roessler C(3), North BJ(4), Lehotzky 
+A(5), Oláh J(5), Ladwein KI(1), Schmidtkunz K(1), Gajer M(1), Pannek M(6), 
+Steegborn C(6), Sinclair DA(4), Gerhardt S(7), Ovádi J(5), Schutkowski M(3), 
+Sippl W(2), Einsle O(7), Jung M(1).
+
+Author information:
+(1)Institute of Pharmaceutical Sciences, Albert-Ludwigs-University Freiburg, 
+Albertstraße 25, 79104 Freiburg im Breisgau, Germany.
+(2)Institute for Pharmacy, Martin-Luther-University Halle-Wittenberg, 
+Wolfgang-Langenbeck-Straße 4, 06120 Halle (Saale), Germany.
+(3)Institute for Biochemistry and Biotechnology, Martin-Luther-University 
+Halle-Wittenberg, Kurt-Mothes-Straße 3, 06120 Halle (Saale) Germany.
+(4)Department of Genetics, Harvard Medical School, 77 Avenue Louis Pasteur, 
+Boston, Massachusetts 02115, USA.
+(5)Institute of Enzymology, Research Centre for Natural Sciences, Hungarian 
+Academy of Sciences, Magyar Tudósok körútja 2, H-1117 Budapest, Hungary.
+(6)Department of Biochemistry, University of Bayreuth, Universitätsstraße 30, 
+95445 Bayreuth, Germany.
+(7)Institute for Biochemistry and BIOSS Centre for Biological Signalling 
+Studies, Albert-Ludwigs-University Freiburg im Breisgau, Albertstraße 21, 79104 
+Freiburg im Breisgau, Germany.
+
+Sirtuins are a highly conserved class of NAD(+)-dependent lysine deacylases. The 
+human isotype Sirt2 has been implicated in the pathogenesis of cancer, 
+inflammation and neurodegeneration, which makes the modulation of Sirt2 activity 
+a promising strategy for pharmaceutical intervention. A rational basis for the 
+development of optimized Sirt2 inhibitors is lacking so far. Here we present 
+high-resolution structures of human Sirt2 in complex with highly selective 
+drug-like inhibitors that show a unique inhibitory mechanism. Potency and the 
+unprecedented Sirt2 selectivity are based on a ligand-induced structural 
+rearrangement of the active site unveiling a yet-unexploited binding pocket. 
+Application of the most potent Sirtuin-rearranging ligand, termed SirReal2, 
+leads to tubulin hyperacetylation in HeLa cells and induces destabilization of 
+the checkpoint protein BubR1, consistent with Sirt2 inhibition in vivo. Our 
+structural insights into this unique mechanism of selective sirtuin inhibition 
+provide the basis for further inhibitor development and selective tools for 
+sirtuin biology.
+
+DOI: 10.1038/ncomms7263
+PMCID: PMC4339887
+PMID: 25672491 [Indexed for MEDLINE]
+
+Conflict of interest statement: D.A.S. is a consultant to and inventor on 
+patents licensed to GlaxoSmithKline, OvaScience, MetroBiotech, companies working 
+on NAD and sirtuin modulation.

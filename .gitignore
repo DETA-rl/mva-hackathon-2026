@@ -1,0 +1,42 @@
+# Patient data and anything derived from it at genotype scale: never commit
+*.vcf
+*.vcf.gz
+*.vcf.bgz
+*.tbi
+*.csi
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bed
+_private/
+data/
+work/
+out/
+results/
+slices/
+
+# Model weights and large public downloads
+*.pt
+*.bin
+*.safetensors
+*.fa
+*.fa.gz
+*.fai
+*.gtf.gz
+CRISPRGeneEffect.csv
+AlphaMissense_hg38.tsv.gz
+
+# Local state
+.env
+*.log
+# except the timestamped run logs of the two pre-registered spike-in tests
+!preregistration/*/run*.log
+__pycache__/
+
+# Local harness configuration (paths to private data)
+config.yaml

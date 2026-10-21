@@ -1,0 +1,66 @@
+1. Neurol Sci. 2022 Nov;43(11):6529-6538. doi: 10.1007/s10072-022-06247-w. Epub 
+2022 Jul 9.
+
+Pathogenic correlation between mosaic variegated aneuploidy 1 (MVA1) and a novel 
+BUB1B variant: a reappraisal of a severe syndrome.
+
+Pavone P(1), Pappalardo XG(2)(3), Mustafa N(4)(5), Falsaperla R(6), Marino 
+SD(6), Corsello G(7), Bianca S(8), Parano E(2), Ruggieri M(9).
+
+Author information:
+(1)Pediatric Clinic, Department of Clinical and Experimental Medicine, 
+University Hospital A.U.O. "Policlinico-Vittorio Emanuele, Catania, Italy. 
+[e-mail removed].
+(2)National Council of Research, Institute for Biomedical Research and 
+Innovation (IRIB), Unit of Catania, Catania, Italy.
+(3)Department of Biomedical and Biotechnological Sciences (BIOMETEC), University 
+of Catania, Catania, Italy.
+(4)Department of Paediatrics, School of Clinical Medicine, University of 
+Cambridge, Cambridge, UK.
+(5)Department of Clinical and Chemical Pathology, Faculty of Medicine, Cairo 
+University, Giza, Egypt.
+(6)Pediatrics and Pediatric Emergency Department, University Hospital, A.U.O 
+"Policlinico Vittorio Emanuele", Catania, Italy.
+(7)Mother and Child Department, Operative Unit of Pediatrics and Neonatal 
+Intensive Therapy, University of Palermo, Palermo, Italy.
+(8)Medical Genetics, Referral Centre for Rare Genetic Diseases, ARNAS Garibaldi, 
+Catania, Italy.
+(9)Unit of Rare Diseases of the Nervous System in Childhood, Department of 
+Clinical and Experimental Medicine, Section of Pediatrics and Child 
+Neuropsychiatry, University of Catania, AOU "Policlinico," PO "G. Rodolico, 
+Catania, Italy. [e-mail removed].
+
+BACKGROUND: The BUB 1 mitotic checkpoint serine/threonine kinase B (BUB1B) gene 
+encodes a key protein in the mitotic spindle checkpoint, which acts as a 
+surveillance mechanism, crucial for the maintenance of the correct chromosome 
+number during cell deviation. Mutations of BUB1B gene are linked to mosaic 
+variegated aneuploidy 1 (MVA1) syndrome, a rare autosomal recessive disorder 
+characterized by widespread mosaic aneuploidies, involving different chromosomes 
+and tissues. MVA1 is clinically characterized by intrauterine growth 
+restriction, post-natal growth retardation, and severe neurologic impairment 
+including microcephaly, developmental delay/intellectual disability, epileptic 
+seizures, and generalized hypotonia. Malignancies are also serious sequelae 
+associated with the disorder. We reported on a case of two-year-old Italian girl 
+with MVA1 who shows severe neurologic impairment, microcephaly and epileptic 
+seizures.
+MATERIALS AND METHODS: Clinical data collection and genetic diagnosis of the 
+patient were assessed. Mutational analysis covers the chromosomal microarray 
+analysis, the gene methylation pattern studied using the methylation-specific 
+multiplex ligation-dependent probe amplification, and the family-based Whole 
+Exome Sequencing (WES). A literature research based on reported cases of MVA and 
+premature chromatid separation was also included.
+RESULTS: Karyotyping has revealed 12% of mosaics in the patient who carries a 
+novel variant in BUB1B gene (c.2679A > T, p.Arg893Ser) detected by WES. 
+Thirty-one cases of MVA1 including the present report, and four prenatally 
+diagnosed cases with MVA1 were selected and inspected.
+CONCLUSION: Clinical and genetic findings reported in the girl strongly suggest 
+a new MVA1 genotype-phenotype correlation and lead to a reappraisal of a severe 
+syndrome. Diagnosis and in-depth follow-up provided worthwhile data.
+
+© 2022. The Author(s).
+
+DOI: 10.1007/s10072-022-06247-w
+PMCID: PMC9616775
+PMID: 35804254 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing interests.

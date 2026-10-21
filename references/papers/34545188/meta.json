@@ -1,0 +1,48 @@
+{
+ "pmid": "34545188",
+ "cited_in": [
+  "Track 2"
+ ],
+ "title": "Increased BUB1B/BUBR1 expression contributes to aberrant DNA repair activity leading to resistance to DNA-damaging agents",
+ "authors": [
+  "Komura K",
+  "Inamoto T",
+  "Tsujino T",
+  "Matsui Y",
+  "Konuma T",
+  "Nishimura K",
+  "Uchimoto T",
+  "Tsutsumi T",
+  "Matsunaga T",
+  "Maenosono R",
+  "Yoshikawa Y",
+  "Taniguchi K",
+  "Tanaka T",
+  "Uehara H",
+  "Hirata K",
+  "Hirano H",
+  "Nomi H",
+  "Hirose Y",
+  "Ono F",
+  "Azuma H"
+ ],
+ "first_author": "Komura K",
+ "journal": "Oncogene",
+ "pubdate": "2021 Oct",
+ "doi": "10.1038/s41388-021-02021-y",
+ "pmcid": "PMC8553621",
+ "language": [
+  "eng"
+ ],
+ "license": "",
+ "license_url": "",
+ "open_access": true,
+ "pubtype": [
+  "Journal Article",
+  "Research Support, Non-U.S. Gov't"
+ ],
+ "flags": [],
+ "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34545188/",
+ "doi_url": "https://doi.org/10.1038/s41388-021-02021-y",
+ "fulltext_included": false
+}

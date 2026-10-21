@@ -1,0 +1,5 @@
+gene	n_lines	frac_chronos_lt_-0.5	flag_ge_0.25	blood_median	blood_n
+MTOR	1178	0.986	YES	-1.130	135
+AURKB	1178	1.000	YES	-2.420	135
+PLK4	1178	0.982	YES	-1.281	135
+KIF18A	1178	0.885	YES	-0.839	135

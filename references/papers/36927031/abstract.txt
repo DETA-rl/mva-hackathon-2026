@@ -1,0 +1,31 @@
+1. Science. 2023 Mar 17;379(6637):1123-1130. doi: 10.1126/science.ade2574. Epub 
+2023 Mar 16.
+
+Evolutionary-scale prediction of atomic-level protein structure with a language 
+model.
+
+Lin Z(1)(2), Akin H(1), Rao R(1), Hie B(1)(3), Zhu Z(1), Lu W(1), Smetanin N(1), 
+Verkuil R(1), Kabeli O(1), Shmueli Y(1), Dos Santos Costa A(4), Fazel-Zarandi 
+M(1), Sercu T(1), Candido S(1), Rives A(1)(2).
+
+Author information:
+(1)FAIR, Meta AI, New York, NY, USA.
+(2)New York University, New York, NY, USA.
+(3)Stanford University, Palo Alto, CA, USA.
+(4)Massachusetts Institute of Technology, Cambridge, MA, USA.
+
+Recent advances in machine learning have leveraged evolutionary information in 
+multiple sequence alignments to predict protein structure. We demonstrate direct 
+inference of full atomic-level protein structure from primary sequence using a 
+large language model. As language models of protein sequences are scaled up to 
+15 billion parameters, an atomic-resolution picture of protein structure emerges 
+in the learned representations. This results in an order-of-magnitude 
+acceleration of high-resolution structure prediction, which enables large-scale 
+structural characterization of metagenomic proteins. We apply this capability to 
+construct the ESM Metagenomic Atlas by predicting structures for >617 million 
+metagenomic protein sequences, including >225 million that are predicted with 
+high confidence, which gives a view into the vast breadth and diversity of 
+natural proteins.
+
+DOI: 10.1126/science.ade2574
+PMID: 36927031 [Indexed for MEDLINE]

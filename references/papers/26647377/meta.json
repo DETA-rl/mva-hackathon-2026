@@ -1,0 +1,36 @@
+{
+ "pmid": "26647377",
+ "cited_in": [
+  "Track 1"
+ ],
+ "title": "Manta: rapid detection of structural variants and indels for germline and cancer sequencing applications",
+ "authors": [
+  "Chen X",
+  "Schulz-Trieglaff O",
+  "Shaw R",
+  "Barnes B",
+  "Schlesinger F",
+  "Källberg M",
+  "Cox AJ",
+  "Kruglyak S",
+  "Saunders CT"
+ ],
+ "first_author": "Chen X",
+ "journal": "Bioinformatics (Oxford, England)",
+ "pubdate": "2016 Apr 15",
+ "doi": "10.1093/bioinformatics/btv710",
+ "pmcid": "",
+ "language": [
+  "eng"
+ ],
+ "license": "",
+ "license_url": "",
+ "open_access": false,
+ "pubtype": [
+  "Journal Article"
+ ],
+ "flags": [],
+ "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/26647377/",
+ "doi_url": "https://doi.org/10.1093/bioinformatics/btv710",
+ "fulltext_included": false
+}

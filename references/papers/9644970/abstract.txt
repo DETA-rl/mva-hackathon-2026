@@ -1,0 +1,12 @@
+1. Trends Biochem Sci. 1998 Jun;23(6):198-9. doi: 10.1016/s0968-0004(98)01208-0.
+
+A rule for termination-codon position within intron-containing genes: when 
+nonsense affects RNA abundance.
+
+Nagy E(1), Maquat LE.
+
+Author information:
+(1)Dept of Human Genetics, Roswell Park Cancer Institute, Buffalo, USA.
+
+DOI: 10.1016/s0968-0004(98)01208-0
+PMID: 9644970 [Indexed for MEDLINE]

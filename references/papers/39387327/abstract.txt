@@ -1,0 +1,48 @@
+1. Pediatr Blood Cancer. 2025 Jan;72(1):e31369. doi: 10.1002/pbc.31369. Epub 2024
+ Oct 10.
+
+Feasibility of telehealth exercise and nicotinamide riboside supplementation in 
+survivors of childhood cancer at risk for diabetes: A pilot randomized 
+controlled trial.
+
+Bhandari R(1)(2), Lukas K(1), Lee K(1), Shamunee J(1), Almeida B(1), Guzman 
+T(1), Echevarria M(1), Lindenfeld L(1), Nenninger C(3), Iukuridze A(1), Albanese 
+S(1), Rhee JW(3), Chen S(1), Brenner C(4), Wong FL(1), Armenian SH(1)(2).
+
+Author information:
+(1)Department of Population Sciences, City of Hope, Duarte, California, USA.
+(2)Department of Pediatrics, City of Hope, Duarte, California, USA.
+(3)Department of Medicine, City of Hope, Duarte, California, USA.
+(4)Department of Diabetes and Cancer Metabolism, City of Hope, Duarte, 
+California, USA.
+
+BACKGROUND: Childhood cancer survivors (CCS) have a 50% higher risk of diabetes 
+mellitus (DM) compared with the general population. Interventions in survivors 
+with prediabetes (fasting glucose 100-125 mg/dL or hemoglobin A1c 5.7%-6.4%) may 
+mitigate the development of DM and its attendant morbidity, but there is limited 
+information on the feasibility of secondary prevention in this setting.
+METHODS: This 6-week pilot feasibility 1:1 randomized controlled trial enrolled 
+20 CCS on a structured telehealth exercise program ± nicotinamide riboside (NR), 
+a nicotinamide adenine dinucleotide precursor. Feasibility metrics were: 
+(1) ≥50% of eligible CCS enrolled onto study; (2) ≥70% of participants completed 
+baseline and end-of-study assessments; (3) ≥70% compliance with exercise and NR. 
+Secondary endpoints included changes in biomarkers associated with glucose 
+homeostasis and muscle health.
+RESULTS: Median age (years) at cancer diagnosis was 16.5 (range, 1.5-21.5) and 
+35.5 (range, 18.0-67.0) at study enrollment. Enrollment rate was 87%, and 85% of 
+participants completed baseline and end-of-study assessments. The mean 
+percentage of exercise sessions completed was 86.6%; NR compliance was > 90%. 
+There were no severe adverse events attributable to study interventions. 
+Secondary endpoints were not significantly different between study arms at study 
+completion. Myostatin decrease was observed in participants who completed a 
+higher median number of exercise sessions and was associated with decreased 
+intramuscular adipose tissue and increased lower extremity muscle 
+cross-sectional area.
+CONCLUSIONS: A telehealth exercise intervention ± NR supplementation was 
+feasible in CCS with prediabetes. Future studies in larger cohorts may be needed 
+to evaluate their beneficial effects on muscle health and DM risk among CCS.
+
+© 2024 Wiley Periodicals LLC.
+
+DOI: 10.1002/pbc.31369
+PMID: 39387327 [Indexed for MEDLINE]

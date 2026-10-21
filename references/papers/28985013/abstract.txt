@@ -1,0 +1,39 @@
+1. FEBS J. 2017 Dec;284(23):4035-4050. doi: 10.1111/febs.14286. Epub 2017 Nov 1.
+
+HDAC2/3 binding and deacetylation of BubR1 initiates spindle assembly checkpoint 
+silencing.
+
+Park I(1), Kwon MS(1), Paik S(1), Kim H(1), Lee HO(1), Choi E(1), Lee H(1).
+
+Author information:
+(1)Department of Biological Sciences and Institute of Molecular Biology and 
+Genetics, Seoul National University, South Korea.
+
+BubR1 acetylation is essential in spindle assembly checkpoint (SAC) signaling. 
+Here we show that BubR1 deacetylation is a signal that initiates mitotic exit. 
+Sustained BubR1 acetylation arrests the cells in metaphase, although chromosome 
+congression is achieved. BubR1 deacetylation was coordinated with 
+dephosphorylation in mitotic exit, suggesting the presence of a coordinated 
+acetylation-phosphorylation code in mitotic signaling. Histone deacetylase 
+(HDAC) 2 and 3 bound to acetylated BubR1 exclusively in mitosis and led to the 
+polyubiquitination of BubR1. Subsequent degradation of BubR1 resulted in the 
+disassembly of the mitotic checkpoint complex. Importantly, BRCA2 was required 
+for HDAC2/3 association with acetylated BubR1 in nocodazole (Noc)-arrested 
+cells. Plk1, PP2A, P300/CBP-associated factor (PCAF) and BubR1 were found in the 
+mitotic BRCA2 complex, suggesting that BRCA2 acts as a signaling scaffold for 
+BubR1 modification. Furthermore, we show that Plk1 is required for BRCA2 to 
+localize at the prometaphase kinetochore (KT). Inhibition of Plk1 resulted in 
+the loss of BRCA2 from the KT, and so did PCAF, consistent with the loss of 
+BubR1 acetylation. Concordantly, BRCA2-dysfunctional cells exhibited resistance 
+to trichostatin A, which was restored when BRCA2 was introduced. That loss of 
+Brca2 conferred resistance to various HDAC inhibitors was corroborated by the 
+experiments in mouse pancreatic organoids. These results suggest that the 
+BRCA2-BubR1 acetylation-deacetylation pathway is an important decision-making 
+point for the HDAC inhibitor response. Taken together, BRCA2 is a signaling 
+platform for BubR1, and BubR1 deacetylation is a cue for SAC silencing.
+
+© 2017 The Authors. The FEBS Journal published by John Wiley & Sons Ltd on 
+behalf of Federation of European Biochemical Societies.
+
+DOI: 10.1111/febs.14286
+PMID: 28985013 [Indexed for MEDLINE]

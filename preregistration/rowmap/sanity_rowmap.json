@@ -1,0 +1,655 @@
+{
+ "S_R4_hashes_ok": true,
+ "S_R4_scorer_git_blob": "2aed492247fc98be1b775e646f9b75aadec9e999",
+ "S_R4_scorer_blob_ok": true,
+ "alphamissense_sha256": "0516cfd71c0767ac8f9c469252d429000e94e02c008b6e3a46d4b4646fcd3475",
+ "S_R1_regen_equal": {
+  "A": true,
+  "A-BUB": true,
+  "E": true
+ },
+ "decoy_pool_set18": {
+  "RNU4ATAC": 0,
+  "RNU6ATAC": 0,
+  "ZRSR2": 0,
+  "SNRNP48": 0,
+  "ESCO2": 196,
+  "PCNT": 1819,
+  "CENPF": 598,
+  "BUB1B": 1501,
+  "TRIP13": 82,
+  "CEP57": 620,
+  "SMC5": 124,
+  "MAD1L1": 128,
+  "CEP192": 0,
+  "TRIM37": 196,
+  "CDC20": 58,
+  "MAD2L1BP": 0,
+  "CENATAC": 73,
+  "SLF2": 160
+ },
+ "am_missense_keys": 89230,
+ "am_found": 86484,
+ "am_bub1b_residues": 1488,
+ "S_R3_top10_equals_csv_genes": true,
+ "S_R3_R0C1_rows_equal_csv": true,
+ "S_R3_key_row1_points_fmax": [
+  100.0,
+  1.0
+ ],
+ "real_diff": {
+  "R0xC1": {
+   "row1_same": true,
+   "changed_rows": [],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "R0xC2": {
+   "row1_same": true,
+   "changed_rows": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "genes": [
+    "BUB1B",
+    "BUB1B",
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2
+   ]
+  },
+  "R0xC3": {
+   "row1_same": true,
+   "changed_rows": [],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "P1xC1": {
+   "row1_same": true,
+   "changed_rows": [
+    4
+   ],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "P1xC2": {
+   "row1_same": true,
+   "changed_rows": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "genes": [
+    "BUB1B",
+    "BUB1B",
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2
+   ]
+  },
+  "P1xC3": {
+   "row1_same": true,
+   "changed_rows": [
+    4
+   ],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "P2xC1": {
+   "row1_same": true,
+   "changed_rows": [
+    4,
+    5
+   ],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "P2xC2": {
+   "row1_same": true,
+   "changed_rows": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "genes": [
+    "BUB1B",
+    "BUB1B",
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2
+   ]
+  },
+  "P2xC3": {
+   "row1_same": true,
+   "changed_rows": [
+    4,
+    5
+   ],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "P3xC1": {
+   "row1_same": true,
+   "changed_rows": [
+    4,
+    5
+   ],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "P3xC2": {
+   "row1_same": true,
+   "changed_rows": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "genes": [
+    "BUB1B",
+    "BUB1B",
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2
+   ]
+  },
+  "P3xC3": {
+   "row1_same": true,
+   "changed_rows": [
+    4,
+    5
+   ],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "P4xC1": {
+   "row1_same": true,
+   "changed_rows": [
+    4,
+    5
+   ],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "P4xC2": {
+   "row1_same": true,
+   "changed_rows": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "genes": [
+    "BUB1B",
+    "BUB1B",
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2
+   ]
+  },
+  "P4xC3": {
+   "row1_same": true,
+   "changed_rows": [
+    4,
+    5
+   ],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "P5xC1": {
+   "row1_same": true,
+   "changed_rows": [
+    4,
+    5
+   ],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "P5xC2": {
+   "row1_same": true,
+   "changed_rows": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "genes": [
+    "BUB1B",
+    "BUB1B",
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2
+   ]
+  },
+  "P5xC3": {
+   "row1_same": true,
+   "changed_rows": [
+    4,
+    5
+   ],
+   "genes": [
+    "BUB1B",
+    "LZTR1",
+    "GNRHR",
+    "POU6F2",
+    "EIF4EBP1",
+    "HRNR",
+    "IGBP1",
+    "ADAMTS1",
+    "AGAP3",
+    "FOXO6"
+   ],
+   "row_sizes": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ]
+  }
+ },
+ "S_R2_d0_trials": 700,
+ "S_R2_mismatches": [],
+ "S_R2_ok": true,
+ "S_R5_mismatches": [],
+ "S_R5_ok": true,
+ "n_decoy_trials": {
+  "A-CH-dec": 384,
+  "A-hid-dec": 558,
+  "A-HOM-dec": 174,
+  "E-CH-dec": 395,
+  "E-HOM-dec": 200,
+  "A-BUB-dec": 200
+ },
+ "decoys_candidate_fraction": {
+  "A-CH-dec": 1.0,
+  "A-HOM-dec": 1.0,
+  "E-CH-dec": 0.9949324324324325,
+  "E-HOM-dec": 1.0,
+  "A-BUB-dec": 1.0
+ },
+ "vcf_unchanged": true
+}

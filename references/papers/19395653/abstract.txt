@@ -1,0 +1,38 @@
+1. Carcinogenesis. 2009 Jun;30(6):1032-40. doi: 10.1093/carcin/bgp101. Epub 2009 
+Apr 24.
+
+Dietary flavonoid fisetin induces a forced exit from mitosis by targeting the 
+mitotic spindle checkpoint.
+
+Salmela AL(1), Pouwels J, Varis A, Kukkonen AM, Toivonen P, Halonen PK, Perälä 
+M, Kallioniemi O, Gorbsky GJ, Kallio MJ.
+
+Author information:
+(1)VTT Technical Research Centre of Finland, Turku, Finland.
+
+Fisetin is a natural flavonol present in edible vegetables, fruits and wine at 
+2-160 microg/g concentrations and an ingredient in nutritional supplements with 
+much higher concentrations. The compound has been reported to exert 
+anticarcinogenic effects as well as antioxidant and anti-inflammatory activity 
+via its ability to act as an inhibitor of cell proliferation and free radical 
+scavenger, respectively. Our cell-based high-throughput screen for small 
+molecules that override chemically induced mitotic arrest identified fisetin as 
+an antimitotic compound. Fisetin rapidly compromised microtubule drug-induced 
+mitotic block in a proteasome-dependent manner in several human cell lines. 
+Moreover, in unperturbed human cancer cells fisetin caused premature initiation 
+of chromosome segregation and exit from mitosis without normal cytokinesis. To 
+understand the molecular mechanism behind these mitotic errors, we analyzed the 
+consequences of fisetin treatment on the localization and phoshorylation of 
+several mitotic proteins. Aurora B, Bub1, BubR1 and Cenp-F rapidly lost their 
+kinetochore/centromere localization and others became dephosphorylated upon 
+addition of fisetin to the culture medium. Finally, we identified Aurora B 
+kinase as a novel direct target of fisetin. The activity of Aurora B was 
+significantly reduced by fisetin in vitro and in cells, an effect that can 
+explain the observed forced mitotic exit, failure of cytokinesis and decreased 
+cell viability. In conclusion, our data propose that fisetin perturbs spindle 
+checkpoint signaling, which may contribute to the antiproliferative effects of 
+the compound.
+
+DOI: 10.1093/carcin/bgp101
+PMCID: PMC2691139
+PMID: 19395653 [Indexed for MEDLINE]

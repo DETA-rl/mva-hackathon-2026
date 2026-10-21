@@ -1,0 +1,50 @@
+1. Biol Open. 2015 Dec 18;5(1):11-9. doi: 10.1242/bio.014969.
+
+Requirement for PLK1 kinase activity in the maintenance of a robust spindle 
+assembly checkpoint.
+
+O'Connor A(1), Maffini S(2), Rainey MD(1), Kaczmarczyk A(1), Gaboriau D(1), 
+Musacchio A(3), Santocanale C(4).
+
+Author information:
+(1)Centre for Chromosome Biology, School of Natural Sciences, National 
+University of Ireland Galway, Galway, Ireland.
+(2)Max-Planck Institute of Molecular Physiology, Department of Mechanistic Cell 
+Biology, Dortmund 44227, Germany.
+(3)Max-Planck Institute of Molecular Physiology, Department of Mechanistic Cell 
+Biology, Dortmund 44227, Germany Centre for Medical Biotechnology, Faculty of 
+Biology, University Duisburg-Essen, Universitätsstrasse, Essen 45141, Germany.
+(4)Centre for Chromosome Biology, School of Natural Sciences, National 
+University of Ireland Galway, Galway, Ireland [e-mail removed].
+
+During mitotic arrest induced by microtubule targeting drugs, the weakening of 
+the spindle assembly checkpoint (SAC) allows cells to progress through the cell 
+cycle without chromosome segregation occurring. PLK1 kinase plays a major role 
+in mitosis and emerging evidence indicates that PLK1 is also involved in 
+establishing the checkpoint and maintaining SAC signalling. However, 
+mechanistically, the role of PLK1 in the SAC is not fully understood, with 
+several recent reports indicating that it can cooperate with either one of the 
+major checkpoint kinases, Aurora B or MPS1. In this study, we assess the role of 
+PLK1 in SAC maintenance. We find that in nocodazole-arrested U2OS cells, PLK1 
+activity is continuously required for maintaining Aurora B protein localisation 
+and activity at kinetochores. Consistent with published data we find that upon 
+PLK1 inhibition, phosphoThr3-H3, a marker of Haspin activity, is reduced. 
+Intriguingly, Aurora B inhibition causes PLK1 to relocalise from kinetochores 
+into fewer and much larger foci, possibly due to incomplete recruitment of outer 
+kinetochore proteins. Importantly, PLK1 inhibition, together with partial 
+inhibition of Aurora B, allows efficient SAC override to occur. This phenotype 
+is more pronounced than the phenotype observed by combining the same PLK1 
+inhibitors with partial MPS1 inhibition. We also find that PLK1 inhibition does 
+not obviously cooperate with Haspin inhibition to promote SAC override. These 
+results indicate that PLK1 is directly involved in maintaining efficient SAC 
+signalling, possibly by cooperating in a positive feedback loop with Aurora B, 
+and that partially redundant mechanisms exist which reinforce the SAC.
+
+© 2016. Published by The Company of Biologists Ltd.
+
+DOI: 10.1242/bio.014969
+PMCID: PMC4728306
+PMID: 26685311
+
+Conflict of interest statement: Competing interests No competing interests 
+declared.

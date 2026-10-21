@@ -1,0 +1,133 @@
+[
+ {
+  "generic": "lenvatinib",
+  "brand": "LENVIMA",
+  "drugsfda_products_brand": [
+   [
+    "NDA206947",
+    "EISAI INC",
+    [
+     "Prescription"
+    ]
+   ]
+  ],
+  "label_substance": "HTTP Error 404: Not Found"
+ },
+ {
+  "generic": "osimertinib",
+  "brand": "TAGRISSO",
+  "drugsfda_products_brand": [
+   [
+    "NDA208065",
+    "ASTRAZENECA",
+    [
+     "Prescription"
+    ]
+   ]
+  ],
+  "label_substance": "HTTP Error 404: Not Found"
+ },
+ {
+  "generic": "infigratinib",
+  "brand": "TRUSELTIQ",
+  "drugsfda_products_brand": [
+   [
+    "NDA214622",
+    "HELSINN HLTHCARE",
+    [
+     "Discontinued"
+    ]
+   ]
+  ],
+  "label_substance": "HTTP Error 404: Not Found"
+ },
+ {
+  "generic": "maprotiline",
+  "brand": "MAPROTILINE HYDROCHLORIDE",
+  "drugsfda_products_brand": [
+   [
+    "ANDA072131",
+    "AM THERAP",
+    [
+     "Discontinued"
+    ]
+   ],
+   [
+    "ANDA072129",
+    "AM THERAP",
+    [
+     "Discontinued"
+    ]
+   ],
+   [
+    "ANDA072130",
+    "AM THERAP",
+    [
+     "Discontinued"
+    ]
+   ]
+  ],
+  "label_substance": "HTTP Error 404: Not Found"
+ },
+ {
+  "generic": "niclosamide",
+  "brand": "NICLOCIDE",
+  "drugsfda_products_brand": [
+   [
+    "NDA018669",
+    "BAYER PHARMS",
+    [
+     "Discontinued"
+    ]
+   ]
+  ],
+  "label_substance": "HTTP Error 404: Not Found"
+ },
+ {
+  "generic": "fasudil",
+  "brand": "FASUDIL",
+  "drugsfda_products_brand": "HTTP Error 404: Not Found",
+  "label_substance": "HTTP Error 404: Not Found"
+ },
+ {
+  "generic": "fenretinide",
+  "brand": "FENRETINIDE",
+  "drugsfda_products_brand": "HTTP Error 404: Not Found",
+  "label_substance": "HTTP Error 404: Not Found"
+ },
+ {
+  "generic": "ifenprodil",
+  "brand": "IFENPRODIL",
+  "drugsfda_products_brand": "HTTP Error 404: Not Found",
+  "label_substance": "HTTP Error 404: Not Found"
+ },
+ {
+  "generic": "hesperidin",
+  "brand": "HESPERIDIN",
+  "drugsfda_products_brand": "HTTP Error 404: Not Found",
+  "label_substance": {
+   "total": 1,
+   "brand": [
+    "Bruselix Bruising"
+   ],
+   "type": [
+    "HUMAN PRESCRIPTION DRUG"
+   ],
+   "app": null
+  }
+ },
+ {
+  "generic": "nikita",
+  "brand": "NIKITA",
+  "drugsfda_products_brand": [
+   [
+    "NDA209875",
+    "LUPIN",
+    [
+     "Discontinued"
+    ]
+   ]
+  ],
+  "label_substance": "HTTP Error 404: Not Found"
+ }
+]

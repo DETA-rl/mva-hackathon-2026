@@ -1,0 +1,54 @@
+1. Proc Natl Acad Sci U S A. 2018 Feb 13;115(7):E1570-E1577. doi: 
+10.1073/pnas.1719577115. Epub 2018 Jan 29.
+
+Disruption of the anaphase-promoting complex confers resistance to TTK 
+inhibitors in triple-negative breast cancer.
+
+Thu KL(1)(2), Silvester J(1)(2), Elliott MJ(1)(2), Ba-Alawi W(2)(3), Duncan 
+MH(1)(2), Elia AC(1)(2), Mer AS(2), Smirnov P(2)(3), Safikhani Z(2), Haibe-Kains 
+B(2)(3)(4)(5), Mak TW(6)(2)(3), Cescon DW(6)(2)(7).
+
+Author information:
+(1)Campbell Family Institute for Breast Cancer Research, Princess Margaret 
+Cancer Centre, University Health Network, Toronto, ON, Canada M5G 1L7.
+(2)Princess Margaret Cancer Centre, University Health Network, Toronto, ON, 
+Canada M5G 1L7.
+(3)Department of Medical Biophysics, University of Toronto, Toronto, ON, Canada 
+M5G 1L7.
+(4)Department of Computer Science, University of Toronto, Toronto, ON, Canada 
+M5G 1L7.
+(5)Ontario Institute for Cancer Research, Toronto, ON, Canada M5G 0A3.
+(6)Campbell Family Institute for Breast Cancer Research, Princess Margaret 
+Cancer Centre, University Health Network, Toronto, ON, Canada M5G 1L7; 
+[e-mail removed] [e-mail removed].
+(7)Department of Medicine, University of Toronto, Toronto, ON, Canada M5G 1L7.
+
+TTK protein kinase (TTK), also known as Monopolar spindle 1 (MPS1), is a key 
+regulator of the spindle assembly checkpoint (SAC), which functions to maintain 
+genomic integrity. TTK has emerged as a promising therapeutic target in human 
+cancers, including triple-negative breast cancer (TNBC). Several TTK inhibitors 
+(TTKis) are being evaluated in clinical trials, and an understanding of the 
+mechanisms mediating TTKi sensitivity and resistance could inform the successful 
+development of this class of agents. We evaluated the cellular effects of the 
+potent clinical TTKi CFI-402257 in TNBC models. CFI-402257 induced apoptosis and 
+potentiated aneuploidy in TNBC lines by accelerating progression through mitosis 
+and inducing mitotic segregation errors. We used genome-wide CRISPR/Cas9 screens 
+in multiple TNBC cell lines to identify mechanisms of resistance to CFI-402257. 
+Our functional genomic screens identified members of the anaphase-promoting 
+complex/cyclosome (APC/C) complex, which promotes mitotic progression following 
+inactivation of the SAC. Several screen candidates were validated to confer 
+resistance to CFI-402257 and other TTKis using CRISPR/Cas9 and siRNA methods. 
+These findings extend the observation that impairment of the APC/C enables cells 
+to tolerate genomic instability caused by SAC inactivation, and support the 
+notion that a measure of APC/C function could predict the response to TTK 
+inhibition. Indeed, an APC/C gene expression signature is significantly 
+associated with CFI-402257 response in breast and lung adenocarcinoma cell line 
+panels. This expression signature, along with somatic alterations in genes 
+involved in mitotic progression, represent potential biomarkers that could be 
+evaluated in ongoing clinical trials of CFI-402257 or other TTKis.
+
+DOI: 10.1073/pnas.1719577115
+PMCID: PMC5816201
+PMID: 29378962 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.

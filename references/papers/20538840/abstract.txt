@@ -1,0 +1,34 @@
+1. Mol Pharmacol. 2010 Sep;78(3):436-43. doi: 10.1124/mol.110.065169. Epub 2010
+Jun  10.
+
+The histone deacetylase inhibitor MGCD0103 has both deacetylase and microtubule 
+inhibitory activity.
+
+Chia K(1), Beamish H, Jafferi K, Gabrielli B.
+
+Author information:
+(1)University of Queensland Diamantina Institute, Princess Alexandra Hospital, 
+Brisbane, Queensland, Australia.
+
+Histone deacetylase inhibitors (HDACis) are currently in trial or are in 
+clinical use for the treatment of a number of tumor types. The clinical efficacy 
+of HDACis can be partly attributed to the modulation of the cell cycle by the 
+HDACis. Here, we have examined the effects of 
+N-(2-aminophenyl)-4-((4-pyridin-3-ylpyrimidin-2-ylamino)methyl)benzamide 
+(MGCD0103), a class I-selective histone deacetylase inhibitor, on the cell cycle 
+and cell killing. Surprisingly, MGCD0103 treatment failed to initiate a 
+G(1)-phase arrest but caused marked accumulation of cells in G(2)/M at 6 and 12 
+h after treatment and was cytotoxic 24 h after treatment. These cell cycle 
+effects were considerably distinct from the effects of suberic bishydroxamic 
+acid, a representative of the pan-isoform HDACi used in this study. MGCD0103 
+shared the ability of the pan-isoform HDACi to trigger defective mitosis and 
+promote mitotic slippage. Likewise, it also specifically targeted tumor cells 
+and was nontoxic to normal nontransformed cells. However, MGDC0103 also seemed 
+to disrupt normal microtubule spindle formation, whereas HDACis generally have 
+only a minor effect on spindle formation. The effect of MGCD0103 on spindle 
+formation was shown to be a consequence of microtubule destabilization. This is 
+the first example of an HDACi with microtubule destabilizing activity, and the 
+combined effects of this drug have advantages for its therapeutic use.
+
+DOI: 10.1124/mol.110.065169
+PMID: 20538840 [Indexed for MEDLINE]

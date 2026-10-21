@@ -1,0 +1,30 @@
+1. J Cell Biol. 2006 Feb 13;172(4):529-40. doi: 10.1083/jcb.200507081.
+
+Early aging-associated phenotypes in Bub3/Rae1 haploinsufficient mice.
+
+Baker DJ(1), Jeganathan KB, Malureanu L, Perez-Terzic C, Terzic A, van Deursen 
+JM.
+
+Author information:
+(1)Department of Pediatric and Adolescent Medicine, Mayo Clinic, Rochester, MN 
+55905, USA.
+
+Aging is a highly complex biological process that is believed to involve 
+multiple mechanisms. Mice that have small amounts of the mitotic checkpoint 
+protein BubR1 age much faster than normal mice, but whether other mitotic 
+checkpoint genes function to prevent the early onset of aging is unknown. In 
+this study, we show that several aging-associated phenotypes appear early in 
+mice that are double haploinsufficient for the mitotic checkpoint genes Bub3 and 
+Rae1 but not in mice that are single haploinsufficient for these genes. Mouse 
+embryonic fibroblasts (MEFs) from Bub3/Rae1 haploinsufficient mice undergo 
+premature senescence and accumulate high levels of p19, p53, p21, and p16, 
+whereas MEFs from single haploinsufficient mice do not. Furthermore, although 
+BubR1 hypomorphic mice have less aneuploidy than Bub3/Rae1 haploinsufficient 
+mice, they age much faster. Our findings suggest that early onset of 
+aging-associated phenotypes in mice with mitotic checkpoint gene defects is 
+linked to cellular senescence and activation of the p53 and p16 pathways rather 
+than to aneuploidy.
+
+DOI: 10.1083/jcb.200507081
+PMCID: PMC2063673
+PMID: 16476774 [Indexed for MEDLINE]

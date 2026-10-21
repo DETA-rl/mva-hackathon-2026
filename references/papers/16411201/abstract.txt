@@ -1,0 +1,42 @@
+1. Am J Med Genet A. 2006 Feb 15;140(4):358-67. doi: 10.1002/ajmg.a.31069.
+
+Monoallelic BUB1B mutations and defective mitotic-spindle checkpoint in seven 
+families with premature chromatid separation (PCS) syndrome.
+
+Matsuura S(1), Matsumoto Y, Morishima K, Izumi H, Matsumoto H, Ito E, Tsutsui K, 
+Kobayashi J, Tauchi H, Kajiwara Y, Hama S, Kurisu K, Tahara H, Oshimura M, 
+Komatsu K, Ikeuchi T, Kajii T.
+
+Author information:
+(1)Department of Radiation Biology, Research Institute for Radiation Biology and 
+Medicine, Hiroshima University, Hiroshima, Japan. [e-mail removed]
+
+Cancer-prone syndrome of premature chromatid separation (PCS syndrome) with 
+mosaic variegated aneuploidy (MVA) is a rare autosomal recessive disorder 
+characterized by growth retardation, microcephaly, childhood cancer, premature 
+chromatid separation of all chromosomes, and mosaicism for various trisomies and 
+monosomies. Biallelic BUB1B mutations were recently reported in five of eight 
+families with MVA syndrome (probably identical to the PCS syndrome). We here 
+describe molecular analysis of BUB1B (encoding BubR1) in seven Japanese families 
+with the PCS syndrome. Monoallelic BUB1B mutations were found in all seven 
+families studied: a single-base deletion (1833delT) in four families; and a 
+splice site mutation, a nonsense mutation, and a missense mutation in one family 
+each. Transcripts derived from the patients with the 1833delT mutation and the 
+splice site mutation were significantly reduced, probably due to 
+nonsense-mediated mRNA decay. No mutation was found in the second alleles in the 
+seven families studied, but RT-PCR of BUB1B and Western blot analysis of BubR1 
+indicated a modest decrease of their transcripts. BubR1 in the cells from two 
+patients showed both reduced protein expression and diminished kinetochore 
+localization. Their expression level of p55cdc, a specific activator of 
+anaphase-promoting complex, was normal but its kinetochore association was 
+abolished. Microcell-mediated transfer of chromosome 15 (containing BUB1B) into 
+the cells restored normal BubR1 levels, kinetochore localization of p55cdc, and 
+the normal responses to colcemid treatment. These findings indicate the 
+involvement of BubR1 in p55cdc-mediated mitotic checkpoint signaling, and 
+suggest that >50% decrease in expression (or activity) of BubR1 is involved in 
+the PCS syndrome.
+
+Copyright (c) 2006 Wiley-Liss, Inc.
+
+DOI: 10.1002/ajmg.a.31069
+PMID: 16411201 [Indexed for MEDLINE]

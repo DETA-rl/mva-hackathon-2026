@@ -1,0 +1,35 @@
+1. Cell Cycle. 2010 Aug 15;9(16):3297-304. doi: 10.4161/cc.9.16.12631. Epub 2010 
+Aug 10.
+
+RAF associates with phosphorylated nuclear BubR1 during endoreduplication 
+induced by JAK inhibition.
+
+Reiterer G(1), Chen L, Tassef R, Varner JD, Chen CY, Yen A.
+
+Author information:
+(1)Department of Biomedical Sciences, Cornell University, Ithaca, NY, USA.
+
+The role of JAK signaling in cell cycle transit and maintenance of genomic 
+stability was determined in HL-60 human myeloblastic leukemia cells. We have 
+previously reported that a pan-JAK inhibitor caused ERK-dependent 
+endoreduplication. In the current study we find that JAK inhibition caused 
+nuclear re-localization of RAF-1 which could be inhibited by RAF inhibitor 
+GW5074. GW5074 also inhibited JAK inhibitor-induced appearance of nuclear 
+phosphorylated RAF-1(pS621RAF) and MEK; and it inhibited the JAK 
+inhibitor-induced co-immunoprecipitation of nuclear RAF-1 and MEK. JAK 
+inhibition also increased nuclear BubR1 phosphorylation, which was diminished by 
+RAF inhibitor GW5074. RAF-1 and BubR1 in the nucleus co-immunoprecipitated; and 
+GW5074 eliminated this. Furthermore, inhibiting RAF with GW5074 blocked the 
+pan-JAK inhibitor-induced endoreduplication. These data thus show that JAK 
+inhibition causes nuclear relocalization and phosphorylation of RAF and MEK 
+where RAF binds BubR1 with ensuing nuclear RAF-dependent BubR1 phosphorylation. 
+Inhibiting RAF inhibited this and endoreduplication. The results suggest that 
+there is a JAK/RAF/MEK/BubR1 axis that can regulate genomic stability. In this 
+hypothetical model JAK suppresses RAF/MEK phosphorylation and nuclear 
+re-localization, but JAK inhibition induces the phosphorylations and 
+relocalization with association of RAF and phosphorylated BubR1 in the nucleus 
+leading to endoreduplication.
+
+DOI: 10.4161/cc.9.16.12631
+PMCID: PMC3230478
+PMID: 20703093 [Indexed for MEDLINE]

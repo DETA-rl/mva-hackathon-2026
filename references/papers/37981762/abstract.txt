@@ -1,0 +1,57 @@
+1. HGG Adv. 2024 Jan 11;5(1):100256. doi: 10.1016/j.xhgg.2023.100256. Epub 2023
+Nov  19.
+
+Mosaic variegated aneuploidy syndrome with tetraploid, and predisposition to 
+male infertility triggered by mutant CEP192.
+
+Guo J(1), He WB(2), Dai L(3), Tian F(1), Luo Z(1), Shen F(1), Tu M(1), Zheng 
+Y(1), Zhao L(1), Tan C(2), Guo Y(2), Meng LL(2), Liu W(1), Deng M(1), Wu X(1), 
+Peng Y(1), Zhang S(1), Lu GX(2), Lin G(2), Wang H(1), Tan YQ(4), Yang Y(5).
+
+Author information:
+(1)Department of Medical Genetics, Hunan Children's Hospital, Xiangya Medical 
+School & Reproductive Medicine Center, Xiangya Hospital, Central South 
+University, Changsha, China.
+(2)Hunan Guangxiu Hospital, Hunan Normal University School of Medicine, 
+Changsha, China; Institute of Reproductive and Stem Cell Engineering, NHC Key 
+Laboratory of Human Stem Cell and Reproductive Engineering, School of Basic 
+Medical Science, Central South University, Changsha, China.
+(3)Department of Obstetrics, Xiangya Hospital of Central South University, 
+Changsha, China.
+(4)Hunan Guangxiu Hospital, Hunan Normal University School of Medicine, 
+Changsha, China; Institute of Reproductive and Stem Cell Engineering, NHC Key 
+Laboratory of Human Stem Cell and Reproductive Engineering, School of Basic 
+Medical Science, Central South University, Changsha, China. Electronic address: 
+[e-mail removed].
+(5)Department of Medical Genetics, Hunan Children's Hospital, Xiangya Medical 
+School & Reproductive Medicine Center, Xiangya Hospital, Central South 
+University, Changsha, China. Electronic address: [e-mail removed].
+
+In this study, we report on mosaic variegated aneuploidy (MVA) syndrome with 
+tetraploidy and predisposition to infertility in a family. Sequencing analysis 
+identified that the CEP192 biallelic variants (c.1912C>T, p.His638Tyr and 
+c.5750A>G, p.Asn1917Ser) segregated with microcephaly, short stature, 
+limb-extremity dysplasia, and reduced testicular size, while CEP192 monoallelic 
+variants segregated with infertility and/or reduced testicular size in the 
+family. In 1,264 unrelated patients, variant screening for CEP192 identified a 
+same variant (c.5750A>G, p.Asn1917Ser) and other variants significantly 
+associated with infertility. Two lines of Cep192 mice model that are equivalent 
+to human variants were generated. Embryos with Cep192 biallelic variants 
+arrested at E7 because of cell apoptosis mediated by MVA/tetraploidy cell 
+acumination. Mice with heterozygous variants replicated the predisposition to 
+male infertility. Mouse primary embryonic fibroblasts with Cep192 biallelic 
+variants cultured in vitro showed abnormal morphology, mitotic arresting, and 
+disruption of spindle formation. In patient epithelial cells with biallelic 
+variants cultured in vitro, the number of cells arrested during the prophase 
+increased because of the failure of spindle formation. Accordingly, we present 
+mutant CEP192, which is a link for the MVA syndrome with tetraploidy and the 
+predisposition to male infertility.
+
+Copyright © 2023 The Authors. Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.xhgg.2023.100256
+PMCID: PMC10716027
+PMID: 37981762 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests The authors declare no 
+competing interests.

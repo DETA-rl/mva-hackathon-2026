@@ -1,0 +1,4372 @@
+{
+ "collected_utc": "2026-10-21T11:21:07Z",
+ "cited": 110,
+ "resolved": 110,
+ "unresolved": [],
+ "with_pmc_record": 59,
+ "open_access": 34,
+ "fulltext_included": [
+  "25672491",
+  "26685311",
+  "27721479",
+  "31412242"
+ ],
+ "flagged": [],
+ "records": [
+  {
+   "pmid": "8532910",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Nicotinamide pharmacokinetics in patients",
+   "authors": [
+    "Dragovic J",
+    "Kim SH",
+    "Brown SL",
+    "Kim JH"
+   ],
+   "first_author": "Dragovic J",
+   "journal": "Radiotherapy and oncology : journal of the European Society for Therapeutic Radiology and Oncology",
+   "pubdate": "1995 Sep",
+   "doi": "10.1016/0167-8140(95)01581-z",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/8532910/",
+   "doi_url": "https://doi.org/10.1016/0167-8140(95)01581-z",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "9644970",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "A rule for termination-codon position within intron-containing genes: when nonsense affects RNA abundance",
+   "authors": [
+    "Nagy E",
+    "Maquat LE"
+   ],
+   "first_author": "Nagy E",
+   "journal": "Trends in biochemical sciences",
+   "pubdate": "1998 Jun",
+   "doi": "10.1016/s0968-0004(98)01208-0",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Review"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/9644970/",
+   "doi_url": "https://doi.org/10.1016/s0968-0004(98)01208-0",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "10677536",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Chemical chaperones mediate increased secretion of mutant alpha 1-antitrypsin (alpha 1-AT) Z: A potential pharmacological strategy for prevention of liver injury and emphysema in alpha 1-AT deficiency",
+   "authors": [
+    "Burrows JA",
+    "Willis LK",
+    "Perlmutter DH"
+   ],
+   "first_author": "Burrows JA",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubdate": "2000 Feb 15",
+   "doi": "10.1073/pnas.97.4.1796",
+   "pmcid": "PMC26515",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, U.S. Gov't, P.H.S."
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/10677536/",
+   "doi_url": "https://doi.org/10.1073/pnas.97.4.1796",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "12719470",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Aurora B couples chromosome alignment with anaphase by targeting BubR1, Mad2, and Cenp-E to kinetochores",
+   "authors": [
+    "Ditchfield C",
+    "Johnson VL",
+    "Tighe A",
+    "Ellston R",
+    "Haworth C",
+    "Johnson T",
+    "Mortlock A",
+    "Keen N",
+    "Taylor SS"
+   ],
+   "first_author": "Ditchfield C",
+   "journal": "The Journal of cell biology",
+   "pubdate": "2003 Apr 28",
+   "doi": "10.1083/jcb.200208091",
+   "pmcid": "PMC2172902",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/12719470/",
+   "doi_url": "https://doi.org/10.1083/jcb.200208091",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "15034571",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Treatment with arimoclomol, a coinducer of heat shock proteins, delays disease progression in ALS mice",
+   "authors": [
+    "Kieran D",
+    "Kalmar B",
+    "Dick JR",
+    "Riddoch-Contreras J",
+    "Burnstock G",
+    "Greensmith L"
+   ],
+   "first_author": "Kieran D",
+   "journal": "Nature medicine",
+   "pubdate": "2004 Apr",
+   "doi": "10.1038/nm1021",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/15034571/",
+   "doi_url": "https://doi.org/10.1038/nm1021",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "15383533",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Curcumin, a novel p300/CREB-binding protein-specific inhibitor of acetyltransferase, represses the acetylation of histone/nonhistone proteins and histone acetyltransferase-dependent chromatin transcription",
+   "authors": [
+    "Balasubramanyam K",
+    "Varier RA",
+    "Altaf M",
+    "Swaminathan V",
+    "Siddappa NB",
+    "Ranga U",
+    "Kundu TK"
+   ],
+   "first_author": "Balasubramanyam K",
+   "journal": "The Journal of biological chemistry",
+   "pubdate": "2004 Dec 3",
+   "doi": "10.1074/jbc.M409024200",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/15383533/",
+   "doi_url": "https://doi.org/10.1074/jbc.M409024200",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "15475955",
+   "cited_in": [
+    "Track 1",
+    "Track 2"
+   ],
+   "title": "Constitutional aneuploidy and cancer predisposition caused by biallelic mutations in BUB1B",
+   "authors": [
+    "Hanks S",
+    "Coleman K",
+    "Reid S",
+    "Plaja A",
+    "Firth H",
+    "Fitzpatrick D",
+    "Kidd A",
+    "Méhes K",
+    "Nash R",
+    "Robin N",
+    "Shannon N",
+    "Tolmie J",
+    "Swansbury J",
+    "Irrthum A",
+    "Douglas J",
+    "Rahman N"
+   ],
+   "first_author": "Hanks S",
+   "journal": "Nature genetics",
+   "pubdate": "2004 Nov",
+   "doi": "10.1038/ng1449",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/15475955/",
+   "doi_url": "https://doi.org/10.1038/ng1449",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "15753652",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Mitotic spindle checkpoint inactivation by trichostatin a defines a mechanism for increasing cancer cell killing by microtubule-disrupting agents",
+   "authors": [
+    "Dowling M",
+    "Voong KR",
+    "Kim M",
+    "Keutmann MK",
+    "Harris E",
+    "Kao GD"
+   ],
+   "first_author": "Dowling M",
+   "journal": "Cancer biology & therapy",
+   "pubdate": "2005 Feb",
+   "doi": "",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, U.S. Gov't, P.H.S."
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/15753652/",
+   "doi_url": "",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "15870702",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Two distinct modes of cell death induced by doxorubicin: apoptosis and cell death through mitotic catastrophe accompanied by senescence-like phenotype",
+   "authors": [
+    "Eom YW",
+    "Kim MA",
+    "Park SS",
+    "Goo MJ",
+    "Kwon HJ",
+    "Sohn S",
+    "Kim WH",
+    "Yoon G",
+    "Choi KS"
+   ],
+   "first_author": "Eom YW",
+   "journal": "Oncogene",
+   "pubdate": "2005 Jul 14",
+   "doi": "10.1038/sj.onc.1208627",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/15870702/",
+   "doi_url": "https://doi.org/10.1038/sj.onc.1208627",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "16326120",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Analysis of nonsense-mediated mRNA decay in mutant alleles identified in Spanish Gaucher disease patients",
+   "authors": [
+    "Montfort M",
+    "Chabás A",
+    "Vilageliu L",
+    "Grinberg D"
+   ],
+   "first_author": "Montfort M",
+   "journal": "Blood cells, molecules & diseases",
+   "pubdate": "2006 Jan-Feb",
+   "doi": "10.1016/j.bcmd.2005.10.002",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/16326120/",
+   "doi_url": "https://doi.org/10.1016/j.bcmd.2005.10.002",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "16411201",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Monoallelic BUB1B mutations and defective mitotic-spindle checkpoint in seven families with premature chromatid separation (PCS) syndrome",
+   "authors": [
+    "Matsuura S",
+    "Matsumoto Y",
+    "Morishima K",
+    "Izumi H",
+    "Matsumoto H",
+    "Ito E",
+    "Tsutsui K",
+    "Kobayashi J",
+    "Tauchi H",
+    "Kajiwara Y",
+    "Hama S",
+    "Kurisu K",
+    "Tahara H",
+    "Oshimura M",
+    "Komatsu K",
+    "Ikeuchi T",
+    "Kajii T"
+   ],
+   "first_author": "Matsuura S",
+   "journal": "American journal of medical genetics. Part A",
+   "pubdate": "2006 Feb 15",
+   "doi": "10.1002/ajmg.a.31069",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/16411201/",
+   "doi_url": "https://doi.org/10.1002/ajmg.a.31069",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "16432160",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Inhibition of TRIP1/S8/hSug1, a component of the human 19S proteasome, enhances mitotic apoptosis induced by spindle poisons",
+   "authors": [
+    "Yamada HY",
+    "Gorbsky GJ"
+   ],
+   "first_author": "Yamada HY",
+   "journal": "Molecular cancer therapeutics",
+   "pubdate": "2006 Jan",
+   "doi": "10.1158/1535-7163.MCT-05-0126",
+   "pmcid": "PMC1630635",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, U.S. Gov't, Non-P.H.S."
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/16432160/",
+   "doi_url": "https://doi.org/10.1158/1535-7163.MCT-05-0126",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "16449973",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "BubR1 is involved in regulation of DNA damage responses",
+   "authors": [
+    "Fang Y",
+    "Liu T",
+    "Wang X",
+    "Yang YM",
+    "Deng H",
+    "Kunicki J",
+    "Traganos F",
+    "Darzynkiewicz Z",
+    "Lu L",
+    "Dai W"
+   ],
+   "first_author": "Fang Y",
+   "journal": "Oncogene",
+   "pubdate": "2006 Jun 15",
+   "doi": "10.1038/sj.onc.1209392",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/16449973/",
+   "doi_url": "https://doi.org/10.1038/sj.onc.1209392",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "16476774",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Early aging-associated phenotypes in Bub3/Rae1 haploinsufficient mice",
+   "authors": [
+    "Baker DJ",
+    "Jeganathan KB",
+    "Malureanu L",
+    "Perez-Terzic C",
+    "Terzic A",
+    "van Deursen JM"
+   ],
+   "first_author": "Baker DJ",
+   "journal": "The Journal of cell biology",
+   "pubdate": "2006 Feb 13",
+   "doi": "10.1083/jcb.200507081",
+   "pmcid": "PMC2063673",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/16476774/",
+   "doi_url": "https://doi.org/10.1083/jcb.200507081",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "16857700",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "The histone deacetylase inhibitor trichostatin a has genotoxic effects in human lymphoblasts in vitro",
+   "authors": [
+    "Olaharski AJ",
+    "Ji Z",
+    "Woo JY",
+    "Lim S",
+    "Hubbard AE",
+    "Zhang L",
+    "Smith MT"
+   ],
+   "first_author": "Olaharski AJ",
+   "journal": "Toxicological sciences : an official journal of the Society of Toxicology",
+   "pubdate": "2006 Oct",
+   "doi": "10.1093/toxsci/kfl068",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/16857700/",
+   "doi_url": "https://doi.org/10.1093/toxsci/kfl068",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "17355872",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Structural basis of inhibition of the human NAD+-dependent deacetylase SIRT5 by suramin",
+   "authors": [
+    "Schuetz A",
+    "Min J",
+    "Antoshenko T",
+    "Wang CL",
+    "Allali-Hassani A",
+    "Dong A",
+    "Loppnau P",
+    "Vedadi M",
+    "Bochkarev A",
+    "Sternglanz R",
+    "Plotnikov AN"
+   ],
+   "first_author": "Schuetz A",
+   "journal": "Structure (London, England : 1993)",
+   "pubdate": "2007 Mar",
+   "doi": "10.1016/j.str.2007.02.002",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/17355872/",
+   "doi_url": "https://doi.org/10.1016/j.str.2007.02.002",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "17463214",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Effect of the rate of niacin administration on the plasma and urine pharmacokinetics of niacin and its metabolites",
+   "authors": [
+    "Menon RM",
+    "González MA",
+    "Adams MH",
+    "Tolbert DS",
+    "Leu JH",
+    "Cefali EA"
+   ],
+   "first_author": "Menon RM",
+   "journal": "Journal of clinical pharmacology",
+   "pubdate": "2007 Jun",
+   "doi": "10.1177/0091270007300264",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Clinical Trial",
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/17463214/",
+   "doi_url": "https://doi.org/10.1177/0091270007300264",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "17604275",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Elevation of cellular NAD levels by nicotinic acid and involvement of nicotinic acid phosphoribosyltransferase in human cells",
+   "authors": [
+    "Hara N",
+    "Yamada K",
+    "Shibata T",
+    "Osago H",
+    "Hashimoto T",
+    "Tsuchiya M"
+   ],
+   "first_author": "Hara N",
+   "journal": "The Journal of biological chemistry",
+   "pubdate": "2007 Aug 24",
+   "doi": "10.1074/jbc.M610357200",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/17604275/",
+   "doi_url": "https://doi.org/10.1074/jbc.M610357200",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "17616695",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Histone deacetylase inhibitors induce premature sister chromatid separation and override the mitotic spindle assembly checkpoint",
+   "authors": [
+    "Magnaghi-Jaulin L",
+    "Eot-Houllier G",
+    "Fulcrand G",
+    "Jaulin C"
+   ],
+   "first_author": "Magnaghi-Jaulin L",
+   "journal": "Cancer research",
+   "pubdate": "2007 Jul 1",
+   "doi": "10.1158/0008-5472.CAN-06-3012",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/17616695/",
+   "doi_url": "https://doi.org/10.1158/0008-5472.CAN-06-3012",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "17717597",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "FTY720, a new alternative for treating blast crisis chronic myelogenous leukemia and Philadelphia chromosome-positive acute lymphocytic leukemia",
+   "authors": [
+    "Neviani P",
+    "Santhanam R",
+    "Oaks JJ",
+    "Eiring AM",
+    "Notari M",
+    "Blaser BW",
+    "Liu S",
+    "Trotta R",
+    "Muthusamy N",
+    "Gambacorti-Passerini C",
+    "Druker BJ",
+    "Cortes J",
+    "Marcucci G",
+    "Chen CS",
+    "Verrills NM",
+    "Roy DC",
+    "Caligiuri MA",
+    "Bloomfield CD",
+    "Byrd JC",
+    "Perrotti D"
+   ],
+   "first_author": "Neviani P",
+   "journal": "The Journal of clinical investigation",
+   "pubdate": "2007 Sep",
+   "doi": "10.1172/JCI31095",
+   "pmcid": "PMC1950458",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, U.S. Gov't, Non-P.H.S."
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/17717597/",
+   "doi_url": "https://doi.org/10.1172/JCI31095",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "17725178",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Plasma and urine pharmacokinetics of niacin and its metabolites from an extended-release niacin formulation",
+   "authors": [
+    "Menon RM",
+    "Adams MH",
+    "González MA",
+    "Tolbert DS",
+    "Leu JH",
+    "Cefali EA"
+   ],
+   "first_author": "Menon RM",
+   "journal": "International journal of clinical pharmacology and therapeutics",
+   "pubdate": "2007 Aug",
+   "doi": "10.5414/cpp45448",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Clinical Trial",
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/17725178/",
+   "doi_url": "https://doi.org/10.5414/cpp45448",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "17828304",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Histone deacetylase inhibitors induce mitotic slippage",
+   "authors": [
+    "Stevens FE",
+    "Beamish H",
+    "Warrener R",
+    "Gabrielli B"
+   ],
+   "first_author": "Stevens FE",
+   "journal": "Oncogene",
+   "pubdate": "2008 Feb 28",
+   "doi": "10.1038/sj.onc.1210779",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Comparative Study",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/17828304/",
+   "doi_url": "https://doi.org/10.1038/sj.onc.1210779",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "17927689",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Curcumin, both histone deacetylase and p300/CBP-specific inhibitor, represses the activity of nuclear factor kappa B and Notch 1 in Raji cells",
+   "authors": [
+    "Chen Y",
+    "Shu W",
+    "Chen W",
+    "Wu Q",
+    "Liu H",
+    "Cui G"
+   ],
+   "first_author": "Chen Y",
+   "journal": "Basic & clinical pharmacology & toxicology",
+   "pubdate": "2007 Dec",
+   "doi": "10.1111/j.1742-7843.2007.00142.x",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/17927689/",
+   "doi_url": "https://doi.org/10.1111/j.1742-7843.2007.00142.x",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "18292809",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "The dietary compound curcumin inhibits p300 histone acetyltransferase activity and prevents heart failure in rats",
+   "authors": [
+    "Morimoto T",
+    "Sunagawa Y",
+    "Kawamura T",
+    "Takaya T",
+    "Wada H",
+    "Nagasawa A",
+    "Komeda M",
+    "Fujita M",
+    "Shimatsu A",
+    "Kita T",
+    "Hasegawa K"
+   ],
+   "first_author": "Morimoto T",
+   "journal": "The Journal of clinical investigation",
+   "pubdate": "2008 Mar",
+   "doi": "10.1172/JCI33160",
+   "pmcid": "PMC2248328",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/18292809/",
+   "doi_url": "https://doi.org/10.1172/JCI33160",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "18326024",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Histone deacetylase 3 localizes to the mitotic spindle and is required for kinetochore-microtubule attachment",
+   "authors": [
+    "Ishii S",
+    "Kurasawa Y",
+    "Wong J",
+    "Yu-Lee LY"
+   ],
+   "first_author": "Ishii S",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubdate": "2008 Mar 18",
+   "doi": "10.1073/pnas.0710140105",
+   "pmcid": "PMC2393771",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/18326024/",
+   "doi_url": "https://doi.org/10.1073/pnas.0710140105",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "18559556",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Pharmacokinetics of curcumin conjugate metabolites in healthy human subjects",
+   "authors": [
+    "Vareed SK",
+    "Kakarala M",
+    "Ruffin MT",
+    "Crowell JA",
+    "Normolle DP",
+    "Djuric Z",
+    "Brenner DE"
+   ],
+   "first_author": "Vareed SK",
+   "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+   "pubdate": "2008 Jun",
+   "doi": "10.1158/1055-9965.EPI-07-2693",
+   "pmcid": "PMC4138955",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/18559556/",
+   "doi_url": "https://doi.org/10.1158/1055-9965.EPI-07-2693",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "18723675",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "RPA phosphorylation facilitates mitotic exit in response to mitotic DNA damage",
+   "authors": [
+    "Anantha RW",
+    "Sokolova E",
+    "Borowiec JA"
+   ],
+   "first_author": "Anantha RW",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubdate": "2008 Sep 2",
+   "doi": "10.1073/pnas.0803001105",
+   "pmcid": "PMC2529075",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/18723675/",
+   "doi_url": "https://doi.org/10.1073/pnas.0803001105",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "18832068",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Histone deacetylase 3 is required for centromeric H3K4 deacetylation and sister chromatid cohesion",
+   "authors": [
+    "Eot-Houllier G",
+    "Fulcrand G",
+    "Watanabe Y",
+    "Magnaghi-Jaulin L",
+    "Jaulin C"
+   ],
+   "first_author": "Eot-Houllier G",
+   "journal": "Genes & development",
+   "pubdate": "2008 Oct 1",
+   "doi": "10.1101/gad.484108",
+   "pmcid": "PMC2559902",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/18832068/",
+   "doi_url": "https://doi.org/10.1101/gad.484108",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "18932004",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Gradual reduction of BUBR1 protein levels results in premature sister-chromatid separation then in aneuploidy",
+   "authors": [
+    "Bohers E",
+    "Sarafan-Vasseur N",
+    "Drouet A",
+    "Paresy M",
+    "Latouche JB",
+    "Flaman JM",
+    "Sesboüé R",
+    "Frebourg T"
+   ],
+   "first_author": "Bohers E",
+   "journal": "Human genetics",
+   "pubdate": "2008 Dec",
+   "doi": "10.1007/s00439-008-0572-y",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/18932004/",
+   "doi_url": "https://doi.org/10.1007/s00439-008-0572-y",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "19147572",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Epigallocatechin-3-gallate, a histone acetyltransferase inhibitor, inhibits EBV-induced B lymphocyte transformation via suppression of RelA acetylation",
+   "authors": [
+    "Choi KC",
+    "Jung MG",
+    "Lee YH",
+    "Yoon JC",
+    "Kwon SH",
+    "Kang HB",
+    "Kim MJ",
+    "Cha JH",
+    "Kim YJ",
+    "Jun WJ",
+    "Lee JM",
+    "Yoon HG"
+   ],
+   "first_author": "Choi KC",
+   "journal": "Cancer research",
+   "pubdate": "2009 Jan 15",
+   "doi": "10.1158/0008-5472.CAN-08-2442",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/19147572/",
+   "doi_url": "https://doi.org/10.1158/0008-5472.CAN-08-2442",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "19282672",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "CDK5RAP2 is required for spindle checkpoint function",
+   "authors": [
+    "Zhang X",
+    "Liu D",
+    "Lv S",
+    "Wang H",
+    "Zhong X",
+    "Liu B",
+    "Wang B",
+    "Liao J",
+    "Li J",
+    "Pfeifer GP",
+    "Xu X"
+   ],
+   "first_author": "Zhang X",
+   "journal": "Cell cycle (Georgetown, Tex.)",
+   "pubdate": "2009 Apr 15",
+   "doi": "10.4161/cc.8.8.8205",
+   "pmcid": "PMC3820842",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/19282672/",
+   "doi_url": "https://doi.org/10.4161/cc.8.8.8205",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "19371599",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Heat shock protein inhibitors, 17-DMAG and KNK437, enhance arsenic trioxide-induced mitotic apoptosis",
+   "authors": [
+    "Wu YC",
+    "Yen WY",
+    "Lee TC",
+    "Yih LH"
+   ],
+   "first_author": "Wu YC",
+   "journal": "Toxicology and applied pharmacology",
+   "pubdate": "2009 Apr 15",
+   "doi": "10.1016/j.taap.2009.02.003",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/19371599/",
+   "doi_url": "https://doi.org/10.1016/j.taap.2009.02.003",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "19395653",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Dietary flavonoid fisetin induces a forced exit from mitosis by targeting the mitotic spindle checkpoint",
+   "authors": [
+    "Salmela AL",
+    "Pouwels J",
+    "Varis A",
+    "Kukkonen AM",
+    "Toivonen P",
+    "Halonen PK",
+    "Perälä M",
+    "Kallioniemi O",
+    "Gorbsky GJ",
+    "Kallio MJ"
+   ],
+   "first_author": "Salmela AL",
+   "journal": "Carcinogenesis",
+   "pubdate": "2009 Jun",
+   "doi": "10.1093/carcin/bgp101",
+   "pmcid": "PMC2691139",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/19395653/",
+   "doi_url": "https://doi.org/10.1093/carcin/bgp101",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "19397590",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Arsenic trioxide suppresses paclitaxel-induced mitotic arrest",
+   "authors": [
+    "Duan Q",
+    "Komissarova E",
+    "Dai W"
+   ],
+   "first_author": "Duan Q",
+   "journal": "Cell proliferation",
+   "pubdate": "2009 Jun",
+   "doi": "10.1111/j.1365-2184.2009.00606.x",
+   "pmcid": "PMC4034259",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/19397590/",
+   "doi_url": "https://doi.org/10.1111/j.1365-2184.2009.00606.x",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "19407811",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "BubR1 acetylation at prometaphase is required for modulating APC/C activity and timing of mitosis",
+   "authors": [
+    "Choi E",
+    "Choe H",
+    "Min J",
+    "Choi JY",
+    "Kim J",
+    "Lee H"
+   ],
+   "first_author": "Choi E",
+   "journal": "The EMBO journal",
+   "pubdate": "2009 Jul 22",
+   "doi": "10.1038/emboj.2009.123",
+   "pmcid": "PMC2684026",
+   "language": [
+    "eng"
+   ],
+   "license": "cc by-nc-nd",
+   "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/19407811/",
+   "doi_url": "https://doi.org/10.1038/emboj.2009.123",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "20194791",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Molecular basis for the high-affinity binding and stabilization of firefly luciferase by PTC124",
+   "authors": [
+    "Auld DS",
+    "Lovell S",
+    "Thorne N",
+    "Lea WA",
+    "Maloney DJ",
+    "Shen M",
+    "Rai G",
+    "Battaile KP",
+    "Thomas CJ",
+    "Simeonov A",
+    "Hanzlik RP",
+    "Inglese J"
+   ],
+   "first_author": "Auld DS",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubdate": "2010 Mar 16",
+   "doi": "10.1073/pnas.0909141107",
+   "pmcid": "PMC2841876",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/20194791/",
+   "doi_url": "https://doi.org/10.1073/pnas.0909141107",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "20516114",
+   "cited_in": [
+    "Track 1",
+    "Track 2"
+   ],
+   "title": "Molecular causes for BUBR1 dysfunction in the human cancer predisposition syndrome mosaic variegated aneuploidy",
+   "authors": [
+    "Suijkerbuijk SJ",
+    "van Osch MH",
+    "Bos FL",
+    "Hanks S",
+    "Rahman N",
+    "Kops GJ"
+   ],
+   "first_author": "Suijkerbuijk SJ",
+   "journal": "Cancer research",
+   "pubdate": "2010 Jun 15",
+   "doi": "10.1158/0008-5472.CAN-09-4319",
+   "pmcid": "PMC2887387",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/20516114/",
+   "doi_url": "https://doi.org/10.1158/0008-5472.CAN-09-4319",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "20538840",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "The histone deacetylase inhibitor MGCD0103 has both deacetylase and microtubule inhibitory activity",
+   "authors": [
+    "Chia K",
+    "Beamish H",
+    "Jafferi K",
+    "Gabrielli B"
+   ],
+   "first_author": "Chia K",
+   "journal": "Molecular pharmacology",
+   "pubdate": "2010 Sep",
+   "doi": "10.1124/mol.110.065169",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/20538840/",
+   "doi_url": "https://doi.org/10.1124/mol.110.065169",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "20562093",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Pharmacokinetics and dose recommendations of Niaspan® in chronic kidney disease and dialysis patients",
+   "authors": [
+    "Reiche I",
+    "Westphal S",
+    "Martens-Lobenhoffer J",
+    "Tröger U",
+    "Luley C",
+    "Bode-Böger SM"
+   ],
+   "first_author": "Reiche I",
+   "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+   "pubdate": "2011 Jan",
+   "doi": "10.1093/ndt/gfq344",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/20562093/",
+   "doi_url": "https://doi.org/10.1093/ndt/gfq344",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "20646066",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Curcumin suppresses the dynamic instability of microtubules, activates the mitotic checkpoint and induces apoptosis in MCF-7 cells",
+   "authors": [
+    "Banerjee M",
+    "Singh P",
+    "Panda D"
+   ],
+   "first_author": "Banerjee M",
+   "journal": "The FEBS journal",
+   "pubdate": "2010 Aug",
+   "doi": "10.1111/j.1742-4658.2010.07750.x",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/20646066/",
+   "doi_url": "https://doi.org/10.1111/j.1742-4658.2010.07750.x",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "20703093",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "RAF associates with phosphorylated nuclear BubR1 during endoreduplication induced by JAK inhibition",
+   "authors": [
+    "Reiterer G",
+    "Chen L",
+    "Tassef R",
+    "Varner JD",
+    "Chen CY",
+    "Yen A"
+   ],
+   "first_author": "Reiterer G",
+   "journal": "Cell cycle (Georgetown, Tex.)",
+   "pubdate": "2010 Aug 15",
+   "doi": "10.4161/cc.9.16.12631",
+   "pmcid": "PMC3230478",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, U.S. Gov't, Non-P.H.S."
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/20703093/",
+   "doi_url": "https://doi.org/10.4161/cc.9.16.12631",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "21441410",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Caspase-3-dependent mitotic checkpoint inactivation by the small-molecule inducers of mitotic slippage SU6656 and geraldol",
+   "authors": [
+    "Riffell JL",
+    "Jänicke RU",
+    "Roberge M"
+   ],
+   "first_author": "Riffell JL",
+   "journal": "Molecular cancer therapeutics",
+   "pubdate": "2011 May",
+   "doi": "10.1158/1535-7163.MCT-10-0909",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/21441410/",
+   "doi_url": "https://doi.org/10.1158/1535-7163.MCT-10-0909",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "21552266",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Mutations in CEP57 cause mosaic variegated aneuploidy syndrome",
+   "authors": [
+    "Snape K",
+    "Hanks S",
+    "Ruark E",
+    "Barros-Núñez P",
+    "Elliott A",
+    "Murray A",
+    "Lane AH",
+    "Shannon N",
+    "Callier P",
+    "Chitayat D",
+    "Clayton-Smith J",
+    "Fitzpatrick DR",
+    "Gisselsson D",
+    "Jacquemont S",
+    "Asakura-Hay K",
+    "Micale MA",
+    "Tolmie J",
+    "Turnpenny PD",
+    "Wright M",
+    "Douglas J",
+    "Rahman N"
+   ],
+   "first_author": "Snape K",
+   "journal": "Nature genetics",
+   "pubdate": "2011 Jun",
+   "doi": "10.1038/ng.822",
+   "pmcid": "PMC3508359",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/21552266/",
+   "doi_url": "https://doi.org/10.1038/ng.822",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "22048312",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders",
+   "authors": [
+    "Baker DJ",
+    "Wijshake T",
+    "Tchkonia T",
+    "LeBrasseur NK",
+    "Childs BG",
+    "van de Sluis B",
+    "Kirkland JL",
+    "van Deursen JM"
+   ],
+   "first_author": "Baker DJ",
+   "journal": "Nature",
+   "pubdate": "2011 Nov 2",
+   "doi": "10.1038/nature10600",
+   "pmcid": "PMC3468323",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/22048312/",
+   "doi_url": "https://doi.org/10.1038/nature10600",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "22340495",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "BRCA2 fine-tunes the spindle assembly checkpoint through reinforcement of BubR1 acetylation",
+   "authors": [
+    "Choi E",
+    "Park PG",
+    "Lee HO",
+    "Lee YK",
+    "Kang GH",
+    "Lee JW",
+    "Han W",
+    "Lee HC",
+    "Noh DY",
+    "Lekomtsev S",
+    "Lee H"
+   ],
+   "first_author": "Choi E",
+   "journal": "Developmental cell",
+   "pubdate": "2012 Feb 14",
+   "doi": "10.1016/j.devcel.2012.01.009",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Comparative Study",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/22340495/",
+   "doi_url": "https://doi.org/10.1016/j.devcel.2012.01.009",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "23079597",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Integration of kinase and phosphatase activities by BUBR1 ensures formation of stable kinetochore-microtubule attachments",
+   "authors": [
+    "Suijkerbuijk SJ",
+    "Vleugel M",
+    "Teixeira A",
+    "Kops GJ"
+   ],
+   "first_author": "Suijkerbuijk SJ",
+   "journal": "Developmental cell",
+   "pubdate": "2012 Oct 16",
+   "doi": "10.1016/j.devcel.2012.09.005",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23079597/",
+   "doi_url": "https://doi.org/10.1016/j.devcel.2012.09.005",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "23219797",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "The role of heat shock protein 70 in the protective effect of YC-1 on heat stroke rats",
+   "authors": [
+    "Lam KK",
+    "Cheng PY",
+    "Lee YM",
+    "Liu YP",
+    "Ding C",
+    "Liu WH",
+    "Yen MH"
+   ],
+   "first_author": "Lam KK",
+   "journal": "European journal of pharmacology",
+   "pubdate": "2013 Jan 15",
+   "doi": "10.1016/j.ejphar.2012.11.044",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23219797/",
+   "doi_url": "https://doi.org/10.1016/j.ejphar.2012.11.044",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "23242215",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Increased expression of BubR1 protects against aneuploidy and cancer and extends healthy lifespan",
+   "authors": [
+    "Baker DJ",
+    "Dawlaty MM",
+    "Wijshake T",
+    "Jeganathan KB",
+    "Malureanu L",
+    "van Ree JH",
+    "Crespo-Diaz R",
+    "Reyes S",
+    "Seaburg L",
+    "Shapiro V",
+    "Behfar A",
+    "Terzic A",
+    "van de Sluis B",
+    "van Deursen JM"
+   ],
+   "first_author": "Baker DJ",
+   "journal": "Nature cell biology",
+   "pubdate": "2013 Jan",
+   "doi": "10.1038/ncb2643",
+   "pmcid": "PMC3707109",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23242215/",
+   "doi_url": "https://doi.org/10.1038/ncb2643",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "23789096",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "BUBR1 recruits PP2A via the B56 family of targeting subunits to promote chromosome congression",
+   "authors": [
+    "Xu P",
+    "Raetz EA",
+    "Kitagawa M",
+    "Virshup DM",
+    "Lee SH"
+   ],
+   "first_author": "Xu P",
+   "journal": "Biology open",
+   "pubdate": "2013 May 15",
+   "doi": "10.1242/bio.20134051",
+   "pmcid": "PMC3654266",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23789096/",
+   "doi_url": "https://doi.org/10.1242/bio.20134051",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "23926298",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Antagonistic activities of the immunomodulator and PP2A-activating drug FTY720 (Fingolimod, Gilenya) in Jak2-driven hematologic malignancies",
+   "authors": [
+    "Oaks JJ",
+    "Santhanam R",
+    "Walker CJ",
+    "Roof S",
+    "Harb JG",
+    "Ferenchak G",
+    "Eisfeld AK",
+    "Van Brocklyn JR",
+    "Briesewitz R",
+    "Saddoughi SA",
+    "Nagata K",
+    "Bittman R",
+    "Caligiuri MA",
+    "Abdel-Wahab O",
+    "Levine R",
+    "Arlinghaus RB",
+    "Quintas-Cardama A",
+    "Goldman JM",
+    "Apperley J",
+    "Reid A",
+    "Milojkovic D",
+    "Ziolo MT",
+    "Marcucci G",
+    "Ogretmen B",
+    "Neviani P",
+    "Perrotti D"
+   ],
+   "first_author": "Oaks JJ",
+   "journal": "Blood",
+   "pubdate": "2013 Sep 12",
+   "doi": "10.1182/blood-2013-03-492181",
+   "pmcid": "PMC3772499",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23926298/",
+   "doi_url": "https://doi.org/10.1182/blood-2013-03-492181",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "24259107",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "CEP57 mutation in a girl with mosaic variegated aneuploidy syndrome",
+   "authors": [
+    "Pinson L",
+    "Mannini L",
+    "Willems M",
+    "Cucco F",
+    "Sirvent N",
+    "Frebourg T",
+    "Quarantotti V",
+    "Collet C",
+    "Schneider A",
+    "Sarda P",
+    "Geneviève D",
+    "Puechberty J",
+    "Lefort G",
+    "Musio A"
+   ],
+   "first_author": "Pinson L",
+   "journal": "American journal of medical genetics. Part A",
+   "pubdate": "2014 Jan",
+   "doi": "10.1002/ajmg.a.36166",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Case Reports",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/24259107/",
+   "doi_url": "https://doi.org/10.1002/ajmg.a.36166",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "24296267",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Molecular mechanism of polypeptides from Chlamys farreri (PCF)'s anti-apoptotic effect in UVA-exposed HaCaT cells involves HSF1/HSP70, JNK, XO, iNOS and NO/ROS",
+   "authors": [
+    "Wang X",
+    "Jiang Q",
+    "Wang W",
+    "Su L",
+    "Han Y",
+    "Wang C"
+   ],
+   "first_author": "Wang X",
+   "journal": "Journal of photochemistry and photobiology. B, Biology",
+   "pubdate": "2014 Jan 5",
+   "doi": "10.1016/j.jphotobiol.2013.11.005",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/24296267/",
+   "doi_url": "https://doi.org/10.1016/j.jphotobiol.2013.11.005",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "24344301",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "TALEN-mediated single-base-pair editing identification of an intergenic mutation upstream of BUB1B as causative of PCS (MVA) syndrome",
+   "authors": [
+    "Ochiai H",
+    "Miyamoto T",
+    "Kanai A",
+    "Hosoba K",
+    "Sakuma T",
+    "Kudo Y",
+    "Asami K",
+    "Ogawa A",
+    "Watanabe A",
+    "Kajii T",
+    "Yamamoto T",
+    "Matsuura S"
+   ],
+   "first_author": "Ochiai H",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubdate": "2014 Jan 28",
+   "doi": "10.1073/pnas.1317008111",
+   "pmcid": "PMC3910577",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/24344301/",
+   "doi_url": "https://doi.org/10.1073/pnas.1317008111",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "24670687",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles",
+   "authors": [
+    "Zasadil LM",
+    "Andersen KA",
+    "Yeum D",
+    "Rocque GB",
+    "Wilke LG",
+    "Tevaarwerk AJ",
+    "Raines RT",
+    "Burkard ME",
+    "Weaver BA"
+   ],
+   "first_author": "Zasadil LM",
+   "journal": "Science translational medicine",
+   "pubdate": "2014 Mar 26",
+   "doi": "10.1126/scitranslmed.3007965",
+   "pmcid": "PMC4176609",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/24670687/",
+   "doi_url": "https://doi.org/10.1126/scitranslmed.3007965",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "24825348",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan",
+   "authors": [
+    "North BJ",
+    "Rosenberg MA",
+    "Jeganathan KB",
+    "Hafner AV",
+    "Michan S",
+    "Dai J",
+    "Baker DJ",
+    "Cen Y",
+    "Wu LE",
+    "Sauve AA",
+    "van Deursen JM",
+    "Rosenzweig A",
+    "Sinclair DA"
+   ],
+   "first_author": "North BJ",
+   "journal": "The EMBO journal",
+   "pubdate": "2014 Jul 1",
+   "doi": "10.15252/embj.201386907",
+   "pmcid": "PMC4194088",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/24825348/",
+   "doi_url": "https://doi.org/10.15252/embj.201386907",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "25063032",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Overexpression of Mps1 in colon cancer cells attenuates the spindle assembly checkpoint and increases aneuploidy",
+   "authors": [
+    "Ling Y",
+    "Zhang X",
+    "Bai Y",
+    "Li P",
+    "Wei C",
+    "Song T",
+    "Zheng Z",
+    "Guan K",
+    "Zhang Y",
+    "Zhang B",
+    "Liu X",
+    "Ma RZ",
+    "Cao C",
+    "Zhong H",
+    "Xu Q"
+   ],
+   "first_author": "Ling Y",
+   "journal": "Biochemical and biophysical research communications",
+   "pubdate": "2014 Aug 8",
+   "doi": "10.1016/j.bbrc.2014.07.071",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/25063032/",
+   "doi_url": "https://doi.org/10.1016/j.bbrc.2014.07.071",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "25285631",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Deacetylation of the mitotic checkpoint protein BubR1 at lysine 250 by SIRT2 and subsequent effects on BubR1 degradation during the prometaphase/anaphase transition",
+   "authors": [
+    "Suematsu T",
+    "Li Y",
+    "Kojima H",
+    "Nakajima K",
+    "Oshimura M",
+    "Inoue T"
+   ],
+   "first_author": "Suematsu T",
+   "journal": "Biochemical and biophysical research communications",
+   "pubdate": "2014 Oct 24",
+   "doi": "10.1016/j.bbrc.2014.09.128",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/25285631/",
+   "doi_url": "https://doi.org/10.1016/j.bbrc.2014.09.128",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "25352640",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Evidence for a direct effect of the NAD+ precursor acipimox on muscle mitochondrial function in humans",
+   "authors": [
+    "van de Weijer T",
+    "Phielix E",
+    "Bilet L",
+    "Williams EG",
+    "Ropelle ER",
+    "Bierwagen A",
+    "Livingstone R",
+    "Nowotny P",
+    "Sparks LM",
+    "Paglialunga S",
+    "Szendroedi J",
+    "Havekes B",
+    "Moullan N",
+    "Pirinen E",
+    "Hwang JH",
+    "Schrauwen-Hinderling VB",
+    "Hesselink MK",
+    "Auwerx J",
+    "Roden M",
+    "Schrauwen P"
+   ],
+   "first_author": "van de Weijer T",
+   "journal": "Diabetes",
+   "pubdate": "2015 Apr",
+   "doi": "10.2337/db14-0667",
+   "pmcid": "PMC4375076",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/25352640/",
+   "doi_url": "https://doi.org/10.2337/db14-0667",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "25559578",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Partial Hepatectomy in Acetylation-Deficient BubR1 Mice Corroborates that Chromosome Missegregation Initiates Tumorigenesis",
+   "authors": [
+    "Lee YK",
+    "Park I",
+    "Lee H"
+   ],
+   "first_author": "Lee YK",
+   "journal": "Endocrinology and metabolism (Seoul, Korea)",
+   "pubdate": "2014 Dec 29",
+   "doi": "10.3803/EnM.2014.29.4.561",
+   "pmcid": "PMC4285024",
+   "language": [
+    "eng"
+   ],
+   "license": "cc by-nc",
+   "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/25559578/",
+   "doi_url": "https://doi.org/10.3803/EnM.2014.29.4.561",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "25672491",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Selective Sirt2 inhibition by ligand-induced rearrangement of the active site",
+   "authors": [
+    "Rumpf T",
+    "Schiedel M",
+    "Karaman B",
+    "Roessler C",
+    "North BJ",
+    "Lehotzky A",
+    "Oláh J",
+    "Ladwein KI",
+    "Schmidtkunz K",
+    "Gajer M",
+    "Pannek M",
+    "Steegborn C",
+    "Sinclair DA",
+    "Gerhardt S",
+    "Ovádi J",
+    "Schutkowski M",
+    "Sippl W",
+    "Einsle O",
+    "Jung M"
+   ],
+   "first_author": "Rumpf T",
+   "journal": "Nature communications",
+   "pubdate": "2015 Feb 12",
+   "doi": "10.1038/ncomms7263",
+   "pmcid": "PMC4339887",
+   "language": [
+    "eng"
+   ],
+   "license": "cc by",
+   "license_url": "http://creativecommons.org/licenses/by/4.0/",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/25672491/",
+   "doi_url": "https://doi.org/10.1038/ncomms7263",
+   "fulltext_included": true
+  },
+  {
+   "pmid": "26488693",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "A Phase 3 Randomized Trial of Nicotinamide for Skin-Cancer Chemoprevention",
+   "authors": [
+    "Chen AC",
+    "Martin AJ",
+    "Choy B",
+    "Fernández-Peñas P",
+    "Dalziell RA",
+    "McKenzie CA",
+    "Scolyer RA",
+    "Dhillon HM",
+    "Vardy JL",
+    "Kricker A",
+    "St George G",
+    "Chinniah N",
+    "Halliday GM",
+    "Damian DL"
+   ],
+   "first_author": "Chen AC",
+   "journal": "The New England journal of medicine",
+   "pubdate": "2015 Oct 22",
+   "doi": "10.1056/NEJMoa1506197",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Clinical Trial, Phase III",
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/26488693/",
+   "doi_url": "https://doi.org/10.1056/NEJMoa1506197",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "26647377",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Manta: rapid detection of structural variants and indels for germline and cancer sequencing applications",
+   "authors": [
+    "Chen X",
+    "Schulz-Trieglaff O",
+    "Shaw R",
+    "Barnes B",
+    "Schlesinger F",
+    "Källberg M",
+    "Cox AJ",
+    "Kruglyak S",
+    "Saunders CT"
+   ],
+   "first_author": "Chen X",
+   "journal": "Bioinformatics (Oxford, England)",
+   "pubdate": "2016 Apr 15",
+   "doi": "10.1093/bioinformatics/btv710",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/26647377/",
+   "doi_url": "https://doi.org/10.1093/bioinformatics/btv710",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "26685311",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Requirement for PLK1 kinase activity in the maintenance of a robust spindle assembly checkpoint",
+   "authors": [
+    "O'Connor A",
+    "Maffini S",
+    "Rainey MD",
+    "Kaczmarczyk A",
+    "Gaboriau D",
+    "Musacchio A",
+    "Santocanale C"
+   ],
+   "first_author": "O'Connor A",
+   "journal": "Biology open",
+   "pubdate": "2015 Dec 18",
+   "doi": "10.1242/bio.014969",
+   "pmcid": "PMC4728306",
+   "language": [
+    "eng"
+   ],
+   "license": "cc by",
+   "license_url": "http://creativecommons.org/licenses/by/3.0",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/26685311/",
+   "doi_url": "https://doi.org/10.1242/bio.014969",
+   "fulltext_included": true
+  },
+  {
+   "pmid": "26696402",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Aminothiazoles as Potent and Selective Sirt2 Inhibitors: A Structure-Activity Relationship Study",
+   "authors": [
+    "Schiedel M",
+    "Rumpf T",
+    "Karaman B",
+    "Lehotzky A",
+    "Oláh J",
+    "Gerhardt S",
+    "Ovádi J",
+    "Sippl W",
+    "Einsle O",
+    "Jung M"
+   ],
+   "first_author": "Schiedel M",
+   "journal": "Journal of medicinal chemistry",
+   "pubdate": "2016 Feb 25",
+   "doi": "10.1021/acs.jmedchem.5b01517",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/26696402/",
+   "doi_url": "https://doi.org/10.1021/acs.jmedchem.5b01517",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "27374329",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Mitotic Checkpoint Regulators Control Insulin Signaling and Metabolic Homeostasis",
+   "authors": [
+    "Choi E",
+    "Zhang X",
+    "Xing C",
+    "Yu H"
+   ],
+   "first_author": "Choi E",
+   "journal": "Cell",
+   "pubdate": "2016 Jul 28",
+   "doi": "10.1016/j.cell.2016.05.074",
+   "pmcid": "PMC5560052",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/27374329/",
+   "doi_url": "https://doi.org/10.1016/j.cell.2016.05.074",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "27567458",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Comparison of the effects of nicotinic acid and nicotinamide degradation on plasma betaine and choline levels",
+   "authors": [
+    "Sun WP",
+    "Zhai MZ",
+    "Li D",
+    "Zhou Y",
+    "Chen NN",
+    "Guo M",
+    "Zhou SS"
+   ],
+   "first_author": "Sun WP",
+   "journal": "Clinical nutrition (Edinburgh, Scotland)",
+   "pubdate": "2017 Aug",
+   "doi": "10.1016/j.clnu.2016.07.016",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Comparative Study",
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/27567458/",
+   "doi_url": "https://doi.org/10.1016/j.clnu.2016.07.016",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "27721479",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Nicotinamide riboside is uniquely and orally bioavailable in mice and humans",
+   "authors": [
+    "Trammell SA",
+    "Schmidt MS",
+    "Weidemann BJ",
+    "Redpath P",
+    "Jaksch F",
+    "Dellinger RW",
+    "Li Z",
+    "Abel ED",
+    "Migaud ME",
+    "Brenner C"
+   ],
+   "first_author": "Trammell SA",
+   "journal": "Nature communications",
+   "pubdate": "2016 Oct 10",
+   "doi": "10.1038/ncomms12948",
+   "pmcid": "PMC5062546",
+   "language": [
+    "eng"
+   ],
+   "license": "cc by",
+   "license_url": "http://creativecommons.org/licenses/by/4.0/",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/27721479/",
+   "doi_url": "https://doi.org/10.1038/ncomms12948",
+   "fulltext_included": true
+  },
+  {
+   "pmid": "28553959",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Biallelic TRIP13 mutations predispose to Wilms tumor and chromosome missegregation",
+   "authors": [
+    "Yost S",
+    "de Wolf B",
+    "Hanks S",
+    "Zachariou A",
+    "Marcozzi C",
+    "Clarke M",
+    "de Voer R",
+    "Etemad B",
+    "Uijttewaal E",
+    "Ramsay E",
+    "Wylie H",
+    "Elliott A",
+    "Picton S",
+    "Smith A",
+    "Smithson S",
+    "Seal S",
+    "Ruark E",
+    "Houge G",
+    "Pines J",
+    "Kops GJPL",
+    "Rahman N"
+   ],
+   "first_author": "Yost S",
+   "journal": "Nature genetics",
+   "pubdate": "2017 Jul",
+   "doi": "10.1038/ng.3883",
+   "pmcid": "PMC5493194",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/28553959/",
+   "doi_url": "https://doi.org/10.1038/ng.3883",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "28985013",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "HDAC2/3 binding and deacetylation of BubR1 initiates spindle assembly checkpoint silencing",
+   "authors": [
+    "Park I",
+    "Kwon MS",
+    "Paik S",
+    "Kim H",
+    "Lee HO",
+    "Choi E",
+    "Lee H"
+   ],
+   "first_author": "Park I",
+   "journal": "The FEBS journal",
+   "pubdate": "2017 Dec",
+   "doi": "10.1111/febs.14286",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/28985013/",
+   "doi_url": "https://doi.org/10.1111/febs.14286",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "29067790",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Sirt2-BubR1 acetylation pathway mediates the effects of advanced maternal age on oocyte quality",
+   "authors": [
+    "Qiu D",
+    "Hou X",
+    "Han L",
+    "Li X",
+    "Ge J",
+    "Wang Q"
+   ],
+   "first_author": "Qiu D",
+   "journal": "Aging cell",
+   "pubdate": "2018 Feb",
+   "doi": "10.1111/acel.12698",
+   "pmcid": "PMC5770883",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29067790/",
+   "doi_url": "https://doi.org/10.1111/acel.12698",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "29241734",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Maduramicin-activated protein phosphatase 2A results in extracellular signal-regulated kinase 1/2 inhibition, leading to cytotoxicity in myocardial H9c2 cells",
+   "authors": [
+    "Chen X",
+    "Jiang S",
+    "Huang S"
+   ],
+   "first_author": "Chen X",
+   "journal": "Toxicology letters",
+   "pubdate": "2018 Mar 1",
+   "doi": "10.1016/j.toxlet.2017.12.003",
+   "pmcid": "PMC6689384",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29241734/",
+   "doi_url": "https://doi.org/10.1016/j.toxlet.2017.12.003",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "29378962",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Disruption of the anaphase-promoting complex confers resistance to TTK inhibitors in triple-negative breast cancer",
+   "authors": [
+    "Thu KL",
+    "Silvester J",
+    "Elliott MJ",
+    "Ba-Alawi W",
+    "Duncan MH",
+    "Elia AC",
+    "Mer AS",
+    "Smirnov P",
+    "Safikhani Z",
+    "Haibe-Kains B",
+    "Mak TW",
+    "Cescon DW"
+   ],
+   "first_author": "Thu KL",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubdate": "2018 Feb 13",
+   "doi": "10.1073/pnas.1719577115",
+   "pmcid": "PMC5816201",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29378962/",
+   "doi_url": "https://doi.org/10.1073/pnas.1719577115",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "30213496",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Corrigendum to \"Maduramicin-activated protein phosphatase 2A results in extracellular signal-regulated kinase 1/2 inhibition, leading to cytotoxicity in myocardial H9c2 cells\" [Toxicol. Lett. 284 (2018) 96-102]",
+   "authors": [
+    "Chen X",
+    "Jiang S",
+    "Huang S"
+   ],
+   "first_author": "Chen X",
+   "journal": "Toxicology letters",
+   "pubdate": "2019 Jan",
+   "doi": "10.1016/j.toxlet.2018.08.021",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Published Erratum"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/30213496/",
+   "doi_url": "https://doi.org/10.1016/j.toxlet.2018.08.021",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "30496702",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Heat shock-induced mitotic arrest requires heat shock protein 105 for the activation of spindle assembly checkpoint",
+   "authors": [
+    "Kakihana A",
+    "Oto Y",
+    "Saito Y",
+    "Nakayama Y"
+   ],
+   "first_author": "Kakihana A",
+   "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+   "pubdate": "2019 Mar",
+   "doi": "10.1096/fj.201801369R",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/30496702/",
+   "doi_url": "https://doi.org/10.1096/fj.201801369R",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "30986062",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Novel Lysine-Based Thioureas as Mechanism-Based Inhibitors of Sirtuin 2 (SIRT2) with Anticancer Activity in a Colorectal Cancer Murine Model",
+   "authors": [
+    "Farooqi AS",
+    "Hong JY",
+    "Cao J",
+    "Lu X",
+    "Price IR",
+    "Zhao Q",
+    "Kosciuk T",
+    "Yang M",
+    "Bai JJ",
+    "Lin H"
+   ],
+   "first_author": "Farooqi AS",
+   "journal": "Journal of medicinal chemistry",
+   "pubdate": "2019 Apr 25",
+   "doi": "10.1021/acs.jmedchem.9b00191",
+   "pmcid": "PMC6901289",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, U.S. Gov't, Non-P.H.S."
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/30986062/",
+   "doi_url": "https://doi.org/10.1021/acs.jmedchem.9b00191",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "31412242",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Nicotinamide Riboside Augments the Aged Human Skeletal Muscle NAD(+) Metabolome and Induces Transcriptomic and Anti-inflammatory Signatures",
+   "authors": [
+    "Elhassan YS",
+    "Kluckova K",
+    "Fletcher RS",
+    "Schmidt MS",
+    "Garten A",
+    "Doig CL",
+    "Cartwright DM",
+    "Oakey L",
+    "Burley CV",
+    "Jenkinson N",
+    "Wilson M",
+    "Lucas SJE",
+    "Akerman I",
+    "Seabright A",
+    "Lai YC",
+    "Tennant DA",
+    "Nightingale P",
+    "Wallis GA",
+    "Manolopoulos KN",
+    "Brenner C",
+    "Philp A",
+    "Lavery GG"
+   ],
+   "first_author": "Elhassan YS",
+   "journal": "Cell reports",
+   "pubdate": "2019 Aug 13",
+   "doi": "10.1016/j.celrep.2019.07.043",
+   "pmcid": "PMC6702140",
+   "language": [
+    "eng"
+   ],
+   "license": "cc by",
+   "license_url": "http://creativecommons.org/licenses/by/4.0/",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31412242/",
+   "doi_url": "https://doi.org/10.1016/j.celrep.2019.07.043",
+   "fulltext_included": true
+  },
+  {
+   "pmid": "31501599",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Successful engraftment of gene-corrected hematopoietic stem cells in non-conditioned patients with Fanconi anemia",
+   "authors": [
+    "Río P",
+    "Navarro S",
+    "Wang W",
+    "Sánchez-Domínguez R",
+    "Pujol RM",
+    "Segovia JC",
+    "Bogliolo M",
+    "Merino E",
+    "Wu N",
+    "Salgado R",
+    "Lamana ML",
+    "Yañez RM",
+    "Casado JA",
+    "Giménez Y",
+    "Román-Rodríguez FJ",
+    "Álvarez L",
+    "Alberquilla O",
+    "Raimbault A",
+    "Guenechea G",
+    "Lozano ML",
+    "Cerrato L",
+    "Hernando M",
+    "Gálvez E",
+    "Hladun R",
+    "Giralt I",
+    "Barquinero J",
+    "Galy A",
+    "García de Andoín N",
+    "López R",
+    "Catalá A",
+    "Schwartz JD",
+    "Surrallés J",
+    "Soulier J",
+    "Schmidt M",
+    "Díaz de Heredia C",
+    "Sevilla J",
+    "Bueren JA"
+   ],
+   "first_author": "Río P",
+   "journal": "Nature medicine",
+   "pubdate": "2019 Sep",
+   "doi": "10.1038/s41591-019-0550-z",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Clinical Trial, Phase I",
+    "Clinical Trial, Phase II",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31501599/",
+   "doi_url": "https://doi.org/10.1038/s41591-019-0550-z",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "31738183",
+   "cited_in": [
+    "Track 1",
+    "Track 2"
+   ],
+   "title": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome",
+   "authors": [
+    "Sieben CJ",
+    "Jeganathan KB",
+    "Nelson GG",
+    "Sturmlechner I",
+    "Zhang C",
+    "van Deursen WH",
+    "Bakker B",
+    "Foijer F",
+    "Li H",
+    "Baker DJ",
+    "van Deursen JM"
+   ],
+   "first_author": "Sieben CJ",
+   "journal": "The Journal of clinical investigation",
+   "pubdate": "2020 Jan 2",
+   "doi": "10.1172/JCI126863",
+   "pmcid": "PMC6934189",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31738183/",
+   "doi_url": "https://doi.org/10.1172/JCI126863",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "32386566",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Niacin Cures Systemic NAD(+) Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy",
+   "authors": [
+    "Pirinen E",
+    "Auranen M",
+    "Khan NA",
+    "Brilhante V",
+    "Urho N",
+    "Pessia A",
+    "Hakkarainen A",
+    "Kuula J",
+    "Heinonen U",
+    "Schmidt MS",
+    "Haimilahti K",
+    "Piirilä P",
+    "Lundbom N",
+    "Taskinen MR",
+    "Brenner C",
+    "Velagapudi V",
+    "Pietiläinen KH",
+    "Suomalainen A"
+   ],
+   "first_author": "Pirinen E",
+   "journal": "Cell metabolism",
+   "pubdate": "2020 Jun 2",
+   "doi": "10.1016/j.cmet.2020.04.008",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/32386566/",
+   "doi_url": "https://doi.org/10.1016/j.cmet.2020.04.008",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "32640244",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Niacin Cures Systemic NAD(+) Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy",
+   "authors": [
+    "Pirinen E",
+    "Auranen M",
+    "Khan NA",
+    "Brilhante V",
+    "Urho N",
+    "Pessia A",
+    "Hakkarainen A",
+    "Ulla Heinonen JK",
+    "Schmidt MS",
+    "Haimilahti K",
+    "Piirilä P",
+    "Lundbom N",
+    "Taskinen MR",
+    "Brenner C",
+    "Velagapudi V",
+    "Pietiläinen KH",
+    "Suomalainen A"
+   ],
+   "first_author": "Pirinen E",
+   "journal": "Cell metabolism",
+   "pubdate": "2020 Jul 7",
+   "doi": "10.1016/j.cmet.2020.05.020",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Published Erratum"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/32640244/",
+   "doi_url": "https://doi.org/10.1016/j.cmet.2020.05.020",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "32764382",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Discovery of Novel Agents on Spindle Assembly Checkpoint to Sensitize Vinorelbine-Induced Mitotic Cell Death Against Human Non-Small Cell Lung Cancers",
+   "authors": [
+    "Chang YC",
+    "Tseng YL",
+    "Leu WJ",
+    "Du CM",
+    "Jiang YH",
+    "Hsu LC",
+    "Hsu JL",
+    "Hou DR",
+    "Guh JH"
+   ],
+   "first_author": "Chang YC",
+   "journal": "International journal of molecular sciences",
+   "pubdate": "2020 Aug 5",
+   "doi": "10.3390/ijms21165608",
+   "pmcid": "PMC7460560",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/32764382/",
+   "doi_url": "https://doi.org/10.3390/ijms21165608",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "32850387",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Phosphodiesterase Type 5 Inhibitors Synergize Vincristine in Killing Castration-Resistant Prostate Cancer Through Amplifying Mitotic Arrest Signaling",
+   "authors": [
+    "Hsu JL",
+    "Leu WJ",
+    "Hsu LC",
+    "Ho CH",
+    "Liu SP",
+    "Guh JH"
+   ],
+   "first_author": "Hsu JL",
+   "journal": "Frontiers in oncology",
+   "pubdate": "2020",
+   "doi": "10.3389/fonc.2020.01274",
+   "pmcid": "PMC7427565",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/32850387/",
+   "doi_url": "https://doi.org/10.3389/fonc.2020.01274",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "33094908",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Premature aging syndrome showing random chromosome number instabilities with CDC20 mutation",
+   "authors": [
+    "Fujita H",
+    "Sasaki T",
+    "Miyamoto T",
+    "Akutsu SN",
+    "Sato S",
+    "Mori T",
+    "Nakabayashi K",
+    "Hata K",
+    "Suzuki H",
+    "Kosaki K",
+    "Matsuura S",
+    "Matsubara Y",
+    "Amagai M",
+    "Kubo A"
+   ],
+   "first_author": "Fujita H",
+   "journal": "Aging cell",
+   "pubdate": "2020 Nov",
+   "doi": "10.1111/acel.13251",
+   "pmcid": "PMC7681047",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Case Reports",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33094908/",
+   "doi_url": "https://doi.org/10.1111/acel.13251",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "33207204",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "BUBR1 Pseudokinase Domain Promotes Kinetochore PP2A-B56 Recruitment, Spindle Checkpoint Silencing, and Chromosome Alignment",
+   "authors": [
+    "Gama Braga L",
+    "Cisneros AF",
+    "Mathieu MM",
+    "Clerc M",
+    "Garcia P",
+    "Lottin B",
+    "Garand C",
+    "Thebault P",
+    "Landry CR",
+    "Elowe S"
+   ],
+   "first_author": "Gama Braga L",
+   "journal": "Cell reports",
+   "pubdate": "2020 Nov 17",
+   "doi": "10.1016/j.celrep.2020.108397",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33207204/",
+   "doi_url": "https://doi.org/10.1016/j.celrep.2020.108397",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "33955658",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Loss of BubR1 acetylation provokes replication stress and leads to complex chromosomal rearrangements",
+   "authors": [
+    "Park J",
+    "Yeu SY",
+    "Paik S",
+    "Kim H",
+    "Choi SY",
+    "Lee J",
+    "Jang J",
+    "Lee S",
+    "Koh Y",
+    "Lee H"
+   ],
+   "first_author": "Park J",
+   "journal": "The FEBS journal",
+   "pubdate": "2021 Oct",
+   "doi": "10.1111/febs.15912",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33955658/",
+   "doi_url": "https://doi.org/10.1111/febs.15912",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "34009673",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Chromosomal instability by mutations in the novel minor spliceosome component CENATAC",
+   "authors": [
+    "de Wolf B",
+    "Oghabian A",
+    "Akinyi MV",
+    "Hanks S",
+    "Tromer EC",
+    "van Hooff JJE",
+    "van Voorthuijsen L",
+    "van Rooijen LE",
+    "Verbeeren J",
+    "Uijttewaal ECH",
+    "Baltissen MPA",
+    "Yost S",
+    "Piloquet P",
+    "Vermeulen M",
+    "Snel B",
+    "Isidor B",
+    "Rahman N",
+    "Frilander MJ",
+    "Kops GJPL"
+   ],
+   "first_author": "de Wolf B",
+   "journal": "The EMBO journal",
+   "pubdate": "2021 Jul 15",
+   "doi": "10.15252/embj.2020106536",
+   "pmcid": "PMC8280824",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34009673/",
+   "doi_url": "https://doi.org/10.15252/embj.2020106536",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "34545188",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Increased BUB1B/BUBR1 expression contributes to aberrant DNA repair activity leading to resistance to DNA-damaging agents",
+   "authors": [
+    "Komura K",
+    "Inamoto T",
+    "Tsujino T",
+    "Matsui Y",
+    "Konuma T",
+    "Nishimura K",
+    "Uchimoto T",
+    "Tsutsumi T",
+    "Matsunaga T",
+    "Maenosono R",
+    "Yoshikawa Y",
+    "Taniguchi K",
+    "Tanaka T",
+    "Uehara H",
+    "Hirata K",
+    "Hirano H",
+    "Nomi H",
+    "Hirose Y",
+    "Ono F",
+    "Azuma H"
+   ],
+   "first_author": "Komura K",
+   "journal": "Oncogene",
+   "pubdate": "2021 Oct",
+   "doi": "10.1038/s41388-021-02021-y",
+   "pmcid": "PMC8553621",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34545188/",
+   "doi_url": "https://doi.org/10.1038/s41388-021-02021-y",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "35568294",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "High-dose metformin induces a low-glucose dependent genotoxic stress",
+   "authors": [
+    "Lyu T",
+    "Zhou H",
+    "Wang Y",
+    "Jiang M",
+    "Tao Q",
+    "Chen J",
+    "Guo Y",
+    "Zhang Q",
+    "Wang X",
+    "Guo X"
+   ],
+   "first_author": "Lyu T",
+   "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+   "pubdate": "2022 Jul",
+   "doi": "10.1016/j.fct.2022.113129",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/35568294/",
+   "doi_url": "https://doi.org/10.1016/j.fct.2022.113129",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "35639235",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "SIRT1 regulates mitotic catastrophe via autophagy and BubR1 signaling",
+   "authors": [
+    "Zhao W",
+    "Wang Q",
+    "Li L",
+    "Xie C",
+    "Wu Y",
+    "Gautam M",
+    "Li L"
+   ],
+   "first_author": "Zhao W",
+   "journal": "Molecular and cellular biochemistry",
+   "pubdate": "2022 Dec",
+   "doi": "10.1007/s11010-022-04470-9",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/35639235/",
+   "doi_url": "https://doi.org/10.1007/s11010-022-04470-9",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "35804254",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Pathogenic correlation between mosaic variegated aneuploidy 1 (MVA1) and a novel BUB1B variant: a reappraisal of a severe syndrome",
+   "authors": [
+    "Pavone P",
+    "Pappalardo XG",
+    "Mustafa N",
+    "Falsaperla R",
+    "Marino SD",
+    "Corsello G",
+    "Bianca S",
+    "Parano E",
+    "Ruggieri M"
+   ],
+   "first_author": "Pavone P",
+   "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+   "pubdate": "2022 Nov",
+   "doi": "10.1007/s10072-022-06247-w",
+   "pmcid": "PMC9616775",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/35804254/",
+   "doi_url": "https://doi.org/10.1007/s10072-022-06247-w",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "36322655",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Biallelic germline mutations in MAD1L1 induce a syndrome of aneuploidy with high tumor susceptibility",
+   "authors": [
+    "Villarroya-Beltri C",
+    "Osorio A",
+    "Torres-Ruiz R",
+    "Gómez-Sánchez D",
+    "Trakala M",
+    "Sánchez-Belmonte A",
+    "Mercadillo F",
+    "Hurtado B",
+    "Pitarch B",
+    "Hernández-Núñez A",
+    "Gómez-Caturla A",
+    "Rueda D",
+    "Perea J",
+    "Rodríguez-Perales S",
+    "Malumbres M",
+    "Urioste M"
+   ],
+   "first_author": "Villarroya-Beltri C",
+   "journal": "Science advances",
+   "pubdate": "2022 Nov 4",
+   "doi": "10.1126/sciadv.abq5914",
+   "pmcid": "PMC9629740",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36322655/",
+   "doi_url": "https://doi.org/10.1126/sciadv.abq5914",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "36333305",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Pathogenic variants in SLF2 and SMC5 cause segmented chromosomes and mosaic variegated hyperploidy",
+   "authors": [
+    "Grange LJ",
+    "Reynolds JJ",
+    "Ullah F",
+    "Isidor B",
+    "Shearer RF",
+    "Latypova X",
+    "Baxley RM",
+    "Oliver AW",
+    "Ganesh A",
+    "Cooke SL",
+    "Jhujh SS",
+    "McNee GS",
+    "Hollingworth R",
+    "Higgs MR",
+    "Natsume T",
+    "Khan T",
+    "Martos-Moreno GÁ",
+    "Chupp S",
+    "Mathew CG",
+    "Parry D",
+    "Simpson MA",
+    "Nahavandi N",
+    "Yüksel Z",
+    "Drasdo M",
+    "Kron A",
+    "Vogt P",
+    "Jonasson A",
+    "Seth SA",
+    "Gonzaga-Jauregui C",
+    "Brigatti KW",
+    "Stegmann APA",
+    "Kanemaki M",
+    "Josifova D",
+    "Uchiyama Y",
+    "Oh Y",
+    "Morimoto A",
+    "Osaka H",
+    "Ammous Z",
+    "Argente J",
+    "Matsumoto N",
+    "Stumpel CTRM",
+    "Taylor AMR",
+    "Jackson AP",
+    "Bielinsky AK",
+    "Mailand N",
+    "Le Caignec C",
+    "Davis EE",
+    "Stewart GS"
+   ],
+   "first_author": "Grange LJ",
+   "journal": "Nature communications",
+   "pubdate": "2022 Nov 4",
+   "doi": "10.1038/s41467-022-34349-8",
+   "pmcid": "PMC9636423",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36333305/",
+   "doi_url": "https://doi.org/10.1038/s41467-022-34349-8",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "36927031",
+   "cited_in": [
+    "Track 1",
+    "Track 2"
+   ],
+   "title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
+   "authors": [
+    "Lin Z",
+    "Akin H",
+    "Rao R",
+    "Hie B",
+    "Zhu Z",
+    "Lu W",
+    "Smetanin N",
+    "Verkuil R",
+    "Kabeli O",
+    "Shmueli Y",
+    "Dos Santos Costa A",
+    "Fazel-Zarandi M",
+    "Sercu T",
+    "Candido S",
+    "Rives A"
+   ],
+   "first_author": "Lin Z",
+   "journal": "Science (New York, N.Y.)",
+   "pubdate": "2023 Mar 17",
+   "doi": "10.1126/science.ade2574",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36927031/",
+   "doi_url": "https://doi.org/10.1126/science.ade2574",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "37094517",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "The establishment of mitotic errors-driven senescence depends on autophagy",
+   "authors": [
+    "Goutas A",
+    "Outskouni Z",
+    "Papathanasiou I",
+    "Georgakopoulou A",
+    "Karpetas GE",
+    "Gonos ES",
+    "Trachana V"
+   ],
+   "first_author": "Goutas A",
+   "journal": "Redox biology",
+   "pubdate": "2023 Jun",
+   "doi": "10.1016/j.redox.2023.102701",
+   "pmcid": "PMC10149375",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37094517/",
+   "doi_url": "https://doi.org/10.1016/j.redox.2023.102701",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "37443114",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "BID expression determines the apoptotic fate of cancer cells after abrogation of the spindle assembly checkpoint by AURKB or TTK inhibitors",
+   "authors": [
+    "Bertran-Alamillo J",
+    "Giménez-Capitán A",
+    "Román R",
+    "Talbot S",
+    "Whiteley R",
+    "Floc'h N",
+    "Martínez-Pérez E",
+    "Martin MJ",
+    "Smith PD",
+    "Sullivan I",
+    "Terp MG",
+    "Saeh J",
+    "Marino-Buslje C",
+    "Fabbri G",
+    "Guo G",
+    "Xu M",
+    "Tornador C",
+    "Aguilar-Hernández A",
+    "Reguart N",
+    "Ditzel HJ",
+    "Martínez-Bueno A",
+    "Nabau-Moretó N",
+    "Gascó A",
+    "Rosell R",
+    "Pease JE",
+    "Polanska UM",
+    "Travers J",
+    "Urosevic J",
+    "Molina-Vila MA"
+   ],
+   "first_author": "Bertran-Alamillo J",
+   "journal": "Molecular cancer",
+   "pubdate": "2023 Jul 13",
+   "doi": "10.1186/s12943-023-01815-w",
+   "pmcid": "PMC10339641",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37443114/",
+   "doi_url": "https://doi.org/10.1186/s12943-023-01815-w",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "37733863",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Accurate proteome-wide missense variant effect prediction with AlphaMissense",
+   "authors": [
+    "Cheng J",
+    "Novati G",
+    "Pan J",
+    "Bycroft C",
+    "Žemgulytė A",
+    "Applebaum T",
+    "Pritzel A",
+    "Wong LH",
+    "Zielinski M",
+    "Sargeant T",
+    "Schneider RG",
+    "Senior AW",
+    "Jumper J",
+    "Hassabis D",
+    "Kohli P",
+    "Avsec Ž"
+   ],
+   "first_author": "Cheng J",
+   "journal": "Science (New York, N.Y.)",
+   "pubdate": "2023 Sep 22",
+   "doi": "10.1126/science.adg7492",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37733863/",
+   "doi_url": "https://doi.org/10.1126/science.adg7492",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "37796616",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Biallelic MAD2L1BP (p31comet) mutation is associated with mosaic aneuploidy and juvenile granulosa cell tumors",
+   "authors": [
+    "Abdel-Salam GMH",
+    "Hellmuth S",
+    "Gradhand E",
+    "Käseberg S",
+    "Winter J",
+    "Pabst AS",
+    "Eid MM",
+    "Thiele H",
+    "Nürnberg P",
+    "Budde BS",
+    "Toliat MR",
+    "Brecht IB",
+    "Schroeder C",
+    "Gschwind A",
+    "Ossowski S",
+    "Häuser F",
+    "Rossmann H",
+    "Abdel-Hamid MS",
+    "Hegazy I",
+    "Mohamed AG",
+    "Schneider DT",
+    "Bertoli-Avella A",
+    "Bauer P",
+    "Pearring JN",
+    "Pfundt R",
+    "Hoischen A",
+    "Gilissen C",
+    "Strand D",
+    "Zechner U",
+    "Tashkandi SA",
+    "Faqeih EA",
+    "Stemmann O",
+    "Strand S",
+    "Bolz HJ"
+   ],
+   "first_author": "Abdel-Salam GMH",
+   "journal": "JCI insight",
+   "pubdate": "2023 Nov 22",
+   "doi": "10.1172/jci.insight.170079",
+   "pmcid": "PMC10721328",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37796616/",
+   "doi_url": "https://doi.org/10.1172/jci.insight.170079",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "37883329",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Diverse microtubule-targeted anticancer agents kill cells by inducing chromosome missegregation on multipolar spindles",
+   "authors": [
+    "Zhou AS",
+    "Tucker JB",
+    "Scribano CM",
+    "Lynch AR",
+    "Carlsen CL",
+    "Pop-Vicas ST",
+    "Pattaswamy SM",
+    "Burkard ME",
+    "Weaver BA"
+   ],
+   "first_author": "Zhou AS",
+   "journal": "PLoS biology",
+   "pubdate": "2023 Oct",
+   "doi": "10.1371/journal.pbio.3002339",
+   "pmcid": "PMC10602348",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37883329/",
+   "doi_url": "https://doi.org/10.1371/journal.pbio.3002339",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "37981762",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Mosaic variegated aneuploidy syndrome with tetraploid, and predisposition to male infertility triggered by mutant CEP192",
+   "authors": [
+    "Guo J",
+    "He WB",
+    "Dai L",
+    "Tian F",
+    "Luo Z",
+    "Shen F",
+    "Tu M",
+    "Zheng Y",
+    "Zhao L",
+    "Tan C",
+    "Guo Y",
+    "Meng LL",
+    "Liu W",
+    "Deng M",
+    "Wu X",
+    "Peng Y",
+    "Zhang S",
+    "Lu GX",
+    "Lin G",
+    "Wang H",
+    "Tan YQ",
+    "Yang Y"
+   ],
+   "first_author": "Guo J",
+   "journal": "HGG advances",
+   "pubdate": "2024 Jan 11",
+   "doi": "10.1016/j.xhgg.2023.100256",
+   "pmcid": "PMC10716027",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37981762/",
+   "doi_url": "https://doi.org/10.1016/j.xhgg.2023.100256",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "39174735",
+   "cited_in": [
+    "Track 1",
+    "Track 2"
+   ],
+   "title": "Genome-scale quantification and prediction of pathogenic stop codon readthrough by small molecules",
+   "authors": [
+    "Toledano I",
+    "Supek F",
+    "Lehner B"
+   ],
+   "first_author": "Toledano I",
+   "journal": "Nature genetics",
+   "pubdate": "2024 Sep",
+   "doi": "10.1038/s41588-024-01878-5",
+   "pmcid": "PMC11387191",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39174735/",
+   "doi_url": "https://doi.org/10.1038/s41588-024-01878-5",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "39387327",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Feasibility of telehealth exercise and nicotinamide riboside supplementation in survivors of childhood cancer at risk for diabetes: A pilot randomized controlled trial",
+   "authors": [
+    "Bhandari R",
+    "Lukas K",
+    "Lee K",
+    "Shamunee J",
+    "Almeida B",
+    "Guzman T",
+    "Echevarria M",
+    "Lindenfeld L",
+    "Nenninger C",
+    "Iukuridze A",
+    "Albanese S",
+    "Rhee JW",
+    "Chen S",
+    "Brenner C",
+    "Wong FL",
+    "Armenian SH"
+   ],
+   "first_author": "Bhandari R",
+   "journal": "Pediatric blood & cancer",
+   "pubdate": "2025 Jan",
+   "doi": "10.1002/pbc.31369",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39387327/",
+   "doi_url": "https://doi.org/10.1002/pbc.31369",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "39642902",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Haematopoietic gene therapy of non-conditioned patients with Fanconi anaemia-A: results from open-label phase 1/2 (FANCOLEN-1) and long-term clinical trials",
+   "authors": [
+    "Río P",
+    "Zubicaray J",
+    "Navarro S",
+    "Gálvez E",
+    "Sánchez-Domínguez R",
+    "Nicoletti E",
+    "Sebastián E",
+    "Rothe M",
+    "Pujol R",
+    "Bogliolo M",
+    "John-Neek P",
+    "Bastone AL",
+    "Schambach A",
+    "Wang W",
+    "Schmidt M",
+    "Larcher L",
+    "Segovia JC",
+    "Yáñez RM",
+    "Alberquilla O",
+    "Díez B",
+    "Fernández-García M",
+    "García-García L",
+    "Ramírez M",
+    "Galy A",
+    "Lefrere F",
+    "Cavazzana M",
+    "Leblanc T",
+    "García de Andoin N",
+    "López-Almaraz R",
+    "Catalá A",
+    "Barquinero J",
+    "Rodríguez-Perales S",
+    "Rao G",
+    "Surrallés J",
+    "Soulier J",
+    "Díaz-de-Heredia C",
+    "Schwartz JD",
+    "Sevilla J",
+    "Bueren JA",
+    "FANCOLEN-1 gene therapy investigators"
+   ],
+   "first_author": "Río P",
+   "journal": "Lancet (London, England)",
+   "pubdate": "2025 Dec 21",
+   "doi": "10.1016/S0140-6736(24)01880-4",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article",
+    "Clinical Trial, Phase II",
+    "Clinical Trial, Phase I",
+    "Multicenter Study",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39642902/",
+   "doi_url": "https://doi.org/10.1016/S0140-6736(24)01880-4",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "39779956",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation",
+   "authors": [
+    "Linder J",
+    "Srivastava D",
+    "Yuan H",
+    "Agarwal V",
+    "Kelley DR"
+   ],
+   "first_author": "Linder J",
+   "journal": "Nature genetics",
+   "pubdate": "2025 Apr",
+   "doi": "10.1038/s41588-024-02053-6",
+   "pmcid": "PMC11985352",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39779956/",
+   "doi_url": "https://doi.org/10.1038/s41588-024-02053-6",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "39845481",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Sod1 deficiency in mouse oocytes during in vitro maturation increases chromosome segregation errors with a reduced BUBR1 at kinetochore",
+   "authors": [
+    "Nago M",
+    "Yanai M",
+    "Ishii M",
+    "Sato Y",
+    "Odajima K",
+    "Kimura N"
+   ],
+   "first_author": "Nago M",
+   "journal": "Reproductive medicine and biology",
+   "pubdate": "2025 Jan-Dec",
+   "doi": "10.1002/rmb2.12622",
+   "pmcid": "PMC11751902",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39845481/",
+   "doi_url": "https://doi.org/10.1002/rmb2.12622",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "39938018",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Correction: Diverse microtubule-targeted anticancer agents kill cells by inducing chromosome missegregation on multipolar spindles",
+   "authors": [
+    "Zhou AS",
+    "Tucker JB",
+    "Scribano CM",
+    "Lynch AR",
+    "Carlsen CL",
+    "Pop-Vicas ST",
+    "Pattaswamy SM",
+    "Burkard ME",
+    "Weaver BA"
+   ],
+   "first_author": "Zhou AS",
+   "journal": "PLoS biology",
+   "pubdate": "2025 Feb",
+   "doi": "10.1371/journal.pbio.3003039",
+   "pmcid": "PMC11820943",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Published Erratum"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39938018/",
+   "doi_url": "https://doi.org/10.1371/journal.pbio.3003039",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "40100528",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "Effect of acipimox on skeletal muscle biochemistry, structure and function in older people with probable sarcopenia: an experimental medicine study",
+   "authors": [
+    "McDonald C",
+    "Alderson C",
+    "Birkbeck MG",
+    "Del Din S",
+    "Gorman GS",
+    "Hollingsworth KG",
+    "Kirk C",
+    "Massarella C",
+    "Rochester L",
+    "Tuppen HAL",
+    "Warren C",
+    "Sayer AA",
+    "Witham MD"
+   ],
+   "first_author": "McDonald C",
+   "journal": "GeroScience",
+   "pubdate": "2025 Aug",
+   "doi": "10.1007/s11357-025-01606-9",
+   "pmcid": "PMC12397013",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40100528/",
+   "doi_url": "https://doi.org/10.1007/s11357-025-01606-9",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "40437086",
+   "cited_in": [
+    "Track 2"
+   ],
+   "title": "In vivo haemopoietic stem cell gene therapy enabled by postnatal trafficking",
+   "authors": [
+    "Milani M",
+    "Fabiano A",
+    "Perez-Rodriguez M",
+    "Hernandez RJ",
+    "Zecchillo A",
+    "Zonari E",
+    "Ottonello S",
+    "Basso-Ricci L",
+    "Canepari C",
+    "Volpin M",
+    "Iannello V",
+    "Capo V",
+    "Quaranta P",
+    "Seffin L",
+    "Russo F",
+    "Biffi M",
+    "Ormoli L",
+    "Brombin C",
+    "Carlucci F",
+    "Forlino A",
+    "Filibian M",
+    "Montini E",
+    "Scala S",
+    "Villa A",
+    "Bueren JA",
+    "Rio P",
+    "Aiuti A",
+    "Cantore A",
+    "Naldini L"
+   ],
+   "first_author": "Milani M",
+   "journal": "Nature",
+   "pubdate": "2025 Jul",
+   "doi": "10.1038/s41586-025-09070-3",
+   "pmcid": "PMC12286858",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40437086/",
+   "doi_url": "https://doi.org/10.1038/s41586-025-09070-3",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "41374403",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Recessive SMC5 Variants in a Family with Near-Tetraploidy/Mosaic Variegated Aneuploidy",
+   "authors": [
+    "Yang Y",
+    "Li N",
+    "Liu C",
+    "Li S",
+    "Tu M",
+    "Zhao L",
+    "Shen F",
+    "Zheng Y",
+    "Wang H",
+    "Zhao S"
+   ],
+   "first_author": "Yang Y",
+   "journal": "Diagnostics (Basel, Switzerland)",
+   "pubdate": "2025 Nov 27",
+   "doi": "10.3390/diagnostics15233022",
+   "pmcid": "PMC12691382",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41374403/",
+   "doi_url": "https://doi.org/10.3390/diagnostics15233022",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "41702694",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Mosaic variegated aneuploidy as a novel feature in patients with Mulibrey nanism and TRIM37 variants",
+   "authors": [
+    "Hakonen AH",
+    "Karlberg S",
+    "Kiiski K",
+    "Lipsanen-Nyman M",
+    "Saloranta C",
+    "Pekkinen M",
+    "Laakso S",
+    "Lehtonen J",
+    "Saarela J",
+    "Anttonen AK",
+    "Jakkula E",
+    "Aittomäki K",
+    "Mäkitie O"
+   ],
+   "first_author": "Hakonen AH",
+   "journal": "Journal of medical genetics",
+   "pubdate": "2026 Apr 20",
+   "doi": "10.1136/jmg-2025-111325",
+   "pmcid": "",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": false,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41702694/",
+   "doi_url": "https://doi.org/10.1136/jmg-2025-111325",
+   "fulltext_included": false
+  },
+  {
+   "pmid": "41781614",
+   "cited_in": [
+    "Track 1"
+   ],
+   "title": "Genome modelling and design across all domains of life with Evo 2",
+   "authors": [
+    "Brixi G",
+    "Durrant MG",
+    "Ku J",
+    "Naghipourfar M",
+    "Poli M",
+    "Sun G",
+    "Brockman G",
+    "Chang D",
+    "Fanton A",
+    "Gonzalez GA",
+    "King SH",
+    "Li DB",
+    "Merchant AT",
+    "Nguyen E",
+    "Ricci-Tam C",
+    "Romero DW",
+    "Schmok JC",
+    "Taghibakhshi A",
+    "Vorontsov A",
+    "Yang B",
+    "Deng M",
+    "Gorton L",
+    "Nguyen N",
+    "Wang NK",
+    "Pearce MT",
+    "Simon E",
+    "Adams E",
+    "Amador ZJ",
+    "Ashley EA",
+    "Baccus SA",
+    "Dai H",
+    "Dillmann S",
+    "Ermon S",
+    "Guo D",
+    "Herschl MH",
+    "Ilango R",
+    "Janik K",
+    "Lu AX",
+    "Mehta R",
+    "Mofrad MRK",
+    "Ng MY",
+    "Pannu J",
+    "Ré C",
+    "St John J",
+    "Sullivan J",
+    "Tey J",
+    "Viggiano B",
+    "Zhu K",
+    "Zynda G",
+    "Balsam D",
+    "Collison P",
+    "Costa AB",
+    "Hernandez-Boussard T",
+    "Ho E",
+    "Liu MY",
+    "McGrath T",
+    "Powell K",
+    "Pinglay S",
+    "Burke DP",
+    "Goodarzi H",
+    "Hsu PD",
+    "Hie BL"
+   ],
+   "first_author": "Brixi G",
+   "journal": "Nature",
+   "pubdate": "2026 Apr",
+   "doi": "10.1038/s41586-026-10176-5",
+   "pmcid": "PMC13128491",
+   "language": [
+    "eng"
+   ],
+   "license": "",
+   "license_url": "",
+   "open_access": true,
+   "pubtype": [
+    "Journal Article"
+   ],
+   "flags": [],
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41781614/",
+   "doi_url": "https://doi.org/10.1038/s41586-026-10176-5",
+   "fulltext_included": false
+  }
+ ]
+}

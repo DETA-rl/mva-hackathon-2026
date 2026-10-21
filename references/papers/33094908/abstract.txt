@@ -1,0 +1,54 @@
+1. Aging Cell. 2020 Nov;19(11):e13251. doi: 10.1111/acel.13251. Epub 2020 Oct 23.
+
+Premature aging syndrome showing random chromosome number instabilities with 
+CDC20 mutation.
+
+Fujita H(1)(2), Sasaki T(1)(3), Miyamoto T(4), Akutsu SN(4), Sato S(1), Mori 
+T(5), Nakabayashi K(6), Hata K(6), Suzuki H(7), Kosaki K(7), Matsuura S(4), 
+Matsubara Y(8), Amagai M(1)(2), Kubo A(1).
+
+Author information:
+(1)Department of Dermatology, Keio University School of Medicine, Tokyo, Japan.
+(2)KOSÉ Endowed Program for Skin Care and Allergy Prevention, Keio University 
+School of Medicine, Tokyo, Japan.
+(3)Center for Supercentenarian Medical Research, Keio University School of 
+Medicine, Tokyo, Japan.
+(4)Department of Genetics and Cell Biology, Research Institute for Radiation 
+Biology and Medicine, Hiroshima University, Hiroshima, Japan.
+(5)Division of Hematology, Department of Internal Medicine, Keio University 
+School of Medicine, Tokyo, Japan.
+(6)Department of Maternal-Fetal Biology, National Center for Child Health and 
+Development, Tokyo, Japan.
+(7)Center for Medical Genetics, Keio University School of Medicine, Tokyo, 
+Japan.
+(8)National Center for Child Health and Development, Tokyo, Japan.
+
+Damage to the genome can accelerate aging. The percentage of aneuploid cells, 
+that is, cells with an abnormal number of chromosomes, increases during aging; 
+however, it is not clear whether increased aneuploidy accelerates aging. Here, 
+we report an individual showing premature aging phenotypes of various organs 
+including early hair loss, atrophic skin, and loss of hematopoietic stem cells; 
+instability of chromosome numbers known as mosaic variegated aneuploidy (MVA); 
+and spindle assembly checkpoint (SAC) failure. Exome sequencing identified a de 
+novo heterozygous germline missense mutation of c.856C>A (p.R286S) in the 
+mitotic activator CDC20. The mutant CDC20 showed lower binding affinity to BUBR1 
+during the formation of the mitotic checkpoint complex (MCC), but not during the 
+interaction between MCC and the anaphase-promoting complex/cyclosome 
+(APC/C)-CDC20 complex. While heterozygous knockout of CDC20 did not induce SAC 
+failure, knock-in of the mutant CDC20 induced SAC failure and random aneuploidy 
+in cultured cells, indicating that the particular missense mutation is 
+pathogenic probably via the resultant imbalance between MCC and APC/C-CDC20 
+complex. We postulate that accelerated chromosome number instability induces 
+premature aging in humans, which may be associated with early loss of stem 
+cells. These findings could form the basis of a novel disease model of the aging 
+of the body and organs.
+
+© 2020 The Authors. Aging Cell published by the Anatomical Society and John 
+Wiley & Sons Ltd.
+
+DOI: 10.1111/acel.13251
+PMCID: PMC7681047
+PMID: 33094908 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that they have no conflict 
+of interest.

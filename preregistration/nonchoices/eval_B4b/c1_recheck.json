@@ -1,0 +1,98 @@
+[
+ {
+  "name": "fasudil",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "fenretinide",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "heather",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": {
+   "total": 1,
+   "apps": [
+    [
+     "ANDA090454",
+     "HEATHER",
+     [
+      "Prescription"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "name": "hesperidin",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "ifenprodil",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "infigratinib",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "lenvatinib",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "maprotiline",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "niclosamide",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "nikita",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "osimertinib",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "truseltiq",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "lenvima",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "tagrisso",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "ludiomil",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "niclocide",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "eril",
+  "openfda.substance_name": "HTTP Error 404: Not Found",
+  "openfda.brand_name": "HTTP Error 404: Not Found"
+ }
+]

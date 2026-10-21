@@ -1,0 +1,370 @@
+{
+ "afatinib": {
+  "count": 0,
+  "pmids": [],
+  "query": "afatinib[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "alpelisib": {
+  "count": 0,
+  "pmids": [],
+  "query": "alpelisib[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "amikacin": {
+  "count": 1,
+  "pmids": [
+   "36708127"
+  ],
+  "query": "amikacin[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "amiodarone": {
+  "count": 0,
+  "pmids": [],
+  "query": "amiodarone[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "amsacrine": {
+  "count": 0,
+  "pmids": [],
+  "query": "amsacrine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "arsenic trioxide": {
+  "count": 6,
+  "pmids": [
+   "28670501",
+   "23352504",
+   "19781537",
+   "19397590",
+   "19371599",
+   "18668508"
+  ],
+  "query": "arsenic trioxide[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "ascorbic acid": {
+  "count": 2,
+  "pmids": [
+   "39845481",
+   "35807551"
+  ],
+  "query": "ascorbic acid[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "aspirin": {
+  "count": 0,
+  "pmids": [],
+  "query": "aspirin[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "atorvastatin": {
+  "count": 0,
+  "pmids": [],
+  "query": "atorvastatin[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "axitinib": {
+  "count": 0,
+  "pmids": [],
+  "query": "axitinib[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "azathioprine": {
+  "count": 1,
+  "pmids": [
+   "33767726"
+  ],
+  "query": "azathioprine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "baricitinib": {
+  "count": 0,
+  "pmids": [],
+  "query": "baricitinib[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "belumosudil": {
+  "count": 0,
+  "pmids": [],
+  "query": "belumosudil[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "bendamustine": {
+  "count": 2,
+  "pmids": [
+   "23390564",
+   "23380051"
+  ],
+  "query": "bendamustine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "beta-hydroxy-beta-methylbutyrate": {
+  "count": 0,
+  "pmids": [],
+  "query": "beta-hydroxy-beta-methylbutyrate[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "bleomycin": {
+  "count": 7,
+  "pmids": [
+   "42146542",
+   "36708127",
+   "36247080",
+   "25483095",
+   "23518501",
+   "19931410",
+   "18723675"
+  ],
+  "query": "bleomycin[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "cabozantinib": {
+  "count": 1,
+  "pmids": [
+   "39911278"
+  ],
+  "query": "cabozantinib[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "calcitriol": {
+  "count": 2,
+  "pmids": [
+   "40286596",
+   "36389792"
+  ],
+  "query": "calcitriol[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "canagliflozin": {
+  "count": 1,
+  "pmids": [
+   "38513740"
+  ],
+  "query": "canagliflozin[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "capecitabine": {
+  "count": 0,
+  "pmids": [],
+  "query": "capecitabine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "capivasertib": {
+  "count": 0,
+  "pmids": [],
+  "query": "capivasertib[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "carbon dioxide": {
+  "count": 0,
+  "pmids": [],
+  "query": "carbon dioxide[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "carboplatin": {
+  "count": 8,
+  "pmids": [
+   "40551177",
+   "39184047",
+   "38953826",
+   "33542435",
+   "32154490",
+   "23386692",
+   "22069160",
+   "19372566"
+  ],
+  "query": "carboplatin[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "chloroquine": {
+  "count": 1,
+  "pmids": [
+   "32573315"
+  ],
+  "query": "chloroquine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "chlorpromazine": {
+  "count": 1,
+  "pmids": [
+   "19713760"
+  ],
+  "query": "chlorpromazine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "cisplatin": {
+  "count": 50,
+  "pmids": [
+   "42263603",
+   "40056529",
+   "39583738",
+   "38375594",
+   "38048028",
+   "37641805",
+   "37348027",
+   "37325046",
+   "36642928",
+   "36176446",
+   "35337815",
+   "34876569",
+   "34598710",
+   "33674747",
+   "33504817",
+   "33414996",
+   "32974133",
+   "31853539",
+   "31544294",
+   "31396344"
+  ],
+  "query": "cisplatin[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "cladribine": {
+  "count": 2,
+  "pmids": [
+   "33083112",
+   "23390564"
+  ],
+  "query": "cladribine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "copanlisib": {
+  "count": 0,
+  "pmids": [],
+  "query": "copanlisib[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "cyclosporine": {
+  "count": 2,
+  "pmids": [
+   "41381790",
+   "40286596"
+  ],
+  "query": "cyclosporine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "cytarabine": {
+  "count": 0,
+  "pmids": [],
+  "query": "cytarabine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "dapagliflozin": {
+  "count": 1,
+  "pmids": [
+   "38513740"
+  ],
+  "query": "dapagliflozin[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "dasatinib": {
+  "count": 4,
+  "pmids": [
+   "41895167",
+   "36389792",
+   "33478100",
+   "20699436"
+  ],
+  "query": "dasatinib[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "decitabine": {
+  "count": 0,
+  "pmids": [],
+  "query": "decitabine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "dequalinium": {
+  "count": 0,
+  "pmids": [],
+  "query": "dequalinium[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "dexamethasone": {
+  "count": 4,
+  "pmids": [
+   "34919076",
+   "33478100",
+   "23390564",
+   "21755010"
+  ],
+  "query": "dexamethasone[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "dexrazoxane": {
+  "count": 1,
+  "pmids": [
+   "36567949"
+  ],
+  "query": "dexrazoxane[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "digoxin": {
+  "count": 0,
+  "pmids": [],
+  "query": "digoxin[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "donepezil": {
+  "count": 0,
+  "pmids": [],
+  "query": "donepezil[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "doxazosin": {
+  "count": 0,
+  "pmids": [],
+  "query": "doxazosin[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "doxycycline": {
+  "count": 6,
+  "pmids": [
+   "39374311",
+   "37443114",
+   "30878468",
+   "21469138",
+   "16227576",
+   "10094923"
+  ],
+  "query": "doxycycline[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "ebastine": {
+  "count": 0,
+  "pmids": [],
+  "query": "ebastine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "eltrombopag": {
+  "count": 1,
+  "pmids": [
+   "41439111"
+  ],
+  "query": "eltrombopag[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "entrectinib": {
+  "count": 0,
+  "pmids": [],
+  "query": "entrectinib[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "enzalutamide": {
+  "count": 1,
+  "pmids": [
+   "42757823"
+  ],
+  "query": "enzalutamide[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "epinephrine": {
+  "count": 0,
+  "pmids": [],
+  "query": "epinephrine[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "erlotinib": {
+  "count": 2,
+  "pmids": [
+   "25576921",
+   "17686445"
+  ],
+  "query": "erlotinib[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "estradiol": {
+  "count": 7,
+  "pmids": [
+   "40846007",
+   "36834602",
+   "36389792",
+   "31180537",
+   "23792638",
+   "19392703",
+   "17234781"
+  ],
+  "query": "estradiol[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "etomidate": {
+  "count": 0,
+  "pmids": [],
+  "query": "etomidate[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ },
+ "progesterone": {
+  "count": 14,
+  "pmids": [
+   "40846007",
+   "39052109",
+   "36497237",
+   "32210727",
+   "31756998",
+   "31010415",
+   "30272310",
+   "26312894",
+   "25753876",
+   "21472690",
+   "21340479",
+   "18946749",
+   "11988325",
+   "11730319"
+  ],
+  "query": "progesterone[tiab] AND (BUB1B[tiab] OR BubR1[tiab] OR \"spindle assembly checkpoint\"[tiab] OR \"mitotic checkpoint\"[tiab] OR \"chromosome missegregation\"[tiab])"
+ }
+}

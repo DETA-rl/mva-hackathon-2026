@@ -1,0 +1,11 @@
+# Quick tier (CPU steps only): the five packages the CPU analysis scripts and the harness import, plus their two
+# dependencies. Same versions as requirements_freeze.txt. Install into a fresh Python 3.13 venv:
+#   python3.13 -m venv .venv-quick && .venv-quick/bin/pip install -r env/requirements-quick.txt
+# Verified 2026-10-20: identical results to the full environment on every quick-tier step (about 310 MB).
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.0.6
+pysam==0.24.1
+PyYAML==6.0.3
+python-dateutil==2.9.0.post0
+six==1.17.0

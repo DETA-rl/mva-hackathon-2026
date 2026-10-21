@@ -1,0 +1,43 @@
+1. Blood. 2013 Sep 12;122(11):1923-34. doi: 10.1182/blood-2013-03-492181. Epub
+2013  Aug 7.
+
+Antagonistic activities of the immunomodulator and PP2A-activating drug FTY720 
+(Fingolimod, Gilenya) in Jak2-driven hematologic malignancies.
+
+Oaks JJ(1), Santhanam R, Walker CJ, Roof S, Harb JG, Ferenchak G, Eisfeld AK, 
+Van Brocklyn JR, Briesewitz R, Saddoughi SA, Nagata K, Bittman R, Caligiuri MA, 
+Abdel-Wahab O, Levine R, Arlinghaus RB, Quintas-Cardama A, Goldman JM, Apperley 
+J, Reid A, Milojkovic D, Ziolo MT, Marcucci G, Ogretmen B, Neviani P, Perrotti 
+D.
+
+Author information:
+(1)Human Cancer Genetics Program, Department of Molecular Virology Immunology 
+and Medical Genetics.
+
+Erratum in
+    Blood. 2014 May 8;123(19):3056.
+
+FTY720 (Fingolimod, Gilenya) is a sphingosine analog used as an 
+immunosuppressant in multiple sclerosis patients. FTY720 is also a potent 
+protein phosphatase 2A (PP2A)-activating drug (PAD). PP2A is a tumor suppressor 
+found inactivated in different types of cancer. We show here that PP2A is 
+inactive in polycythemia vera (PV) and other myeloproliferative neoplasms 
+characterized by the expression of the transforming Jak2(V617F) oncogene. PP2A 
+inactivation occurs in a Jak2(V617F) dose/kinase-dependent manner through the 
+PI-3Kγ-PKC-induced phosphorylation of the PP2A inhibitor SET. Genetic or 
+PAD-mediated PP2A reactivation induces Jak2(V617F) inactivation/downregulation 
+and impairs clonogenic potential of Jak2(V617F) cell lines and PV but not normal 
+CD34(+) progenitors. Likewise, FTY720 decreases leukemic allelic burden, reduces 
+splenomegaly, and significantly increases survival of Jak2(V617F) leukemic mice 
+without adverse effects. Mechanistically, we show that in Jak2(V617F) cells, 
+FTY720 antileukemic activity requires neither FTY720 phosphorylation (FTY720-P) 
+nor SET dimerization or ceramide induction but depends on interaction with SET 
+K209. Moreover, we show that Jak2(V617F) also utilizes an alternative 
+sphingosine kinase-1-mediated pathway to inhibit PP2A and that FTY720-P, acting 
+as a sphingosine-1-phosphate-receptor-1 agonist, elicits signals leading to the 
+Jak2-PI-3Kγ-PKC-SET-mediated PP2A inhibition. Thus, PADs (eg, FTY720) represent 
+suitable therapeutic alternatives for Jak2(V617F) MPNs.
+
+DOI: 10.1182/blood-2013-03-492181
+PMCID: PMC3772499
+PMID: 23926298 [Indexed for MEDLINE]

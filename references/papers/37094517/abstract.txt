@@ -1,0 +1,63 @@
+1. Redox Biol. 2023 Jun;62:102701. doi: 10.1016/j.redox.2023.102701. Epub 2023
+Apr  17.
+
+The establishment of mitotic errors-driven senescence depends on autophagy.
+
+Goutas A(1), Outskouni Z(2), Papathanasiou I(3), Georgakopoulou A(4), Karpetas 
+GE(5), Gonos ES(6), Trachana V(7).
+
+Author information:
+(1)Department of Biology, Faculty of Medicine, School of Health Sciences, 
+University of Thessaly, Biopolis, Larissa, 41500, Greece. Electronic address: 
+[e-mail removed].
+(2)Department of Biology, Faculty of Medicine, School of Health Sciences, 
+University of Thessaly, Biopolis, Larissa, 41500, Greece. Electronic address: 
+[e-mail removed].
+(3)Department of Biology, Faculty of Medicine, School of Health Sciences, 
+University of Thessaly, Biopolis, Larissa, 41500, Greece. Electronic address: 
+[e-mail removed].
+(4)Hematology Department, Hematopoietic Cell Transplant (HCT) Unit, Gene and 
+Cell Therapy Center, George Papanikolaou Hospital, Thessaloniki, 57010, Greece. 
+Electronic address: [e-mail removed].
+(5)Department of Medical Informatics, Faculty of Medicine, School of Health 
+Sciences, University of Thessaly, Biopolis, Larissa, 41500, Greece. Electronic 
+address: [e-mail removed].
+(6)Hellenic Pasteur Institute, Athens, 11521, Greece; Institute of Biology, 
+Medical Chemistry and Biotechnology, National Hellenic Research Foundation, 
+Athens, 11635, Greece. Electronic address: [e-mail removed].
+(7)Department of Biology, Faculty of Medicine, School of Health Sciences, 
+University of Thessaly, Biopolis, Larissa, 41500, Greece. Electronic address: 
+[e-mail removed].
+
+We and others have reported that senescence onset is accompanied by genomic 
+instability that is evident by several defects, such as aneuploidy or erroneous 
+mitosis features. Here, we report that these defects also appear in young cells 
+upon oxidative insult. We provide evidence that these errors could be the 
+consequence of oxidative stress (OS)- either exogenous or senescence-associated 
+- overriding the spindle assembly checkpoint (SAC). Young cells treated with 
+Η2Ο2 as well as older cells fail to maintain mitotic arrest in the presence of 
+spindle poisons and a significant higher percentage of them have supernumerary 
+centrosomes and centrosome related anomalous characteristics. We also report 
+that aging is escorted by expression modifications of SAC components, and 
+especially of Bub1b/BubR1. Bub1b/BubR1 has been previously reported to decrease 
+naturally upon aging. Here, we show that there is an initial increase in 
+Bub1b/BubR1 levels, feasibly as part of the cells' response against OS-driven 
+genomic instability, that is followed by its autophagy dependent degradation. 
+This provides an explanation that was missing regarding the molecular entity 
+responsible for the downregulation of Bub1b/BubR1 upon aging, especially since 
+it is well established, by us and others, that the proteasome function decays as 
+cells age. These results, not only serve the previously reported notion of a 
+shift from proteasome to autophagy-dependent degradation upon aging, but also 
+provide a mechanistic insight for mitotic errors-driven senescence. We believe 
+that our conclusions deepen our understanding regarding the homeostatic function 
+of autophagy that serves the establishment of senescence as a barrier against 
+cellular transformation.
+
+Copyright © 2023 The Authors. Published by Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.redox.2023.102701
+PMCID: PMC10149375
+PMID: 37094517 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest We declare no 
+conflict of interest.

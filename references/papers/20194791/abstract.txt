@@ -1,0 +1,40 @@
+1. Proc Natl Acad Sci U S A. 2010 Mar 16;107(11):4878-83. doi: 
+10.1073/pnas.0909141107. Epub 2010 Mar 1.
+
+Molecular basis for the high-affinity binding and stabilization of firefly 
+luciferase by PTC124.
+
+Auld DS(1), Lovell S, Thorne N, Lea WA, Maloney DJ, Shen M, Rai G, Battaile KP, 
+Thomas CJ, Simeonov A, Hanzlik RP, Inglese J.
+
+Author information:
+(1)NIH Chemical Genomics Center, National Institutes of Health, Bethesda, MD 
+20892-3370, USA.
+
+Firefly luciferase (FLuc), an ATP-dependent bioluminescent reporter enzyme, is 
+broadly used in chemical biology and drug discovery assays. PTC124 (Ataluren; 
+(3-[5-(2-fluorophenyl)-1,2,4-oxadiazol-3-yl]benzoic acid) discovered in an 
+FLuc-based assay targeting nonsense codon suppression, is an unusually potent 
+FLuc-inhibitor. Paradoxically, PTC124 and related analogs increase cellular FLuc 
+activity levels by posttranslational stabilization. In this study, we show that 
+FLuc inhibition and stabilization is the result of an inhibitory product formed 
+during the FLuc-catalyzed reaction between its natural substrate, ATP, and 
+PTC124. A 2.0 A cocrystal structure revealed the inhibitor to be the acyl-AMP 
+mixed-anhydride adduct PTC124-AMP, which was subsequently synthesized and shown 
+to be a high-affinity multisubstrate adduct inhibitor (MAI; K(D) = 120 pM) of 
+FLuc. Biochemical assays, liquid chromatography/mass spectrometry, and 
+near-attack conformer modeling demonstrate that formation of this novel MAI is 
+absolutely dependent upon the precise positioning and reactivity of a key 
+meta-carboxylate of PTC124 within the FLuc active site. We also demonstrate that 
+the inhibitory activity of PTC124-AMP is relieved by free coenzyme A, a 
+component present at high concentrations in luciferase detection reagents used 
+for cell-based assays. This explains why PTC124 can appear to increase, instead 
+of inhibit, FLuc activity in cell-based reporter gene assays. To our knowledge, 
+this is an unusual example in which the "off-target" effect of a small molecule 
+is mediated by an MAI mechanism.
+
+DOI: 10.1073/pnas.0909141107
+PMCID: PMC2841876
+PMID: 20194791 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.

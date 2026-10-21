@@ -1,0 +1,147 @@
+1. Lancet. 2025 Dec 21;404(10471):2584-2592. doi: 10.1016/S0140-6736(24)01880-4. 
+Epub 2024 Dec 3.
+
+Haematopoietic gene therapy of non-conditioned patients with Fanconi anaemia-A: 
+results from open-label phase 1/2 (FANCOLEN-1) and long-term clinical trials.
+
+Río P(1), Zubicaray J(2), Navarro S(1), Gálvez E(2), Sánchez-Domínguez R(1), 
+Nicoletti E(3), Sebastián E(2), Rothe M(4), Pujol R(5), Bogliolo M(6), John-Neek 
+P(4), Bastone AL(4), Schambach A(7), Wang W(8), Schmidt M(8), Larcher L(9), 
+Segovia JC(1), Yáñez RM(1), Alberquilla O(1), Díez B(1), Fernández-García M(1), 
+García-García L(1), Ramírez M(10), Galy A(11), Lefrere F(12), Cavazzana M(12), 
+Leblanc T(13), García de Andoin N(14), López-Almaraz R(15), Catalá A(16), 
+Barquinero J(17), Rodríguez-Perales S(18), Rao G(3), Surrallés J(5), Soulier 
+J(9), Díaz-de-Heredia C(19), Schwartz JD(3), Sevilla J(2), Bueren JA(20); 
+FANCOLEN-1 gene therapy investigators.
+
+Collaborators: Río P, Zubicaray J, Navarro S, Gálvez E, Sánchez-Domínguez R, 
+Nicoletti E, Sebastián E, Rothe M, Pujol R, Bogliolo M, John-Neek P, Bastone AL, 
+Schambach A, Wang W, Schmidt M, Larcher L, Segovia JC, Yáñez RM, Pérez-Maroto F, 
+de la Cruz A, Casado JA, Giménez Y, Álvarez L, Alberquilla O, Díez B, 
+Fernández-García M, García-García L, Gómez A, Galán A, Ramírez M, Salgado R, 
+Galy A, Lefrere F, Cavazzana M, Leblanc T, Garcia de Andoin N, López-Almaraz R, 
+Catalá A, Barquinero J, Rodríguez-Perales S, Rao G, Surrallés J, Soulier J, 
+Díaz-de-Heredia C, Schwartz JD, Sevilla J, Bueren JA.
+
+Author information:
+(1)Biomedical Innovation Unit, Center for Research on Energy, Environment and 
+Technology (CIEMAT), Madrid, Spain; Biomedical Network Research Center for Rare 
+Diseases (CIBERER), Madrid, Spain; Sanitary Research Institute Fundación Jiménez 
+Díaz (U.A.M), Madrid, Spain.
+(2)Biomedical Network Research Center for Rare Diseases (CIBERER), Madrid, 
+Spain; Pediatric Hematology and Oncology Department, Hospital Infantil 
+Universitario Niño Jesús, Madrid, Spain; Foundation for the Biomedical Research, 
+Hospital Infantil Universitario Niño Jesús, Madrid, Spain.
+(3)Rocket Pharmaceuticals, Cranbury, NJ, USA.
+(4)Institute of Experimental Hematology, Hannover Medical School, Hannover, 
+Germany.
+(5)Biomedical Network Research Center for Rare Diseases (CIBERER), Madrid, 
+Spain; Institut de Recerca Sant Pau, Universitat Autónoma de Barcelona, 
+Barcelona, Spain; Unit of Genomic Medicine, Institut de Recerca de l'Hospital de 
+la Santa Creu i Sant Pau, Barcelona, Spain.
+(6)Biomedical Network Research Center for Rare Diseases (CIBERER), Madrid, 
+Spain; Institut de Recerca Sant Pau, Universitat Autónoma de Barcelona, 
+Barcelona, Spain; Serra Hunter Fellow, Department of Genetics and Microbiology, 
+Faculty of Biosciences, Universitat Autònoma de Barcelona, Barcelona, Spain; 
+Unit of Genomic Medicine, Institut de Recerca de l'Hospital de la Santa Creu i 
+Sant Pau, Barcelona, Spain.
+(7)Institute of Experimental Hematology, Hannover Medical School, Hannover, 
+Germany; Division of Hematology/Oncology, Boston Children's Hospital, Harvard 
+Medical School, Boston, MA, USA.
+(8)Genwerk, Heidelberg, Germany.
+(9)Université Paris Cité, Inserm, CNRS, Hôpital Saint-Louis, APHP, Paris, 
+France.
+(10)Pediatric Hematology and Oncology Department, Hospital Infantil 
+Universitario Niño Jesús, Madrid, Spain; Sanitary Research Institute Fundación 
+La Princesa, Madrid, Spain.
+(11)Genethon, UMR_S951, Université Paris-Saclay, Univ Evry, Inserm, 
+Evry-Courcouronnes, France.
+(12)Hôpital Universitaire Necker Enfants-Malades, Assistance Publique Hôpitaux 
+de Paris GHU Paris Centre, Université Paris Cité, Paris, France; Centre 
+D'Investigation Clinique en Biotherapie INSERM, Institut Imagine, Paris, France.
+(13)Robert-Debré University Hospital (APHP and Université Paris Cité), Paris, 
+France.
+(14)Donostia Universitary Hospital, San Sebastián, Spain; Biogipuzkoa Health 
+Research Institute, San Sebastián, Spain.
+(15)Cruces Universitary Hospital, Barakaldo, Spain; Biocruces Bizkaia Health 
+Research Institute, Barakaldo, Spain.
+(16)Hospital Sant Joan de Déu, Barcelona, Spain; Research Institute Sant Joan de 
+Déu, Barcelona, Spain.
+(17)Vall d'Hebron Institut de Recerca, Barcelona, Spain.
+(18)Spanish National Cancer Research Centre (CNIO), Madrid, Spain.
+(19)Biomedical Network Research Center for Rare Diseases (CIBERER), Madrid, 
+Spain; Vall d'Hebron Institut de Recerca, Barcelona, Spain; Pediatric 
+Haematology and Oncology Department, Hospital Universitari Vall d'Hebron, 
+Barcelona, Spain.
+(20)Biomedical Innovation Unit, Center for Research on Energy, Environment and 
+Technology (CIEMAT), Madrid, Spain; Biomedical Network Research Center for Rare 
+Diseases (CIBERER), Madrid, Spain; Sanitary Research Institute Fundación Jiménez 
+Díaz (U.A.M), Madrid, Spain. Electronic address: [e-mail removed].
+
+Comment in
+    Lancet. 2025 Dec 21;404(10471):2490-2491. doi: 
+10.1016/S0140-6736(24)02301-8.
+
+BACKGROUND: Allogeneic haematopoietic stem-cell transplantation is the standard 
+treatment for bone marrow failure (BMF) in patients with Fanconi anaemia, but 
+transplantation-associated complications such as an increased incidence of 
+subsequent cancer are frequent. The aim of this study was to evaluate the safety 
+and efficacy of the infusion of autologous gene-corrected haematopoietic stem 
+cells as an alternative therapy for these patients.
+METHODS: This was an open-label, investigator-initiated phase 1/2 clinical trial 
+(FANCOLEN-1) and long-term follow-up trial (up to 7 years post-treatment) in 
+Spain. Mobilised peripheral blood (PB) CD34+ cells from nine patients with 
+Fanconi anaemia-A in the early stages of BMF were transduced with a therapeutic 
+FANCA-encoding lentiviral vector and re-infused without any cytotoxic 
+conditioning treatment. The primary efficacy endpoint of FANCOLEN-1 was the 
+engraftment of transduced cells, as defined by the detection of at least 0·1 
+therapeutic vector copies per nucleated cell of patient bone marrow (BM) or PB 
+at the second year post-infusion, without this percentage having declined 
+substantially over the previous year. The safety coprimary endpoint was adverse 
+events during the 3 years after infusion. The completed open-label phase 1/2 and 
+the ongoing long-term clinical trials are registered with ClinicalTrials.gov, 
+NCT03157804; EudraCT, 2011-006100-12; and NCT04437771, respectively.
+FINDINGS: There were eight evaluable treated patients with Fanconi anaemia-A. 
+Patients were recruited between Jan 7, 2016 and April 3, 2019. The primary 
+endpoint was met in five of the eight evaluable patients (62·50%). The median 
+number of therapeutic vector copies per nucleated cell of patient BM and PB at 
+the second year post-infusion was 0·18 (IQR 0·01-0·20) and 0·06 (0·01-0·19), 
+respectively. No genotoxic events related to the gene therapy were observed. 
+Most treatment-emergent adverse events (TEAEs) were non-serious and assessed as 
+not related to therapeutic FANCA-encoding lentiviral vector. Nine serious 
+adverse events (grade 3-4) were reported in six patients, one was considered 
+related to medicinal product infusion, and all resolved without sequelae. 
+Cytopenias and viral infections (common childhood illnesses) were the most 
+frequently reported TEAEs.
+INTERPRETATION: These results show for the first time that haematopoietic gene 
+therapy without genotoxic conditioning enables sustained engraftment and 
+reversal of BMF progression in patients with Fanconi anaemia.
+FUNDING: European Commission, Instituto de Salud Carlos III, and Rocket 
+Pharmaceuticals.
+
+Copyright © 2024 Elsevier Ltd. All rights reserved, including those for text and 
+data mining, AI training, and similar technologies.
+
+DOI: 10.1016/S0140-6736(24)01880-4
+PMID: 39642902 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests PR: has received 
+honoraria as consultant and holds stock options and royalties for licences to 
+Rocket Pharmaceuticals. SN: has received honoraria as consultant and holds stock 
+options and royalties for licences to Rocket Pharmaceuticals. EN: employee of 
+Rocket Pharmaceuticals and owns Rocket Pharmaceuticals equity and equity 
+options. JCS: has received honoraria as consultant and holds stock options and 
+royalties for licences to Rocket Pharmaceuticals. JSu: has received service 
+honoraria from Rocket Pharmaceuticals. GR: employee of Rocket Pharmaceuticals 
+and owns Rocket Pharmaceuticals equity and equity options. JSo: has received 
+honoraria as consultant from Rocket Pharmaceuticals. JDS: employee and officer 
+of Rocket Pharmaceuticals and owns Rocket Pharmaceuticals equity and equity 
+options. JSe: has received support for attending meetings and honoraria as 
+consultant, as member of advisory boards, and holds stock options and royalties 
+for licences to Rocket Pharmaceuticals. JAB: has received honoraria as 
+consultant and holds stock options and royalties for licences to Rocket 
+Pharmaceuticals. AdC: has received honoraria as consultant and holds stock 
+options and royalties for licences to Rocket Pharmaceuticals. The institutions 
+of PR, JZ, SN, AS, PJ-N, ALB, MRa, JCS, JSu, JSe, JAB, and AdC have received 
+funding for research on gene therapy from Rocket Pharmaceuticals. All other 
+authors declare no competing interests.

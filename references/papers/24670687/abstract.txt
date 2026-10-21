@@ -1,0 +1,34 @@
+1. Sci Transl Med. 2014 Mar 26;6(229):229ra43. doi: 10.1126/scitranslmed.3007965.
+
+Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation 
+on multipolar spindles.
+
+Zasadil LM(1), Andersen KA, Yeum D, Rocque GB, Wilke LG, Tevaarwerk AJ, Raines 
+RT, Burkard ME, Weaver BA.
+
+Author information:
+(1)Department of Cell and Regenerative Biology, University of Wisconsin, 
+Madison, WI 53705, USA.
+
+The blockbuster chemotherapy drug paclitaxel is widely presumed to cause cell 
+death in tumors as a consequence of mitotic arrest, as it does at concentrations 
+routinely used in cell culture. However, we determine here that paclitaxel 
+levels in primary breast tumors are well below those required to elicit 
+sustained mitotic arrest. Instead, cells in these lower concentrations of drug 
+proceed through mitosis without substantial delay and divide their chromosomes 
+on multipolar spindles, resulting in chromosome missegregation and cell death. 
+Consistent with these cell culture data, most mitotic cells in primary human 
+breast cancers contain multipolar spindles after paclitaxel treatment. Contrary 
+to the previous hypothesis, we find that mitotic arrest is dispensable for tumor 
+regression in patients. These results demonstrate that mitotic arrest is not 
+responsible for the efficacy of paclitaxel, which occurs because of chromosome 
+missegregation on highly abnormal, multipolar spindles. This mechanistic insight 
+may be used to improve selection of future antimitotic drugs and to identify a 
+biomarker with which to select patients likely to benefit from paclitaxel.
+
+DOI: 10.1126/scitranslmed.3007965
+PMCID: PMC4176609
+PMID: 24670687 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: The authors declare that 
+they have no competing interests.

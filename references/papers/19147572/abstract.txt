@@ -1,0 +1,38 @@
+1. Cancer Res. 2009 Jan 15;69(2):583-92. doi: 10.1158/0008-5472.CAN-08-2442.
+
+Epigallocatechin-3-gallate, a histone acetyltransferase inhibitor, inhibits 
+EBV-induced B lymphocyte transformation via suppression of RelA acetylation.
+
+Choi KC(1), Jung MG, Lee YH, Yoon JC, Kwon SH, Kang HB, Kim MJ, Cha JH, Kim YJ, 
+Jun WJ, Lee JM, Yoon HG.
+
+Author information:
+(1)Department of Biochemistry and Molecular Biology, Center for Chronic 
+Metabolic Disease Research, Brain Korea 21 Project for Medical Sciences, Yonsei 
+University College of Medicine, Seoul, Korea.
+
+Because the p300/CBP-mediated hyperacetylation of RelA (p65) is critical for 
+nuclear factor-kappaB (NF-kappaB) activation, the attenuation of p65 acetylation 
+is a potential molecular target for the prevention of chronic inflammation. 
+During our ongoing screening study to identify natural compounds with histone 
+acetyltransferase inhibitor (HATi) activity, we identified 
+epigallocatechin-3-gallate (EGCG) as a novel HATi with global specificity for 
+the majority of HAT enzymes but with no activity toward epigenetic enzymes 
+including HDAC, SIRT1, and HMTase. At a dose of 100 micromol/L, EGCG abrogates 
+p300-induced p65 acetylation in vitro and in vivo, increases the level of 
+cytosolic IkappaBalpha, and suppresses tumor necrosis factor alpha 
+(TNFalpha)-induced NF-kappaB activation. We also showed that EGCG prevents 
+TNFalpha-induced p65 translocation to the nucleus, confirming that 
+hyperacetylation is critical for NF-kappaB translocation as well as activity. 
+Furthermore, EGCG treatment inhibited the acetylation of p65 and the expression 
+of NF-kappaB target genes in response to diverse stimuli. Finally, EGCG reduced 
+the binding of p300 to the promoter region of interleukin-6 gene with an 
+increased recruitment of HDAC3, which highlights the importance of the balance 
+between HATs and histone deacetylases in the NF-kappaB-mediated inflammatory 
+signaling pathway. Importantly, EGCG at 50 micromol/L dose completely blocks EBV 
+infection-induced cytokine expression and subsequently the EBV-induced B 
+lymphocyte transformation. These results show the crucial role of acetylation in 
+the development of inflammatory-related diseases.
+
+DOI: 10.1158/0008-5472.CAN-08-2442
+PMID: 19147572 [Indexed for MEDLINE]

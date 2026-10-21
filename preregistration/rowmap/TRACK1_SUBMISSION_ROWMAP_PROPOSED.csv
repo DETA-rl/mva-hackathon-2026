@@ -1,0 +1,11 @@
+proband_id,chrom_1,pos_1,ref_1,alt_1,chrom_2,pos_2,ref_2,alt_2,epcr,finding_type,notes
+PROBAND01,chr15,40209701,T,G,chr15,40220612,T,G,0.533223,primary,BUB1B; rule v4 rank 1; tier A; nonsense + missense pair; phase not measured
+PROBAND01,chr22,20996720,C,G,,,,,0.413611,primary,LZTR1; rule v4 rank 2; tier A; nonsense
+PROBAND01,chr4,67753920,C,T,,,,,0.001641,primary,GNRHR; rule v4 rank 3; tier A; missense
+PROBAND01,chr7,39339680,C,CA,chr7,39339682,C,CAG,0.001631,primary,POU6F2; rule v4 rank 4; tier B; frameshift + frameshift pair (ROW-MAP P5)
+PROBAND01,chr8,38057205,C,CA,chr8,38057230,C,A,0.001621,primary,EIF4EBP1; rule v4 rank 5; tier B; frameshift + missense pair (ROW-MAP P5)
+PROBAND01,chr1,152214827,A,C,chr1,152214830,C,CATGTTGGCCACAG,0.001611,primary,HRNR; rule v4 rank 6; tier B; missense + frameshift pair
+PROBAND01,chrX,70134785,A,C,,,,,0.001601,primary,IGBP1; rule v4 rank 7; tier C; missense
+PROBAND01,chr21,26844275,GCCCCTTC,G,chr21,26844283,GTCCTCGCCCTCAGT,G,0.001591,primary,ADAMTS1; rule v4 rank 8; tier C; two frameshift deletions
+PROBAND01,chr7,151086835,T,TGGGG,,,,,0.001581,primary,AGAP3; rule v4 rank 9; tier C; frameshift insertion
+PROBAND01,chr1,41382200,G,GGCCCGCGCCGGGACGCCCGCCTACTTCGGCGGCTGCAAGGGCGGCGCCTACGGCGGGGGCGGGGGCTTCGGGCCGCCGGCGATGGGCGCTCTGCGCCGTCTGCCCATGCAGACCATCCAGGAGAACAAGCAGGCCAGCTTCGTGCCGGCCGCGGCGCCCTTCCGCCCTGGGGCGCTGCCCGCGCTGCTGCCGCCGCCGCC,,,,,0.001571,primary,FOXO6; rule v4 rank 10; tier C; frameshift insertion

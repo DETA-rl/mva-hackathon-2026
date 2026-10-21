@@ -1,0 +1,46 @@
+1. Food Chem Toxicol. 2022 Jul;165:113129. doi: 10.1016/j.fct.2022.113129. Epub 
+2022 May 12.
+
+High-dose metformin induces a low-glucose dependent genotoxic stress.
+
+Lyu T(1), Zhou H(1), Wang Y(1), Jiang M(1), Tao Q(1), Chen J(1), Guo Y(1), Zhang 
+Q(1), Wang X(2), Guo X(3).
+
+Author information:
+(1)School of Life Sciences, Yunnan Normal University, Kunming, Yunnan, 650500, 
+China.
+(2)School of Life Sciences, Yunnan Normal University, Kunming, Yunnan, 650500, 
+China; The Engineering Research Center of Sustainable Development and 
+Utilization of Biomass Energy, Yunnan Normal University, Kunming, Yunnan, 
+650500, China; Yunnan Environmental Mutagen Society, Kunming, Yunnan, 650500, 
+China.
+(3)School of Life Sciences, Yunnan Normal University, Kunming, Yunnan, 650500, 
+China; The Engineering Research Center of Sustainable Development and 
+Utilization of Biomass Energy, Yunnan Normal University, Kunming, Yunnan, 
+650500, China; Yunnan Environmental Mutagen Society, Kunming, Yunnan, 650500, 
+China. Electronic address: [e-mail removed].
+
+Epidemiological studies have demonstrated that metformin (a cornerstone of 
+diabetes treatment) has anticancer activity, but the underlying mechanism 
+remains elusive. We aimed to investigate whether metformin elicits anticancer 
+activity via increasing genotoxic stress, a state of increased genome damage 
+that becomes tumor-suppressing if it goes beyond an intolerable threshold. We 
+found that metformin (1-16 mM) suppressed proliferation and colony formation in 
+a panel of cancer cell lines (HeLa, A375, A549 and QGY). Metformin induced a 
+dose-dependent increase of genotoxic stress (including micronucleus, 
+nucleoplasmic bridge and nuclear bud) and the increase of genotoxic stress 
+correlated well with metformin's anticancer potential. Metformin deregulated the 
+expression of BUBR1 and MAD2, two core genes of spindle assembly checkpoint 
+(SAC) that surveillances chromosome segregation. Metformin had weakened 
+antiproliferative effect and a corresponding attenuated genotoxic effect in HeLa 
+cells cultured in high glucose (16 mg/ml). Meanwhile, metformin significantly 
+increased genotoxicity in non-cancer cells (NCM460 and HUVECs). Metformin became 
+non-genotoxic to HUVECs in high-glucose (8 and 16 mg/ml) conditions and reduced 
+the genotoxicity of high glucose. Overall, these results infer a new mechanism 
+of high-dose metformin, whereby low-glucose dependent genotoxic stress derived 
+from SAC dysfunction might mediate some of the anticancer effect of this drug.
+
+Copyright © 2022 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.fct.2022.113129
+PMID: 35568294 [Indexed for MEDLINE]

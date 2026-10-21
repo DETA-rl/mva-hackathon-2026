@@ -1,0 +1,37 @@
+1. FEBS J. 2010 Aug;277(16):3437-48. doi: 10.1111/j.1742-4658.2010.07750.x. Epub 
+2010 Jul 14.
+
+Curcumin suppresses the dynamic instability of microtubules, activates the 
+mitotic checkpoint and induces apoptosis in MCF-7 cells.
+
+Banerjee M(1), Singh P, Panda D.
+
+Author information:
+(1)Department of Biosciences & Bioengineering, Indian Institute of Technology 
+Bombay, Mumbai, India.
+
+In this study, curcumin, a potential anticancer agent, was found to dampen the 
+dynamic instability of individual microtubules in living MCF-7 cells. It 
+strongly reduced the rate and extent of shortening states, and modestly reduced 
+the rate and extent of growing states. In addition, curcumin decreased the 
+fraction of time microtubules spent in the growing state and strongly increased 
+the time microtubules spent in the pause state. Brief treatment with curcumin 
+depolymerized mitotic microtubules, perturbed microtubule-kinetochore attachment 
+and disturbed the mitotic spindle structure. Curcumin also perturbed the 
+localization of the kinesin protein Eg5 and induced monopolar spindle formation. 
+Further, curcumin increased the accumulation of Mad2 and BubR1 at the 
+kinetochores, indicating that it activated the mitotic checkpoint. In addition, 
+curcumin treatment increased the metaphase/anaphase ratio, indicating that it 
+can delay mitotic progression from the metaphase to anaphase. We provide 
+evidence suggesting that the affected cells underwent apoptosis via the 
+p53-dependent apoptotic pathway. The results support the idea that kinetic 
+stabilization of microtubule dynamics assists in the nuclear translocation of 
+p53. Curcumin exerted additive effects when combined with vinblastine, a 
+microtubule depolymerizing drug, whereas the combination of curcumin with 
+paclitaxel, a microtubule-stabilizing drug, produced an antagonistic effect on 
+the inhibition of MCF-7 cell proliferation. The results together suggested that 
+curcumin inhibited MCF-7 cell proliferation by inhibiting the assembly dynamics 
+of microtubules.
+
+DOI: 10.1111/j.1742-4658.2010.07750.x
+PMID: 20646066 [Indexed for MEDLINE]

@@ -1,0 +1,19 @@
+--- blind_gnomad/../analysis_scripts/child_exonic_calls.py
++++ calls_param.py
+@@ -1,6 +1,6 @@
+ # Child non-reference calls inside protein-coding exons (+/-3 bp). Derived table written to the project folder.
+ import gzip, bisect, collections
+-VCF = "/home/[redacted]/Documents/HACKATON/data/WGS_EX2312012_HGWCNDSX7.vcf.gz"
++VCF = __import__("sys").argv[1]
+ D = "/home/[redacted]/Documents/HACKATON/_private/blind_gnomad/"
+ by = collections.defaultdict(list)
+ for line in open(D + "protein_coding_exons_hg38.bed"):
+@@ -10,7 +10,7 @@
+ for c, v in by.items():
+     v.sort()
+     idx[c] = ([a for a, _, _ in v], v)
+-out = open(D + "child_exonic_calls.tsv", "w")
++out = open(__import__("sys").argv[2], "w")
+ out.write("chrom\tpos\tref\talt\tgt\tfilter\tgenes\n")
+ n = 0
+ with gzip.open(VCF, "rt") as fh:

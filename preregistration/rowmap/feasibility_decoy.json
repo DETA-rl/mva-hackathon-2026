@@ -1,0 +1,23 @@
+{
+ "set18_autosomal_decoy_like_counts": {
+  "RNU4ATAC": 0,
+  "RNU6ATAC": 0,
+  "ZRSR2": 0,
+  "SNRNP48": 48,
+  "ESCO2": 208,
+  "PCNT": 1845,
+  "CENPF": 595,
+  "BUB1B": 1502,
+  "TRIP13": 82,
+  "CEP57": 619,
+  "SMC5": 124,
+  "MAD1L1": 129,
+  "CEP192": 347,
+  "TRIM37": 231,
+  "CDC20": 58,
+  "MAD2L1BP": 37,
+  "CENATAC": 73,
+  "SLF2": 162
+ },
+ "genes_with_ge2": 24708
+}

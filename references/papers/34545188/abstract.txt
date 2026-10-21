@@ -1,0 +1,59 @@
+1. Oncogene. 2021 Oct;40(43):6210-6222. doi: 10.1038/s41388-021-02021-y. Epub
+2021  Sep 20.
+
+Increased BUB1B/BUBR1 expression contributes to aberrant DNA repair activity 
+leading to resistance to DNA-damaging agents.
+
+Komura K(1)(2), Inamoto T(3), Tsujino T(4), Matsui Y(5)(6), Konuma T(7), 
+Nishimura K(3), Uchimoto T(3), Tsutsumi T(4), Matsunaga T(3), Maenosono R(3), 
+Yoshikawa Y(3), Taniguchi K(8), Tanaka T(8), Uehara H(3), Hirata K(9), Hirano 
+H(3), Nomi H(3), Hirose Y(9), Ono F(8)(10), Azuma H(3).
+
+Author information:
+(1)Department of Urology, Osaka Medical and Pharmaceutical University, Osaka, 
+569-8686, Japan. [e-mail removed].
+(2)Translational Research Program, Osaka Medical and Pharmaceutical University, 
+Osaka, 569-8686, Japan. [e-mail removed].
+(3)Department of Urology, Osaka Medical and Pharmaceutical University, Osaka, 
+569-8686, Japan.
+(4)Division of Urology, Department of Surgery, Brigham and Women's Hospital, 
+Harvard Medical School, Boston, MA, 02115, United States.
+(5)Biomedical and Health Informatics Unit, Department of Integrated Health 
+Science, Nagoya University Graduate School of Medicine, Nagoya, 461-8673, Japan.
+(6)Institute for Glyco-core Research (iGCORE), Nagoya University, Nagoya, 
+461-8673, Japan.
+(7)Graduate School of Medical Life Science, Yokohama City University, Yokohama, 
+230-0045, Japan.
+(8)Translational Research Program, Osaka Medical and Pharmaceutical University, 
+Osaka, 569-8686, Japan.
+(9)Department of Pathology, Osaka Medical and Pharmaceutical University, Osaka, 
+569-8686, Japan.
+(10)Department of Physiology, Osaka Medical and Pharmaceutical University, 
+Osaka, 569-8686, Japan.
+
+There has been accumulating evidence for the clinical benefit of chemoradiation 
+therapy (CRT), whereas mechanisms in CRT-recurrent clones derived from the 
+primary tumor are still elusive. Herein, we identified an aberrant BUB1B/BUBR1 
+expression in CRT-recurrent clones in bladder cancer (BC) by comprehensive 
+proteomic analysis. CRT-recurrent BC cells exhibited a cell-cycle-independent 
+upregulation of BUB1B/BUBR1 expression rendering an enhanced DNA repair activity 
+in response to DNA double-strand breaks (DSBs). With DNA repair analyses 
+employing the CRISPR/cas9 system, we revealed that cells with aberrant 
+BUB1B/BUBR1 expression dominantly exploit mutagenic nonhomologous end joining 
+(NHEJ). We further found that phosphorylated ATM interacts with BUB1B/BUBR1 
+after ionizing radiation (IR) treatment, and the resistance to DSBs by increased 
+BUB1B/BUBR1 depends on the functional ATM. In vivo, tumor growth of 
+CRT-resistant T24R cells was abrogated by ATM inhibition using AZD0156. A 
+dataset analysis identified FOXM1 as a putative BUB1B/BUBR1-targeting 
+transcription factor causing its increased expression. These data collectively 
+suggest a redundant role of BUB1B/BUBR1 underlying mutagenic NHEJ in an 
+ATM-dependent manner, aside from the canonical activity of BUB1B/BUBR1 on the 
+G2/M checkpoint, and offer novel clues to overcome CRT resistance.
+
+© 2021. The Author(s), under exclusive licence to Springer Nature Limited.
+
+DOI: 10.1038/s41388-021-02021-y
+PMCID: PMC8553621
+PMID: 34545188 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing interests.

@@ -1,0 +1,36 @@
+1. Oncogene. 2006 Jun 15;25(25):3598-605. doi: 10.1038/sj.onc.1209392. Epub 2006 
+Jan 30.
+
+BubR1 is involved in regulation of DNA damage responses.
+
+Fang Y(1), Liu T, Wang X, Yang YM, Deng H, Kunicki J, Traganos F, Darzynkiewicz 
+Z, Lu L, Dai W.
+
+Author information:
+(1)Division of Molecular Carcinogenesis, New York Medical College, Valhalla, NY 
+10595, USA.
+
+Defective mitotic spindles or an impaired spindle-kinetochore interaction 
+activates the spindle checkpoint. We have previously shown that BubR1 
+haplo-insufficiency results in enhanced genomic instability and tumorigenesis in 
+mice. Here we report that BubR1 deficiency also leads to a compromised response 
+to DNA damage. Following treatment with doxorubicin, BubR1(+/-) murine 
+fibroblast cells (MEF) were defective in undergoing G(2)/M arrest. Thus, whereas 
+in the presence of DNA damage BubR1(+/+) MEF cells remained arrested in mitosis, 
+BubR1(+/-) MEFs rapidly exited from mitosis and divided. The impaired mitotic 
+arrest of BubR1(+/-) MEFs was associated with low levels of phospho-histone 
+H2AX, p53, and p21 after DNA damage caused by treatment with both doxorubicin 
+and ultraviolet light (UV). The impaired expression of p53 and p21 was also 
+confirmed in human cell lines with BubR1 knockdown via RNA interference. 
+Affinity pull-down coupled with mass spectrometry identified Poly(ADP-ribose) 
+polymerase 1 (PARP-1) as one of the proteins interacting with BubR1. Reciprocal 
+co-immunoprecipitation analysis confirmed the physical interaction between BubR1 
+and PARP-1. Our further study revealed that the ability of retaining intact 
+PARP-1 or its cleavage product p89 was compromised in BubR1(+/-) MEFs upon 
+treatment with doxorubicin or UV. Given that PARP-1 mediates DNA damage 
+responses and regulates the activity of p53, our studies suggest that there 
+exists a cross-talk between the spindle checkpoint and the DNA damage checkpoint 
+and that BubR1 may play an important role in mediating the cross-talk.
+
+DOI: 10.1038/sj.onc.1209392
+PMID: 16449973 [Indexed for MEDLINE]

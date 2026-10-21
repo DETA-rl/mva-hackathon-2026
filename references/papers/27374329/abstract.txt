@@ -1,0 +1,43 @@
+1. Cell. 2016 Jul 28;166(3):567-581. doi: 10.1016/j.cell.2016.05.074. Epub 2016
+Jun  30.
+
+Mitotic Checkpoint Regulators Control Insulin Signaling and Metabolic 
+Homeostasis.
+
+Choi E(1), Zhang X(2), Xing C(2), Yu H(3).
+
+Author information:
+(1)Howard Hughes Medical Institute, Department of Pharmacology, University of 
+Texas Southwestern Medical Center, 6001 Forest Park Road, Dallas, TX 75390, USA.
+(2)Bioinformatics Core, Eugene McDermott Center for Human Growth and 
+Development, University of Texas Southwestern Medical Center, 6001 Forest Park 
+Road, Dallas, TX 75390, USA.
+(3)Howard Hughes Medical Institute, Department of Pharmacology, University of 
+Texas Southwestern Medical Center, 6001 Forest Park Road, Dallas, TX 75390, USA. 
+Electronic address: [e-mail removed].
+
+Comment in
+    Nat Rev Mol Cell Biol. 2016 Jul 21;17(8):462-3. doi: 10.1038/nrm.2016.97.
+
+Insulin signaling regulates many facets of animal physiology. Its dysregulation 
+causes diabetes and other metabolic disorders. The spindle checkpoint proteins 
+MAD2 and BUBR1 prevent precocious chromosome segregation and suppress 
+aneuploidy. The MAD2 inhibitory protein p31(comet) promotes checkpoint 
+inactivation and timely chromosome segregation. Here, we show that whole-body 
+p31(comet) knockout mice die soon after birth and have reduced hepatic glycogen. 
+Liver-specific ablation of p31(comet) causes insulin resistance, 
+hyperinsulinemia, glucose intolerance, and hyperglycemia and diminishes the 
+plasma membrane localization of the insulin receptor (IR) in hepatocytes. MAD2 
+directly binds to IR and facilitates BUBR1-dependent recruitment of the clathrin 
+adaptor AP2 to IR. p31(comet) blocks the MAD2-BUBR1 interaction and prevents 
+spontaneous clathrin-mediated IR endocytosis. BUBR1 deficiency enhances insulin 
+sensitivity in mice. BUBR1 depletion in hepatocytes or the expression of 
+MAD2-binding-deficient IR suppresses the metabolic phenotypes of p31(comet) 
+ablation. Our findings establish a major IR regulatory mechanism and 
+link guardians of chromosome stability to nutrient metabolism.
+
+Copyright © 2016 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.cell.2016.05.074
+PMCID: PMC5560052
+PMID: 27374329 [Indexed for MEDLINE]

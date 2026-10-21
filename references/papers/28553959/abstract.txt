@@ -1,0 +1,55 @@
+1. Nat Genet. 2017 Jul;49(7):1148-1151. doi: 10.1038/ng.3883. Epub 2017 May 29.
+
+Biallelic TRIP13 mutations predispose to Wilms tumor and chromosome 
+missegregation.
+
+Yost S(#)(1), de Wolf B(#)(2), Hanks S(#)(1), Zachariou A(1), Marcozzi C(3)(4), 
+Clarke M(1), de Voer R(2), Etemad B(2), Uijttewaal E(2), Ramsay E(1), Wylie 
+H(1), Elliott A(1), Picton S(5), Smith A(6), Smithson S(7), Seal S(1), Ruark 
+E(1), Houge G(8), Pines J(3)(4), Kops GJPL(2)(9)(10), Rahman N(1)(11).
+
+Author information:
+(1)Division of Genetics and Epidemiology, Institute of Cancer Research, 15 
+Cotswold Road, London, SM2 5NG, UK.
+(2)Hubrecht Institute - KNAW (Royal Netherlands Academy of Arts and Sciences), 
+Uppsalalaan 8, 3584 CT Utrecht, The Netherlands.
+(3)The Gurdon Institute and Department of Zoology, University of Cambridge, 
+Cambridge CB2 1QN, UK.
+(4)Division of Cancer Biology, The Institute of Cancer Research, 237 Fulham 
+Road, London SW3 6JB, UK.
+(5)Children's and Adolescent Oncology and Haematology Unit, Leeds General 
+Infirmary, Leeds, LS1 3EX, UK.
+(6)Yorkshire Regional Clinical Genetics Service, Chapel Allerton Hospital, 
+Chapeltown Road, Leeds, LS7 4SA, UK.
+(7)Clinical Genetics Service, St Michael's Hospital, Southwell Street, Bristol, 
+BS2 8EG, UK.
+(8)Center for Medical Genetics, Haukeland University Hospital, N-5021 Bergen, 
+Norway.
+(9)Cancer Genomics Netherlands, Utrecht, The Netherlands.
+(10)Center for Molecular Medicine, University Medical Center Utrecht, 3584 CG, 
+Utrecht, The Netherlands.
+(11)Cancer Genetics Unit, Royal Marsden NHS Foundation Trust, London, UK SM2 
+5PT, UK.
+(#)Contributed equally
+
+Through exome sequencing, we identified six individuals with biallelic 
+loss-of-function mutations in TRIP13. All six developed Wilms tumor. 
+Constitutional mosaic aneuploidies, microcephaly, developmental delay and 
+seizures, which are features of mosaic variegated aneuploidy (MVA) syndrome, 
+were more variably present. Through functional studies, we show that 
+TRIP13-mutant patient cells have no detectable TRIP13 and have substantial 
+impairment of the spindle assembly checkpoint (SAC), leading to a high rate of 
+chromosome missegregation. Accurate segregation, as well as SAC proficiency, is 
+rescued by restoring TRIP13 function. Individuals with biallelic TRIP13 or BUB1B 
+mutations have a high risk of embryonal tumors, and here we show that their 
+cells display severe SAC impairment. MVA due to biallelic CEP57 mutations, or of 
+unknown cause, is not associated with embryonal tumors and cells from these 
+individuals show minimal SAC deficiency. These data provide insights into the 
+complex relationships between aneuploidy and carcinogenesis.
+
+DOI: 10.1038/ng.3883
+PMCID: PMC5493194
+PMID: 28553959 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing financial interests The authors 
+declare that they have no competing financial interests.

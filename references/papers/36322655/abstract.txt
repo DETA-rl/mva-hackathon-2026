@@ -1,0 +1,53 @@
+1. Sci Adv. 2022 Nov 4;8(44):eabq5914. doi: 10.1126/sciadv.abq5914. Epub 2022 Nov
+ 2.
+
+Biallelic germline mutations in MAD1L1 induce a syndrome of aneuploidy with high 
+tumor susceptibility.
+
+Villarroya-Beltri C(1), Osorio A(2), Torres-Ruiz R(3)(4)(5), Gómez-Sánchez 
+D(6)(7), Trakala M(8), Sánchez-Belmonte A(1), Mercadillo F(2), Hurtado B(1), 
+Pitarch B(1), Hernández-Núñez A(9), Gómez-Caturla A(10), Rueda D(6), Perea 
+J(11)(12), Rodríguez-Perales S(3), Malumbres M(1), Urioste M(2).
+
+Author information:
+(1)Cell Division and Cancer Group, Spanish National Cancer Research Centre 
+(CNIO), Madrid E-28029, Spain.
+(2)Familial Cancer Clinical Unit, CNIO, Madrid E-28029, Spain.
+(3)Cytogenetic Unit, CNIO, Madrid E-28029, Spain.
+(4)Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas 
+(CIEMAT), Madrid, Spain.
+(5)Advanced Therapies Unit, Hematopoietic Innovative Therapies Division, 
+Instituto de Investigación Sanitaria Fundacion Jimenez Díaz (IIS-FJD, UAM), 
+Madrid E-28040, Spain.
+(6)Hereditary Cancer Laboratory, Doce de Octubre University Hospital, i+12 
+Research Institute, Madrid, Spain.
+(7)Clinical and Translational Lung Cancer Research Unit, i+12 Research Institute 
+and Biomedical Research Networking Center in Oncology (CIBERONC), Madrid, Spain.
+(8)Koch Institute, Massachusetts Institute of Technology, Cambridge, MA 02142, 
+USA.
+(9)Dermatology Service, Fuenlabrada University Hospital, Fuenlabrada, Madrid, 
+Spain.
+(10)Digestive Department, University Hospital of Guadalajara, Guadalajara, 
+Spain.
+(11)Molecular Medicine Unit, Department of Medicine, Biomedical Research 
+Institute of Salamanca (IBSAL), Salamanca, Spain.
+(12)Surgery Department, Vithas Madrid Arturo Soria Hospital, Madrid, Spain.
+
+Germline mutations leading to aneuploidy are rare, and their tumor-promoting 
+properties are mostly unknown at the molecular level. We report here novel 
+germline biallelic mutations in MAD1L1, encoding the spindle assembly checkpoint 
+(SAC) protein MAD1, in a 36-year-old female with a dozen of neoplasias. 
+Functional studies demonstrated lack of full-length protein and deficient SAC 
+response, resulting in ~30 to 40% of aneuploid blood cells. Single-cell RNA 
+analysis identified mitochondrial stress accompanied by systemic inflammation 
+with enhanced interferon and NFκB signaling both in aneuploid and euploid cells, 
+suggesting a non-cell autonomous response. MAD1L1 mutations resulted in specific 
+clonal expansions of γδ T cells with chromosome 18 gains and enhanced cytotoxic 
+profile as well as intermediate B cells with chromosome 12 gains and 
+transcriptomic signatures characteristic of leukemia cells. These data point to 
+MAD1L1 mutations as the cause of a new variant of mosaic variegated aneuploidy 
+with systemic inflammation and unprecedented tumor susceptibility.
+
+DOI: 10.1126/sciadv.abq5914
+PMCID: PMC9629740
+PMID: 36322655

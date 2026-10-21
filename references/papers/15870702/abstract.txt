@@ -1,0 +1,33 @@
+1. Oncogene. 2005 Jul 14;24(30):4765-77. doi: 10.1038/sj.onc.1208627.
+
+Two distinct modes of cell death induced by doxorubicin: apoptosis and cell 
+death through mitotic catastrophe accompanied by senescence-like phenotype.
+
+Eom YW(1), Kim MA, Park SS, Goo MJ, Kwon HJ, Sohn S, Kim WH, Yoon G, Choi KS.
+
+Author information:
+(1)Laboratory of Endocrinology, Ajou University School of Medicine, San 5, 
+Wonchon-Dong, Youngtong-Gu, Suwon 442-749, South Korea.
+
+Chronic exposure of many human hepatoma cell lines to a low dose (LD) of 
+doxorubicin induced a senescence-like phenotype (SLP) accompanied by enlargement 
+of cells and increased senescence-associated beta-galactosidase activity. LD 
+doxorubicin-induced SLP was preceded by multinucleation and downregulation of 
+multiple proteins with mitotic checkpoint function, including CENP-A, Mad2, 
+BubR1, and Chk1. LD doxorubicin-treated cells eventually underwent cell death 
+through mitotic catastrophe. When we investigated whether LD doxorubicin-induced 
+cell death shares biochemical characteristics with high dose (HD) 
+doxorubicin-induced apoptosis in Huh-7 cells, we observed that externalization 
+of phosphatidyl serine and release of mitochondrial cytochrome c into the 
+cytosol was associated with both types of cell death. However, propidium iodide 
+exclusion assays showed that membrane integrity was lost in the initial phase of 
+LD doxorubicin-induced cell death through mitotic catastrophe, whereas it was 
+lost during the late phase of HD doxorubicin-induced apoptosis. Furthermore, HD 
+doxorubicin-induced apoptosis but not LD doxorubicin-induced mitotic catastrophe 
+led to transient activation of NF-kappaB and strong, sustained activations of 
+p38, c-Jun N-terminal kinase, and caspases. Collectively, these results indicate 
+that different doses of doxorubicin activate different regulatory mechanisms to 
+induce either apoptosis or cell death through mitotic catastrophe.
+
+DOI: 10.1038/sj.onc.1208627
+PMID: 15870702 [Indexed for MEDLINE]

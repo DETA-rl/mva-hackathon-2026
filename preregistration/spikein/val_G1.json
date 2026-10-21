@@ -1,0 +1,33 @@
+{
+ "G1a_consequence_identical": true,
+ "G1b_header": [
+  "chrom",
+  "pos",
+  "ref",
+  "alt",
+  "gt",
+  "filter",
+  "genes"
+ ],
+ "G1b_calls_roundtrip_identical": true,
+ "G1c_v3_summary_identical": true,
+ "G1d_v4_summary_identical": true,
+ "G1e_amended_top10": [
+  "BUB1B",
+  "LZTR1",
+  "GNRHR",
+  "POU6F2",
+  "EIF4EBP1",
+  "HRNR",
+  "IGBP1",
+  "ADAMTS1",
+  "AGAP3",
+  "FOXO6"
+ ],
+ "G1e_rows_equal_draft": true,
+ "G1e_mt_genes_in_unamended_top10": [
+  "MT-ATP6",
+  "MT-CYB",
+  "MT-ND2"
+ ]
+}

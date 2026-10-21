@@ -1,0 +1,76 @@
+1. JCI Insight. 2023 Nov 22;8(22):e170079. doi: 10.1172/jci.insight.170079.
+
+Biallelic MAD2L1BP (p31comet) mutation is associated with mosaic aneuploidy and 
+juvenile granulosa cell tumors.
+
+Abdel-Salam GMH(1), Hellmuth S(2), Gradhand E(3), Käseberg S(4), Winter J(4), 
+Pabst AS(4), Eid MM(5), Thiele H(6), Nürnberg P(6)(7)(8), Budde BS(6), Toliat 
+MR(6), Brecht IB(9), Schroeder C(10), Gschwind A(10), Ossowski S(10), Häuser 
+F(11), Rossmann H(11), Abdel-Hamid MS(12), Hegazy I(1), Mohamed AG(13), 
+Schneider DT(14), Bertoli-Avella A(15), Bauer P(15), Pearring JN(16)(17), Pfundt 
+R(18), Hoischen A(18)(19), Gilissen C(18), Strand D(20), Zechner U(4)(21), 
+Tashkandi SA(22), Faqeih EA(23), Stemmann O(2), Strand S(20), Bolz HJ(21)(24).
+
+Author information:
+(1)Department of Clinical Genetics, Human Genetics and Genome Research 
+Institute, National Research Centre, Cairo, Egypt.
+(2)Chair of Genetics, University of Bayreuth, Bayreuth, Germany.
+(3)Senckenberg Institute of Pathology, University Hospital Frankfurt, Frankfurt, 
+Germany.
+(4)Institute of Human Genetics, University Medical Center Mainz, Mainz, Germany.
+(5)Human Cytogenetics Department, Human Genetics and Genome Research Institute, 
+National Research Centre, Cairo, Egypt.
+(6)Cologne Center for Genomics and.
+(7)Center for Molecular Medicine Cologne, University Hospital of Cologne, 
+University of Cologne, Cologne, Germany.
+(8)Cologne Excellence Cluster on Cellular Stress Responses in Aging-Associated 
+Diseases (CECAD), University of Cologne, Cologne, Germany.
+(9)Paediatric Haematology/Oncology, Department of Paediatrics, University 
+Hospital Tübingen, Tübingen, Germany.
+(10)Institute of Medical Genetics and Applied Genomics, Eberhard-Karls 
+University, Tübingen, Germany.
+(11)Institute of Clinical Chemistry and Laboratory Medicine, University Medical 
+Center Mainz, Mainz, Germany.
+(12)Medical Molecular Department, Human Genetics and Genome Research Institute, 
+National Research Centre, Cairo, Egypt.
+(13)Pediatrics Department, Faculty of Medicine, Cairo University, Cairo, Egypt.
+(14)Clinic of Pediatrics, University Witten/Herdecke, Dortmund, Germany.
+(15)CENTOGENE GmbH, Rostock, Germany.
+(16)Department of Ophthalmology and Visual Sciences and.
+(17)Department of Cell and Developmental Biology, University of Michigan School 
+of Medicine, Ann Arbor, Michigan, USA.
+(18)Department of Human Genetics and Radboud Institute for Molecular Life 
+Sciences and.
+(19)Department of Internal Medicine, Radboud University Medical Center, 
+Nijmegen, Netherlands.
+(20)Department of Internal Medicine I, University Medical Center Mainz, Mainz, 
+Germany.
+(21)Senckenberg Centre for Human Genetics, Frankfurt am Main, Germany.
+(22)Cytogenetics Laboratory, Pathology and Clinical Laboratory Medicine 
+Administration (PCLMA), King Fahad Medical City, Second Central Healthcare 
+Cluster (C2), Riyadh, Saudi Arabia.
+(23)Section of Medical Genetics, Children's Specialist Hospital, King Fahad 
+Medical City, Riyadh, Saudi Arabia.
+(24)Institute of Human Genetics, University Hospital of Cologne, University of 
+Cologne, Cologne, Germany.
+
+MAD2L1BP-encoded p31comet mediates Trip13-dependent disassembly of Mad2- and 
+Rev7-containing complexes and, through this antagonism, promotes timely spindle 
+assembly checkpoint (SAC) silencing, faithful chromosome segregation, insulin 
+signaling, and homology-directed repair (HDR) of DNA double-strand breaks. We 
+identified a homozygous MAD2L1BP nonsense variant, R253*, in 2 siblings with 
+microcephaly, epileptic encephalopathy, and juvenile granulosa cell tumors of 
+ovary and testis. Patient-derived cells exhibited high-grade mosaic variegated 
+aneuploidy, slowed-down proliferation, and instability of truncated p31comet 
+mRNA and protein. Corresponding recombinant p31comet was defective in Trip13, 
+Mad2, and Rev7 binding and unable to support SAC silencing or HDR. Furthermore, 
+C-terminal truncation abrogated an identified interaction of p31comet with tp53. 
+Another homozygous truncation, R227*, detected in an early-deceased patient with 
+low-level aneuploidy, severe epileptic encephalopathy, and frequent blood 
+glucose elevations, likely corresponds to complete loss of function, as in 
+Mad2l1bp-/- mice. Thus, human mutations of p31comet are linked to aneuploidy and 
+tumor predisposition.
+
+DOI: 10.1172/jci.insight.170079
+PMCID: PMC10721328
+PMID: 37796616 [Indexed for MEDLINE]

@@ -1,0 +1,23 @@
+1. Genes Dev. 2008 Oct 1;22(19):2639-44. doi: 10.1101/gad.484108.
+
+Histone deacetylase 3 is required for centromeric H3K4 deacetylation and sister 
+chromatid cohesion.
+
+Eot-Houllier G(1), Fulcrand G, Watanabe Y, Magnaghi-Jaulin L, Jaulin C.
+
+Author information:
+(1)INSERM, U860, Montpellier, F-34298 France.
+
+We describe here the role of histone deacetylase 3 (HDAC3) in sister chromatid 
+cohesion and the deacetylation of histone H3 Lys 4 (H3K4) at the centromere. 
+HDAC3 knockdown induced spindle assembly checkpoint activation and sister 
+chromatid dissociation. The depletion of Polo-like kinase 1 (Plk1) or Aurora B 
+restored cohesion in HDAC3-depleted cells. HDAC3 was also required for Shugoshin 
+localization at centromeres. Finally, we show that HDAC3 depletion results in 
+the acetylation of centromeric H3K4, correlated with a loss of dimethylation at 
+the same position. These findings provide a functional link between sister 
+chromatid cohesion and the mitotic "histone code".
+
+DOI: 10.1101/gad.484108
+PMCID: PMC2559902
+PMID: 18832068 [Indexed for MEDLINE]

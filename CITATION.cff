@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you refer to this repository, please cite it as below."
+title: "MVA Hackathon 2026: analysis code (Team DETA)"
+abstract: >-
+  Analysis code, replication harness and pre-registration records behind Team DETA's two reports for
+  the SageBio MVA Hackathon 2026 (mosaic variegated aneuploidy). Track 1 interprets one child's
+  whole-genome data under pre-registered, hashed decision rules; Track 2 tests therapeutic hypotheses
+  against public data. The replication harness covers 47 steps and compares every result with the
+  value recorded before seeing it.
+type: software
+authors:
+  - name: "Team DETA"
+contact:
+  - name: "Team DETA"
+    email: "research@detahub.com"
+repository-code: "https://github.com/DETA-rl/mva-hackathon-2026"
+license: CC-BY-4.0
+date-released: 2026-10-21
+keywords:
+  - mosaic variegated aneuploidy
+  - rare disease
+  - variant interpretation
+  - pre-registration
+  - reproducibility

@@ -1,0 +1,37 @@
+1. J Clin Invest. 2007 Sep;117(9):2408-21. doi: 10.1172/JCI31095.
+
+FTY720, a new alternative for treating blast crisis chronic myelogenous leukemia 
+and Philadelphia chromosome-positive acute lymphocytic leukemia.
+
+Neviani P(1), Santhanam R, Oaks JJ, Eiring AM, Notari M, Blaser BW, Liu S, 
+Trotta R, Muthusamy N, Gambacorti-Passerini C, Druker BJ, Cortes J, Marcucci G, 
+Chen CS, Verrills NM, Roy DC, Caligiuri MA, Bloomfield CD, Byrd JC, Perrotti D.
+
+Author information:
+(1)Human Cancer Genetics Program, Department of Molecular Virology, Immunology 
+and Medical Genetics, The Ohio State University, Columbus, Ohio, USA.
+
+Blast crisis chronic myelogenous leukemia (CML-BC) and Philadelphia 
+chromosome-positive (Ph1-positive) acute lymphocytic leukemia (ALL) are 2 fatal 
+BCR/ABL-driven leukemias against which Abl kinase inhibitors fail to induce a 
+long-term response. We recently reported that functional loss of protein 
+phosphatase 2A (PP2A) activity is important for CML blastic transformation. We 
+assessed the therapeutic potential of the PP2A activator FTY720 
+(2-amino-2-[2-(4-octylphenyl)ethyl]-1,3-propanediol hydrochloride), an 
+immunomodulator in Phase III trials for patients with multiple sclerosis or 
+undergoing organ transplantation, in CML-BC and Ph1 ALL patient cells and in in 
+vitro and in vivo models of these BCR/ABL+ leukemias. Our data indicate that 
+FTY720 induces apoptosis and impairs clonogenicity of 
+imatinib/dasatinib-sensitive and -resistant p210/p190(BCR/ABL) myeloid and 
+lymphoid cell lines and CML-BC(CD34+) and Ph1 ALL(CD34+/CD19+) progenitors but 
+not of normal CD34+ and CD34+/CD19+ bone marrow cells. Furthermore, 
+pharmacologic doses of FTY720 remarkably suppress in vivo 
+p210/p190(BCR/ABL)-driven [including p210/p190(BCR/ABL)(T315I)] leukemogenesis 
+without exerting any toxicity. Altogether, these results highlight the 
+therapeutic relevance of rescuing PP2A tumor suppressor activity in Ph1 
+leukemias and strongly support the introduction of the PP2A activator FTY720 in 
+the treatment of CML-BC and Ph1 ALL patients.
+
+DOI: 10.1172/JCI31095
+PMCID: PMC1950458
+PMID: 17717597 [Indexed for MEDLINE]

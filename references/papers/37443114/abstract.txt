@@ -1,0 +1,82 @@
+1. Mol Cancer. 2023 Jul 13;22(1):110. doi: 10.1186/s12943-023-01815-w.
+
+BID expression determines the apoptotic fate of cancer cells after abrogation of 
+the spindle assembly checkpoint by AURKB or TTK inhibitors.
+
+Bertran-Alamillo J(1), Giménez-Capitán A(#)(1), Román R(#)(1), Talbot S(#)(2), 
+Whiteley R(#)(2), Floc'h N(2), Martínez-Pérez E(3), Martin MJ(2), Smith PD(2), 
+Sullivan I(4)(5), Terp MG(6), Saeh J(7), Marino-Buslje C(3), Fabbri G(8), Guo 
+G(7), Xu M(7), Tornador C(9), Aguilar-Hernández A(5), Reguart N(10), Ditzel 
+HJ(6)(11), Martínez-Bueno A(5), Nabau-Moretó N(9), Gascó A(12), Rosell R(5)(13), 
+Pease JE(2), Polanska UM(2), Travers J(2), Urosevic J(#)(14), Molina-Vila 
+MA(#)(15).
+
+Author information:
+(1)Laboratory of Oncology, Pangaea Oncology, Quiron Dexeus University Hospital, 
+C/ Sabino Arana 5-19, 08913, Barcelona, Spain.
+(2)Bioscience, Research and Early Development, Oncology R&D, AstraZeneca, 
+Cambridge, CB21 6GH, UK.
+(3)Bioinformatics Unit, Fundación Instituto Leloir, Buenos Aires, C1405BWE, 
+Argentina.
+(4)Servicio de Oncología Médica, Hospital de la Santa Creu i Sant Pau, 
+Barcelona, 08025, Spain.
+(5)Instituto Oncológico Dr. Rosell, Hospital Universitario Dexeus, Barcelona, 
+08028, Spain.
+(6)Department of Cancer and Inflammation Research, Institute of Molecular 
+Medicine, University of Southern Denmark, Odense C, 5000, Denmark.
+(7)Bioscience, Research and Early Development, Oncology R&D, AstraZeneca, 
+Waltham, MA, 02451, USA.
+(8)Translational Medicine, Research and Early Development, Oncology R&D, 
+AstraZeneca, Waltham, MA, 02451, USA.
+(9)Teresa Moretó Foundation and Wholegenix SL, Barcelona, 08021, Spain.
+(10)Thoracic Oncology Unit, Department of Medical Oncology, Hospital Clínic, 
+Barcelona, 08036, Spain.
+(11)Department of Oncology, Odense University Hospital, Odense, 5000, Denmark.
+(12)Bioscience, Research and Early Development, Oncology R&D, AstraZeneca, 
+Gaithersburg, MD, 20878, USA.
+(13)Germans Trias i Pujol Research Institute (IGTP), Badalona, 08916, Spain.
+(14)Bioscience, Research and Early Development, Oncology R&D, AstraZeneca, 
+Cambridge, CB21 6GH, UK. [e-mail removed].
+(15)Laboratory of Oncology, Pangaea Oncology, Quiron Dexeus University Hospital, 
+C/ Sabino Arana 5-19, 08913, Barcelona, Spain. [e-mail removed].
+(#)Contributed equally
+
+BACKGROUND: Drugs targeting the spindle assembly checkpoint (SAC), such as 
+inhibitors of Aurora kinase B (AURKB) and dual specific protein kinase TTK, are 
+in different stages of clinical development. However, cell response to SAC 
+abrogation is poorly understood and there are no markers for patient selection.
+METHODS: A panel of 53 tumor cell lines of different origins was used. The 
+effects of drugs were analyzed by MTT and flow cytometry. Copy number status was 
+determined by FISH and Q-PCR; mRNA expression by nCounter and RT-Q-PCR and 
+protein expression by Western blotting. CRISPR-Cas9 technology was used for gene 
+knock-out (KO) and a doxycycline-inducible pTRIPZ vector for ectopic expression. 
+Finally, in vivo experiments were performed by implanting cultured cells or 
+fragments of tumors into immunodeficient mice.
+RESULTS: Tumor cells and patient-derived xenografts (PDXs) sensitive to AURKB 
+and TTK inhibitors consistently showed high expression levels of BH3-interacting 
+domain death agonist (BID), while cell lines and PDXs with low BID were 
+uniformly resistant. Gene silencing rendered BID-overexpressing cells 
+insensitive to SAC abrogation while ectopic BID expression in BID-low cells 
+significantly increased sensitivity. SAC abrogation induced activation of 
+CASP-2, leading to cleavage of CASP-3 and extensive cell death only in presence 
+of high levels of BID. Finally, a prevalence study revealed high BID mRNA in 6% 
+of human solid tumors.
+CONCLUSIONS: The fate of tumor cells after SAC abrogation is driven by an AURKB/ 
+CASP-2 signaling mechanism, regulated by BID levels. Our results pave the way to 
+clinically explore SAC-targeting drugs in tumors with high BID expression.
+
+© 2023. The Author(s).
+
+DOI: 10.1186/s12943-023-01815-w
+PMCID: PMC10339641
+PMID: 37443114 [Indexed for MEDLINE]
+
+Conflict of interest statement: I.S. has received fees for consultancy or 
+advisory roles from Roche, Novartis, Boehringer Ingelheim and Takeda. N.R. has 
+received fees for consultancy or advisory roles from Merck Sharp & Dohme Corp, 
+Bristol-Myers Squibb and Pfizer. A.A.H. has received fees for consultancy or 
+advisory roles from Bristol-Myers Squibb, Roche, Merck Sharp & Dohme Corp and 
+Lilly. J.T., S.T., R.W., N.F., G.G., M.X., P.S., J.S., G.F., A.G., U.P. and J.U. 
+are current or former AstraZeneca employees and shareholders. M.A.M.V. has 
+received research funding from Astra Zeneca, In3Bio and Merck Healthcare KGaA. 
+The rest of the authors declare no competing interests.

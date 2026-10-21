@@ -1,0 +1,252 @@
+{
+ "removed_rows": 2,
+ "S2_masked_equals_original_minus_bub1b": true,
+ "original_rows_dropped": 2,
+ "pool_size_set18": {
+  "RNU4ATAC": 29,
+  "RNU6ATAC": 0,
+  "ZRSR2": 6,
+  "SNRNP48": 0,
+  "ESCO2": 156,
+  "PCNT": 386,
+  "CENPF": 87,
+  "BUB1B": 81,
+  "TRIP13": 9,
+  "CEP57": 20,
+  "SMC5": 5,
+  "MAD1L1": 8,
+  "CEP192": 0,
+  "TRIM37": 117,
+  "CDC20": 11,
+  "MAD2L1BP": 0,
+  "CENATAC": 2,
+  "SLF2": 8
+ },
+ "child_bub1b_nonsense_in_pool": false,
+ "synthetic_stop_codons": {
+  "BUB1B": {
+   "transcript": "ENST00000287598.11",
+   "strand": "+",
+   "positions": [
+    40220757,
+    40220758,
+    40220759
+   ],
+   "codon": "TGA"
+  },
+  "CDC20": {
+   "transcript": "ENST00000310955.11",
+   "strand": "+",
+   "positions": [
+    43363127,
+    43363128,
+    43363129
+   ],
+   "codon": "TGA"
+  },
+  "CENATAC": {
+   "transcript": "ENST00000334418.6",
+   "strand": "+",
+   "positions": [
+    119015596,
+    119015597,
+    119015598
+   ],
+   "codon": "TAA"
+  },
+  "CENPF": {
+   "transcript": "ENST00000366955.8",
+   "strand": "+",
+   "positions": [
+    214663792,
+    214663793,
+    214663794
+   ],
+   "codon": "TGA"
+  },
+  "CEP192": {
+   "transcript": "ENST00000506447.5",
+   "strand": "+",
+   "positions": [
+    13124768,
+    13124769,
+    13124770
+   ],
+   "codon": "TAA"
+  },
+  "CEP57": {
+   "transcript": "ENST00000325542.10",
+   "strand": "+",
+   "positions": [
+    95831254,
+    95831255,
+    95831256
+   ],
+   "codon": "TGA"
+  },
+  "ESCO2": {
+   "transcript": "ENST00000305188.13",
+   "strand": "+",
+   "positions": [
+    27803436,
+    27803437,
+    27803438
+   ],
+   "codon": "TAA"
+  },
+  "MAD1L1": {
+   "transcript": "ENST00000265854.12",
+   "strand": "-",
+   "positions": [
+    1816072,
+    1816071,
+    1816070
+   ],
+   "codon": "TAG"
+  },
+  "MAD2L1BP": {
+   "transcript": "ENST00000372171.5",
+   "strand": "+",
+   "positions": [
+    43640531,
+    43640532,
+    43640533
+   ],
+   "codon": "TGA"
+  },
+  "PCNT": {
+   "transcript": "ENST00000359568.10",
+   "strand": "+",
+   "positions": [
+    46445325,
+    46445326,
+    46445327
+   ],
+   "codon": "TGA"
+  },
+  "SLF2": {
+   "transcript": "ENST00000238961.9",
+   "strand": "+",
+   "positions": [
+    100961910,
+    100961911,
+    100961912
+   ],
+   "codon": "TAA"
+  },
+  "SMC5": {
+   "transcript": "ENST00000361138.7",
+   "strand": "+",
+   "positions": [
+    70352329,
+    70352330,
+    70352331
+   ],
+   "codon": "TAA"
+  },
+  "SNRNP48": {
+   "transcript": "ENST00000342415.6",
+   "strand": "+",
+   "positions": [
+    7608871,
+    7608872,
+    7608873
+   ],
+   "codon": "TAA"
+  },
+  "TRIM37": {
+   "transcript": "ENST00000262294.12",
+   "strand": "-",
+   "positions": [
+    58999379,
+    58999378,
+    58999377
+   ],
+   "codon": "TAA"
+  },
+  "TRIP13": {
+   "transcript": "ENST00000166345.8",
+   "strand": "+",
+   "positions": [
+    917101,
+    917102,
+    917103
+   ],
+   "codon": "TGA"
+  },
+  "ZRSR2": {
+   "transcript": "ENST00000307771.8",
+   "strand": "+",
+   "positions": [
+    15823240,
+    15823241,
+    15823242
+   ],
+   "codon": "TAA"
+  }
+ },
+ "D_genes_ch": 1379,
+ "D_genes_hom": 1496,
+ "E_genes_ch": 1530,
+ "E_genes_hom": 1594,
+ "A_genes_ch": [
+  "BUB1B",
+  "CDC20",
+  "CENATAC",
+  "CENPF",
+  "CEP57",
+  "ESCO2",
+  "MAD1L1",
+  "PCNT",
+  "RNU4ATAC",
+  "SLF2",
+  "SMC5",
+  "TRIM37",
+  "TRIP13"
+ ],
+ "A_genes_hom": [
+  "BUB1B",
+  "CDC20",
+  "CENATAC",
+  "CENPF",
+  "CEP57",
+  "ESCO2",
+  "MAD1L1",
+  "PCNT",
+  "RNU4ATAC",
+  "SLF2",
+  "SMC5",
+  "TRIM37",
+  "TRIP13",
+  "ZRSR2"
+ ],
+ "n_trials": {
+  "A": 300,
+  "A-BUB": 100,
+  "B": 300,
+  "C1": 100,
+  "C2-HOM": 120,
+  "C2-CH": 91,
+  "D": 300,
+  "E": 300
+ },
+ "S1_bub_keys_absent": true,
+ "S1_no_bub1b_candidate": true,
+ "S1_bub1b_not_ranked": true,
+ "masked_v4_top10": [
+  "LZTR1",
+  "GNRHR",
+  "POU6F2",
+  "EIF4EBP1",
+  "HRNR",
+  "IGBP1",
+  "ADAMTS1",
+  "AGAP3",
+  "FOXO6",
+  "ADPRHL1"
+ ],
+ "S3_bub1b_v4_rank": 1,
+ "S3_bub1b_v3_rank": 1,
+ "S3_v4_order_equals_unspiked": true,
+ "S3_v3_order_equals_unspiked": true
+}

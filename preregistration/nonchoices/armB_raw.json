@@ -1,0 +1,1411 @@
+{
+ "counts": {
+  "L1": {
+   "total": 451,
+   "retrieved": 200
+  },
+  "L2": {
+   "total": 10,
+   "retrieved": 10
+  },
+  "L3": {
+   "total": 3,
+   "retrieved": 3
+  },
+  "L4": {
+   "total": 129,
+   "retrieved": 129
+  }
+ },
+ "rows": [
+  {
+   "drug": "paclitaxel",
+   "queries": [
+    "L1",
+    "L3",
+    "L4"
+   ],
+   "n_pmids": 35,
+   "pmids": [
+    "11451998",
+    "16227576",
+    "16639080",
+    "17234259",
+    "18451172",
+    "18501396",
+    "20646066",
+    "21441410"
+   ]
+  },
+  {
+   "drug": "cisplatin",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 31,
+   "pmids": [
+    "24519527",
+    "25483095",
+    "31478449",
+    "31853539",
+    "31987036",
+    "34147108",
+    "34650921",
+    "35116276"
+   ]
+  },
+  {
+   "drug": "doxorubicin",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 17,
+   "pmids": [
+    "21785684",
+    "31942195",
+    "31987036",
+    "32297368",
+    "32850387",
+    "35456460",
+    "36605099",
+    "37808164"
+   ]
+  },
+  {
+   "drug": "oxygen",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 14,
+   "pmids": [
+    "18501396",
+    "30480765",
+    "30899418",
+    "31787052",
+    "32297368",
+    "33304447",
+    "33767726",
+    "34919076"
+   ]
+  },
+  {
+   "drug": "docetaxel",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 12,
+   "pmids": [
+    "24519527",
+    "32850387",
+    "33304447",
+    "34497666",
+    "35719392",
+    "36567949",
+    "37657029",
+    "38375594"
+   ]
+  },
+  {
+   "drug": "adenosine",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 9,
+   "pmids": [
+    "17360335",
+    "20212161",
+    "21300909",
+    "26324890",
+    "28096334",
+    "34606125",
+    "34868339",
+    "35217622"
+   ]
+  },
+  {
+   "drug": "gemcitabine",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 9,
+   "pmids": [
+    "33708237",
+    "34147108",
+    "38410481",
+    "38987356",
+    "40286596",
+    "40812730",
+    "41169944",
+    "41184881"
+   ]
+  },
+  {
+   "drug": "tamoxifen",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 9,
+   "pmids": [
+    "31942195",
+    "32724412",
+    "33083112",
+    "33186389",
+    "33217824",
+    "33499770",
+    "34147108",
+    "36600965"
+   ]
+  },
+  {
+   "drug": "sodium",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 8,
+   "pmids": [
+    "17360335",
+    "18501396",
+    "24519527",
+    "28112196",
+    "30899418",
+    "31787052",
+    "32309427",
+    "39733078"
+   ]
+  },
+  {
+   "drug": "gefitinib",
+   "queries": [
+    "L1",
+    "L3"
+   ],
+   "n_pmids": 7,
+   "pmids": [
+    "32795325",
+    "33186389",
+    "34386075",
+    "37657029",
+    "41184881",
+    "41618314",
+    "42146413"
+   ]
+  },
+  {
+   "drug": "progesterone",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 7,
+   "pmids": [
+    "26312894",
+    "33902659",
+    "35719392",
+    "36389792",
+    "37304238",
+    "39169044",
+    "42168250"
+   ]
+  },
+  {
+   "drug": "arsenic trioxide",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 6,
+   "pmids": [
+    "18501396",
+    "24519527",
+    "30899418",
+    "33767726",
+    "35912011",
+    "36176446"
+   ]
+  },
+  {
+   "drug": "calcium",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 6,
+   "pmids": [
+    "15210710",
+    "31877723",
+    "37002311",
+    "37304238",
+    "38505063",
+    "42885357"
+   ]
+  },
+  {
+   "drug": "cysteine",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 6,
+   "pmids": [
+    "11514588",
+    "18501396",
+    "18539601",
+    "37274003",
+    "39949372",
+    "40470792"
+   ]
+  },
+  {
+   "drug": "epirubicin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 6,
+   "pmids": [
+    "33499770",
+    "33665036",
+    "35847923",
+    "36567949",
+    "37304238",
+    "37808164"
+   ]
+  },
+  {
+   "drug": "etoposide",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 6,
+   "pmids": [
+    "33186389",
+    "34304612",
+    "36245843",
+    "36389792",
+    "36605099",
+    "37808164"
+   ]
+  },
+  {
+   "drug": "potassium",
+   "queries": [
+    "L1",
+    "L2",
+    "L4"
+   ],
+   "n_pmids": 6,
+   "pmids": [
+    "15108198",
+    "32309427",
+    "33244299",
+    "34147108",
+    "34868339",
+    "41439111"
+   ]
+  },
+  {
+   "drug": "bortezomib",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 5,
+   "pmids": [
+    "22270368",
+    "32724412",
+    "35339898",
+    "37865581",
+    "40068082"
+   ]
+  },
+  {
+   "drug": "carboplatin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 5,
+   "pmids": [
+    "31987036",
+    "34386075",
+    "37657029",
+    "37808164",
+    "39045407"
+   ]
+  },
+  {
+   "drug": "oxaliplatin",
+   "queries": [
+    "L1",
+    "L3"
+   ],
+   "n_pmids": 5,
+   "pmids": [
+    "31987036",
+    "33767726",
+    "39733078",
+    "40056529",
+    "42558886"
+   ]
+  },
+  {
+   "drug": "vincristine",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 5,
+   "pmids": [
+    "23812934",
+    "32850387",
+    "37808164",
+    "38410481",
+    "38987356"
+   ]
+  },
+  {
+   "drug": "dexamethasone",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 4,
+   "pmids": [
+    "32850387",
+    "34919076",
+    "37808164",
+    "40068082"
+   ]
+  },
+  {
+   "drug": "imatinib",
+   "queries": [
+    "L1",
+    "L3",
+    "L4"
+   ],
+   "n_pmids": 4,
+   "pmids": [
+    "20442314",
+    "36567949",
+    "40565600",
+    "41169944"
+   ]
+  },
+  {
+   "drug": "vinorelbine",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 4,
+   "pmids": [
+    "23812934",
+    "32764382",
+    "32850387",
+    "41169944"
+   ]
+  },
+  {
+   "drug": "afatinib",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 3,
+   "pmids": [
+    "36605099",
+    "39169044",
+    "41184881"
+   ]
+  },
+  {
+   "drug": "colchicine",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 3,
+   "pmids": [
+    "24876387",
+    "32795325",
+    "37151120"
+   ]
+  },
+  {
+   "drug": "cyclophosphamide",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 3,
+   "pmids": [
+    "33665036",
+    "37808164",
+    "42180604"
+   ]
+  },
+  {
+   "drug": "metformin",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 3,
+   "pmids": [
+    "26464273",
+    "31737652",
+    "35568294"
+   ]
+  },
+  {
+   "drug": "methotrexate",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 3,
+   "pmids": [
+    "37808164",
+    "39045407",
+    "40750410"
+   ]
+  },
+  {
+   "drug": "regorafenib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 3,
+   "pmids": [
+    "33922244",
+    "36567949",
+    "39911278"
+   ]
+  },
+  {
+   "drug": "temozolomide",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 3,
+   "pmids": [
+    "32121037",
+    "39911278",
+    "42211827"
+   ]
+  },
+  {
+   "drug": "vinblastine",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 3,
+   "pmids": [
+    "20646066",
+    "32764382",
+    "32765860"
+   ]
+  },
+  {
+   "drug": "abraxane",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "38410481",
+    "38987356"
+   ]
+  },
+  {
+   "drug": "amino acids",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "31987036",
+    "38334966"
+   ]
+  },
+  {
+   "drug": "ascorbic acid",
+   "queries": [
+    "L4"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "31478449",
+    "40595080"
+   ]
+  },
+  {
+   "drug": "cabozantinib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "39911278",
+    "41545558"
+   ]
+  },
+  {
+   "drug": "calcitriol",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "36389792",
+    "40286596"
+   ]
+  },
+  {
+   "drug": "chlorpromazine",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "33708237",
+    "37808164"
+   ]
+  },
+  {
+   "drug": "cladribine",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "33083112",
+    "37808164"
+   ]
+  },
+  {
+   "drug": "cyclosporine",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "40286596",
+    "41381790"
+   ]
+  },
+  {
+   "drug": "dasatinib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "36389792",
+    "41895167"
+   ]
+  },
+  {
+   "drug": "dexrazoxane",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "37808164",
+    "42483440"
+   ]
+  },
+  {
+   "drug": "donepezil",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "32764382",
+    "32850387"
+   ]
+  },
+  {
+   "drug": "erlotinib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "32795325",
+    "41184881"
+   ]
+  },
+  {
+   "drug": "estradiol",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "32151056",
+    "36389792"
+   ]
+  },
+  {
+   "drug": "everolimus",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "41534835",
+    "42726806"
+   ]
+  },
+  {
+   "drug": "lenvatinib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "33922244",
+    "39911278"
+   ]
+  },
+  {
+   "drug": "letrozole",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "31942195",
+    "42168250"
+   ]
+  },
+  {
+   "drug": "lovastatin",
+   "queries": [
+    "L1",
+    "L3"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "41516135",
+    "42146413"
+   ]
+  },
+  {
+   "drug": "minocycline",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "31987036",
+    "32121037"
+   ]
+  },
+  {
+   "drug": "nicotine",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "31853539",
+    "34919076"
+   ]
+  },
+  {
+   "drug": "osimertinib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "31877723",
+    "41184881"
+   ]
+  },
+  {
+   "drug": "palbociclib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "34257537",
+    "42168250"
+   ]
+  },
+  {
+   "drug": "sildenafil",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "32764382",
+    "32850387"
+   ]
+  },
+  {
+   "drug": "simvastatin",
+   "queries": [
+    "L1",
+    "L3"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "38604342",
+    "42146413"
+   ]
+  },
+  {
+   "drug": "temsirolimus",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "32309427",
+    "32850387"
+   ]
+  },
+  {
+   "drug": "topotecan",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "33186389",
+    "33767726"
+   ]
+  },
+  {
+   "drug": "vitamin d",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 2,
+   "pmids": [
+    "36389792",
+    "40595080"
+   ]
+  },
+  {
+   "drug": "amikacin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "41579174"
+   ]
+  },
+  {
+   "drug": "aspirin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40702150"
+   ]
+  },
+  {
+   "drug": "atorvastatin",
+   "queries": [
+    "L3"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "42146413"
+   ]
+  },
+  {
+   "drug": "azathioprine",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "33767726"
+   ]
+  },
+  {
+   "drug": "baricitinib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "42278672"
+   ]
+  },
+  {
+   "drug": "bendamustine",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40068082"
+   ]
+  },
+  {
+   "drug": "bleomycin",
+   "queries": [
+    "L4"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "25483095"
+   ]
+  },
+  {
+   "drug": "canagliflozin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "38513740"
+   ]
+  },
+  {
+   "drug": "capecitabine",
+   "queries": [
+    "L4"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "24519527"
+   ]
+  },
+  {
+   "drug": "carbon dioxide",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "37274003"
+   ]
+  },
+  {
+   "drug": "chloroquine",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "35847923"
+   ]
+  },
+  {
+   "drug": "cytarabine",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "37808164"
+   ]
+  },
+  {
+   "drug": "dapagliflozin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "38513740"
+   ]
+  },
+  {
+   "drug": "daunorubicin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "37808164"
+   ]
+  },
+  {
+   "drug": "decitabine",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "37002311"
+   ]
+  },
+  {
+   "drug": "disulfiram",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "34606125"
+   ]
+  },
+  {
+   "drug": "doxycycline",
+   "queries": [
+    "L4"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "16227576"
+   ]
+  },
+  {
+   "drug": "eltrombopag",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "41439111"
+   ]
+  },
+  {
+   "drug": "enzalutamide",
+   "queries": [
+    "L1",
+    "L4"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "42757823"
+   ]
+  },
+  {
+   "drug": "estradiol and progesterone",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "36389792"
+   ]
+  },
+  {
+   "drug": "etomidate",
+   "queries": [
+    "L3"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40565600"
+   ]
+  },
+  {
+   "drug": "fentanyl",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40273626"
+   ]
+  },
+  {
+   "drug": "ferric",
+   "queries": [
+    "L4"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40595080"
+   ]
+  },
+  {
+   "drug": "ferrous",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "39949372"
+   ]
+  },
+  {
+   "drug": "fluorouracil",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "39240276"
+   ]
+  },
+  {
+   "drug": "fluvastatin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "41053901"
+   ]
+  },
+  {
+   "drug": "gentamicin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "41579174"
+   ]
+  },
+  {
+   "drug": "glucagon",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "39949372"
+   ]
+  },
+  {
+   "drug": "griseofulvin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "42330849"
+   ]
+  },
+  {
+   "drug": "heather",
+   "queries": [
+    "L4"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "41381790"
+   ]
+  },
+  {
+   "drug": "herceptin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "34035233"
+   ]
+  },
+  {
+   "drug": "idarubicin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "37808164"
+   ]
+  },
+  {
+   "drug": "ifosfamide",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "37808164"
+   ]
+  },
+  {
+   "drug": "isoniazid",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "33244299"
+   ]
+  },
+  {
+   "drug": "levonorgestrel",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "42483440"
+   ]
+  },
+  {
+   "drug": "levophed",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40209578"
+   ]
+  },
+  {
+   "drug": "melphalan",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40068082"
+   ]
+  },
+  {
+   "drug": "mifepristone",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "39169044"
+   ]
+  },
+  {
+   "drug": "mitomycin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "41169944"
+   ]
+  },
+  {
+   "drug": "mitoxantrone",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "32850387"
+   ]
+  },
+  {
+   "drug": "nikita",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "32154490"
+   ]
+  },
+  {
+   "drug": "olaparib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "34545188"
+   ]
+  },
+  {
+   "drug": "pazopanib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "36567949"
+   ]
+  },
+  {
+   "drug": "pentostatin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "39169044"
+   ]
+  },
+  {
+   "drug": "pitavastatin",
+   "queries": [
+    "L3"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40565600"
+   ]
+  },
+  {
+   "drug": "polymyxin b",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "35326770"
+   ]
+  },
+  {
+   "drug": "potassium iodide",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "41439111"
+   ]
+  },
+  {
+   "drug": "prednisone",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "32850387"
+   ]
+  },
+  {
+   "drug": "propofol",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40470792"
+   ]
+  },
+  {
+   "drug": "ribociclib",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "42726806"
+   ]
+  },
+  {
+   "drug": "rimegepant",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "41439111"
+   ]
+  },
+  {
+   "drug": "sevoflurane",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40273626"
+   ]
+  },
+  {
+   "drug": "tadalafil",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "32850387"
+   ]
+  },
+  {
+   "drug": "testosterone",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "36389792"
+   ]
+  },
+  {
+   "drug": "trabectedin",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "42726806"
+   ]
+  },
+  {
+   "drug": "trifluoperazine",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "33708237"
+   ]
+  },
+  {
+   "drug": "valproic acid",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "40286596"
+   ]
+  },
+  {
+   "drug": "vardenafil",
+   "queries": [
+    "L1"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "32850387"
+   ]
+  },
+  {
+   "drug": "zoledronic",
+   "queries": [
+    "L4"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "31478449"
+   ]
+  },
+  {
+   "drug": "zoledronic acid",
+   "queries": [
+    "L4"
+   ],
+   "n_pmids": 1,
+   "pmids": [
+    "31478449"
+   ]
+  }
+ ],
+ "calls": 10
+}

@@ -1,0 +1,32 @@
+{
+ "pmid": "39779956",
+ "cited_in": [
+  "Track 1"
+ ],
+ "title": "Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation",
+ "authors": [
+  "Linder J",
+  "Srivastava D",
+  "Yuan H",
+  "Agarwal V",
+  "Kelley DR"
+ ],
+ "first_author": "Linder J",
+ "journal": "Nature genetics",
+ "pubdate": "2025 Apr",
+ "doi": "10.1038/s41588-024-02053-6",
+ "pmcid": "PMC11985352",
+ "language": [
+  "eng"
+ ],
+ "license": "",
+ "license_url": "",
+ "open_access": true,
+ "pubtype": [
+  "Journal Article"
+ ],
+ "flags": [],
+ "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39779956/",
+ "doi_url": "https://doi.org/10.1038/s41588-024-02053-6",
+ "fulltext_included": false
+}

@@ -1,0 +1,34 @@
+1. Nat Med. 2004 Apr;10(4):402-5. doi: 10.1038/nm1021. Epub 2004 Mar 21.
+
+Treatment with arimoclomol, a coinducer of heat shock proteins, delays disease 
+progression in ALS mice.
+
+Kieran D(1), Kalmar B, Dick JR, Riddoch-Contreras J, Burnstock G, Greensmith L.
+
+Author information:
+(1)The Graham Watts Laboratory, Sobell Department of Motor Neuroscience and 
+Movement Disorders, Institute of Neurology, The National Hospital for Neurology 
+and Neurosurgery, University College London, Queen Square, London WC1N 3BG, UK.
+
+Comment in
+    Nat Med. 2004 Apr;10(4):345-7. doi: 10.1038/nm0404-345.
+
+Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative condition in 
+which motoneurons of the spinal cord and motor cortex die, resulting in 
+progressive paralysis. This condition has no cure and results in eventual death, 
+usually within 1-5 years of diagnosis. Although the specific etiology of ALS is 
+unknown, 20% of familial cases of the disease carry mutations in the gene 
+encoding Cu/Zn superoxide dismutase-1 (SOD1). Transgenic mice overexpressing 
+human mutant SOD1 have a phenotype and pathology that are very similar to that 
+seen in human ALS patients. Here we show that treatment with arimoclomol, a 
+coinducer of heat shock proteins (HSPs), significantly delays disease 
+progression in mice expressing a SOD1 mutant in which glycine is substituted 
+with alanine at position 93 (SOD1(G93A)). Arimoclomol-treated SOD1(G93A) mice 
+show marked improvement in hind limb muscle function and motoneuron survival in 
+the later stages of the disease, resulting in a 22% increase in lifespan. 
+Pharmacological activation of the heat shock response may therefore be a 
+successful therapeutic approach to treating ALS, and possibly other 
+neurodegenerative diseases.
+
+DOI: 10.1038/nm1021
+PMID: 15034571 [Indexed for MEDLINE]

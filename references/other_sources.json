@@ -1,0 +1,27 @@
+{
+ "cited_dois_without_a_pubmed_record": 2,
+ "records": [
+  {
+   "doi": "10.1101/2021.07.09.450648",
+   "doi_url": "https://doi.org/10.1101/2021.07.09.450648",
+   "title": "Language models enable zero-shot prediction of the effects of mutations on protein function",
+   "first_author": "Meier Joshua",
+   "year": "2021",
+   "venue": "bioRxiv",
+   "type": "posted-content",
+   "language": "",
+   "registry": "Crossref"
+  },
+  {
+   "doi": "10.5281/zenodo.10813168",
+   "doi_url": "https://doi.org/10.5281/zenodo.10813168",
+   "title": "Predictions for AlphaMissense",
+   "first_author": "Jun Cheng",
+   "year": "2023",
+   "venue": "Zenodo",
+   "type": "JournalArticle",
+   "language": "",
+   "registry": "DataCite"
+  }
+ ]
+}

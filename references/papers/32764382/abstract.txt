@@ -1,0 +1,44 @@
+1. Int J Mol Sci. 2020 Aug 5;21(16):5608. doi: 10.3390/ijms21165608.
+
+Discovery of Novel Agents on Spindle Assembly Checkpoint to Sensitize 
+Vinorelbine-Induced Mitotic Cell Death Against Human Non-Small Cell Lung 
+Cancers.
+
+Chang YC(1), Tseng YL(1)(2), Leu WJ(1), Du CM(1), Jiang YH(1), Hsu LC(1), Hsu 
+JL(1)(3), Hou DR(2), Guh JH(1).
+
+Author information:
+(1)School of Pharmacy, College of Medicine, National Taiwan University, No. 33, 
+Linsen S. Rd, Taipei 100, Taiwan.
+(2)Department of Chemistry, National Central University, No. 300 Jhong-Da Road, 
+Jhong-li, Taoyuan 32001, Taiwan.
+(3)Department of Pharmacy, New Taipei Municipal TuCheng Hospital, Chang Gung 
+Memorial Hospital, New Taipei city 220, Taiwan.
+
+Non-small cell lung cancer (NSCLC) accounts about 80% of all lung cancers. More 
+than two-thirds of NSCLC patients have inoperable, locally advanced or 
+metastatic tumors. Non-toxic agents that synergistically potentiate 
+cancer-killing activities of chemotherapeutic drugs are in high demand. YL-9 was 
+a novel and non-cytotoxic compound with the structure related to sildenafil but 
+showing much less activity against phosphodiesterase type 5 (PDE5). NCI-H460, an 
+NSCLC cell line with low PDE5 expression, was used as the cell model. YL-9 
+synergistically potentiated vinorelbine-induced anti-proliferative and apoptotic 
+effects in NCI-H460 cells. Vinorelbine induced tubulin acetylation and 
+Bub1-related kinase (BUBR1) phosphorylation, a necessary component in spindle 
+assembly checkpoint. These effects, as well as BUBR1 cleavage, were 
+substantially enhanced in co-treatment with YL-9. Several mitotic arrest signals 
+were enhanced under combinatory treatment of vinorelbine and YL-9, including an 
+increase of mitotic spindle abnormalities, increased cyclin B1 expression, 
+B-cell lymphoma 2 (Bcl-2) phosphorylation and increased phosphoproteins. 
+Moreover, YL-9 also displayed synergistic activity in combining with vinorelbine 
+to induce apoptosis in A549 cells which express PDE5. In conclusion. the data 
+suggest that YL-9 is a novel agent that synergistically amplifies 
+vinorelbine-induced NSCLC apoptosis through activation of spindle assembly 
+checkpoint and increased mitotic arrest of the cell cycle. YL-9 shows the 
+potential for further development in combinatory treatment against NSCLC.
+
+DOI: 10.3390/ijms21165608
+PMCID: PMC7460560
+PMID: 32764382 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.

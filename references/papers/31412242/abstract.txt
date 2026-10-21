@@ -1,0 +1,69 @@
+1. Cell Rep. 2019 Aug 13;28(7):1717-1728.e6. doi: 10.1016/j.celrep.2019.07.043.
+
+Nicotinamide Riboside Augments the Aged Human Skeletal Muscle NAD(+) Metabolome 
+and Induces Transcriptomic and Anti-inflammatory Signatures.
+
+Elhassan YS(1), Kluckova K(2), Fletcher RS(2), Schmidt MS(3), Garten A(2), Doig 
+CL(2), Cartwright DM(2), Oakey L(2), Burley CV(4), Jenkinson N(4), Wilson M(5), 
+Lucas SJE(4), Akerman I(2), Seabright A(6), Lai YC(6), Tennant DA(2), 
+Nightingale P(7), Wallis GA(6), Manolopoulos KN(8), Brenner C(3), Philp A(9), 
+Lavery GG(10).
+
+Author information:
+(1)Institute of Metabolism and Systems Research, University of Birmingham, 
+Birmingham, UK; Centre for Endocrinology, Diabetes and Metabolism, Birmingham 
+Health Partners, Birmingham, UK; MRC-Arthritis Research UK Centre for 
+Musculoskeletal Ageing Research, Institute of Inflammation and Ageing, 
+University of Birmingham, Birmingham, UK.
+(2)Institute of Metabolism and Systems Research, University of Birmingham, 
+Birmingham, UK.
+(3)Department of Biochemistry, Carver College of Medicine, University of Iowa, 
+Iowa City, IA, USA.
+(4)School of Sport, Exercise and Rehabilitation Sciences, University of 
+Birmingham, Birmingham, UK; Centre for Human Brain Health, University of 
+Birmingham, Birmingham, UK.
+(5)Centre for Human Brain Health, University of Birmingham, Birmingham, UK; 
+School of Psychology, University of Birmingham, Birmingham, UK.
+(6)School of Sport, Exercise and Rehabilitation Sciences, University of 
+Birmingham, Birmingham, UK.
+(7)Institute of Translational Medicine, University Hospitals Birmingham NHS 
+Foundation Trust, Birmingham, UK.
+(8)Institute of Metabolism and Systems Research, University of Birmingham, 
+Birmingham, UK; Centre for Endocrinology, Diabetes and Metabolism, Birmingham 
+Health Partners, Birmingham, UK.
+(9)School of Sport, Exercise and Rehabilitation Sciences, University of 
+Birmingham, Birmingham, UK; Diabetes and Metabolism Division, Garvan Institute 
+of Medical Research, Sydney, NSW, Australia; Faculty of Medicine, St. Vincent's 
+Clinical School, Sydney, UNSW, Australia.
+(10)Institute of Metabolism and Systems Research, University of Birmingham, 
+Birmingham, UK; Centre for Endocrinology, Diabetes and Metabolism, Birmingham 
+Health Partners, Birmingham, UK; MRC-Arthritis Research UK Centre for 
+Musculoskeletal Ageing Research, Institute of Inflammation and Ageing, 
+University of Birmingham, Birmingham, UK. Electronic address: 
+[e-mail removed].
+
+Nicotinamide adenine dinucleotide (NAD+) is modulated by conditions of metabolic 
+stress and has been reported to decline with aging in preclinical models, but 
+human data are sparse. Nicotinamide riboside (NR) supplementation ameliorates 
+metabolic dysfunction in rodents. We aimed to establish whether oral NR 
+supplementation in aged participants can increase the skeletal muscle NAD+ 
+metabolome and if it can alter muscle mitochondrial bioenergetics. We 
+supplemented 12 aged men with 1 g NR per day for 21 days in a 
+placebo-controlled, randomized, double-blind, crossover trial. Targeted 
+metabolomics showed that NR elevated the muscle NAD+ metabolome, evident by 
+increased nicotinic acid adenine dinucleotide and nicotinamide clearance 
+products. Muscle RNA sequencing revealed NR-mediated downregulation of energy 
+metabolism and mitochondria pathways, without altering mitochondrial 
+bioenergetics. NR also depressed levels of circulating inflammatory cytokines. 
+Our data establish that oral NR is available to aged human muscle and identify 
+anti-inflammatory effects of NR.
+
+Copyright © 2019 The Author(s). Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.celrep.2019.07.043
+PMCID: PMC6702140
+PMID: 31412242 [Indexed for MEDLINE]
+
+Conflict of interest statement: C.B. is the inventor of patents licensed by 
+ChromaDex, owns stock in ChromaDex, and serves as an adviser to ChromaDex and 
+Cytokinetics. The remaining authors declare no competing interests.

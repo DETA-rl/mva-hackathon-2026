@@ -1,0 +1,36 @@
+1. Aging Cell. 2018 Feb;17(1):e12698. doi: 10.1111/acel.12698. Epub 2017 Oct 25.
+
+Sirt2-BubR1 acetylation pathway mediates the effects of advanced maternal age on 
+oocyte quality.
+
+Qiu D(1), Hou X(1), Han L(1), Li X(1)(2), Ge J(1), Wang Q(1).
+
+Author information:
+(1)State Key Laboratory of Reproductive Medicine, Nanjing Medical University, 
+Nanjing, China.
+(2)College of Animal Science & Technology, Nanjing Agricultural University, 
+Nanjing, China.
+
+The level of Sirt2 protein is reduced in oocytes from aged mice, while exogenous 
+expression of Sirt2 could ameliorate the maternal age-associated meiotic 
+defects. To date, the underlying mechanism remains unclear. Here, we confirmed 
+that specific depletion of Sirt2 disrupts maturational progression and 
+spindle/chromosome organization in mouse oocytes, with compromised 
+kinetochore-microtubule attachments. Candidate screening revealed that 
+acetylation state of lysine 243 on BubR1 (BubR1-K243, an integral part of the 
+spindle assembly checkpoint complex) functions during oocyte meiosis, and 
+acetylation-mimetic mutant BubR1-K243Q results in the very similar phenotypes as 
+Sirt2-knockdown oocytes. Furthermore, we found that nonacetylatable-mimetic 
+mutant BubR1-K243R partly prevents the meiotic deficits in oocytes depleted of 
+Sirt2. Importantly, BubR1-K243R overexpression in oocytes derived from aged mice 
+markedly suppresses spindle/chromosome anomalies and thereupon lowers the 
+incidence of aneuploid eggs. In sum, our data suggest that Sirt2-dependent BubR1 
+deacetylation involves in the regulation of meiotic apparatus in normal oocytes 
+and mediates the effects of advanced maternal age on oocyte quality.
+
+© 2017 The Authors. Aging Cell published by the Anatomical Society and John 
+Wiley & Sons Ltd.
+
+DOI: 10.1111/acel.12698
+PMCID: PMC5770883
+PMID: 29067790 [Indexed for MEDLINE]

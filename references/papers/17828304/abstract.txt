@@ -1,0 +1,32 @@
+1. Oncogene. 2008 Feb 28;27(10):1345-54. doi: 10.1038/sj.onc.1210779. Epub 2007
+Sep  10.
+
+Histone deacetylase inhibitors induce mitotic slippage.
+
+Stevens FE(1), Beamish H, Warrener R, Gabrielli B.
+
+Author information:
+(1)Cancer Biology Program, Diamantina Institute for Cancer Research, Immunology 
+and Metabolic Medicine, University of Queensland, Princess Alexandra Hospital, 
+Brisbane, Queensland, Australia.
+
+Chromosomal passenger proteins have emerged as key players in the regulation of 
+mitosis and cytokinesis. Histone deacetylase inhibitors (HDACi) are a class of 
+anticancer drugs that induce aberrant mitosis and can overcome the spindle 
+assembly checkpoint. Here, we investigate the mechanism by which HDACi disrupt 
+normal mitotic progression and checkpoint function. We demonstrate that HDACi 
+treatment temporarily delays mitotic progression through prometaphase due to 
+activation of the spindle assembly checkpoint. Despite failing to congress 
+chromosomes to the metaphase plate, cells aberrantly segregate their chromosomes 
+and exit mitosis to undergo a failed cytokinesis. We show that this premature 
+exit from mitosis is a form of mitotic slippage. Chromosomal passenger proteins 
+fail to accumulate at the centromere following HDACi treatment. This results in 
+inadequate concentrations of chromosomal passenger proteins at the centromere, 
+which are insufficient to regulate the phosphorylation of the kinetochore 
+checkpoint component BubR1, and an inability to maintain the mitotic arrest. 
+Thus, the centromeric accumulation of chromosomal passenger complex components 
+is critical for regulating kinetochore but not centromeric processes, and 
+failure of this accumulation underlies the HDACi-induced mitotic slippage.
+
+DOI: 10.1038/sj.onc.1210779
+PMID: 17828304 [Indexed for MEDLINE]

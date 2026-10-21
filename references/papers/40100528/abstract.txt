@@ -1,0 +1,70 @@
+1. Geroscience. 2025 Aug;47(4):6065-6078. doi: 10.1007/s11357-025-01606-9. Epub 
+2025 Mar 18.
+
+Effect of acipimox on skeletal muscle biochemistry, structure and function in 
+older people with probable sarcopenia: an experimental medicine study.
+
+McDonald C(1)(2)(3), Alderson C(4), Birkbeck MG(4)(5), Del Din S(6)(7), Gorman 
+GS(6)(8), Hollingsworth KG(5), Kirk C(7), Massarella C(6)(8), Rochester 
+L(6)(4)(7), Tuppen HAL(8), Warren C(8), Sayer AA(9)(6), Witham MD(9)(6).
+
+Author information:
+(1)AGE Research Group, Faculty of Medical Sciences, Translational and Clinical 
+Research Institute, Newcastle University, Newcastle Upon Tyne, UK. 
+[e-mail removed].
+(2)NIHR Newcastle Biomedical Research Centre, Newcastle Upon Tyne Hospitals NHS 
+Foundation Trust, Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust 
+and Newcastle University, Newcastle Upon Tyne, UK. [e-mail removed].
+(3)Gateshead Health NHS Foundation Trust, Gateshead, UK. 
+[e-mail removed].
+(4)Newcastle Upon Tyne Hospitals NHS Foundation Trust, Newcastle Upon Tyne, UK.
+(5)Newcastle Magnetic Resonance Centre, Translational and Clinical Research 
+Institute, Newcastle University, Tyne and Wear, Newcastle Upon Tyne, UK.
+(6)NIHR Newcastle Biomedical Research Centre, Newcastle Upon Tyne Hospitals NHS 
+Foundation Trust, Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust 
+and Newcastle University, Newcastle Upon Tyne, UK.
+(7)Brain and Movement Research Group, Translational and Clinical Research 
+Institute, Newcastle University, Tyne and Wear, Newcastle Upon Tyne, UK.
+(8)Wellcome Centre for Mitochondrial Research, Translational and Clinical 
+Research Institute, Newcastle University, Tyne and Wear, Newcastle Upon Tyne, 
+UK.
+(9)AGE Research Group, Faculty of Medical Sciences, Translational and Clinical 
+Research Institute, Newcastle University, Newcastle Upon Tyne, UK.
+
+BACKGROUND: Skeletal muscle nicotinamide adenine dinucleotide (NAD) 
+concentrations are low in people with sarcopenia. Increasing NAD concentrations 
+may offer a novel therapy. This study tested if acipimox (a NAD precursor) 
+improves skeletal muscle NAD concentration and function in people with probable 
+sarcopenia. Participants aged 65 and over with low walk speed (< 0.8 m/s) and 
+low muscle strength (by 2019 European Working Group criteria) were recruited to 
+this before and after, proof-of-concept study. Participants received acipimox 
+250 mg orally (twice or thrice daily according to creatinine 
+clearance) + aspirin 75 mg daily (to prevent facial flushing) for 4 weeks. 
+Muscle biopsy of the vastus lateralis, 31P magnetic resonance spectroscopy and a 
+7-digital mobility assessment were performed before starting acipimox and after 
+3 weeks of treatment. The primary outcome was change in skeletal muscle NAD 
+concentration. Secondary outcomes included change in phosphocreatine recovery 
+rate and measures of physical performance. Eleven participants (8 women), mean 
+age 78.9 years (SD 4.3), were recruited. Mean walk speed at baseline was 
+0.69 m/s (SD 0.07). All completed baseline and follow-up visits. Median 
+medication adherence was 95% (range 91-104%). There was no statistically 
+significant difference in the primary outcome of change in NAD concentrations in 
+skeletal muscle between baseline and follow-up [median difference: - 0.003 
+umol/g (IQR - 0.058 to 0.210); P = 0.26] or secondary outcomes. Nineteen 
+none-serious adverse events were reported. Although the study protocol was 
+feasible and well tolerated, acipimox did not improve skeletal muscle NAD 
+concentration, biochemical markers or physical function in people with probable 
+sarcopenia.
+CLINICALTRIALS: gov Identifier: ISRCTN (ISRCTN87404878).
+
+© 2025. The Author(s).
+
+DOI: 10.1007/s11357-025-01606-9
+PMCID: PMC12397013
+PMID: 40100528 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Ethical approval and consent to 
+participate: The study was approved by North East—Tyne & Wear South Research 
+Ethics Committee REC reference: 21/NE/0100. All participants gave written 
+informed consent. Consent for publication: The authors consent for publication 
+in Geroscience. Conflict of interest: MDW: Rejuvenate BioMed consultancy.

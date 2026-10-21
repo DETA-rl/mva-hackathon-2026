@@ -1,0 +1,40 @@
+1. J Photochem Photobiol B. 2014 Jan 5;130:47-56. doi: 
+10.1016/j.jphotobiol.2013.11.005. Epub 2013 Nov 14.
+
+Molecular mechanism of polypeptides from Chlamys farreri (PCF)'s anti-apoptotic 
+effect in UVA-exposed HaCaT cells involves HSF1/HSP70, JNK, XO, iNOS and NO/ROS.
+
+Wang X(1), Jiang Q(2), Wang W(2), Su L(2), Han Y(2), Wang C(3).
+
+Author information:
+(1)Department of Pharmacology, Qingdao University Medical College, 308 Ningxia 
+Road, Qingdao 266071, Shandong, China; Qingdao Institute for Drug Control, 
+Chemistry Department, 7 Longde Road, Qingdao 266071, Shandong, China.
+(2)Department of Pharmacology, Qingdao University Medical College, 308 Ningxia 
+Road, Qingdao 266071, Shandong, China.
+(3)Department of Pharmacology, Qingdao University Medical College, 308 Ningxia 
+Road, Qingdao 266071, Shandong, China. Electronic address: [e-mail removed].
+
+This study investigated the molecular mechanisms of polypeptides from Chlamys 
+farreri (PCF)'s anti-apoptotic effects in ultraviolet A-rays (UVA) exposed HaCaT 
+cells. UVA-induced apoptosis in HaCaT cells was confirmed with Hoechst 33258 
+fluorescent staining; PCF treatment inhibited UVA-induced apoptosis in HaCaT 
+cells, increased transcriptional activities of heat shock factor protein 1 
+(HSF1) and the expression of heat shock protein 70 (HSP70), whereas inhibited 
+activation of c-Jun N-terminal kinases (JNK), expression of xanthine oxidese 
+(XO), inducible nitric oxide synthase (iNOS) and release of nitric oxide 
+(NO)/reactive oxygen species (ROS). Meanwhile, the HSF1 transcription inhibitor 
+quercetin increased UVA-induced apoptosis, activation of JNK, expression of XO 
+and iNOS and release of NO/ROS. Among the two NO release peaks we found in UVA 
+exposed HaCaT cells, XO inhibitor oxypurinol was found to be able to inhibit NO 
+release at 3h post UVA exposure but not 18h, while iNOS inhibitor 
+S-methylisothiourea sulfate (SMT) was found to inhibit iNOS expression and NO 
+release at 18h but not 3h. PCF's protection against UVA-induced apoptosis in 
+HaCaT cells involves increased transcriptional activity of HSF1, increased 
+expression of HSP70, and the subsequential inhibition of JNK pathway, XO and 
+iNOS expression and ROS/NO release.
+
+Copyright © 2013 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.jphotobiol.2013.11.005
+PMID: 24296267 [Indexed for MEDLINE]

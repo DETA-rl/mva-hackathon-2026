@@ -1,0 +1,42 @@
+1. Nat Commun. 2016 Oct 10;7:12948. doi: 10.1038/ncomms12948.
+
+Nicotinamide riboside is uniquely and orally bioavailable in mice and humans.
+
+Trammell SA(1), Schmidt MS(1), Weidemann BJ(1), Redpath P(2), Jaksch F(3), 
+Dellinger RW(3), Li Z(4), Abel ED(1)(4), Migaud ME(1)(2), Brenner C(1)(4).
+
+Author information:
+(1)Department of Biochemistry, Carver College of Medicine, University of Iowa, 
+Iowa City, Iowa 52242, USA.
+(2)John King Laboratory, School of Pharmacy, Queens University Belfast, Belfast 
+BT7 1NN, UK.
+(3)ChromaDex, Inc., 10005 Muirlands Blvd, Suite G, Irvine, California 92618, 
+USA.
+(4)Department of Internal Medicine, Carver College of Medicine, University of 
+Iowa, Iowa City, Iowa 52242, USA.
+
+Nicotinamide riboside (NR) is in wide use as an NAD+ precursor vitamin. Here we 
+determine the time and dose-dependent effects of NR on blood NAD+ metabolism in 
+humans. We report that human blood NAD+ can rise as much as 2.7-fold with a 
+single oral dose of NR in a pilot study of one individual, and that oral NR 
+elevates mouse hepatic NAD+ with distinct and superior pharmacokinetics to those 
+of nicotinic acid and nicotinamide. We further show that single doses of 100, 
+300 and 1,000 mg of NR produce dose-dependent increases in the blood NAD+ 
+metabolome in the first clinical trial of NR pharmacokinetics in humans. We also 
+report that nicotinic acid adenine dinucleotide (NAAD), which was not thought to 
+be en route for the conversion of NR to NAD+, is formed from NR and discover 
+that the rise in NAAD is a highly sensitive biomarker of effective NAD+ 
+repletion.
+
+DOI: 10.1038/ncomms12948
+PMCID: PMC5062546
+PMID: 27721479 [Indexed for MEDLINE]
+
+Conflict of interest statement: F.J., R.W.D. and C.B. own stock in ChromaDex, 
+the supplier of NR and sponsor of the clinical study. F.J. and R.W.D. are 
+employees of ChromaDex. M.E.M. has received research grants and serves as a 
+consultant for ChromaDex. C.B. has received a research grant and serves on the 
+scientific advisory board of ChromaDex. S.A.J.T. and C.B. have an intellectual 
+property interest in detecting NAAD as a biomarker of elevated NAD metabolism. 
+C.B. is the chief scientific adviser of ProHealthspan, which sells NR 
+supplements. The remaining authors declare no competing financial interests.

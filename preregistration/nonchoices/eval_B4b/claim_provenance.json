@@ -1,0 +1,7760 @@
+{
+ "data": {
+  "drugs": {
+   "nodes": [
+    {
+     "name": "ISOPROTERENOL SULFATE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "ADRB1"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.09459138290677642,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRB3"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.2053628707844488,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRB2"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.07062252569962946,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "LEVOCETIRIZINE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "HRH1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2118675770988883,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05941971388179483,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ABCB1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04400632945381046,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CXCL8"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1361126004036463,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "HESPERIDIN",
+     "interactions": [
+      {
+       "gene": {
+        "name": "CTDSP1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.4928708898826771,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "APBA1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.04050521197454,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CACNA1B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.217780160645834,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "BAZ2B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02698716688118405,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HPSE"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.9857417797653543,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "NICLOSAMIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "NFE2L2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.001899502415369344,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "THPO"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02069970580851208,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "APC"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1113501415906167,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SMN1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01213967709070633,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FZD1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.6458308212255769,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IDH1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.003835099888512927,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TSHR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01681851096941606,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP1A2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002699961627197228,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KDR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.007240255843336064,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PEX14"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.614577053063942,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "STAT3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.06092743596467707,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RXRA"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01814131520296564,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HIF1A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01034985290425604,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AHR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02274052187414003,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SMN2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01251610118654218,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCNT1"
+       },
+       "interactionTypes": [
+        {
+         "type": "activator",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.2018221316329927,
+       "sources": [
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TP53"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.003420714095474454,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MAPT"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.003612029201485329,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2C9"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.003620127921668032,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EHMT2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.001845230917787362,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.001732378812300367,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PKM"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03509950115356396,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GNAS"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04248886981747217,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NPC1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01178523396397038,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ATXN2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.006407051797872787,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.008195822604385493,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GMNN"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.003349744923369175,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RAB9A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01121234064627737,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2D6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002599963048412145,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "LOPERAMIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "AR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.003222930516165634,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "OPRD1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04682273453885433,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "OPRK1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02032236742137774,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.009419809791883248,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CACNA1A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1625789393710219,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "OPRM1"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.0582372320135004,
+       "sources": [
+        {
+         "sourceDbName": "TEND"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NPR2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1829013067923997,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TEK"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2167719191613626,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2D6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.004712433025247013,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TSHR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03048355113206662,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2B6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03658026135847994,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CALM1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1721424063928467,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "POMC"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.9754736362261318,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0148549284704487,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TP53"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.006200044298047448,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2C8"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03612865319356044,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "METFORMIN",
+     "interactions": [
+      {
+       "gene": {
+        "name": "INS"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0293559464193444,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FLT3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.007214597001364303,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC29A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3095717986039956,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HRAS"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02026958205145209,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCNJ11"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.06548634201238368,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TCF7L2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2837741487203292,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CPA6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.702644892321975,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CBARP"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.702644892321975,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GCK"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05320765288506173,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC19A3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2128306115402469,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRPF31"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.702644892321975,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NR1I2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02467601293220254,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC22A3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ACACB"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1216174923087125,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKAB1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.5959257123126914,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "TEND"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ITLN2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "STK11"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2128306115402469,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADIPOR2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.4256612230804938,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NRAS"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01233800646610127,
+       "sources": [
+        {
+         "sourceDbName": "CIViC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC47A2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2837741487203292,
+       "sources": [
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PPARG"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.008867942147510289,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PTEN"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01057543411380109,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKAA1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05007779095064633,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKAA2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.243234984617425,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKAG2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.7094353718008232,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ABCC8"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.06548634201238368,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KRAS"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01280184129565395,
+       "sources": [
+        {
+         "sourceDbName": "CIViC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CAPN10"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CSMD1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3405289784643951,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GCG"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02746201439228993,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MEF2D"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PPARGC1B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC2A2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3405289784643951,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PKLR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1702644892321975,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FKBP1A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04729569145338821,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IL1B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02660382644253086,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3CA"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.00868696373633661,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MAP2K1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01755304012703067,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ARFGEF3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.702644892321975,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKAG1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKAB2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.6080874615435626,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IGF1R"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0243234984617425,
+       "sources": [
+        {
+         "sourceDbName": "CIViC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PPARA"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01653053293516481,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TSC1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.06306092193785094,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NBEA"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FMO5"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.702644892321975,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "BDNF"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01606268766341486,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HNF1B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1418870743601646,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC47A1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2128306115402469,
+       "sources": [
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IDH1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.004044287155159087,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MEF2A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKAG3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EGFR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.005175212438668619,
+       "sources": [
+        {
+         "sourceDbName": "CIViC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.004321433736857805,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenomeClinicalTrial"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SRR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "INFIGRATINIB",
+     "interactions": [
+      {
+       "gene": {
+        "name": "FGFR1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2869207543962477,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        },
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "CIViC"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "OncoKB"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "MyCancerGenome"
+        },
+        {
+         "sourceDbName": "MyCancerGenomeClinicalTrial"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        },
+        {
+         "sourceDbName": "CancerCommons"
+        },
+        {
+         "sourceDbName": "TALC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3CB"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.01519232139482619,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FGFR2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.6350111584846618,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        },
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "MOAlmanac"
+        },
+        {
+         "sourceDbName": "CIViC"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "OncoKB"
+        },
+        {
+         "sourceDbName": "MyCancerGenome"
+        },
+        {
+         "sourceDbName": "MyCancerGenomeClinicalTrial"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        },
+        {
+         "sourceDbName": "CancerCommons"
+        },
+        {
+         "sourceDbName": "TALC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FGFR4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1428611275022252,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        },
+        {
+         "sourceDbName": "CancerCommons"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FGFR3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.4107257415688976,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        },
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "CIViC"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "OncoKB"
+        },
+        {
+         "sourceDbName": "MyCancerGenome"
+        },
+        {
+         "sourceDbName": "MyCancerGenomeClinicalTrial"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        },
+        {
+         "sourceDbName": "CancerCommons"
+        },
+        {
+         "sourceDbName": "TALC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3R3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.05654919630296416,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3R1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.048470739688255,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3C2G"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1197512392298064,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PTEN"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02528908157648086,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KDR"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.01825803647449964,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3R5"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.05654919630296416,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3CD"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.01485964282413656,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3R4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1130983926059283,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3C2A"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1130983926059283,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3C3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.07539892840395222,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.0103338632837904,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3CG"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.01049366529333355,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3C2B"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1071458456266689,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3CA"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.02077317415210928,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        },
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NRAS"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02950392850589434,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KIT"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05900785701178869,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3R6"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1130983926059283,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3R2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.05219925812581308,
+       "sources": [
+        {
+         "sourceDbName": "MyCancerGenome"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "ISOPROTERENOL",
+     "interactions": [
+      {
+       "gene": {
+        "name": "ADRB1"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.07945676164169219,
+       "sources": [
+        {
+         "sourceDbName": "TEND"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MAPK10"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0706758257190254,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3CG"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01930834413973374,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRB2"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.1186458431753774,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "TEND"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        },
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EHMT2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.00214046786463334,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRB3"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.04928708898826772,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP19A1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0668896207697919,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IL12B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.104050521197454,
+       "sources": [
+        {
+         "sourceDbName": "TTD"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SRI"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.9364546907770865,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HSPA4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.08711206425833364,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRA2B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0164290296627559,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRA1A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01023447749483154,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRA2A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01240337338777598,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "LIPE"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.4162020847898162,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRA1D"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01408202542521934,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CSF2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04741542738111831,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "VDR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.00380672638527271,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GFAP"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.09364546907770865,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRA1B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01408202542521934,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CBX1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.009962283944437092,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CP"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1560757817961811,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.009507154221087173,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NRG1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.08711206425833364,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRA2C"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01300631514968175,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AANAT"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.7491637526216692,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "METFORMIN HYDROCHLORIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "PRKAA2"
+       },
+       "interactionTypes": [
+        {
+         "type": "activator",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 1.114827012829865,
+       "sources": [
+        {
+         "sourceDbName": "ClearityFoundationClinicalTrial"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKAA1"
+       },
+       "interactionTypes": [
+        {
+         "type": "activator",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.4590464170475914,
+       "sources": [
+        {
+         "sourceDbName": "ClearityFoundationClinicalTrial"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKAB1"
+       },
+       "interactionTypes": [
+        {
+         "type": "activator",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 1.560757817961811,
+       "sources": [
+        {
+         "sourceDbName": "ClearityFoundationClinicalTrial"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "HESPERIDIN",
+     "interactions": [
+      {
+       "gene": {
+        "name": "AURKB"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.236478457266941,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CACNA1B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.08890080322917,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "IFENPRODIL",
+     "interactions": [
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05941971388179483,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05738080213094893,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GRIN1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1445146127742417,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GRIN2B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1206771508733359,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "IDARUBICIN HYDROCHLORIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "POLK"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01266848878215755,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ATXN2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01327175015273648,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IDH1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.007944135483348205,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ERG"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2787067532074662,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "POLI"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01562841606770838,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RAPGEF4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0711591710316935,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PLK1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01751037192926489,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.003683349161332152,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PPARD"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0229074043732164,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "WRN"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0388893144010418,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "POLH"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01922115539361836,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "USP1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01555572576041671,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RAPGEF3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.09290225106915541,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TOP2A"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.02459177234183525,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "HALOPERIDOL LACTATE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "DRD2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inverse agonist",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.04417239107439088,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inverse agonist",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.08935636362376781,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inverse agonist",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1272356916816693,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HTR2A"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.04400632945381046,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "IDARUBICIN",
+     "interactions": [
+      {
+       "gene": {
+        "name": "USP1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.005311711235264246,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ATAD5"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.003871247171463772,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "POLI"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.005336532315802864,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "THRB"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01047722858331938,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RAC2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.370421498698175,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCNH2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002974004988494304,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.005598127037165748,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC22A12"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1343550488919779,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "POLH"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.006563321353918464,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.00579704525676047,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ABCB1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02146650217259046,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ATXN2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.004531817125324654,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TOP2A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03358876222299449,
+       "sources": [
+        {
+         "sourceDbName": "TEND"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MAPT"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002554849923001818,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "POLB"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.006240535057824114,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NQO2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1142017915581812,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FEN1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.005738783495385994,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RECQL"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.006563321353918464,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CSF2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02891184596409652,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DNTTIP1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.5710089577909064,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "BLM"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01119625407433149,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DNMT3A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1631454165116875,
+       "sources": [
+        {
+         "sourceDbName": "CIViC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "BRD10"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.142017915581812,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HTT"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.007563032553521938,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ETV6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.142017915581812,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DCK"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1631454165116875,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MPHOSPH8"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.00967811792865943,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EHMT2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0013051633320935,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "APEX1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.006240535057824114,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2E1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04229695983636344,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADH1A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2855044788954532,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "POLK"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.004325825437809897,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLCO1B1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02785409550199543,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYBA"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.5190990525371877,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NCF4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.713026873372719,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NT5C3A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.142017915581812,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CBX1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.006074563380754323,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FLT3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.01935623585731886,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        },
+        {
+         "sourceDbName": "MOAlmanac"
+        },
+        {
+         "sourceDbName": "MyCancerGenomeClinicalTrial"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CBR3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2855044788954532,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NQO1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.07367857519882663,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SULT2B1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3262908330233751,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "LEVOCETIRIZINE DIHYDROCHLORIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "HRH1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2118675770988883,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "HALOPERIDOL DECANOATE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "HTR2A"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.04400632945381046,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inverse agonist",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.04417239107439088,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inverse agonist",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.08935636362376781,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inverse agonist",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1272356916816693,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "IFENPRODIL TARTRATE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "GRIN2B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.4827086034933436,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "FENRETINIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "NFKB1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01162431344062917,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RBP4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.232177224706692,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RARA"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.08801265890762092,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        },
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IDH1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002926786757023023,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "THPO"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01579714390649606,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MAPT"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002756548601133541,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CASKIN1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.6160886123533464,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TRNAU1AP"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.232177224706692,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ENO2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2464354449413385,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DSG2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.232177224706692,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RARG"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.09127238701531058,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2C8"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01521206450255176,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TAGLN2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.232177224706692,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ALDH1A1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.003167550706186871,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DDIT3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1202124121665066,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AIFM2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.232177224706692,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KDM4E"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.004191078995600996,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TM7SF2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.232177224706692,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CXCL8"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02865528429550448,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RARB"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04739143171948819,
+       "sources": [
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.006254706724399455,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A5"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.008928820468889077,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.001357023375227635,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "P2RX7"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03733870377899069,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CBX1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.00655413417397177,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EHMT2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.001408202542521934,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RAB40B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1760253178152418,
+       "sources": [
+        {
+         "sourceDbName": "TTD"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ATXN2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.004889592161534496,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TGFB1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0403992532690719,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TP53"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002610544967598925,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CDC14C"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.232177224706692,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "BCL6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2240322226739441,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ESR1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.004546779426961967,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KDM4A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002768937583610545,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.001322078567281859,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SMARCB1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2240322226739441,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RORC"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0112016111336972,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ITGA2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05600805566848604,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "GLASDEGIB",
+     "interactions": [
+      {
+       "gene": {
+        "name": "SMO"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 2.128306115402469,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        },
+        {
+         "sourceDbName": "TALC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IHH"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FLT3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.07936056701500732,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DHH"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.9364546907770864,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04753577110543586,
+       "sources": [
+        {
+         "sourceDbName": "TTD"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "MAPROTILINE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "SLC6A2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1305709273253048,
+       "sources": [
+        {
+         "sourceDbName": "TEND"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TRPM3"
+       },
+       "interactionTypes": [
+        {
+         "type": "blocker",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1702644892321975,
+       "sources": [
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02086574622943597,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02160716868428902,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2C9"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01908794722334053,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.004567180505155513,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2D6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01370889607344585,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP1A2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01423616130703992,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TSHR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04433971073755145,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ATXN2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01689131837621007,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TP53"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.009018246251705378,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "FASUDIL HYDROCHLORIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "KDM4A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03507320939240024,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HTT"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1033614448981331,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ATAD5"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05290704467667156,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "LAPATINIB",
+     "interactions": [
+      {
+       "gene": {
+        "name": "ADGRG1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.4335438383227253,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ERBB2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.3141622016831342,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "TEND"
+        },
+        {
+         "sourceDbName": "MOAlmanac"
+        },
+        {
+         "sourceDbName": "CIViC"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "OncoKB"
+        },
+        {
+         "sourceDbName": "DoCM"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "MyCancerGenome"
+        },
+        {
+         "sourceDbName": "MyCancerGenomeClinicalTrial"
+        },
+        {
+         "sourceDbName": "FDA"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        },
+        {
+         "sourceDbName": "PRISM"
+        },
+        {
+         "sourceDbName": "CGI"
+        },
+        {
+         "sourceDbName": "ClearityFoundationClinicalTrial"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        },
+        {
+         "sourceDbName": "TALC"
+        },
+        {
+         "sourceDbName": "ClearityFoundationBiomarkers"
+        },
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "BIRC5"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03882482134233361,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SHC1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05911961431673527,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HLA-B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05308700061094595,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HLA-A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.07030440621449599,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CDKN1B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1530154723491971,
+       "sources": [
+        {
+         "sourceDbName": "CIViC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ERBB3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.07587017170647692,
+       "sources": [
+        {
+         "sourceDbName": "CIViC"
+        },
+        {
+         "sourceDbName": "DoCM"
+        },
+        {
+         "sourceDbName": "CGI"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NRG1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1209889781365745,
+       "sources": [
+        {
+         "sourceDbName": "CIViC"
+        },
+        {
+         "sourceDbName": "CGI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PGR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02922767449366687,
+       "sources": [
+        {
+         "sourceDbName": "FDA"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EGFR"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.07906574559077058,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "TEND"
+        },
+        {
+         "sourceDbName": "CIViC"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "OncoKB"
+        },
+        {
+         "sourceDbName": "DoCM"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "MyCancerGenomeClinicalTrial"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        },
+        {
+         "sourceDbName": "PRISM"
+        },
+        {
+         "sourceDbName": "CGI"
+        },
+        {
+         "sourceDbName": "ClearityFoundationClinicalTrial"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        },
+        {
+         "sourceDbName": "CancerCommons"
+        },
+        {
+         "sourceDbName": "TALC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ERBB4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1422565719496442,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "CIViC"
+        },
+        {
+         "sourceDbName": "DoCM"
+        },
+        {
+         "sourceDbName": "CGI"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ESR2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01215543471932874,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PIK3CA"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03981525045820947,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        },
+        {
+         "sourceDbName": "CIViC"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ESR1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.009598756568030819,
+       "sources": [
+        {
+         "sourceDbName": "FDA"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MIR4761"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.4335438383227253,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CCND1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.06193483404610361,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GRHL2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1858045021383108,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AURKB"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01313769207038561,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EEF2K"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.6503157574840879,
+       "sources": [
+        {
+         "sourceDbName": "TTD"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HLA-DRB1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01884973210098805,
+       "sources": [
+        {
+         "sourceDbName": "FDA"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "JARID2-AS1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.300631514968175,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HLA-C"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1130983926059283,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RET"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01215543471932874,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "YES1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.006106251243982046,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PCDHAC1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.300631514968175,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KRAS"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.009779184323068991,
+       "sources": [
+        {
+         "sourceDbName": "CGI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MET"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.008670876766454505,
+       "sources": [
+        {
+         "sourceDbName": "CGI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "INAVA"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3251578787420439,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ABCB11"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1858045021383108,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002791054753150592,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A5"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03769946420197611,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CDH1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1858045021383108,
+       "sources": [
+        {
+         "sourceDbName": "PRISM"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "BRAF"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01530154723491971,
+       "sources": [
+        {
+         "sourceDbName": "CKB-CORE"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HLA-DQA1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3825386808729929,
+       "sources": [
+        {
+         "sourceDbName": "FDA"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NF2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3251578787420439,
+       "sources": [
+        {
+         "sourceDbName": "CGI"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "NICARDIPINE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "CACNA1C"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1616435024356305,
+       "sources": [
+        {
+         "sourceDbName": "TEND"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADORA3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.07338986604836101,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02160716868428902,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CACNA1B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1979819642234855,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02086574622943597,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC25A20"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2660382644253086,
+       "sources": [
+        {
+         "sourceDbName": "TTD"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ATXN2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01689131837621007,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ATAD5"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0144291940027286,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EHMT2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.004864699692348501,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CBX1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0226415544191752,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.004687898932604558,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "NICARDIPINE HYDROCHLORIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "AR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.005729654250961127,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCNH2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01354824494758516,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CACNA1D"
+       },
+       "interactionTypes": [
+        {
+         "type": "blocker",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.09634307518282784,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.005582109506301184,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EHMT2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.005945744068425946,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CACNA1F"
+       },
+       "interactionTypes": [
+        {
+         "type": "blocker",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.104050521197454,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CACNA1S"
+       },
+       "interactionTypes": [
+        {
+         "type": "blocker",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.08391171064310812,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MPHOSPH8"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0440892038972263,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CACNA1C"
+       },
+       "interactionTypes": [
+        {
+         "type": "blocker",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.06585476025155321,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "LAPATINIB DITOSYLATE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "EGFR"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.07115917103169352,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ERBB2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1130983926059283,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "FASUDIL",
+     "interactions": [
+      {
+       "gene": {
+        "name": "CYP3A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.001794249484168237,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AKT3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03635305476619124,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ROCK2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1348581063907094,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKCD"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03716090042766216,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKACA"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1194457513746283,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PKIA"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3344481038489594,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKD3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04078635412792188,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AKT1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01534165613986052,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DAPK3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.06967668830186655,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKX"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2388915027492567,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "LRRK2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02933755296920696,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SGK2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.09836708936734101,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2D6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002692818871569722,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AURKB"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01689131837621007,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CDK7"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03635305476619124,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CDK5"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02459177234183525,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GATA2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8361202596223987,
+       "sources": [
+        {
+         "sourceDbName": "CIViC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MAP4K4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03981525045820946,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CHEK2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0341273575356081,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKACB"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.114827012829864,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CLK4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02986143784365709,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKCQ"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05766346618085508,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RPS6KB1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0309674170230518,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKD2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04519568970931885,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ROCK1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1370688950200653,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKCG"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05225751622639992,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RPS6KA3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04180601298111993,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CDK8"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0464511255345777,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "INFIGRATINIB PHOSPHATE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "FGFR1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.07856163513230592,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FGFR4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2053628707844488,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FGFR3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1026814353922244,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FGFR2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1073915929790236,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "ISOPROTERENOL HYDROCHLORIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "TSHR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.09754736362261318,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRB3"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.1232177224706692,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRB2"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.08474703083955533,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ADRB1"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.05675482974406584,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KDM4E"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03185220036656756,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "HALOPERIDOL DECANOATE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "ANPEP"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03954622849565399,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RTKN2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.6327396559304639,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DPP6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.4218264372869759,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HSPG2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.4218264372869759,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD5"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.02181860882518841,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        },
+        {
+         "type": "inverse agonist",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.02387696814831939,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "TEND"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "TTD"
+        },
+        {
+         "sourceDbName": "TdgClinicalTrial"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        },
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HTR2B"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.00930499494015388,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GRIA1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04962663968082069,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        },
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HTR1A"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.006026091961242513,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.01550832490025646,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HTR1D"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.01081606249453784,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HTR3E"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.07030440621449599,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GRIN1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0156232013809991,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SIGMAR1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03244818748361353,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "UGT2B7"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.06660417430846989,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0006789052102258197,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CACNA1C"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01601872546659402,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCNH1"
+       },
+       "interactionTypes": [
+        {
+         "type": "blocker",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.06026091961242513,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A43"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0903913794186377,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TOR1A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.265479311860927,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HOMER1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.265479311860927,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EPM2A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1807827588372754,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A7"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01807827588372754,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IL1RN"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3163698279652319,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP1A2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002116186140235665,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "FAAH"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04519568970931885,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HTR7"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.01332083486169397,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inverse agonist",
+         "directionality": "INHIBITORY"
+        },
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.01449022112817856,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MAPK14"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0103727812447617,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TAC1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04218264372869759,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MC4R"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03330208715423494,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "LDLR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03834785793517963,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.00069684984133311,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC2A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01733533303919079,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTHFR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03721997976061552,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TAS2R10"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.1265479311860927,
+       "sources": [
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HRH1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.005726150732402388,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HTR3A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01643479625793412,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HSPA4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02942975143862623,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2D6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.001018904437891246,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GRIN2B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0195692677091896,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DLG4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3163698279652319,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GRIN2A"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0148879919042462,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NT5E"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04363721765037682,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RGS2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.265479311860927,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ARID5B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.4218264372869759,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "BDNF"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01193848407415969,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ZIC4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.265479311860927,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NKX6-1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.6327396559304639,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ANKK1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2711741382559131,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCNE1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.02942975143862623,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GMNN"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.001312737875374406,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC1A1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.07909245699130799,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EIF2AK4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1460168436762609,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NPY"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1150435738055389,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC6A3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01240665992020517,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MAOB"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01977311424782699,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "TP53"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.002681100236993491,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NTS"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1406088124289919,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CAMK2G"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.06026091961242513,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.003211876426042963,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DTNBP1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.3796437935582783,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "ABCB5"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.898218967791391,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "RYR1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05272830466087199,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "HTR2A"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.007136161533050345,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCNE2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04363721765037682,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "COMT"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.05423482765118262,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "SLC6A5"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2711741382559131,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "DRD4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inverse agonist",
+         "directionality": "INHIBITORY"
+        },
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.02063281486729773,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        },
+        {
+         "sourceDbName": "GuideToPharmacology"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NR4A1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.07443995952123104,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AKAP13"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.265479311860927,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PLEKHA6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.6327396559304639,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GRIK4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0903913794186377,
+       "sources": [
+        {
+         "sourceDbName": "ClinPGx"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCNH2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.001647759520652249,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "IFENPRODIL TARTRATE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "GRIN2B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.4827086034933436,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "NICARDIPINE HYDROCHLORIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "BDNF"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1766895642975635,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IL1B"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2926420908678395,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCND3"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.5202526059872703,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRL"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.2497212508738897,
+       "sources": [
+        {
+         "sourceDbName": "NCI"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCND2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.8513224461609877,
+       "sources": [
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "GLASDEGIB MALEATE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "SMO"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 2.128306115402469,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "METFORMIN GLYCINATE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "INSR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 1.397693568324009,
+       "sources": [
+        {
+         "sourceDbName": "TTD"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "MAPROTILINE HYDROCHLORIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "SLC6A2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.08207315431876305,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        },
+        {
+         "sourceDbName": "Drug Repurposing Hub"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCNH2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01741917207546663,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IDH1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01588827096669641,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "EHMT2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.007644528087976216,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP2D6"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.01077127548627888,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "CYP3A4"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.007176997936672949,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.007366698322664305,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "LOPERAMIDE HYDROCHLORIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "OPRM1"
+       },
+       "interactionTypes": [
+        {
+         "type": "agonist",
+         "directionality": "ACTIVATING"
+        }
+       ],
+       "interactionScore": 0.07764964268466722,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "KCNH2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.04064473484275549,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "IDH1"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.03707263225562497,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "METFORMIN HYDROCHLORIDE",
+     "interactions": [
+      {
+       "gene": {
+        "name": "NDUFC1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MTOR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.008802920575080714,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFAF3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2167719191613626,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA13"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2167719191613626,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "AR"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.0009549423751601878,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFV2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "COXFA4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFS7"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFS5"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MT-ND1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.09634307518282784,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFS8"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFS2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB8"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA5"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA9"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFS3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1445146127742417,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA11"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.1734175353290901,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFS1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2167719191613626,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA6"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2167719191613626,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA8"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB6"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB9"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFS4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MT-ND4L"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFAF4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MT-ND2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB5"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2167719191613626,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFV1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB10"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFAF1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2167719191613626,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB11"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2167719191613626,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "COXFA4L2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFAB1"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFAF2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFB7"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA10"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "GPD2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.4335438383227252,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA12"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFS6"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFC2"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MT-ND4"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFV3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MT-ND5"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "NDUFA7"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MT-ND3"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2167719191613626,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "PRKAA2"
+       },
+       "interactionTypes": [],
+       "interactionScore": 0.1238696680922072,
+       "sources": [
+        {
+         "sourceDbName": "DTC"
+        }
+       ]
+      },
+      {
+       "gene": {
+        "name": "MT-ND6"
+       },
+       "interactionTypes": [
+        {
+         "type": "inhibitor",
+         "directionality": "INHIBITORY"
+        }
+       ],
+       "interactionScore": 0.2890292255484835,
+       "sources": [
+        {
+         "sourceDbName": "ChEMBL"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

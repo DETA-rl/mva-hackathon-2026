@@ -1,0 +1,41 @@
+1. Nat Genet. 2025 Apr;57(4):949-961. doi: 10.1038/s41588-024-02053-6. Epub 2025 
+Jan 8.
+
+Predicting RNA-seq coverage from DNA sequence as a unifying model of gene 
+regulation.
+
+Linder J(1), Srivastava D(2), Yuan H(2), Agarwal V(3), Kelley DR(4).
+
+Author information:
+(1)Calico Life Sciences LLC, South San Francisco, CA, USA. 
+[e-mail removed].
+(2)Calico Life Sciences LLC, South San Francisco, CA, USA.
+(3)mRNA Center of Excellence, Sanofi Pasteur Inc., Cambridge, MA, USA.
+(4)Calico Life Sciences LLC, South San Francisco, CA, USA. [e-mail removed].
+
+Sequence-based machine-learning models trained on genomics data improve genetic 
+variant interpretation by providing functional predictions describing their 
+impact on the cis-regulatory code. However, current tools do not predict RNA-seq 
+expression profiles because of modeling challenges. Here, we introduce Borzoi, a 
+model that learns to predict cell-type-specific and tissue-specific RNA-seq 
+coverage from DNA sequence. Using statistics derived from Borzoi's predicted 
+coverage, we isolate and accurately score DNA variant effects across multiple 
+layers of regulation, including transcription, splicing and polyadenylation. 
+Evaluated on quantitative trait loci, Borzoi is competitive with and often 
+outperforms state-of-the-art models trained on individual regulatory functions. 
+By applying attribution methods to the derived statistics, we extract 
+cis-regulatory motifs driving RNA expression and post-transcriptional regulation 
+in normal tissues. The wide availability of RNA-seq data across species, 
+conditions and assays profiling specific aspects of regulation emphasizes the 
+potential of this approach to decipher the mapping from DNA sequence to 
+regulatory function.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s41588-024-02053-6
+PMCID: PMC11985352
+PMID: 39779956 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: D.R.K., J.L., D.S. and H.Y. 
+are employees of Calico Life Sciences. V.A. is an employee of Sanofi Pasteur but 
+was involved in this work independently of Sanofi.

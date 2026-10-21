@@ -1,0 +1,80 @@
+# Replication harness configuration. Copy to config.yaml (ignored by git) or point REPLICATE_CONFIG at your copy.
+# Paths may use ~ and ${ENV_VAR}. Nothing here has a default that points at a data file: fill in your own paths.
+# Expected sha256 of every input: replicate/expected.yaml (section "inputs"), with download URLs.
+#
+# The paths below use four environment variables; set them (or replace them by absolute paths) before `check`:
+#   MVA_DATA    folder with the organisers' dataset (Hugging Face SageBio/mva-hackathon-2026-data at commit 59e322d),
+#               for example the folder that tools/dl.py downloads into
+#   MVA_REF     folder with the public references (GRCh38 FASTA + .fai, GENCODE v44 GTF, the exon BED built by
+#               tools/build_exon_bed.py, ClinVar, HPO, DepMap 24Q4 in a subfolder depmap_24Q4/, AlphaMissense)
+#   MVA_WORK    your scratch folder: the BAM and (by default) the harness workdir go here
+#   MVA_MODELS  model weights (full tier only: ESM-1v and ESM-2 Hugging Face snapshot folders, Evo 2 7B)
+
+# Every output goes here; it must be outside this repository and empty (or created by the harness).
+# Results: <workdir>/results/.
+workdir: ${MVA_WORK}/mva_replication
+
+# Interpreter for the analysis scripts (null = the interpreter running the harness, i.e. $REPLICATE_PYTHON).
+python: null
+
+# GPU steps run on ONE GPU (a two-GPU Evo 2 load failed in the original run).
+cuda_visible_devices: "0"
+
+# Steps that call public network services (gnomAD remote reads, ClinicalTrials.gov) are refused unless true.
+allow_network: false
+
+# Resource guard: a step is refused, not started, if it would leave less than disk_floor_gb free at the workdir.
+disk_margin_gb: 5
+disk_floor_gb: 20
+ram_margin_gb: 2
+vram_margin_gb: 1
+
+# enforce = analysis scripts cannot write outside the workdir (Python audit hook); warn = log only.
+write_guard: enforce
+
+# Folder holding rule files that are held back from the repository (CNV_RULE_v1.md: it contains a local file name).
+# Available to organisers on request; without it, CNV-V1 is REFUSED.
+rules_extra_dir: null
+
+inputs:
+  # Organiser dataset: Hugging Face SageBio/mva-hackathon-2026-data, commit 59e322d27f399006b398d366d33e703e48a29914
+  # (file name as on the dataset card; the .tbi must sit next to it)
+  vcf: ${MVA_DATA}/WGS_EX2312012_HGWCNDSX7.vcf.gz
+  vcf_tbi: ${MVA_DATA}/WGS_EX2312012_HGWCNDSX7.vcf.gz.tbi
+  # The eight FASTQs of the same dataset (lanes L001 to L004, R1 and R2): only for the external alignment step
+  # ALIGN-01 (tools/fq2bam.sh finds them in MVA_DATA by lane and read).
+  fastq_l1_r1: null
+  fastq_l1_r2: null
+  fastq_l2_r1: null
+  fastq_l2_r2: null
+  fastq_l3_r1: null
+  fastq_l3_r2: null
+  fastq_l4_r1: null
+  fastq_l4_r2: null
+  # GRCh38 alignment of those FASTQs (ALIGN-01; the .bai must sit next to it): our BAM (on request, sha256 in
+  # replicate/expected.yaml) or your own from tools/fq2bam.sh (then BAM-derived counts are NOT COMPARABLE)
+  bam: ${MVA_WORK}/alignment.bam
+  # Public references (URLs and sha256 in replicate/expected.yaml)
+  fasta: ${MVA_REF}/GCA_000001405.15_GRCh38_no_alt_plus_hs38d1_analysis_set.fna   # with .fai next to it
+  gtf: ${MVA_REF}/gencode.v44.basic.annotation.gtf.gz
+  exon_bed: ${MVA_REF}/protein_coding_exons_hg38.bed                               # tools/build_exon_bed.py
+  clinvar_vcf: ${MVA_REF}/clinvar.vcf.gz                                           # release 2026-10-11 (clinvar_20261011.vcf.gz)
+  hpo_obo: ${MVA_REF}/hp.obo                                                       # HPO release v2026-09-01
+  hpo_genes_to_phenotype: ${MVA_REF}/genes_to_phenotype.txt                        # same release
+  depmap_gene_effect: ${MVA_REF}/depmap_24Q4/CRISPRGeneEffect.csv                  # Figshare 27993248
+  depmap_model: ${MVA_REF}/depmap_24Q4/Model.csv
+  # External step SV-MANTA only: ClinGen gene curation list, release 16 Oct 2026. The upstream URL serves the current
+  # release, so the one we used cannot be re-fetched from there; it is shipped, unmodified, as
+  # references/ClinGen_gene_curation_list_GRCh38.tsv (copy it here, or point this path at it).
+  clingen_gene_curation: ${MVA_REF}/ClinGen_gene_curation_list_GRCh38.tsv
+  alphamissense: ${MVA_REF}/AlphaMissense_hg38.tsv.gz                               # full tier only
+  esm1v_dir: ${MVA_MODELS}/esm1v_t33_650M_UR90S_1      # Hugging Face snapshot folder; full tier only
+  esm2_dir: ${MVA_MODELS}/esm2_t33_650M_UR50D          # full tier only
+  evo2_weights: ${MVA_MODELS}/evo2_7b/evo2_7b.pt       # full tier only
+
+# Optional: outputs of full-tier steps supplied instead of recomputed (lets the quick tier run downstream steps).
+# The report states whether each one is byte-identical to our stored output. See intermediates/README.md.
+intermediates: {}
+#  evo2_control_scores: /path/to/this/repository/intermediates/evo2_rule_controls_out.tsv   # shipped (public-derived)
+#  gnomad_parts: /path/to/folder_with_child_exonic_gnomad_exomes.partN.tsv   # from BLIND-01B (network, about 3.5 h)
+#  protein_scores: /path/to/scores.tsv                                        # from M-PROT-CAL-02-SCORE (GPU)

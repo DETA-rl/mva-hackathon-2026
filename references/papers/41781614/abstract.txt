@@ -1,0 +1,86 @@
+1. Nature. 2026 Apr;652(8112):1349-1361. doi: 10.1038/s41586-026-10176-5. Epub
+2026  Mar 4.
+
+Genome modelling and design across all domains of life with Evo 2.
+
+Brixi G(#)(1)(2)(3), Durrant MG(#)(1)(2), Ku J(#)(1)(2), Naghipourfar 
+M(#)(1)(2)(4), Poli M(#)(2)(3)(5), Sun G(#)(1)(2), Brockman G(2)(6)(7), Chang 
+D(1)(2)(3), Fanton A(1)(2), Gonzalez GA(1)(2), King SH(1)(2)(3), Li DB(1)(2)(3), 
+Merchant AT(1)(2)(3), Nguyen E(2)(3), Ricci-Tam C(1)(2), Romero DW(2)(8), Schmok 
+JC(1)(2), Taghibakhshi A(2)(8), Vorontsov A(2)(8), Yang B(2)(6), Deng M(9), 
+Gorton L(9), Nguyen N(9), Wang NK(9), Pearce MT(9), Simon E(9), Adams E(10), 
+Amador ZJ(11), Ashley EA(3), Baccus SA(3), Dai H(3), Dillmann S(3), Ermon S(3), 
+Guo D(1)(3), Herschl MH(1)(4), Ilango R(1), Janik K(8), Lu AX(4), Mehta R(1), 
+Mofrad MRK(4), Ng MY(3), Pannu J(12), Ré C(3), St John J(8), Sullivan J(1), Tey 
+J(1)(3), Viggiano B(3), Zhu K(4), Zynda G(8), Balsam D(9), Collison P(1), Costa 
+AB(8), Hernandez-Boussard T(3), Ho E(9), Liu MY(8), McGrath T(9), Powell K(8), 
+Pinglay S(2)(11), Burke DP(1)(2), Goodarzi H(1)(2)(13), Hsu PD(14)(15)(16), Hie 
+BL(17)(18)(19).
+
+Author information:
+(1)Arc Institute, Palo Alto, CA, USA.
+(2)Evo 2 Core Team, Palo Alto, CA, USA.
+(3)Stanford University, Stanford, CA, USA.
+(4)University of California, Berkeley, Berkeley, CA, USA.
+(5)Liquid AI, San Francisco, CA, USA.
+(6)Independent Researcher, San Francisco, CA, USA.
+(7)OpenAI, San Francisco, CA, USA.
+(8)NVIDIA, Santa Clara, CA, USA.
+(9)Goodfire, San Francisco, CA, USA.
+(10)Columbia University, New York, NY, USA.
+(11)University of Washington, Seattle, WA, USA.
+(12)Johns Hopkins University, Baltimore, MD, USA.
+(13)University of California, San Francisco, San Francisco, CA, USA.
+(14)Arc Institute, Palo Alto, CA, USA. [e-mail removed].
+(15)Evo 2 Core Team, Palo Alto, CA, USA. [e-mail removed].
+(16)University of California, Berkeley, Berkeley, CA, USA. 
+[e-mail removed].
+(17)Arc Institute, Palo Alto, CA, USA. [e-mail removed].
+(18)Evo 2 Core Team, Palo Alto, CA, USA. [e-mail removed].
+(19)Stanford University, Stanford, CA, USA. [e-mail removed].
+(#)Contributed equally
+
+All of life encodes information with DNA. Although tools for genome sequencing, 
+synthesis and editing have transformed biological research, we still lack 
+sufficient understanding of the immense complexity encoded by genomes to predict 
+the effects of many classes of genomic changes or to intelligently compose new 
+biological systems. Artificial intelligence models that learn information from 
+genomic sequences across diverse organisms have increasingly advanced prediction 
+and design capabilities1,2. Here we introduce Evo 2, a biological foundation 
+model trained on 9 trillion DNA base pairs from a highly curated genomic atlas 
+spanning all domains of life to have a 1 million token context window with 
+single-nucleotide resolution. Evo 2 learns to accurately predict the functional 
+impacts of genetic variation-from noncoding pathogenic mutations to clinically 
+significant BRCA1 variants-without task-specific fine-tuning. Mechanistic 
+interpretability analyses reveal that Evo 2 learns representations associated 
+with biological features, including exon-intron boundaries, transcription factor 
+binding sites, protein structural elements and prophage genomic regions. The 
+generative abilities of Evo 2 produce mitochondrial, prokaryotic and eukaryotic 
+sequences at genome scale with greater naturalness and coherence than previous 
+methods. Evo 2 also generates experimentally validated chromatin accessibility 
+patterns when guided by predictive models3,4 and inference-time search. We have 
+made Evo 2 fully open, including model parameters, training code5, inference 
+code and the OpenGenome2 dataset, to accelerate the exploration and design of 
+biological complexity.
+
+© 2026. The Author(s).
+
+DOI: 10.1038/s41586-026-10176-5
+PMCID: PMC13128491
+PMID: 41781614 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: M.G.D. acknowledges outside 
+interest in Stylus Medicine, and is currently an employee of Anthropic PBC. M.P. 
+acknowledges outside interest as a co-founder of Radical Numerics. J.P. 
+acknowledges outside interest as an artificial intelligence policy consultant 
+for the Chan Zuckerberg Initiative. C.R. acknowledges outside interest in 
+Factory and Google Ventures. D.P.B. acknowledges outside interest as a Google 
+Advisor. H.G. acknowledges outside interest as a co-founder of Exai Bio, Vevo 
+Therapeutics and Therna Therapeutics, serves on the board of directors at Exai 
+Bio, and is a scientific advisory board member for Verge Genomics and Deep 
+Forest Biosciences. P.D.H. acknowledges outside interest in Stylus Medicine, 
+Terrain Biosciences, and Monet AI as a co-founder, serves on the board of 
+directors at Stylus Medicine and the scientific advisory board at Amgen, and is 
+a venture partner at Thrive Capital. B.L.H. acknowledges outside interest in 
+Arpelos Biosciences and Genyro, Inc. as a scientific co-founder. The other 
+authors declare no competing interests.

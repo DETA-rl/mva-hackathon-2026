@@ -1,0 +1,74 @@
+1. Nature. 2025 Jul;643(8073):1097-1106. doi: 10.1038/s41586-025-09070-3. Epub
+2025  May 28.
+
+In vivo haemopoietic stem cell gene therapy enabled by postnatal trafficking.
+
+Milani M(1), Fabiano A(2), Perez-Rodriguez M(3)(4)(5), Hernandez RJ(2), 
+Zecchillo A(2)(6), Zonari E(2), Ottonello S(2)(7), Basso-Ricci L(2), Canepari 
+C(2), Volpin M(2), Iannello V(2)(7), Capo V(2)(8), Quaranta P(2)(7), Seffin 
+L(2)(7), Russo F(2), Biffi M(2), Ormoli L(2), Brombin C(9), Carlucci F(10), 
+Forlino A(11), Filibian M(12), Montini E(2), Scala S(2), Villa A(2)(8), Bueren 
+JA(3)(4)(5), Rio P(3)(4)(5), Aiuti A(2)(7), Cantore A(2)(7), Naldini L(13)(14).
+
+Author information:
+(1)San Raffaele Telethon Institute for Gene Therapy, IRCCS San Raffaele 
+Scientific Institute, Milan, Italy. [e-mail removed].
+(2)San Raffaele Telethon Institute for Gene Therapy, IRCCS San Raffaele 
+Scientific Institute, Milan, Italy.
+(3)Biomedical Innovation Unit, Center for Research on Energy, Environment and 
+Technology (CIEMAT), Madrid, Spain.
+(4)Biomedical Network Research Center for Rare Diseases (CIBERER), Madrid, 
+Spain.
+(5)Sanitary Research Institute Fundación Jiménez Díaz (U.A.M), Madrid, Spain.
+(6)Translational and Molecular Medicine (DIMET), University of Milano Bicocca, 
+Milan, Italy.
+(7)Vita-Salute San Raffaele University, Milan, Italy.
+(8)Milan Unit, Istituto di Ricerca Genetica e Biomedica, Consiglio Nazionale 
+delle Ricerche, Milan, Italy.
+(9)University Center for Statistics in the Biomedical Sciences, Vita-Salute San 
+Raffaele University, Milan, Italy.
+(10)Department of Medical Biotechnologies, University of Siena, Siena, Italy.
+(11)Department of Molecular Medicine, Biochemistry Unit, University of Pavia, 
+Pavia, Italy.
+(12)Biomedical Imaging Laboratory, Centro Grandi Strumenti, University of Pavia, 
+Pavia, Italy.
+(13)San Raffaele Telethon Institute for Gene Therapy, IRCCS San Raffaele 
+Scientific Institute, Milan, Italy. [e-mail removed].
+(14)Vita-Salute San Raffaele University, Milan, Italy. [e-mail removed].
+
+Lentiviral vector (LV)-mediated ex vivo gene therapy for haematopoietic stem and 
+progenitor cells (HSPCs) has delivered on the promise of a 'one-and-done' 
+treatment for several genetic diseases1. However, ex vivo manipulation and 
+patient conditioning before transplantation are major hurdles that could be 
+overcome by an in vivo approach. Here we demonstrate that in vivo gene delivery 
+to HSPCs after systemic LV administration is enabled by the substantial 
+trafficking of these cells from the liver to the bone marrow in newborn mice. We 
+improved gene-transfer efficiency using a phagocytosis-shielded LV, successfully 
+reaching bona fide HSPCs capable of long-term multilineage output and 
+engraftment after serial transplantation, as confirmed by clonal tracking. HSPC 
+mobilization further increased gene transfer, extending the window of 
+intervention, although permissiveness to LV transduction declined with age. We 
+successfully tested this in vivo strategy in mouse models of adenosine deaminase 
+deficiency, autosomal recessive osteopetrosis and Fanconi anaemia. 
+Interestingly, in vivo gene transfer provided a selective advantage to corrected 
+HSPCs in Fanconi anaemia, leading to near-complete haematopoietic reconstitution 
+and prevention of bone marrow failure. Given that circulating HSPCs in humans 
+are also most abundant shortly after birth, in vivo HSPC gene transfer holds 
+strong translational potential across multiple diseases.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s41586-025-09070-3
+PMCID: PMC12286858
+PMID: 40437086 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: P.R. and J.A.B. receive 
+funding and have licensed the PGK.FANCA-LV to Rocket Pharmaceuticals and are 
+inventors on patents filed by CIEMAT, CIBERER and Fundación Jiménez Díaz, and 
+may be entitled to receive financial benefits from the licensing of such 
+patents. J.A.B. is consultant of Rocket Pharmaceuticals, A.A. is the principal 
+investigator of clinical trials with LV-transduced haematopoietic stem cells 
+sponsored by Orchard Therapeutics or Fondazione Telethon. L.N. and A.C. are 
+inventors on patent applications submitted by Fondazione Telethon or the San 
+Raffaele Scientific Institute on LV technology for in vivo use related to the 
+work presented in this paper. The other authors declare no competing interests.

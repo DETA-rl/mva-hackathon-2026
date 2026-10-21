@@ -1,0 +1,32 @@
+1. Science. 2023 Sep 22;381(6664):eadg7492. doi: 10.1126/science.adg7492. Epub
+2023  Sep 22.
+
+Accurate proteome-wide missense variant effect prediction with AlphaMissense.
+
+Cheng J(1), Novati G(1), Pan J(#)(1), Bycroft C(#)(1), Žemgulytė A(#)(1), 
+Applebaum T(#)(1), Pritzel A(1), Wong LH(1), Zielinski M(1), Sargeant T(1), 
+Schneider RG(1), Senior AW(1), Jumper J(1), Hassabis D(1), Kohli P(1), Avsec 
+Ž(1).
+
+Author information:
+(1)Google DeepMind, London, UK.
+(#)Contributed equally
+
+Comment in
+    Kidney Int. 2024 Aug;106(2):175-178. doi: 10.1016/j.kint.2024.02.022.
+
+The vast majority of missense variants observed in the human genome are of 
+unknown clinical significance. We present AlphaMissense, an adaptation of 
+AlphaFold fine-tuned on human and primate variant population frequency databases 
+to predict missense variant pathogenicity. By combining structural context and 
+evolutionary conservation, our model achieves state-of-the-art results across a 
+wide range of genetic and experimental benchmarks, all without explicitly 
+training on such data. The average pathogenicity score of genes is also 
+predictive for their cell essentiality, capable of identifying short essential 
+genes that existing statistical approaches are underpowered to detect. As a 
+resource to the community, we provide a database of predictions for all possible 
+human single amino acid substitutions and classify 89% of missense variants as 
+either likely benign or likely pathogenic.
+
+DOI: 10.1126/science.adg7492
+PMID: 37733863 [Indexed for MEDLINE]

@@ -1,0 +1,1015 @@
+{
+ "dgidb": [
+  {
+   "gene": "NAMPT",
+   "drug": "NITRIC OXIDE",
+   "concept_id": "rxcui:7442",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT2",
+   "drug": "GEFITINIB",
+   "concept_id": "rxcui:328134",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT2",
+   "drug": "PANOBINOSTAT",
+   "concept_id": "rxcui:1603350",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "HSPA1A",
+   "drug": "BICYCLOL",
+   "concept_id": "ncit:C221873",
+   "itype": ""
+  },
+  {
+   "gene": "HSPA1A",
+   "drug": "ARIMOCLOMOL",
+   "concept_id": "rxcui:2694283",
+   "itype": ""
+  },
+  {
+   "gene": "HSPA1A",
+   "drug": "CARBAMAZEPINE",
+   "concept_id": "rxcui:2002",
+   "itype": ""
+  },
+  {
+   "gene": "HSPA1A",
+   "drug": "CARMOFUR",
+   "concept_id": "ncit:C955",
+   "itype": ""
+  },
+  {
+   "gene": "HSPA1A",
+   "drug": "CABAZITAXEL",
+   "concept_id": "rxcui:996051",
+   "itype": ""
+  },
+  {
+   "gene": "CREBBP",
+   "drug": "COLCHICINE",
+   "concept_id": "rxcui:2683",
+   "itype": ""
+  },
+  {
+   "gene": "CREBBP",
+   "drug": "TRIAZOLAM",
+   "concept_id": "rxcui:10767",
+   "itype": ""
+  },
+  {
+   "gene": "CREBBP",
+   "drug": "METHYLPHENIDATE HYDROCHLORIDE",
+   "concept_id": "rxcui:203188",
+   "itype": ""
+  },
+  {
+   "gene": "CREBBP",
+   "drug": "ALPRAZOLAM",
+   "concept_id": "rxcui:596",
+   "itype": ""
+  },
+  {
+   "gene": "CREBBP",
+   "drug": "MIDAZOLAM HYDROCHLORIDE",
+   "concept_id": "rxcui:203128",
+   "itype": ""
+  },
+  {
+   "gene": "CREBBP",
+   "drug": "ESTAZOLAM",
+   "concept_id": "rxcui:4077",
+   "itype": ""
+  },
+  {
+   "gene": "CREBBP",
+   "drug": "PAPAVERINE",
+   "concept_id": "rxcui:7895",
+   "itype": ""
+  },
+  {
+   "gene": "KAT2B",
+   "drug": "TRIAZOLAM",
+   "concept_id": "rxcui:10767",
+   "itype": ""
+  },
+  {
+   "gene": "KAT2B",
+   "drug": "EPIGALLOCATECHIN GALLATE",
+   "concept_id": "rxcui:24246",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "HSF1",
+   "drug": "QUERCETIN",
+   "concept_id": "rxcui:9060",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT1",
+   "drug": "IBANDRONATE",
+   "concept_id": "rxcui:115264",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT1",
+   "drug": "RESVERATROL",
+   "concept_id": "rxcui:1000492",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT1",
+   "drug": "PANOBINOSTAT",
+   "concept_id": "rxcui:1603350",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "SIRT1",
+   "drug": "QUERCETIN",
+   "concept_id": "rxcui:9060",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT1",
+   "drug": "SURAMIN",
+   "concept_id": "rxcui:10256",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT1",
+   "drug": "ALENDRONATE SODIUM",
+   "concept_id": "rxcui:203152",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT1",
+   "drug": "NITROXOLINE",
+   "concept_id": "rxcui:31901",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT1",
+   "drug": "NIACIN",
+   "concept_id": "rxcui:7393",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT1",
+   "drug": "RISEDRONIC ACID",
+   "concept_id": "rxcui:55685",
+   "itype": ""
+  },
+  {
+   "gene": "SIRT1",
+   "drug": "ZOLEDRONIC ACID ANHYDROUS",
+   "concept_id": "rxcui:1546014",
+   "itype": ""
+  },
+  {
+   "gene": "EP300",
+   "drug": "METHYLPHENIDATE HYDROCHLORIDE",
+   "concept_id": "rxcui:203188",
+   "itype": ""
+  },
+  {
+   "gene": "EP300",
+   "drug": "CURCUMIN",
+   "concept_id": "rxcui:2955",
+   "itype": ""
+  },
+  {
+   "gene": "EP300",
+   "drug": "EPIGALLOCATECHIN GALLATE",
+   "concept_id": "rxcui:24246",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "HSP90AB1",
+   "drug": "NOVOBIOCIN",
+   "concept_id": "rxcui:7538",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AB1",
+   "drug": "DAUNORUBICIN HYDROCHLORIDE",
+   "concept_id": "chembl:CHEMBL1563",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AB1",
+   "drug": "SILIBININ",
+   "concept_id": "ncit:C152359",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AB1",
+   "drug": "BEVACIZUMAB",
+   "concept_id": "rxcui:253337",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AB1",
+   "drug": "DIACETYLRHEIN",
+   "concept_id": "rxcui:22759",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AB1",
+   "drug": "DIPYRIDAMOLE",
+   "concept_id": "rxcui:3521",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AB1",
+   "drug": "MASOPROCOL",
+   "concept_id": "rxcui:227239",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AB1",
+   "drug": "DOXORUBICIN HYDROCHLORIDE",
+   "concept_id": "rxcui:142433",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AB1",
+   "drug": "TETRACYCLINE",
+   "concept_id": "rxcui:10395",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "FLUCONAZOLE",
+   "concept_id": "rxcui:4450",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "HEXACHLOROPHENE",
+   "concept_id": "rxcui:5293",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "SULCONAZOLE NITRATE",
+   "concept_id": "chembl:CHEMBL1200348",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "ECONAZOLE NITRATE",
+   "concept_id": "chembl:CHEMBL1201049",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "LEVOKETOCONAZOLE",
+   "concept_id": "rxcui:2588846",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "TRICLABENDAZOLE",
+   "concept_id": "rxcui:2118525",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "NOVOBIOCIN",
+   "concept_id": "rxcui:7538",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "CLIOQUINOL",
+   "concept_id": "rxcui:5942",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "SERTACONAZOLE NITRATE",
+   "concept_id": "chembl:CHEMBL1200725",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "SILIBININ",
+   "concept_id": "ncit:C152359",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "DIACETYLRHEIN",
+   "concept_id": "rxcui:22759",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "TERCONAZOLE",
+   "concept_id": "rxcui:37806",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "CLOTRIMAZOLE",
+   "concept_id": "rxcui:2623",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "NITROXOLINE",
+   "concept_id": "rxcui:31901",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "HALOFANTRINE HYDROCHLORIDE",
+   "concept_id": "chembl:CHEMBL1200901",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "CHLOROXINE",
+   "concept_id": "rxcui:20875",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "DAUNORUBICIN HYDROCHLORIDE",
+   "concept_id": "chembl:CHEMBL1563",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "AMLEXANOX",
+   "concept_id": "rxcui:46307",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "DOXORUBICIN HYDROCHLORIDE",
+   "concept_id": "rxcui:142433",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "TETRACYCLINE",
+   "concept_id": "rxcui:10395",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "TRICLOSAN",
+   "concept_id": "rxcui:10795",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "MICONAZOLE NITRATE",
+   "concept_id": "rxcui:42790",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "MASOPROCOL",
+   "concept_id": "rxcui:227239",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "DIPYRIDAMOLE",
+   "concept_id": "rxcui:3521",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "ITRACONAZOLE",
+   "concept_id": "chembl:CHEMBL64391",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "PONATINIB",
+   "concept_id": "rxcui:1364347",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "DISULFIRAM",
+   "concept_id": "rxcui:3554",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "IODOQUINOL",
+   "concept_id": "rxcui:3435",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "O-PHENANTHROLINE",
+   "concept_id": "rxcui:1872047",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "NEDOCROMIL",
+   "concept_id": "rxcui:31563",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "MICONAZOLE NITRATE",
+   "concept_id": "chembl:CHEMBL1559",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "BUTOCONAZOLE NITRATE",
+   "concept_id": "chembl:CHEMBL1200398",
+   "itype": ""
+  },
+  {
+   "gene": "HSP90AA1",
+   "drug": "BIFONAZOLE",
+   "concept_id": "rxcui:19295",
+   "itype": ""
+  },
+  {
+   "gene": "PSMB5",
+   "drug": "BORTEZOMIB",
+   "concept_id": "rxcui:358258",
+   "itype": "inhibitor,other/unknown"
+  },
+  {
+   "gene": "PSMB5",
+   "drug": "IXAZOMIB",
+   "concept_id": "rxcui:1723735",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PSMB5",
+   "drug": "IXAZOMIB CITRATE",
+   "concept_id": "rxcui:1723734",
+   "itype": ""
+  },
+  {
+   "gene": "PSMB5",
+   "drug": "IXAZOMIB CITRATE",
+   "concept_id": "chembl:CHEMBL3545432",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PSMB5",
+   "drug": "THONZONIUM",
+   "concept_id": "rxcui:237058",
+   "itype": ""
+  },
+  {
+   "gene": "PSMB5",
+   "drug": "CARFILZOMIB",
+   "concept_id": "rxcui:1302966",
+   "itype": "other/unknown,inhibitor"
+  },
+  {
+   "gene": "PSMB5",
+   "drug": "BORTEZOMIB D-MANNITOL",
+   "concept_id": "chembl:CHEMBL5315122",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PSMB1",
+   "drug": "BORTEZOMIB",
+   "concept_id": "rxcui:358258",
+   "itype": "inhibitor,other/unknown"
+  },
+  {
+   "gene": "PSMB1",
+   "drug": "IXAZOMIB",
+   "concept_id": "rxcui:1723735",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PSMB1",
+   "drug": "IXAZOMIB CITRATE",
+   "concept_id": "rxcui:1723734",
+   "itype": ""
+  },
+  {
+   "gene": "PSMB1",
+   "drug": "BORTEZOMIB D-MANNITOL",
+   "concept_id": "chembl:CHEMBL5315122",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PSMB1",
+   "drug": "IXAZOMIB CITRATE",
+   "concept_id": "chembl:CHEMBL3545432",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PSMB1",
+   "drug": "CARFILZOMIB",
+   "concept_id": "rxcui:1302966",
+   "itype": "inhibitor,other/unknown"
+  },
+  {
+   "gene": "PSMB2",
+   "drug": "CARFILZOMIB",
+   "concept_id": "rxcui:1302966",
+   "itype": "other/unknown,inhibitor"
+  },
+  {
+   "gene": "PSMB2",
+   "drug": "BORTEZOMIB D-MANNITOL",
+   "concept_id": "chembl:CHEMBL5315122",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PSMB2",
+   "drug": "BORTEZOMIB",
+   "concept_id": "rxcui:358258",
+   "itype": "other/unknown,inhibitor"
+  },
+  {
+   "gene": "PSMB2",
+   "drug": "IXAZOMIB CITRATE",
+   "concept_id": "rxcui:1723734",
+   "itype": ""
+  },
+  {
+   "gene": "PSMB2",
+   "drug": "IXAZOMIB",
+   "concept_id": "rxcui:1723735",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PSMB2",
+   "drug": "IXAZOMIB CITRATE",
+   "concept_id": "chembl:CHEMBL3545432",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PPP2CA",
+   "drug": "CANTHARIDIN",
+   "concept_id": "rxcui:1984",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PPP2CA",
+   "drug": "MADURAMICIN ACID",
+   "concept_id": "chembl:CHEMBL1909065",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "CABAZITAXEL",
+   "concept_id": "rxcui:996051",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "METFORMIN HYDROCHLORIDE",
+   "concept_id": "chembl:CHEMBL1703",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "TEMSIROLIMUS",
+   "concept_id": "rxcui:657797",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "MTOR",
+   "drug": "DEQUALINIUM",
+   "concept_id": "rxcui:3226",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "PENTAMIDINE ISETHIONATE",
+   "concept_id": "chembl:CHEMBL361506",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "QUINACRINE",
+   "concept_id": "rxcui:9061",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "SIROLIMUS",
+   "concept_id": "rxcui:35302",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "MTOR",
+   "drug": "BETA-HYDROXYISOVALERIC ACID",
+   "concept_id": "drugbank:DB15344",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "LEVOCETIRIZINE",
+   "concept_id": "rxcui:356887",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "TERFENADINE",
+   "concept_id": "rxcui:42330",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "IDARUBICIN",
+   "concept_id": "rxcui:5650",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "NICARDIPINE",
+   "concept_id": "rxcui:7396",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "AMIODARONE HYDROCHLORIDE",
+   "concept_id": "rxcui:203114",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "ZOTAROLIMUS",
+   "concept_id": "ncit:C82294",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "PERHEXILINE MALEATE",
+   "concept_id": "chembl:CHEMBL1334033",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "MTOR",
+   "drug": "MIFEPRISTONE",
+   "concept_id": "rxcui:6964",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "CAPIVASERTIB",
+   "concept_id": "rxcui:2669967",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "MAPROTILINE",
+   "concept_id": "rxcui:6646",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "EPINEPHRINE",
+   "concept_id": "rxcui:3992",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "PAZOPANIB",
+   "concept_id": "rxcui:714438",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "DOXAZOSIN MESYLATE",
+   "concept_id": "rxcui:39173",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "VANDETANIB",
+   "concept_id": "rxcui:1098413",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "DISULFIRAM",
+   "concept_id": "rxcui:3554",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "PERPHENAZINE",
+   "concept_id": "rxcui:8076",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "PIMOZIDE",
+   "concept_id": "rxcui:8331",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "FENRETINIDE",
+   "concept_id": "ncit:C1098",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "INFIGRATINIB",
+   "concept_id": "rxcui:2550729",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "MTOR",
+   "drug": "PIMECROLIMUS",
+   "concept_id": "rxcui:321952",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "IFENPRODIL",
+   "concept_id": "rxcui:27403",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "SAPANISERTIB",
+   "concept_id": "rxcui:2395271",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "MTOR",
+   "drug": "COPANLISIB",
+   "concept_id": "rxcui:1945077",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "MTOR",
+   "drug": "PAROXETINE HYDROCHLORIDE, HEMIHYDRATE",
+   "concept_id": "rxcui:1298842",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "PROPAFENONE",
+   "concept_id": "rxcui:8754",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "GLASDEGIB",
+   "concept_id": "rxcui:2105845",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "AMSACRINE",
+   "concept_id": "rxcui:739",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "HALOPERIDOL DECANOATE",
+   "concept_id": "rxcui:26420",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "NICLOSAMIDE",
+   "concept_id": "rxcui:7402",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "EBASTINE",
+   "concept_id": "rxcui:23796",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "ISOPROTERENOL",
+   "concept_id": "rxcui:6054",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "O-PHENANTHROLINE",
+   "concept_id": "rxcui:1872047",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "LOPERAMIDE",
+   "concept_id": "rxcui:6468",
+   "itype": ""
+  },
+  {
+   "gene": "MTOR",
+   "drug": "ALPELISIB",
+   "concept_id": "rxcui:2169285",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "MTOR",
+   "drug": "EVEROLIMUS",
+   "concept_id": "rxcui:141704",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "MTOR",
+   "drug": "METFORMIN",
+   "concept_id": "rxcui:6809",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "PPP2R5D",
+   "drug": "CYCLOPHOSPHAMIDE ANHYDROUS",
+   "concept_id": "rxcui:1545988",
+   "itype": ""
+  },
+  {
+   "gene": "PPP2R5D",
+   "drug": "EPIRUBICIN",
+   "concept_id": "rxcui:3995",
+   "itype": ""
+  },
+  {
+   "gene": "PPP2R5D",
+   "drug": "FLUOROURACIL",
+   "concept_id": "rxcui:4492",
+   "itype": ""
+  },
+  {
+   "gene": "PLK4",
+   "drug": "SORAFENIB",
+   "concept_id": "rxcui:495881",
+   "itype": ""
+  },
+  {
+   "gene": "PLK4",
+   "drug": "ENTRECTINIB",
+   "concept_id": "rxcui:2197862",
+   "itype": ""
+  },
+  {
+   "gene": "PLK4",
+   "drug": "DASATINIB ANHYDROUS",
+   "concept_id": "rxcui:1546019",
+   "itype": ""
+  },
+  {
+   "gene": "PLK4",
+   "drug": "AXITINIB",
+   "concept_id": "rxcui:1242999",
+   "itype": "inhibitor"
+  },
+  {
+   "gene": "AURKB",
+   "drug": "SORAFENIB",
+   "concept_id": "rxcui:495881",
+   "itype": ""
+  },
+  {
+   "gene": "AURKB",
+   "drug": "VANDETANIB",
+   "concept_id": "rxcui:1098413",
+   "itype": ""
+  },
+  {
+   "gene": "AURKB",
+   "drug": "DASATINIB ANHYDROUS",
+   "concept_id": "rxcui:1546019",
+   "itype": ""
+  },
+  {
+   "gene": "AURKB",
+   "drug": "PAZOPANIB",
+   "concept_id": "rxcui:714438",
+   "itype": ""
+  },
+  {
+   "gene": "AURKB",
+   "drug": "HESPERIDIN",
+   "concept_id": "rxcui:5281",
+   "itype": ""
+  },
+  {
+   "gene": "AURKB",
+   "drug": "ENTRECTINIB",
+   "concept_id": "rxcui:2197862",
+   "itype": ""
+  },
+  {
+   "gene": "AURKB",
+   "drug": "LAPATINIB",
+   "concept_id": "rxcui:480167",
+   "itype": ""
+  },
+  {
+   "gene": "AURKB",
+   "drug": "FASUDIL",
+   "concept_id": "ncit:C65624",
+   "itype": ""
+  },
+  {
+   "gene": "AURKB",
+   "drug": "COPANLISIB",
+   "concept_id": "rxcui:1945077",
+   "itype": ""
+  },
+  {
+   "gene": "AURKB",
+   "drug": "BELUMOSUDIL",
+   "concept_id": "rxcui:2564025",
+   "itype": ""
+  },
+  {
+   "gene": "AURKB",
+   "drug": "ERLOTINIB",
+   "concept_id": "rxcui:337525",
+   "itype": ""
+  },
+  {
+   "gene": "FBXW7",
+   "drug": "SIROLIMUS",
+   "concept_id": "rxcui:35302",
+   "itype": ""
+  },
+  {
+   "gene": "FBXW7",
+   "drug": "DOCETAXEL ANHYDROUS",
+   "concept_id": "rxcui:1299922",
+   "itype": ""
+  },
+  {
+   "gene": "FBXW7",
+   "drug": "REGORAFENIB",
+   "concept_id": "rxcui:1312397",
+   "itype": ""
+  },
+  {
+   "gene": "FBXW7",
+   "drug": "VORINOSTAT",
+   "concept_id": "rxcui:194337",
+   "itype": ""
+  },
+  {
+   "gene": "FBXW7",
+   "drug": "BELINOSTAT",
+   "concept_id": "rxcui:1543543",
+   "itype": ""
+  },
+  {
+   "gene": "FBXW7",
+   "drug": "PEMBROLIZUMAB",
+   "concept_id": "rxcui:1547545",
+   "itype": ""
+  },
+  {
+   "gene": "FBXW7",
+   "drug": "TEMSIROLIMUS",
+   "concept_id": "rxcui:657797",
+   "itype": ""
+  }
+ ],
+ "chembl": [
+  {
+   "mol": "CHEMBL1334033",
+   "gene": "MTOR",
+   "moa": "Serine/threonine-protein kinase mTOR inhibitor",
+   "action": "INHIBITOR",
+   "name": "PERHEXILINE MALEATE"
+  }
+ ],
+ "per_gene": {
+  "NAMPT": 1,
+  "SIRT2": 2,
+  "HSPA1A": 5,
+  "CREBBP": 7,
+  "KAT2B": 2,
+  "HSF1": 1,
+  "SIRT1": 10,
+  "EP300": 3,
+  "HSP90AB1": 9,
+  "HSP90AA1": 33,
+  "PSMB5": 7,
+  "PSMB1": 6,
+  "PSMB2": 6,
+  "PPP2CA": 2,
+  "MTOR": 45,
+  "PPP2R5D": 3,
+  "PLK4": 4,
+  "AURKB": 11,
+  "FBXW7": 7
+ },
+ "over_bound": {},
+ "genes_no_accession": [],
+ "calls": 15
+}
